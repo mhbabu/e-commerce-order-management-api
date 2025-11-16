@@ -136,7 +136,7 @@ Follow these steps to set up the project locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/mhbabu/e-commerce-order-management-api
 cd e-commerce-order-management-api
 ```
 
