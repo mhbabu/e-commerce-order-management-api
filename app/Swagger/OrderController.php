@@ -17,8 +17,9 @@
  *         response=200,
  *         description="Orders list",
  *         @OA\JsonContent(
- *             type="array",
- *             @OA\Items(ref="#/components/schemas/Order")
+ *             @OA\Property(property="status", type="boolean", example=true),
+ *             @OA\Property(property="message", type="string", example="Orders retrieved"),
+ *             @OA\Property(property="data", type="array", @OA\Items(ref="#/components/schemas/Order"))
  *         )
  *     ),
  *     @OA\Response(response=401, description="Unauthorized")
@@ -46,7 +47,11 @@
  *     @OA\Response(
  *         response=201,
  *         description="Order created",
- *         @OA\JsonContent(ref="#/components/schemas/Order")
+ *         @OA\JsonContent(
+ *             @OA\Property(property="status", type="boolean", example=true),
+ *             @OA\Property(property="message", type="string", example="Order created"),
+ *             @OA\Property(property="data", ref="#/components/schemas/Order")
+ *         )
  *     ),
  *     @OA\Response(response=401, description="Unauthorized"),
  *     @OA\Response(response=422, description="Validation errors")
@@ -66,7 +71,11 @@
  *     @OA\Response(
  *         response=200,
  *         description="Order details",
- *         @OA\JsonContent(ref="#/components/schemas/Order")
+ *         @OA\JsonContent(
+ *             @OA\Property(property="status", type="boolean", example=true),
+ *             @OA\Property(property="message", type="string", example="Order retrieved"),
+ *             @OA\Property(property="data", ref="#/components/schemas/Order")
+ *         )
  *     ),
  *     @OA\Response(response=401, description="Unauthorized"),
  *     @OA\Response(response=404, description="Order not found")
@@ -94,6 +103,7 @@
  *         response=200,
  *         description="Order status updated",
  *         @OA\JsonContent(
+ *             @OA\Property(property="status", type="boolean", example=true),
  *             @OA\Property(property="message", type="string", example="Order status updated")
  *         )
  *     ),
@@ -117,6 +127,7 @@
  *         response=200,
  *         description="Order cancelled",
  *         @OA\JsonContent(
+ *             @OA\Property(property="status", type="boolean", example=true),
  *             @OA\Property(property="message", type="string", example="Order cancelled")
  *         )
  *     ),

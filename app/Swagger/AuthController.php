@@ -20,8 +20,12 @@
  *         response=201,
  *         description="User registered successfully",
  *         @OA\JsonContent(
- *             @OA\Property(property="user", ref="#/components/schemas/User"),
- *             @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...")
+ *             @OA\Property(property="status", type="boolean", example=true),
+ *             @OA\Property(property="message", type="string", example="User registered successfully"),
+ *             @OA\Property(property="data", type="object",
+ *                 @OA\Property(property="user", ref="#/components/schemas/User"),
+ *                 @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...")
+ *             )
  *         )
  *     ),
  *     @OA\Response(response=422, description="Validation errors")
@@ -43,8 +47,12 @@
  *         response=200,
  *         description="Login successful",
  *         @OA\JsonContent(
- *             @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9..."),
- *             @OA\Property(property="user", ref="#/components/schemas/User")
+ *             @OA\Property(property="status", type="boolean", example=true),
+ *             @OA\Property(property="message", type="string", example="Login successful"),
+ *             @OA\Property(property="data", type="object",
+ *                 @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9..."),
+ *                 @OA\Property(property="user", ref="#/components/schemas/User")
+ *             )
  *         )
  *     ),
  *     @OA\Response(response=401, description="Unauthorized")
@@ -59,7 +67,11 @@
  *         response=200,
  *         description="Token refreshed",
  *         @OA\JsonContent(
- *             @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...")
+ *             @OA\Property(property="status", type="boolean", example=true),
+ *             @OA\Property(property="message", type="string", example="Token refreshed"),
+ *             @OA\Property(property="data", type="object",
+ *                 @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...")
+ *             )
  *         )
  *     ),
  *     @OA\Response(response=401, description="Unauthorized")
@@ -74,6 +86,7 @@
  *         response=200,
  *         description="Successfully logged out",
  *         @OA\JsonContent(
+ *             @OA\Property(property="status", type="boolean", example=true),
  *             @OA\Property(property="message", type="string", example="Successfully logged out")
  *         )
  *     ),
@@ -88,7 +101,11 @@
  *     @OA\Response(
  *         response=200,
  *         description="User information",
- *         @OA\JsonContent(ref="#/components/schemas/User")
+ *         @OA\JsonContent(
+ *             @OA\Property(property="status", type="boolean", example=true),
+ *             @OA\Property(property="message", type="string", example="User data retrieved"),
+ *             @OA\Property(property="data", ref="#/components/schemas/User")
+ *         )
  *     ),
  *     @OA\Response(response=401, description="Unauthorized")
  * )

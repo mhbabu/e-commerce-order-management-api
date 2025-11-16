@@ -6,6 +6,7 @@ use App\Services\ProductService;
 use App\Http\Requests\Products\StoreProductRequest;
 use App\Http\Requests\Products\UpdateProductRequest;
 use App\Http\Requests\Products\BulkImportProductsRequest;
+use App\Http\Resources\ProductResource;
 use App\Jobs\BulkImportProducts;
 use Illuminate\Http\Request;
 
@@ -19,15 +20,15 @@ class ProductController extends Controller
     }
 
    public function index(Request $request)
-    {
-        $query = $request->get('q');
-        if ($query) {
-            $products = $this->productService->searchProducts($query);
-        } else {
-            $products = $this->productService->getProductsByVendor(auth('api')->user()->id);
-        }
-        return jsonResponseWithPagination('Products retrieved', true, $products->load('variants.inventory')->paginate(15));
-    }
+   {
+       $query = $request->get('q');
+       if ($query) {
+           $products = $this->productService->searchProducts($query);
+       } else {
+           $products = $this->productService->getProductsByVendor(auth('api')->user()->id);
+       }
+       return jsonResponseWithPagination('Products retrieved', true, ProductResource::collection($products->load('variants.inventory')->paginate(15)));
+   }
 
     public function store(StoreProductRequest $request)
      {
@@ -44,7 +45,7 @@ class ProductController extends Controller
             ]);
         }
 
-        return jsonResponse('Product created', true, $product->load('variants.inventory'), 201);
+        return jsonResponse('Product created', true, new ProductResource($product->load('variants.inventory')), 201);
     }
 
     public function show($id)
@@ -53,7 +54,7 @@ class ProductController extends Controller
         if (!$product) {
             return jsonResponse('Product not found', false, null, 404);
         }
-        return jsonResponse('Product retrieved', true, $product->load('variants.inventory'));
+        return jsonResponse('Product retrieved', true, new ProductResource($product->load('variants.inventory')));
     }
 
     public function update(UpdateProductRequest $request, $id)

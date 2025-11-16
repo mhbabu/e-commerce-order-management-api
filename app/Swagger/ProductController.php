@@ -18,6 +18,8 @@
  *         description="Products list",
  *         @OA\JsonContent(
  *             type="object",
+ *             @OA\Property(property="status", type="boolean", example=true),
+ *             @OA\Property(property="message", type="string", example="Products retrieved"),
  *             @OA\Property(property="data", type="array", @OA\Items(ref="#/components/schemas/Product")),
  *             @OA\Property(property="current_page", type="integer"),
  *             @OA\Property(property="per_page", type="integer"),
@@ -55,7 +57,12 @@
  *     @OA\Response(
  *         response=201,
  *         description="Product created",
- *         @OA\JsonContent(ref="#/components/schemas/Product")
+ *         @OA\JsonContent(
+ *             type="object",
+ *             @OA\Property(property="status", type="boolean", example=true),
+ *             @OA\Property(property="message", type="string", example="Product created"),
+ *             @OA\Property(property="data", ref="#/components/schemas/Product")
+ *         )
  *     ),
  *     @OA\Response(response=401, description="Unauthorized"),
  *     @OA\Response(response=422, description="Validation errors")
@@ -75,7 +82,12 @@
  *     @OA\Response(
  *         response=200,
  *         description="Product details",
- *         @OA\JsonContent(ref="#/components/schemas/Product")
+ *         @OA\JsonContent(
+ *             type="object",
+ *             @OA\Property(property="status", type="boolean", example=true),
+ *             @OA\Property(property="message", type="string", example="Product retrieved"),
+ *             @OA\Property(property="data", ref="#/components/schemas/Product")
+ *         )
  *     ),
  *     @OA\Response(response=401, description="Unauthorized"),
  *     @OA\Response(response=404, description="Product not found")
@@ -106,6 +118,8 @@
  *         response=200,
  *         description="Product updated",
  *         @OA\JsonContent(
+ *             type="object",
+ *             @OA\Property(property="status", type="boolean", example=true),
  *             @OA\Property(property="message", type="string", example="Product updated")
  *         )
  *     ),
@@ -129,6 +143,8 @@
  *         response=200,
  *         description="Product deleted",
  *         @OA\JsonContent(
+ *             type="object",
+ *             @OA\Property(property="status", type="boolean", example=true),
  *             @OA\Property(property="message", type="string", example="Product deleted")
  *         )
  *     ),
@@ -160,7 +176,12 @@
  *         response=200,
  *         description="Bulk import queued",
  *         @OA\JsonContent(
- *             @OA\Property(property="message", type="string", example="Bulk import has been queued for processing")
+ *             type="object",
+ *             @OA\Property(property="status", type="boolean", example=true),
+ *             @OA\Property(property="message", type="string", example="Bulk import has been queued for processing. You will receive a notification when completed."),
+ *             @OA\Property(property="data", type="object",
+ *                 @OA\Property(property="total_rows", type="integer", example=100)
+ *             )
  *         )
  *     ),
  *     @OA\Response(response=401, description="Unauthorized"),

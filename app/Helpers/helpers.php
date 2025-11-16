@@ -21,7 +21,7 @@ if (!function_exists('jsonResponse')) {
  * @return \Illuminate\Http\JsonResponse
  */
 if (!function_exists('jsonResponseWithPagination')) {
-    function jsonResponseWithPagination(string $message, bool $status, array $response, int $statusCode = 200)
+    function jsonResponseWithPagination(string $message, bool $status, $response, int $statusCode = 200)
     {
         return response()->json(['message' => $message, 'status' => $status] + $response, $statusCode);
     }
