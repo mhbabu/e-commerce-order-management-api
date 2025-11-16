@@ -1,0 +1,12 @@
+name,description,sku,base_price,category,color,size,storage,variant_sku,quantity,low_stock_threshold,price_modifier
+iPhone 15,Lates iPhone model with advanced features,IPH15-128,999.99,Electronics,Black,,128GB,IPH15-128-BLK,50,10,0
+iPhone 15,Lates iPhone model with advanced features,IPH15-256,999.99,Electronics,White,,256GB,IPH15-256-WHT,30,10,50
+Samsung Galaxy S24,Flagship Android smartphone,SGS24-256,899.99,Electronics,Phantom Black,,256GB,SGS24-256-BLK,40,8,0
+Samsung Galaxy S24,Flagship Android smartphone,SGS24-512,899.99,Electronics,Titanium Gray,,512GB,SGS24-512-GRY,25,8,100
+MacBook Air M3,Powerful laptop for professionals,MBA-M3-13,1299.99,Electronics,Space Gray,,512GB,MBA-M3-13-SG,20,5,0
+MacBook Air M3,Powerful laptop for professionals,MBA-M3-15,1299.99,Electronics,Silver,,1TB,MBA-M3-15-SL,15,5,200
+Nike Air Max 270,Comfortable running shoes,NAM270-BLK,150.00,Footwear,Black,10,,NAM270-BLK-10,100,20,0
+Nike Air Max 270,Comfortable running shoes,NAM270-WHT,150.00,Footwear,White,9,,NAM270-WHT-9,80,20,0
+Nike Air Max 270,Comfortable running shoes,NAM270-BLK,150.00,Footwear,Black,11,,NAM270-BLK-11,75,20,0
+Sony WH-1000XM5,Premium noise-canceling headphones,WH1000XM5,349.99,Electronics,Black,,,WH1000XM5-BLK,60,15,0
+Sony WH-1000XM5,Premium noise-canceling headphones,WH1000XM5,349.99,Electronics,Silver,,,WH1000XM5-SL,45,15,0
