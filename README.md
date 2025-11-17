@@ -442,9 +442,9 @@ Implemented via middleware (configurable in routes).
 
 ## Your Information
 
-- Name: [Your Name]
-- Email: [Your Email]
-- GitHub: [Your GitHub Profile]
+- Name: Mahadi Hassan (Babu)
+- Email: mahadihassan.cse@gmail.com
+- GitHub: https://github.com/mhbabu
 
 ## License
 
