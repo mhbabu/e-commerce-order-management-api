@@ -11,13 +11,11 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('inventories', function (Blueprint $table) {
+        Schema::create('attributes', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('product_variant_id')->constrained()->cascadeOnDelete();
-            $table->integer('quantity')->default(0);
-            $table->integer('low_stock_threshold')->default(10);
+            $table->string('name'); // Color, Size, Material
+            $table->boolean('is_active')->default(true);
             $table->timestamps();
-            $table->unique('product_variant_id');
         });
     }
 
@@ -26,6 +24,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('inventories');
+        Schema::dropIfExists('attributes');
     }
 };

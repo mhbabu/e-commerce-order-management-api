@@ -37,4 +37,13 @@ class ProductVariant extends Model
     {
         return $this->hasMany(OrderItem::class);
     }
+
+    public function attributeValues()
+    {
+        return $this->belongsToMany(AttributeValue::class, 'product_variant_attribute_values', 'product_variant_id', 'attribute_value_id')
+                    ->withPivot('attribute_id');
+    }
+
+
+
 }

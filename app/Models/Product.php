@@ -9,27 +9,36 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class Product extends Model
 {
     protected $fillable = [
+        'vendor_id',
+        'category_id',
         'name',
         'description',
         'base_price',
-        'vendor_id',
-        'category',
         'sku',
-        'is_active',
+        'is_active'
     ];
-
     protected $casts = [
         'base_price' => 'decimal:2',
         'is_active' => 'boolean',
     ];
 
-    public function vendor(): BelongsTo
+    public function category()
     {
-        return $this->belongsTo(User::class, 'vendor_id');
+        return $this->belongsTo(Category::class);
     }
 
-    public function variants(): HasMany
+    public function variants()
     {
         return $this->hasMany(ProductVariant::class);
+    }
+
+    public function attributes()
+    {
+        return $this->belongsToMany(Attribute::class, 'product_attributes');
+    }
+
+    public function vendor()
+    {
+        return $this->belongsTo(User::class, 'vendor_id');
     }
 }
