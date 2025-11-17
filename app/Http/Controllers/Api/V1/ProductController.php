@@ -19,20 +19,27 @@ class ProductController extends Controller
         $this->productService = $productService;
     }
 
-   public function index(Request $request)
-   {
-       $query = $request->get('query');
-       if ($query) {
-           $products = $this->productService->searchProducts($query);
-       } else {
-           $products = $this->productService->getProductsByVendor(auth('api')->user()->id);
-       }
-       return jsonResponseWithPagination('Products retrieved', true, ProductResource::collection($products->load('variants.inventory')->paginate(15)));
-   }
+    public function index(Request $request)
+    {
+        // Read all request data
+        $filteringData = [
+            'page'       => $request->input('page', 1),
+            'per_page'   => $request->input('per_page', 15),
+            'search'     => $request->input('search'),
+            'search_by'  => $request->input('search_by', ['name']), // set default name
+            'sort_by'    => $request->input('sort_by', 'id'), // set default id
+            'sort_order' => $request->input('sort_order', 'desc'), // set default desc by id
+        ];
+        $products      = $this->productService->getProductsList($filteringData);
+        $productList   = ProductResource::collection($products)->response()->getData(true);
+
+        return jsonResponseWithPagination('Products retrieved successfully', true,  $productList);
+    }
+
 
     public function store(StoreProductRequest $request)
-     {
-         $product = $this->productService->createProduct($request->only(['name', 'description', 'base_price', 'category', 'sku']), auth('api')->user()->id);
+    {
+        $product = $this->productService->createProduct($request->only(['name', 'description', 'base_price', 'category', 'sku']), auth('api')->user()->id);
 
         foreach ($request->variants as $variantData) {
             $this->productService->createVariant($product->id, [
@@ -58,8 +65,8 @@ class ProductController extends Controller
     }
 
     public function update(UpdateProductRequest $request, $id)
-     {
-         $updated = $this->productService->updateProduct($id, $request->all());
+    {
+        $updated = $this->productService->updateProduct($id, $request->all());
         if (!$updated) {
             return jsonResponse('Product not found', false, null, 404);
         }

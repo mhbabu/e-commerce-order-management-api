@@ -18,6 +18,12 @@ class ProductService
         $this->productRepository = $productRepository;
     }
 
+    public function getProductsList(array $filters)
+    {
+        $authUser = auth('api')->user();
+        return $this->productRepository->list($filters, $authUser);
+    }
+
     public function createProduct(array $data, int $vendorId): Product
     {
         return DB::transaction(function () use ($data, $vendorId) {

@@ -16,7 +16,13 @@ return new class extends Migration
             $table->string('name');
             $table->text('description')->nullable();
             $table->decimal('base_price', 10, 2);
-            $table->foreignId('vendor_id')->constrained('users')->onDelete('cascade');
+
+            // vendor_id remains because ONLY vendors own products
+            $table->foreignId('vendor_id')
+                ->nullable()              // admin-created product (rare case)
+                ->constrained('users')
+                ->nullOnDelete();
+
             $table->string('category')->nullable();
             $table->string('sku')->unique();
             $table->boolean('is_active')->default(true);

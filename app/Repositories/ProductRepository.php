@@ -12,17 +12,38 @@ class ProductRepository extends BaseRepository
         parent::__construct($model);
     }
 
-    public function findByVendor(int $vendorId): Collection
+    public function list(array $filters, $authUser)
     {
-        return $this->model->where('vendor_id', $vendorId)->get();
+        $query = $this->model->with('variants.inventory');
+
+        if ($authUser->role === 'vendor') {
+            $query->where('vendor_id', $authUser->id);
+        }
+
+        if (!empty($filters['search']) && !empty($filters['search_by'])) { // when search by multiple columns
+            $searchText = $filters['search'];
+
+            // Make sure search_by is always an array
+            $columns = is_array($filters['search_by']) ? $filters['search_by'] : [$filters['search_by']];
+
+            $query->where(function ($q) use ($columns, $searchText) {
+                foreach ($columns as $column) {
+                    $q->orWhere($column, 'like', "%{$searchText}%");
+                }
+            });
+        }
+
+
+        if (!empty($filters['sort_by'])) { // we can do it also multiple like search
+            $query->orderBy($filters['sort_by'], $filters['sort_order']);
+        }
+
+        $page    = $filters['page'] ?? 1;
+        $perPage = $filters['per_page'] ?? 15;
+
+        return $query->paginate($perPage, ['*'], 'page', $page);
     }
 
-    public function search(string $query): Collection
-    {
-        return $this->model->where('name', 'like', "%{$query}%")
-                          ->orWhere('description', 'like', "%{$query}%")
-                          ->get();
-    }
 
     public function findActive(): Collection
     {
