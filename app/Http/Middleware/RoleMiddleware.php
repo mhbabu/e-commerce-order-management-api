@@ -18,11 +18,11 @@ class RoleMiddleware
         $user = auth('api')->user();
 
         if (!$user) {
-            return response()->json(['error' => 'Unauthorized'], 401);
+            return jsonResponse('Unauthorized', false, null, 401);
         }
 
         if (!in_array($user->role, $roles)) {
-            return response()->json(['error' => 'Forbidden'], 403);
+            return jsonResponse('Forbidden', false, null, 403);
         }
 
         return $next($request);
