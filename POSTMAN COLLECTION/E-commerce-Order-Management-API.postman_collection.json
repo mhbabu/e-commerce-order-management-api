@@ -15,6 +15,10 @@
               {
                 "key": "Content-Type",
                 "value": "application/json"
+              },
+              {
+                "key": "Accept",
+                "value": "application/json"
               }
             ],
             "body": {
@@ -45,6 +49,10 @@
             "header": [
               {
                 "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
                 "value": "application/json"
               }
             ],
@@ -79,6 +87,10 @@
                 "value": "application/json"
               },
               {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
                 "key": "Authorization",
                 "value": "Bearer {{token}}"
               }
@@ -110,6 +122,10 @@
                 "value": "application/json"
               },
               {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
                 "key": "Authorization",
                 "value": "Bearer {{token}}"
               }
@@ -126,6 +142,10 @@
           "request": {
             "method": "GET",
             "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
               {
                 "key": "Authorization",
                 "value": "Bearer {{token}}"
@@ -148,6 +168,10 @@
           "request": {
             "method": "GET",
             "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
               {
                 "key": "Authorization",
                 "value": "Bearer {{token}}"
@@ -177,6 +201,10 @@
                 "value": "application/json"
               },
               {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
                 "key": "Authorization",
                 "value": "Bearer {{token}}"
               }
@@ -198,6 +226,10 @@
             "method": "GET",
             "header": [
               {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
                 "key": "Authorization",
                 "value": "Bearer {{token}}"
               }
@@ -216,6 +248,10 @@
             "header": [
               {
                 "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
                 "value": "application/json"
               },
               {
@@ -240,6 +276,10 @@
             "method": "DELETE",
             "header": [
               {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
                 "key": "Authorization",
                 "value": "Bearer {{token}}"
               }
@@ -261,6 +301,10 @@
           "request": {
             "method": "GET",
             "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
               {
                 "key": "Authorization",
                 "value": "Bearer {{token}}"
@@ -290,6 +334,10 @@
                 "value": "application/json"
               },
               {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
                 "key": "Authorization",
                 "value": "Bearer {{token}}"
               }
@@ -311,6 +359,10 @@
             "method": "GET",
             "header": [
               {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
                 "key": "Authorization",
                 "value": "Bearer {{token}}"
               }
@@ -329,6 +381,10 @@
             "header": [
               {
                 "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Accept",
                 "value": "application/json"
               },
               {
@@ -352,6 +408,10 @@
           "request": {
             "method": "POST",
             "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
               {
                 "key": "Authorization",
                 "value": "Bearer {{token}}"
