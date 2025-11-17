@@ -21,7 +21,7 @@ class ProductController extends Controller
 
    public function index(Request $request)
    {
-       $query = $request->get('q');
+       $query = $request->get('query');
        if ($query) {
            $products = $this->productService->searchProducts($query);
        } else {
