@@ -115,8 +115,15 @@ class GlobalAnnotations
      *         response=201,
      *         description="User registered successfully",
      *         @OA\JsonContent(
-     *             @OA\Property(property="user", ref="#/components/schemas/User"),
-     *             @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...")
+     *             allOf={
+     *                 @OA\Schema(ref="#/components/schemas/ApiResponse"),
+     *                 @OA\Schema(
+     *                     @OA\Property(property="data", type="object",
+     *                         @OA\Property(property="user", ref="#/components/schemas/User"),
+     *                         @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...")
+     *                     )
+     *                 )
+     *             }
      *         )
      *     ),
      *     @OA\Response(response=422, description="Validation errors")
@@ -141,8 +148,15 @@ class GlobalAnnotations
      *         response=200,
      *         description="Login successful",
      *         @OA\JsonContent(
-     *             @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9..."),
-     *             @OA\Property(property="user", ref="#/components/schemas/User")
+     *             allOf={
+     *                 @OA\Schema(ref="#/components/schemas/ApiResponse"),
+     *                 @OA\Schema(
+     *                     @OA\Property(property="data", type="object",
+     *                         @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9..."),
+     *                         @OA\Property(property="user", ref="#/components/schemas/User")
+     *                     )
+     *                 )
+     *             }
      *         )
      *     ),
      *     @OA\Response(response=401, description="Unauthorized")
@@ -160,7 +174,14 @@ class GlobalAnnotations
      *         response=200,
      *         description="Token refreshed",
      *         @OA\JsonContent(
-     *             @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...")
+     *             allOf={
+     *                 @OA\Schema(ref="#/components/schemas/ApiResponse"),
+     *                 @OA\Schema(
+     *                     @OA\Property(property="data", type="object",
+     *                         @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...")
+     *                     )
+     *                 )
+     *             }
      *         )
      *     ),
      *     @OA\Response(response=401, description="Unauthorized")
@@ -177,9 +198,7 @@ class GlobalAnnotations
      *     @OA\Response(
      *         response=200,
      *         description="Successfully logged out",
-     *         @OA\JsonContent(
-     *             @OA\Property(property="message", type="string", example="Successfully logged out")
-     *         )
+     *         @OA\JsonContent(ref="#/components/schemas/ApiResponse")
      *     ),
      *     @OA\Response(response=401, description="Unauthorized")
      * )
@@ -195,7 +214,14 @@ class GlobalAnnotations
      *     @OA\Response(
      *         response=200,
      *         description="User information",
-     *         @OA\JsonContent(ref="#/components/schemas/User")
+     *         @OA\JsonContent(
+     *             allOf={
+     *                 @OA\Schema(ref="#/components/schemas/ApiResponse"),
+     *                 @OA\Schema(
+     *                     @OA\Property(property="data", ref="#/components/schemas/User")
+     *                 )
+     *             }
+     *         )
      *     ),
      *     @OA\Response(response=401, description="Unauthorized")
      * )
@@ -403,8 +429,12 @@ class GlobalAnnotations
      *         response=200,
      *         description="Orders list",
      *         @OA\JsonContent(
-     *             type="array",
-     *             @OA\Items(ref="#/components/schemas/Order")
+     *             allOf={
+     *                 @OA\Schema(ref="#/components/schemas/ApiResponse"),
+     *                 @OA\Schema(
+     *                     @OA\Property(property="data", type="array", @OA\Items(ref="#/components/schemas/Order"))
+     *                 )
+     *             }
      *         )
      *     ),
      *     @OA\Response(response=401, description="Unauthorized")
@@ -435,7 +465,14 @@ class GlobalAnnotations
      *     @OA\Response(
      *         response=201,
      *         description="Order created",
-     *         @OA\JsonContent(ref="#/components/schemas/Order")
+     *         @OA\JsonContent(
+     *             allOf={
+     *                 @OA\Schema(ref="#/components/schemas/ApiResponse"),
+     *                 @OA\Schema(
+     *                     @OA\Property(property="data", ref="#/components/schemas/Order")
+     *                 )
+     *             }
+     *         )
      *     ),
      *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=422, description="Validation errors")
@@ -458,7 +495,14 @@ class GlobalAnnotations
      *     @OA\Response(
      *         response=200,
      *         description="Order details",
-     *         @OA\JsonContent(ref="#/components/schemas/Order")
+     *         @OA\JsonContent(
+     *             allOf={
+     *                 @OA\Schema(ref="#/components/schemas/ApiResponse"),
+     *                 @OA\Schema(
+     *                     @OA\Property(property="data", ref="#/components/schemas/Order")
+     *                 )
+     *             }
+     *         )
      *     ),
      *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=404, description="Order not found")
@@ -488,9 +532,7 @@ class GlobalAnnotations
      *     @OA\Response(
      *         response=200,
      *         description="Order status updated",
-     *         @OA\JsonContent(
-     *             @OA\Property(property="message", type="string", example="Order status updated")
-     *         )
+     *         @OA\JsonContent(ref="#/components/schemas/ApiResponse")
      *     ),
      *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=404, description="Order not found"),
@@ -514,9 +556,7 @@ class GlobalAnnotations
      *     @OA\Response(
      *         response=200,
      *         description="Order cancelled",
-     *         @OA\JsonContent(
-     *             @OA\Property(property="message", type="string", example="Order cancelled")
-     *         )
+     *         @OA\JsonContent(ref="#/components/schemas/ApiResponse")
      *     ),
      *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=404, description="Order not found or cannot be cancelled")

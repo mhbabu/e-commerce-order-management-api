@@ -72,4 +72,12 @@
  *     @OA\Property(property="total_price", type="number", format="float", example=1099.98),
  *     @OA\Property(property="product_variant", ref="#/components/schemas/ProductVariant")
  * )
+ *
+ * @OA\Schema(
+ *     schema="ApiResponse",
+ *     type="object",
+ *     @OA\Property(property="status", type="boolean", example=true, description="Status of the API response"),
+ *     @OA\Property(property="message", type="string", example="Operation successful", description="A descriptive message about the API response"),
+ *     @OA\Property(property="data", type="object", nullable=true, description="The main data payload of the response")
+ * )
  */

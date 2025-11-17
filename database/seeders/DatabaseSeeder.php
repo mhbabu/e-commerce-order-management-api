@@ -2,6 +2,10 @@
 
 namespace Database\Seeders;
 
+use App\Models\Inventory;
+use App\Models\Order;
+use App\Models\OrderItem;
+use App\Models\ProductVariant;
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -20,6 +24,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Admin User',
             'email' => 'admin@example.com',
             'role' => 'admin',
+            'email_verified_at' => now()
         ]);
 
         // Create vendor user
@@ -27,6 +32,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Vendor User',
             'email' => 'vendor@example.com',
             'role' => 'vendor',
+            'email_verified_at' => now()
         ]);
 
         // Create customer user
@@ -34,6 +40,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'Customer User',
             'email' => 'customer@example.com',
             'role' => 'customer',
+            'email_verified_at' => now()
         ]);
 
         // Create sample product
@@ -47,37 +54,37 @@ class DatabaseSeeder extends Seeder
         ]);
 
         // Create variants
-        $variant = \App\Models\ProductVariant::create([
-            'product_id' => $product->id,
-            'attributes' => ['size' => 'M', 'color' => 'Blue'],
+        $variant = ProductVariant::create([
+            'product_id'     => $product->id,
+            'attributes'     => ['size' => 'M', 'color' => 'Blue'],
             'price_modifier' => 0,
-            'sku' => 'TSHIRT001-M-BLUE',
+            'sku'            => 'TSHIRT001-M-BLUE',
         ]);
 
         // Create inventory
-        \App\Models\Inventory::create([
-            'product_variant_id' => $variant->id,
-            'quantity' => 100,
+        Inventory::create([
+            'product_variant_id'  => $variant->id,
+            'quantity'            => 100,
             'low_stock_threshold' => 10,
-            'last_updated' => now(),
+            'last_updated'        => now(),
         ]);
 
         // Create sample order
-        $order = \App\Models\Order::create([
-            'user_id' => $customer->id,
-            'status' => 'pending',
-            'total_amount' => 19.99,
-            'shipping_address' => '123 Main St, City, State 12345',
-            'billing_address' => '123 Main St, City, State 12345',
-            'order_number' => 'ORD-123456',
+        $order = Order::create([
+            'user_id'           => $customer->id,
+            'status'            => 'pending',
+            'total_amount'      => 19.99,
+            'shipping_address'  => '123 Main St, City, State 12345',
+            'billing_address'   => '123 Main St, City, State 12345',
+            'order_number'      => 'ORD-123456',
         ]);
 
         // Create order item
-        \App\Models\OrderItem::create([
-            'order_id' => $order->id,
+        OrderItem::create([
+            'order_id'           => $order->id,
             'product_variant_id' => $variant->id,
-            'quantity' => 1,
-            'price' => 19.99,
+            'quantity'           => 1,
+            'price'              => 19.99,
         ]);
     }
 }

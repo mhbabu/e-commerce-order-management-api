@@ -39,7 +39,9 @@ class OrderService
             ]));
 
             foreach ($items as $item) {
-                OrderItem::create(array_merge($item, ['order_id' => $order->id]));
+                $variant = \App\Models\ProductVariant::find($item['product_variant_id']);
+                $price = $variant->product->base_price + $variant->price_modifier;
+                OrderItem::create(array_merge($item, ['order_id' => $order->id, 'price' => $price]));
                 // Deduct inventory
                 $this->inventoryRepository->deductQuantity($item['product_variant_id'], $item['quantity']);
             }
