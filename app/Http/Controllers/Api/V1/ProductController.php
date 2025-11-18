@@ -45,7 +45,7 @@ class ProductController extends Controller
 
     public function show($id)
     {
-        $product = $this->productService->find($id);
+        $product = $this->productService->findProduct($id);
         if (!$product) {
             return jsonResponse('Product not found', false, null, 404);
         }
