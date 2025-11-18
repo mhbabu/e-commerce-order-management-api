@@ -21,7 +21,7 @@ abstract class BaseRepository
 
     public function find(int $id): ?Model
     {
-        return $this->model->find($id);
+        return $this->model->where($id);
     }
 
     public function create(array $data): Model

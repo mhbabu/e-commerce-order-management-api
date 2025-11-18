@@ -14,8 +14,12 @@ Route::prefix('v1')->middleware('throttle:api')->group(function () {
         Route::post('logout', [AuthController::class, 'logout']);
         Route::get('me', [AuthController::class, 'me']);
 
+        // Index accessible by customer, vendor, admin
+        Route::get('products', [ProductController::class, 'index'])->middleware('role:customer,vendor,admin');
+
+        // Other product routes restricted to vendor and admin
         Route::middleware('role:vendor,admin')->group(function () {
-            Route::apiResource('products', ProductController::class);
+            Route::apiResource('products', ProductController::class)->except(['index']);
             Route::post('products/bulk-import', [ProductController::class, 'bulkImport']);
         });
 
