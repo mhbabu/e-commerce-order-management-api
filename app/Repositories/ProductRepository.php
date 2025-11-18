@@ -13,7 +13,7 @@ class ProductRepository extends BaseRepository
     protected array $searchableColumns = [ // for safe search
         'name',
         'sku',
-        'category', 
+        'category',
         'description'
     ];
 
@@ -28,6 +28,9 @@ class ProductRepository extends BaseRepository
 
         if ($authUser->role === 'vendor') {
             $query->where('vendor_id', $authUser->id);
+        }
+        if ($authUser->role === 'customer') {
+            $query->where('is_active', true);
         }
 
         if (!empty($filters['search']) && !empty($filters['search_by'])) {
@@ -191,7 +194,7 @@ class ProductRepository extends BaseRepository
 
 
     //We can first insert data into product_import_staging table, then use a scheduled task to populate products, variants, and inventory based on specific conditions
-    public function bulkImport1($file, int $vendorId = 1): int 
+    public function bulkImport1($file, int $vendorId = 1): int
     {
         $path = $file->getRealPath();
         $escapedPath = escapeshellarg($path);

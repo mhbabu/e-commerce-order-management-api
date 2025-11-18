@@ -1,0 +1,1001 @@
+product_name,description,base_price,category,product_sku,variant_color,variant_storage,price_modifier,variant_sku,quantity,low_stock_threshold
+Camera 1,Best value for money,304.17,Gadgets,SKU-0001,Black,128GB,122.44,SKU-0001-BLA-128GB,35,9
+Tablet 2,Compact and lightweight design,743.52,Electronics,SKU-0002,Blue,64GB,110.07,SKU-0002-BLU-64GB,46,16
+Tablet 3,Compact and lightweight design,1075.28,Gadgets,SKU-0003,Red,32GB,156.75,SKU-0003-RED-32GB,58,18
+Laptop 4,Best value for money,1272.63,Gadgets,SKU-0004,White,512GB,28.04,SKU-0004-WHI-512GB,5,6
+Laptop 5,Best value for money,1228.83,Electronics,SKU-0005,Blue,16GB,197.83,SKU-0005-BLU-16GB,12,19
+Smartphone 6,Enhanced performance and battery life,115.41,Accessories,SKU-0006,White,128GB,195.54,SKU-0006-WHI-128GB,81,12
+Camera 7,Enhanced performance and battery life,1989.46,Gadgets,SKU-0007,White,256GB,143.77,SKU-0007-WHI-256GB,95,15
+Smartphone 8,Latest model with advanced features,1448.32,Accessories,SKU-0008,Silver,32GB,128.3,SKU-0008-SIL-32GB,56,16
+Laptop 9,Latest model with advanced features,1426.86,Electronics,SKU-0009,Green,64GB,145.1,SKU-0009-GRE-64GB,50,17
+Laptop 10,Compact and lightweight design,1091.83,Gadgets,SKU-0010,White,32GB,198.26,SKU-0010-WHI-32GB,35,9
+Camera 11,Best value for money,1756.37,Accessories,SKU-0011,Silver,16GB,130.0,SKU-0011-SIL-16GB,69,15
+Speaker 12,Best value for money,617.93,Electronics,SKU-0012,Blue,16GB,110.01,SKU-0012-BLU-16GB,82,20
+Camera 13,Enhanced performance and battery life,189.0,Accessories,SKU-0013,Gold,16GB,167.05,SKU-0013-GOL-16GB,10,7
+Camera 14,High quality and durable product,1394.78,Electronics,SKU-0014,Blue,128GB,131.71,SKU-0014-BLU-128GB,82,19
+Camera 15,Latest model with advanced features,342.55,Accessories,SKU-0015,White,32GB,20.06,SKU-0015-WHI-32GB,13,8
+Tablet 16,Compact and lightweight design,1706.82,Gadgets,SKU-0016,Gold,16GB,154.84,SKU-0016-GOL-16GB,36,13
+Smartwatch 17,Best value for money,1154.54,Gadgets,SKU-0017,Green,64GB,91.9,SKU-0017-GRE-64GB,24,20
+Tablet 18,Latest model with advanced features,150.68,Electronics,SKU-0018,Gold,256GB,100.98,SKU-0018-GOL-256GB,23,7
+Tablet 19,Compact and lightweight design,717.76,Electronics,SKU-0019,Black,32GB,51.24,SKU-0019-BLA-32GB,73,16
+Speaker 20,Compact and lightweight design,1803.2,Accessories,SKU-0020,White,256GB,177.21,SKU-0020-WHI-256GB,56,14
+Speaker 21,Compact and lightweight design,1720.58,Gadgets,SKU-0021,Blue,512GB,28.33,SKU-0021-BLU-512GB,89,8
+Tablet 22,Enhanced performance and battery life,448.09,Gadgets,SKU-0022,Blue,16GB,108.99,SKU-0022-BLU-16GB,31,18
+Smartwatch 23,Best value for money,705.43,Electronics,SKU-0023,Blue,256GB,55.21,SKU-0023-BLU-256GB,36,17
+Smartwatch 24,Best value for money,260.01,Gadgets,SKU-0024,Black,32GB,24.31,SKU-0024-BLA-32GB,65,18
+Monitor 25,Compact and lightweight design,193.88,Electronics,SKU-0025,Black,256GB,4.7,SKU-0025-BLA-256GB,66,6
+Smartphone 26,Enhanced performance and battery life,928.87,Gadgets,SKU-0026,Gold,256GB,88.63,SKU-0026-GOL-256GB,59,20
+Smartphone 27,Compact and lightweight design,583.59,Electronics,SKU-0027,Red,128GB,7.89,SKU-0027-RED-128GB,76,12
+Monitor 28,High quality and durable product,320.76,Gadgets,SKU-0028,Blue,128GB,71.42,SKU-0028-BLU-128GB,80,8
+Headphones 29,Enhanced performance and battery life,1989.23,Gadgets,SKU-0029,Gold,512GB,149.75,SKU-0029-GOL-512GB,94,7
+Tablet 30,Best value for money,1787.59,Gadgets,SKU-0030,Gold,512GB,80.93,SKU-0030-GOL-512GB,72,16
+Monitor 31,Compact and lightweight design,985.84,Gadgets,SKU-0031,Gold,128GB,65.62,SKU-0031-GOL-128GB,26,10
+Tablet 32,Latest model with advanced features,991.87,Accessories,SKU-0032,Black,256GB,196.1,SKU-0032-BLA-256GB,72,9
+Monitor 33,Latest model with advanced features,1848.27,Accessories,SKU-0033,Silver,32GB,136.27,SKU-0033-SIL-32GB,26,5
+Speaker 34,Enhanced performance and battery life,1394.18,Gadgets,SKU-0034,Black,16GB,127.57,SKU-0034-BLA-16GB,64,8
+Smartphone 35,Best value for money,1404.22,Gadgets,SKU-0035,Blue,256GB,70.99,SKU-0035-BLU-256GB,87,10
+Speaker 36,Latest model with advanced features,403.56,Accessories,SKU-0036,Green,512GB,31.84,SKU-0036-GRE-512GB,42,7
+Headphones 37,Latest model with advanced features,672.43,Electronics,SKU-0037,Gold,512GB,25.81,SKU-0037-GOL-512GB,85,16
+Smartphone 38,High quality and durable product,1270.1,Electronics,SKU-0038,White,512GB,66.43,SKU-0038-WHI-512GB,39,13
+Monitor 39,Latest model with advanced features,822.15,Gadgets,SKU-0039,Green,512GB,158.62,SKU-0039-GRE-512GB,37,8
+Smartphone 40,High quality and durable product,593.2,Gadgets,SKU-0040,Green,256GB,109.58,SKU-0040-GRE-256GB,82,17
+Headphones 41,Latest model with advanced features,1929.66,Electronics,SKU-0041,Gold,16GB,39.84,SKU-0041-GOL-16GB,90,7
+Monitor 42,High quality and durable product,1732.51,Accessories,SKU-0042,Gold,16GB,20.31,SKU-0042-GOL-16GB,12,9
+Monitor 43,Best value for money,1566.09,Gadgets,SKU-0043,Black,16GB,68.04,SKU-0043-BLA-16GB,39,9
+Monitor 44,Best value for money,1872.34,Electronics,SKU-0044,Green,256GB,67.29,SKU-0044-GRE-256GB,40,11
+Camera 45,Enhanced performance and battery life,1238.65,Electronics,SKU-0045,Gold,64GB,162.91,SKU-0045-GOL-64GB,68,16
+Tablet 46,Latest model with advanced features,164.05,Electronics,SKU-0046,Blue,64GB,65.2,SKU-0046-BLU-64GB,90,6
+Speaker 47,Enhanced performance and battery life,976.26,Gadgets,SKU-0047,Gold,256GB,136.49,SKU-0047-GOL-256GB,47,10
+Tablet 48,Enhanced performance and battery life,1711.48,Gadgets,SKU-0048,Black,32GB,34.75,SKU-0048-BLA-32GB,70,17
+Smartwatch 49,Enhanced performance and battery life,1845.08,Accessories,SKU-0049,Blue,128GB,97.52,SKU-0049-BLU-128GB,36,9
+Speaker 50,Compact and lightweight design,118.39,Gadgets,SKU-0050,Blue,16GB,13.25,SKU-0050-BLU-16GB,70,12
+Smartphone 51,Latest model with advanced features,956.25,Electronics,SKU-0051,White,512GB,56.87,SKU-0051-WHI-512GB,33,12
+Monitor 52,Enhanced performance and battery life,563.39,Gadgets,SKU-0052,White,512GB,167.66,SKU-0052-WHI-512GB,7,11
+Camera 53,High quality and durable product,432.69,Gadgets,SKU-0053,White,64GB,45.5,SKU-0053-WHI-64GB,22,18
+Smartphone 54,High quality and durable product,1626.8,Accessories,SKU-0054,Silver,64GB,145.88,SKU-0054-SIL-64GB,22,5
+Monitor 55,High quality and durable product,1418.5,Electronics,SKU-0055,Gold,64GB,111.18,SKU-0055-GOL-64GB,13,6
+Laptop 56,Compact and lightweight design,1967.39,Accessories,SKU-0056,Red,64GB,45.0,SKU-0056-RED-64GB,94,17
+Smartphone 57,Latest model with advanced features,372.36,Accessories,SKU-0057,Blue,256GB,84.18,SKU-0057-BLU-256GB,99,8
+Speaker 58,Best value for money,584.03,Electronics,SKU-0058,Red,256GB,12.46,SKU-0058-RED-256GB,51,9
+Laptop 59,Best value for money,181.3,Gadgets,SKU-0059,White,64GB,24.12,SKU-0059-WHI-64GB,81,8
+Tablet 60,Enhanced performance and battery life,681.71,Gadgets,SKU-0060,Gold,32GB,195.21,SKU-0060-GOL-32GB,81,16
+Monitor 61,Latest model with advanced features,1071.82,Accessories,SKU-0061,Silver,64GB,63.57,SKU-0061-SIL-64GB,16,19
+Monitor 62,Enhanced performance and battery life,1749.32,Gadgets,SKU-0062,Green,512GB,37.39,SKU-0062-GRE-512GB,67,7
+Smartphone 63,Enhanced performance and battery life,405.74,Accessories,SKU-0063,Gold,32GB,189.82,SKU-0063-GOL-32GB,19,13
+Camera 64,Enhanced performance and battery life,749.96,Gadgets,SKU-0064,Silver,16GB,162.12,SKU-0064-SIL-16GB,96,10
+Speaker 65,Compact and lightweight design,1378.37,Gadgets,SKU-0065,Green,64GB,56.79,SKU-0065-GRE-64GB,22,18
+Tablet 66,Compact and lightweight design,556.24,Gadgets,SKU-0066,Blue,32GB,113.81,SKU-0066-BLU-32GB,5,14
+Camera 67,High quality and durable product,909.23,Gadgets,SKU-0067,Gold,128GB,122.5,SKU-0067-GOL-128GB,90,19
+Speaker 68,Best value for money,878.71,Accessories,SKU-0068,Blue,512GB,97.71,SKU-0068-BLU-512GB,30,17
+Smartwatch 69,High quality and durable product,1844.78,Gadgets,SKU-0069,Silver,256GB,135.76,SKU-0069-SIL-256GB,76,17
+Headphones 70,Best value for money,1101.29,Accessories,SKU-0070,Red,64GB,62.82,SKU-0070-RED-64GB,68,15
+Monitor 71,Latest model with advanced features,105.09,Accessories,SKU-0071,Gold,512GB,11.39,SKU-0071-GOL-512GB,32,15
+Camera 72,Latest model with advanced features,1070.78,Accessories,SKU-0072,Black,128GB,60.05,SKU-0072-BLA-128GB,34,12
+Laptop 73,Best value for money,1734.03,Electronics,SKU-0073,Green,16GB,26.76,SKU-0073-GRE-16GB,22,12
+Headphones 74,Best value for money,807.03,Electronics,SKU-0074,White,128GB,87.07,SKU-0074-WHI-128GB,16,8
+Tablet 75,Enhanced performance and battery life,1780.19,Gadgets,SKU-0075,Silver,256GB,178.12,SKU-0075-SIL-256GB,73,19
+Smartwatch 76,Best value for money,935.29,Accessories,SKU-0076,Red,128GB,162.91,SKU-0076-RED-128GB,70,8
+Speaker 77,Compact and lightweight design,207.97,Gadgets,SKU-0077,Silver,128GB,161.1,SKU-0077-SIL-128GB,64,17
+Smartphone 78,Latest model with advanced features,497.19,Gadgets,SKU-0078,Silver,64GB,137.39,SKU-0078-SIL-64GB,94,19
+Smartphone 79,High quality and durable product,768.86,Gadgets,SKU-0079,Green,256GB,30.79,SKU-0079-GRE-256GB,92,18
+Tablet 80,Enhanced performance and battery life,1854.99,Gadgets,SKU-0080,Blue,32GB,75.78,SKU-0080-BLU-32GB,65,15
+Smartwatch 81,Best value for money,1530.39,Electronics,SKU-0081,Silver,16GB,2.38,SKU-0081-SIL-16GB,17,9
+Camera 82,Compact and lightweight design,804.18,Accessories,SKU-0082,Gold,256GB,81.77,SKU-0082-GOL-256GB,91,12
+Smartphone 83,Compact and lightweight design,886.35,Gadgets,SKU-0083,White,128GB,140.52,SKU-0083-WHI-128GB,29,14
+Monitor 84,High quality and durable product,890.98,Accessories,SKU-0084,Black,16GB,94.3,SKU-0084-BLA-16GB,9,12
+Tablet 85,Compact and lightweight design,1431.81,Accessories,SKU-0085,Silver,16GB,142.34,SKU-0085-SIL-16GB,62,5
+Smartwatch 86,Compact and lightweight design,1430.78,Electronics,SKU-0086,Red,32GB,168.16,SKU-0086-RED-32GB,18,11
+Camera 87,Latest model with advanced features,1367.34,Gadgets,SKU-0087,Gold,16GB,183.77,SKU-0087-GOL-16GB,34,19
+Smartwatch 88,Best value for money,689.62,Accessories,SKU-0088,White,512GB,127.12,SKU-0088-WHI-512GB,52,12
+Camera 89,Best value for money,1442.75,Accessories,SKU-0089,Green,256GB,185.98,SKU-0089-GRE-256GB,37,14
+Tablet 90,Compact and lightweight design,294.11,Electronics,SKU-0090,White,256GB,99.92,SKU-0090-WHI-256GB,42,5
+Headphones 91,Enhanced performance and battery life,781.31,Electronics,SKU-0091,Blue,128GB,17.15,SKU-0091-BLU-128GB,30,12
+Headphones 92,Compact and lightweight design,1566.54,Accessories,SKU-0092,White,64GB,163.71,SKU-0092-WHI-64GB,41,19
+Speaker 93,Best value for money,1670.25,Gadgets,SKU-0093,Gold,512GB,94.91,SKU-0093-GOL-512GB,92,17
+Headphones 94,High quality and durable product,1211.4,Electronics,SKU-0094,Red,64GB,144.75,SKU-0094-RED-64GB,10,13
+Headphones 95,Enhanced performance and battery life,1135.62,Electronics,SKU-0095,Gold,16GB,157.32,SKU-0095-GOL-16GB,79,9
+Speaker 96,High quality and durable product,918.0,Electronics,SKU-0096,White,16GB,193.73,SKU-0096-WHI-16GB,85,11
+Smartwatch 97,Best value for money,1165.83,Accessories,SKU-0097,White,16GB,92.22,SKU-0097-WHI-16GB,49,11
+Monitor 98,High quality and durable product,894.81,Gadgets,SKU-0098,Silver,128GB,147.11,SKU-0098-SIL-128GB,89,13
+Smartphone 99,Latest model with advanced features,1535.77,Accessories,SKU-0099,Green,64GB,97.33,SKU-0099-GRE-64GB,91,19
+Smartphone 100,Enhanced performance and battery life,1852.7,Electronics,SKU-0100,Red,256GB,3.02,SKU-0100-RED-256GB,69,12
+Smartwatch 101,Best value for money,665.83,Gadgets,SKU-0101,Silver,64GB,152.26,SKU-0101-SIL-64GB,6,13
+Tablet 102,Best value for money,950.58,Accessories,SKU-0102,Black,32GB,77.99,SKU-0102-BLA-32GB,81,20
+Speaker 103,Best value for money,765.75,Accessories,SKU-0103,Silver,32GB,74.5,SKU-0103-SIL-32GB,78,18
+Headphones 104,Compact and lightweight design,175.0,Electronics,SKU-0104,Silver,32GB,129.25,SKU-0104-SIL-32GB,25,18
+Smartphone 105,Latest model with advanced features,438.24,Electronics,SKU-0105,Red,32GB,87.53,SKU-0105-RED-32GB,96,8
+Tablet 106,High quality and durable product,630.36,Gadgets,SKU-0106,Blue,32GB,133.14,SKU-0106-BLU-32GB,65,9
+Smartwatch 107,Enhanced performance and battery life,919.47,Accessories,SKU-0107,Red,16GB,59.13,SKU-0107-RED-16GB,45,19
+Camera 108,High quality and durable product,1051.52,Electronics,SKU-0108,Red,64GB,60.19,SKU-0108-RED-64GB,10,13
+Smartwatch 109,Enhanced performance and battery life,1308.83,Accessories,SKU-0109,Green,128GB,81.81,SKU-0109-GRE-128GB,20,8
+Monitor 110,Best value for money,1535.63,Gadgets,SKU-0110,Blue,512GB,99.01,SKU-0110-BLU-512GB,66,15
+Smartphone 111,Compact and lightweight design,562.49,Gadgets,SKU-0111,Red,64GB,150.29,SKU-0111-RED-64GB,30,11
+Camera 112,Latest model with advanced features,605.91,Electronics,SKU-0112,Blue,64GB,170.31,SKU-0112-BLU-64GB,42,6
+Smartwatch 113,Latest model with advanced features,922.58,Electronics,SKU-0113,Gold,128GB,178.62,SKU-0113-GOL-128GB,94,10
+Tablet 114,Latest model with advanced features,326.14,Gadgets,SKU-0114,White,32GB,20.79,SKU-0114-WHI-32GB,45,5
+Tablet 115,High quality and durable product,129.55,Electronics,SKU-0115,Black,512GB,32.48,SKU-0115-BLA-512GB,54,13
+Smartwatch 116,High quality and durable product,1699.18,Electronics,SKU-0116,Blue,32GB,50.54,SKU-0116-BLU-32GB,33,6
+Camera 117,High quality and durable product,522.48,Electronics,SKU-0117,Silver,32GB,53.5,SKU-0117-SIL-32GB,12,9
+Tablet 118,High quality and durable product,1398.63,Electronics,SKU-0118,White,64GB,42.67,SKU-0118-WHI-64GB,48,7
+Monitor 119,Enhanced performance and battery life,952.84,Accessories,SKU-0119,Black,512GB,92.02,SKU-0119-BLA-512GB,51,18
+Headphones 120,Enhanced performance and battery life,227.73,Accessories,SKU-0120,Silver,32GB,72.7,SKU-0120-SIL-32GB,13,7
+Laptop 121,High quality and durable product,1355.3,Accessories,SKU-0121,Blue,32GB,119.56,SKU-0121-BLU-32GB,99,7
+Smartphone 122,High quality and durable product,1690.54,Accessories,SKU-0122,White,512GB,32.72,SKU-0122-WHI-512GB,15,5
+Smartphone 123,Compact and lightweight design,1224.92,Gadgets,SKU-0123,Silver,128GB,155.18,SKU-0123-SIL-128GB,60,8
+Smartwatch 124,Best value for money,139.94,Electronics,SKU-0124,Blue,512GB,151.41,SKU-0124-BLU-512GB,77,15
+Tablet 125,Best value for money,1540.72,Accessories,SKU-0125,Blue,512GB,120.84,SKU-0125-BLU-512GB,7,15
+Camera 126,Enhanced performance and battery life,601.02,Gadgets,SKU-0126,Black,256GB,191.03,SKU-0126-BLA-256GB,84,5
+Tablet 127,Compact and lightweight design,480.99,Electronics,SKU-0127,Silver,256GB,130.54,SKU-0127-SIL-256GB,13,19
+Laptop 128,Latest model with advanced features,1670.43,Accessories,SKU-0128,Silver,64GB,11.03,SKU-0128-SIL-64GB,61,19
+Smartwatch 129,Compact and lightweight design,1832.83,Gadgets,SKU-0129,Silver,512GB,159.85,SKU-0129-SIL-512GB,17,17
+Laptop 130,Best value for money,1568.03,Electronics,SKU-0130,White,256GB,121.3,SKU-0130-WHI-256GB,27,16
+Tablet 131,Enhanced performance and battery life,1870.76,Electronics,SKU-0131,Blue,256GB,153.55,SKU-0131-BLU-256GB,40,11
+Speaker 132,High quality and durable product,771.5,Electronics,SKU-0132,Silver,16GB,37.85,SKU-0132-SIL-16GB,55,10
+Speaker 133,Best value for money,1283.85,Accessories,SKU-0133,Black,32GB,74.27,SKU-0133-BLA-32GB,17,13
+Smartwatch 134,Latest model with advanced features,1139.72,Gadgets,SKU-0134,Blue,32GB,66.01,SKU-0134-BLU-32GB,59,17
+Smartphone 135,High quality and durable product,350.62,Accessories,SKU-0135,Green,32GB,172.67,SKU-0135-GRE-32GB,52,10
+Headphones 136,Enhanced performance and battery life,834.77,Electronics,SKU-0136,Red,512GB,84.7,SKU-0136-RED-512GB,30,17
+Monitor 137,Latest model with advanced features,1077.81,Accessories,SKU-0137,Gold,256GB,18.31,SKU-0137-GOL-256GB,99,10
+Headphones 138,Enhanced performance and battery life,1770.47,Electronics,SKU-0138,Black,128GB,88.43,SKU-0138-BLA-128GB,39,20
+Monitor 139,Latest model with advanced features,1973.86,Electronics,SKU-0139,Gold,16GB,32.76,SKU-0139-GOL-16GB,88,13
+Smartwatch 140,Compact and lightweight design,484.08,Gadgets,SKU-0140,Black,128GB,51.39,SKU-0140-BLA-128GB,27,5
+Monitor 141,Best value for money,1575.9,Gadgets,SKU-0141,Red,32GB,10.27,SKU-0141-RED-32GB,33,11
+Tablet 142,Latest model with advanced features,1221.46,Gadgets,SKU-0142,Silver,16GB,44.51,SKU-0142-SIL-16GB,9,17
+Headphones 143,Compact and lightweight design,299.45,Gadgets,SKU-0143,Silver,64GB,128.33,SKU-0143-SIL-64GB,22,19
+Speaker 144,High quality and durable product,1124.94,Electronics,SKU-0144,Black,64GB,131.53,SKU-0144-BLA-64GB,29,15
+Smartphone 145,High quality and durable product,1437.04,Gadgets,SKU-0145,Black,512GB,94.53,SKU-0145-BLA-512GB,14,10
+Monitor 146,Compact and lightweight design,112.49,Electronics,SKU-0146,Green,64GB,133.23,SKU-0146-GRE-64GB,44,7
+Tablet 147,Best value for money,1834.69,Accessories,SKU-0147,Red,64GB,106.68,SKU-0147-RED-64GB,87,5
+Headphones 148,Enhanced performance and battery life,660.87,Accessories,SKU-0148,Silver,512GB,54.9,SKU-0148-SIL-512GB,73,6
+Camera 149,High quality and durable product,421.18,Electronics,SKU-0149,Black,256GB,14.72,SKU-0149-BLA-256GB,10,20
+Smartwatch 150,Compact and lightweight design,1494.04,Electronics,SKU-0150,Gold,16GB,59.11,SKU-0150-GOL-16GB,6,12
+Monitor 151,Compact and lightweight design,396.01,Accessories,SKU-0151,White,16GB,18.63,SKU-0151-WHI-16GB,59,6
+Monitor 152,Latest model with advanced features,1728.18,Accessories,SKU-0152,Red,512GB,182.39,SKU-0152-RED-512GB,13,17
+Camera 153,Compact and lightweight design,118.84,Gadgets,SKU-0153,Blue,64GB,119.32,SKU-0153-BLU-64GB,43,7
+Monitor 154,Latest model with advanced features,1904.66,Gadgets,SKU-0154,Black,16GB,159.71,SKU-0154-BLA-16GB,57,14
+Monitor 155,Compact and lightweight design,1400.45,Gadgets,SKU-0155,Green,256GB,149.99,SKU-0155-GRE-256GB,10,5
+Laptop 156,Compact and lightweight design,1510.75,Accessories,SKU-0156,Green,256GB,173.94,SKU-0156-GRE-256GB,98,19
+Laptop 157,Enhanced performance and battery life,1139.11,Accessories,SKU-0157,Green,256GB,47.52,SKU-0157-GRE-256GB,96,10
+Speaker 158,Compact and lightweight design,317.21,Electronics,SKU-0158,Red,512GB,50.39,SKU-0158-RED-512GB,97,5
+Tablet 159,High quality and durable product,147.33,Electronics,SKU-0159,Silver,32GB,126.81,SKU-0159-SIL-32GB,24,7
+Smartphone 160,Compact and lightweight design,1269.47,Gadgets,SKU-0160,Green,16GB,0.75,SKU-0160-GRE-16GB,7,19
+Headphones 161,Enhanced performance and battery life,804.46,Gadgets,SKU-0161,Silver,128GB,32.48,SKU-0161-SIL-128GB,39,10
+Smartphone 162,Latest model with advanced features,1180.54,Accessories,SKU-0162,Silver,64GB,125.7,SKU-0162-SIL-64GB,72,20
+Camera 163,Compact and lightweight design,287.08,Gadgets,SKU-0163,Green,512GB,184.67,SKU-0163-GRE-512GB,53,5
+Smartphone 164,Enhanced performance and battery life,1423.69,Electronics,SKU-0164,Blue,128GB,10.72,SKU-0164-BLU-128GB,17,6
+Smartphone 165,Enhanced performance and battery life,347.77,Gadgets,SKU-0165,Blue,32GB,83.42,SKU-0165-BLU-32GB,5,13
+Smartwatch 166,Enhanced performance and battery life,1720.23,Electronics,SKU-0166,White,128GB,58.32,SKU-0166-WHI-128GB,85,15
+Camera 167,Latest model with advanced features,1583.66,Gadgets,SKU-0167,Black,16GB,18.69,SKU-0167-BLA-16GB,32,12
+Headphones 168,Best value for money,821.76,Electronics,SKU-0168,White,256GB,98.89,SKU-0168-WHI-256GB,54,5
+Laptop 169,Best value for money,877.06,Electronics,SKU-0169,Red,512GB,55.49,SKU-0169-RED-512GB,16,11
+Camera 170,Best value for money,1749.2,Gadgets,SKU-0170,White,64GB,144.08,SKU-0170-WHI-64GB,43,8
+Smartphone 171,High quality and durable product,711.84,Gadgets,SKU-0171,Silver,64GB,77.02,SKU-0171-SIL-64GB,80,13
+Monitor 172,Compact and lightweight design,963.76,Electronics,SKU-0172,Gold,64GB,134.32,SKU-0172-GOL-64GB,33,17
+Headphones 173,Enhanced performance and battery life,1431.35,Electronics,SKU-0173,Green,16GB,31.31,SKU-0173-GRE-16GB,17,17
+Smartphone 174,High quality and durable product,1751.65,Electronics,SKU-0174,White,512GB,197.78,SKU-0174-WHI-512GB,29,15
+Tablet 175,Enhanced performance and battery life,875.59,Gadgets,SKU-0175,Red,128GB,85.54,SKU-0175-RED-128GB,37,11
+Camera 176,Enhanced performance and battery life,167.92,Electronics,SKU-0176,Blue,256GB,157.42,SKU-0176-BLU-256GB,17,14
+Tablet 177,High quality and durable product,1426.73,Gadgets,SKU-0177,Silver,128GB,43.37,SKU-0177-SIL-128GB,59,16
+Smartphone 178,Best value for money,1372.36,Accessories,SKU-0178,White,16GB,11.17,SKU-0178-WHI-16GB,69,6
+Speaker 179,High quality and durable product,1585.45,Accessories,SKU-0179,Blue,32GB,115.53,SKU-0179-BLU-32GB,66,5
+Smartphone 180,Latest model with advanced features,815.36,Gadgets,SKU-0180,Red,64GB,105.19,SKU-0180-RED-64GB,70,15
+Smartwatch 181,Compact and lightweight design,1566.13,Electronics,SKU-0181,White,64GB,165.13,SKU-0181-WHI-64GB,22,19
+Smartwatch 182,Best value for money,711.52,Electronics,SKU-0182,Blue,128GB,55.71,SKU-0182-BLU-128GB,33,10
+Speaker 183,Best value for money,1820.38,Accessories,SKU-0183,Red,128GB,122.87,SKU-0183-RED-128GB,94,15
+Headphones 184,High quality and durable product,1719.78,Gadgets,SKU-0184,Silver,512GB,148.19,SKU-0184-SIL-512GB,30,20
+Tablet 185,Compact and lightweight design,291.61,Gadgets,SKU-0185,White,32GB,173.85,SKU-0185-WHI-32GB,76,6
+Headphones 186,High quality and durable product,865.9,Gadgets,SKU-0186,Blue,256GB,106.91,SKU-0186-BLU-256GB,93,8
+Smartwatch 187,Best value for money,311.5,Electronics,SKU-0187,Gold,64GB,176.68,SKU-0187-GOL-64GB,60,14
+Smartwatch 188,Compact and lightweight design,1418.1,Gadgets,SKU-0188,Red,128GB,60.24,SKU-0188-RED-128GB,12,10
+Headphones 189,Compact and lightweight design,1110.03,Accessories,SKU-0189,Blue,128GB,47.34,SKU-0189-BLU-128GB,88,12
+Monitor 190,Enhanced performance and battery life,1653.46,Gadgets,SKU-0190,Gold,16GB,143.01,SKU-0190-GOL-16GB,57,12
+Smartwatch 191,Latest model with advanced features,360.43,Accessories,SKU-0191,White,128GB,107.28,SKU-0191-WHI-128GB,34,7
+Headphones 192,High quality and durable product,913.91,Gadgets,SKU-0192,White,16GB,177.83,SKU-0192-WHI-16GB,78,11
+Monitor 193,Enhanced performance and battery life,1504.4,Accessories,SKU-0193,Red,64GB,158.81,SKU-0193-RED-64GB,79,12
+Smartphone 194,High quality and durable product,1960.45,Gadgets,SKU-0194,Black,256GB,114.26,SKU-0194-BLA-256GB,32,15
+Smartphone 195,Best value for money,1309.09,Electronics,SKU-0195,White,64GB,100.67,SKU-0195-WHI-64GB,81,17
+Camera 196,Compact and lightweight design,1593.39,Accessories,SKU-0196,Black,512GB,10.59,SKU-0196-BLA-512GB,61,6
+Laptop 197,Latest model with advanced features,408.46,Electronics,SKU-0197,Gold,128GB,97.11,SKU-0197-GOL-128GB,88,12
+Tablet 198,High quality and durable product,1878.67,Gadgets,SKU-0198,Black,256GB,107.49,SKU-0198-BLA-256GB,83,5
+Camera 199,Enhanced performance and battery life,61.88,Electronics,SKU-0199,Red,32GB,21.45,SKU-0199-RED-32GB,21,12
+Monitor 200,Enhanced performance and battery life,132.73,Electronics,SKU-0200,Red,256GB,113.82,SKU-0200-RED-256GB,6,7
+Camera 201,Latest model with advanced features,1096.29,Gadgets,SKU-0201,Black,512GB,112.03,SKU-0201-BLA-512GB,40,13
+Laptop 202,Latest model with advanced features,274.87,Electronics,SKU-0202,Black,512GB,142.52,SKU-0202-BLA-512GB,78,16
+Headphones 203,Enhanced performance and battery life,400.36,Electronics,SKU-0203,Gold,256GB,50.19,SKU-0203-GOL-256GB,30,16
+Camera 204,Latest model with advanced features,1104.94,Electronics,SKU-0204,Silver,256GB,120.3,SKU-0204-SIL-256GB,36,14
+Laptop 205,Enhanced performance and battery life,1539.22,Gadgets,SKU-0205,Red,128GB,164.31,SKU-0205-RED-128GB,61,12
+Speaker 206,Best value for money,241.15,Electronics,SKU-0206,Red,16GB,123.16,SKU-0206-RED-16GB,50,5
+Laptop 207,Enhanced performance and battery life,125.52,Electronics,SKU-0207,Blue,32GB,49.09,SKU-0207-BLU-32GB,22,18
+Smartwatch 208,Best value for money,1541.53,Accessories,SKU-0208,Silver,64GB,56.08,SKU-0208-SIL-64GB,59,15
+Smartwatch 209,Compact and lightweight design,1266.16,Accessories,SKU-0209,Silver,32GB,180.8,SKU-0209-SIL-32GB,47,6
+Headphones 210,Compact and lightweight design,1859.88,Gadgets,SKU-0210,Blue,128GB,185.12,SKU-0210-BLU-128GB,61,8
+Speaker 211,Enhanced performance and battery life,1439.02,Gadgets,SKU-0211,Black,16GB,141.53,SKU-0211-BLA-16GB,22,14
+Headphones 212,Enhanced performance and battery life,665.61,Electronics,SKU-0212,Red,16GB,163.84,SKU-0212-RED-16GB,45,10
+Smartwatch 213,Enhanced performance and battery life,1709.12,Accessories,SKU-0213,Silver,256GB,94.9,SKU-0213-SIL-256GB,61,14
+Smartphone 214,High quality and durable product,1996.57,Gadgets,SKU-0214,Green,256GB,31.89,SKU-0214-GRE-256GB,52,8
+Smartphone 215,Latest model with advanced features,1385.35,Gadgets,SKU-0215,Silver,64GB,198.61,SKU-0215-SIL-64GB,43,11
+Smartwatch 216,Compact and lightweight design,911.34,Electronics,SKU-0216,Red,256GB,158.26,SKU-0216-RED-256GB,47,20
+Camera 217,Best value for money,1556.08,Gadgets,SKU-0217,Silver,32GB,104.75,SKU-0217-SIL-32GB,35,8
+Smartphone 218,High quality and durable product,1030.67,Accessories,SKU-0218,Black,512GB,113.91,SKU-0218-BLA-512GB,47,6
+Tablet 219,Best value for money,528.61,Accessories,SKU-0219,Silver,16GB,156.52,SKU-0219-SIL-16GB,65,11
+Smartwatch 220,Best value for money,355.04,Electronics,SKU-0220,Silver,32GB,4.13,SKU-0220-SIL-32GB,86,13
+Camera 221,Latest model with advanced features,1000.34,Gadgets,SKU-0221,Gold,16GB,9.78,SKU-0221-GOL-16GB,88,7
+Camera 222,Compact and lightweight design,1764.71,Electronics,SKU-0222,Red,256GB,59.69,SKU-0222-RED-256GB,28,6
+Tablet 223,High quality and durable product,85.37,Accessories,SKU-0223,Green,32GB,50.98,SKU-0223-GRE-32GB,7,10
+Smartwatch 224,Best value for money,1362.72,Electronics,SKU-0224,Blue,128GB,148.62,SKU-0224-BLU-128GB,29,6
+Headphones 225,Enhanced performance and battery life,1480.0,Accessories,SKU-0225,Red,512GB,119.36,SKU-0225-RED-512GB,79,8
+Monitor 226,Best value for money,1781.16,Electronics,SKU-0226,Green,512GB,96.84,SKU-0226-GRE-512GB,43,18
+Headphones 227,Latest model with advanced features,617.07,Electronics,SKU-0227,Green,128GB,21.3,SKU-0227-GRE-128GB,81,17
+Smartwatch 228,High quality and durable product,1914.06,Gadgets,SKU-0228,Blue,16GB,6.24,SKU-0228-BLU-16GB,60,16
+Smartphone 229,Compact and lightweight design,1284.27,Accessories,SKU-0229,Gold,256GB,56.89,SKU-0229-GOL-256GB,61,17
+Camera 230,Enhanced performance and battery life,534.66,Gadgets,SKU-0230,Blue,256GB,20.4,SKU-0230-BLU-256GB,73,7
+Headphones 231,Enhanced performance and battery life,1557.49,Accessories,SKU-0231,Silver,16GB,129.66,SKU-0231-SIL-16GB,100,12
+Headphones 232,Best value for money,1385.82,Gadgets,SKU-0232,Gold,128GB,94.81,SKU-0232-GOL-128GB,79,11
+Laptop 233,Latest model with advanced features,1631.22,Accessories,SKU-0233,Gold,64GB,71.69,SKU-0233-GOL-64GB,8,8
+Smartphone 234,High quality and durable product,960.26,Accessories,SKU-0234,White,512GB,191.9,SKU-0234-WHI-512GB,47,18
+Smartphone 235,Best value for money,1407.15,Electronics,SKU-0235,Green,512GB,2.43,SKU-0235-GRE-512GB,43,15
+Laptop 236,Compact and lightweight design,1475.82,Accessories,SKU-0236,Green,128GB,1.85,SKU-0236-GRE-128GB,8,11
+Speaker 237,Compact and lightweight design,1479.68,Electronics,SKU-0237,Gold,256GB,186.0,SKU-0237-GOL-256GB,11,10
+Speaker 238,Latest model with advanced features,1365.84,Accessories,SKU-0238,Red,512GB,139.57,SKU-0238-RED-512GB,6,13
+Camera 239,High quality and durable product,1390.03,Accessories,SKU-0239,Blue,512GB,77.86,SKU-0239-BLU-512GB,6,8
+Monitor 240,High quality and durable product,943.06,Gadgets,SKU-0240,Green,16GB,72.99,SKU-0240-GRE-16GB,78,19
+Laptop 241,Latest model with advanced features,333.53,Gadgets,SKU-0241,Silver,16GB,158.21,SKU-0241-SIL-16GB,70,6
+Camera 242,High quality and durable product,1798.4,Gadgets,SKU-0242,Blue,128GB,129.46,SKU-0242-BLU-128GB,81,14
+Smartphone 243,Best value for money,72.9,Accessories,SKU-0243,Black,128GB,165.42,SKU-0243-BLA-128GB,36,8
+Camera 244,High quality and durable product,818.05,Electronics,SKU-0244,Red,128GB,117.55,SKU-0244-RED-128GB,8,17
+Camera 245,Latest model with advanced features,68.61,Electronics,SKU-0245,Silver,256GB,110.91,SKU-0245-SIL-256GB,95,8
+Smartphone 246,Enhanced performance and battery life,1663.66,Accessories,SKU-0246,Black,16GB,2.17,SKU-0246-BLA-16GB,75,15
+Laptop 247,Latest model with advanced features,325.26,Electronics,SKU-0247,Gold,128GB,21.69,SKU-0247-GOL-128GB,74,14
+Monitor 248,Compact and lightweight design,1499.54,Electronics,SKU-0248,Green,64GB,177.66,SKU-0248-GRE-64GB,60,17
+Smartphone 249,High quality and durable product,687.22,Accessories,SKU-0249,Blue,128GB,113.72,SKU-0249-BLU-128GB,75,8
+Laptop 250,Best value for money,818.31,Gadgets,SKU-0250,Gold,512GB,3.66,SKU-0250-GOL-512GB,33,17
+Speaker 251,Enhanced performance and battery life,873.68,Electronics,SKU-0251,Blue,64GB,122.03,SKU-0251-BLU-64GB,64,15
+Tablet 252,Compact and lightweight design,1983.53,Accessories,SKU-0252,Blue,16GB,30.76,SKU-0252-BLU-16GB,25,19
+Smartphone 253,High quality and durable product,1856.72,Electronics,SKU-0253,Gold,512GB,145.79,SKU-0253-GOL-512GB,46,14
+Speaker 254,Latest model with advanced features,743.33,Electronics,SKU-0254,Blue,256GB,51.72,SKU-0254-BLU-256GB,27,6
+Smartwatch 255,High quality and durable product,677.69,Accessories,SKU-0255,White,32GB,19.42,SKU-0255-WHI-32GB,38,11
+Monitor 256,Latest model with advanced features,1636.02,Accessories,SKU-0256,Red,64GB,19.34,SKU-0256-RED-64GB,10,16
+Headphones 257,Enhanced performance and battery life,1776.36,Accessories,SKU-0257,Silver,16GB,56.83,SKU-0257-SIL-16GB,31,20
+Tablet 258,Enhanced performance and battery life,521.83,Accessories,SKU-0258,White,64GB,20.42,SKU-0258-WHI-64GB,60,12
+Camera 259,Enhanced performance and battery life,1824.32,Gadgets,SKU-0259,Green,16GB,19.46,SKU-0259-GRE-16GB,84,7
+Headphones 260,Best value for money,1387.6,Gadgets,SKU-0260,White,32GB,141.83,SKU-0260-WHI-32GB,62,6
+Tablet 261,Enhanced performance and battery life,561.54,Gadgets,SKU-0261,Black,512GB,3.19,SKU-0261-BLA-512GB,64,19
+Smartphone 262,Enhanced performance and battery life,852.62,Electronics,SKU-0262,Black,512GB,156.32,SKU-0262-BLA-512GB,90,15
+Monitor 263,High quality and durable product,1371.3,Electronics,SKU-0263,Red,16GB,29.5,SKU-0263-RED-16GB,78,7
+Laptop 264,Enhanced performance and battery life,1321.43,Accessories,SKU-0264,Black,128GB,17.86,SKU-0264-BLA-128GB,13,20
+Smartphone 265,Latest model with advanced features,913.44,Accessories,SKU-0265,Blue,64GB,150.24,SKU-0265-BLU-64GB,72,18
+Laptop 266,Best value for money,1557.97,Gadgets,SKU-0266,Black,64GB,12.05,SKU-0266-BLA-64GB,71,20
+Tablet 267,Compact and lightweight design,1643.43,Electronics,SKU-0267,Red,32GB,41.76,SKU-0267-RED-32GB,73,12
+Monitor 268,Enhanced performance and battery life,1232.63,Gadgets,SKU-0268,Green,32GB,178.51,SKU-0268-GRE-32GB,60,8
+Laptop 269,Latest model with advanced features,1086.58,Gadgets,SKU-0269,Silver,128GB,63.25,SKU-0269-SIL-128GB,55,5
+Camera 270,Best value for money,892.6,Accessories,SKU-0270,White,512GB,73.25,SKU-0270-WHI-512GB,74,5
+Tablet 271,High quality and durable product,912.54,Electronics,SKU-0271,Red,16GB,147.96,SKU-0271-RED-16GB,22,15
+Headphones 272,Enhanced performance and battery life,1490.93,Accessories,SKU-0272,Silver,16GB,174.12,SKU-0272-SIL-16GB,15,6
+Speaker 273,Compact and lightweight design,1965.62,Gadgets,SKU-0273,Red,256GB,26.26,SKU-0273-RED-256GB,92,16
+Smartphone 274,Enhanced performance and battery life,1679.94,Gadgets,SKU-0274,Silver,64GB,124.41,SKU-0274-SIL-64GB,17,16
+Smartwatch 275,High quality and durable product,1896.91,Electronics,SKU-0275,Green,128GB,88.05,SKU-0275-GRE-128GB,98,20
+Laptop 276,Best value for money,464.04,Gadgets,SKU-0276,Gold,32GB,169.27,SKU-0276-GOL-32GB,36,10
+Laptop 277,Compact and lightweight design,92.29,Gadgets,SKU-0277,White,32GB,184.16,SKU-0277-WHI-32GB,53,20
+Laptop 278,Best value for money,357.08,Electronics,SKU-0278,Gold,16GB,177.39,SKU-0278-GOL-16GB,50,18
+Smartphone 279,Best value for money,1301.54,Accessories,SKU-0279,Silver,64GB,27.51,SKU-0279-SIL-64GB,63,19
+Tablet 280,Latest model with advanced features,1087.09,Gadgets,SKU-0280,White,512GB,60.2,SKU-0280-WHI-512GB,74,7
+Headphones 281,Compact and lightweight design,1743.7,Gadgets,SKU-0281,Red,128GB,117.87,SKU-0281-RED-128GB,72,9
+Tablet 282,Enhanced performance and battery life,722.85,Gadgets,SKU-0282,Green,64GB,199.52,SKU-0282-GRE-64GB,17,20
+Tablet 283,High quality and durable product,1200.86,Electronics,SKU-0283,Red,32GB,125.97,SKU-0283-RED-32GB,39,8
+Camera 284,Enhanced performance and battery life,72.93,Gadgets,SKU-0284,Black,16GB,90.3,SKU-0284-BLA-16GB,73,9
+Headphones 285,Best value for money,575.39,Gadgets,SKU-0285,Silver,256GB,89.27,SKU-0285-SIL-256GB,94,12
+Smartwatch 286,Latest model with advanced features,169.95,Accessories,SKU-0286,Green,256GB,105.62,SKU-0286-GRE-256GB,53,5
+Monitor 287,Compact and lightweight design,312.67,Electronics,SKU-0287,Blue,16GB,46.34,SKU-0287-BLU-16GB,85,7
+Speaker 288,Best value for money,1975.37,Electronics,SKU-0288,Blue,64GB,80.86,SKU-0288-BLU-64GB,9,15
+Tablet 289,Compact and lightweight design,1311.45,Accessories,SKU-0289,Silver,16GB,102.61,SKU-0289-SIL-16GB,97,10
+Speaker 290,Enhanced performance and battery life,1872.94,Electronics,SKU-0290,Red,128GB,98.2,SKU-0290-RED-128GB,89,17
+Monitor 291,High quality and durable product,465.03,Gadgets,SKU-0291,Blue,64GB,183.83,SKU-0291-BLU-64GB,47,5
+Monitor 292,Enhanced performance and battery life,1554.57,Electronics,SKU-0292,Blue,64GB,73.08,SKU-0292-BLU-64GB,64,14
+Headphones 293,Best value for money,499.61,Accessories,SKU-0293,Silver,512GB,125.42,SKU-0293-SIL-512GB,98,8
+Headphones 294,Enhanced performance and battery life,262.39,Gadgets,SKU-0294,Green,512GB,119.77,SKU-0294-GRE-512GB,87,13
+Monitor 295,High quality and durable product,1499.83,Accessories,SKU-0295,Silver,512GB,197.11,SKU-0295-SIL-512GB,12,14
+Camera 296,Best value for money,1687.42,Electronics,SKU-0296,Black,16GB,150.68,SKU-0296-BLA-16GB,64,17
+Monitor 297,High quality and durable product,274.44,Accessories,SKU-0297,Red,256GB,100.6,SKU-0297-RED-256GB,81,12
+Headphones 298,Latest model with advanced features,1811.28,Accessories,SKU-0298,Green,32GB,69.31,SKU-0298-GRE-32GB,41,16
+Monitor 299,Compact and lightweight design,961.72,Gadgets,SKU-0299,Silver,32GB,111.72,SKU-0299-SIL-32GB,88,11
+Smartphone 300,Latest model with advanced features,1193.08,Electronics,SKU-0300,Gold,128GB,147.83,SKU-0300-GOL-128GB,51,19
+Monitor 301,Enhanced performance and battery life,564.96,Accessories,SKU-0301,Gold,256GB,42.73,SKU-0301-GOL-256GB,77,17
+Speaker 302,High quality and durable product,1315.2,Electronics,SKU-0302,Green,64GB,34.89,SKU-0302-GRE-64GB,44,6
+Monitor 303,Best value for money,1424.04,Electronics,SKU-0303,Gold,256GB,58.15,SKU-0303-GOL-256GB,7,19
+Smartwatch 304,High quality and durable product,731.66,Gadgets,SKU-0304,Silver,512GB,86.28,SKU-0304-SIL-512GB,15,12
+Smartwatch 305,Enhanced performance and battery life,1991.72,Gadgets,SKU-0305,Green,16GB,125.36,SKU-0305-GRE-16GB,70,7
+Camera 306,Compact and lightweight design,1013.15,Electronics,SKU-0306,Silver,128GB,33.45,SKU-0306-SIL-128GB,88,8
+Camera 307,Best value for money,274.06,Gadgets,SKU-0307,Red,16GB,45.98,SKU-0307-RED-16GB,21,9
+Monitor 308,Compact and lightweight design,1036.96,Gadgets,SKU-0308,Red,128GB,198.51,SKU-0308-RED-128GB,100,15
+Smartwatch 309,High quality and durable product,901.53,Accessories,SKU-0309,Black,256GB,74.86,SKU-0309-BLA-256GB,75,8
+Monitor 310,Compact and lightweight design,1957.85,Electronics,SKU-0310,Silver,16GB,157.39,SKU-0310-SIL-16GB,34,11
+Smartphone 311,Compact and lightweight design,611.48,Electronics,SKU-0311,Gold,16GB,149.76,SKU-0311-GOL-16GB,8,17
+Monitor 312,Compact and lightweight design,192.94,Accessories,SKU-0312,Gold,32GB,10.51,SKU-0312-GOL-32GB,40,20
+Tablet 313,High quality and durable product,1833.51,Gadgets,SKU-0313,Blue,256GB,158.67,SKU-0313-BLU-256GB,62,19
+Smartwatch 314,Latest model with advanced features,627.83,Electronics,SKU-0314,White,16GB,143.84,SKU-0314-WHI-16GB,67,10
+Laptop 315,Best value for money,1858.7,Electronics,SKU-0315,Gold,128GB,38.83,SKU-0315-GOL-128GB,83,16
+Tablet 316,Enhanced performance and battery life,1516.41,Accessories,SKU-0316,Gold,32GB,75.99,SKU-0316-GOL-32GB,73,7
+Tablet 317,Best value for money,1802.03,Accessories,SKU-0317,Black,16GB,81.3,SKU-0317-BLA-16GB,39,18
+Smartphone 318,Enhanced performance and battery life,956.19,Gadgets,SKU-0318,Green,32GB,151.42,SKU-0318-GRE-32GB,12,14
+Tablet 319,Best value for money,1901.67,Accessories,SKU-0319,Red,32GB,34.88,SKU-0319-RED-32GB,75,19
+Headphones 320,Latest model with advanced features,463.78,Electronics,SKU-0320,Silver,16GB,58.87,SKU-0320-SIL-16GB,5,7
+Speaker 321,Latest model with advanced features,1696.03,Gadgets,SKU-0321,Blue,32GB,62.61,SKU-0321-BLU-32GB,59,10
+Laptop 322,High quality and durable product,1391.13,Electronics,SKU-0322,Green,16GB,23.29,SKU-0322-GRE-16GB,21,19
+Speaker 323,Best value for money,1375.04,Gadgets,SKU-0323,Black,128GB,114.75,SKU-0323-BLA-128GB,34,20
+Speaker 324,Best value for money,182.5,Gadgets,SKU-0324,Silver,128GB,106.17,SKU-0324-SIL-128GB,67,7
+Camera 325,Latest model with advanced features,635.94,Gadgets,SKU-0325,White,512GB,159.13,SKU-0325-WHI-512GB,55,8
+Laptop 326,Compact and lightweight design,1162.29,Electronics,SKU-0326,Red,512GB,110.88,SKU-0326-RED-512GB,83,16
+Camera 327,Best value for money,1661.9,Accessories,SKU-0327,Blue,64GB,158.05,SKU-0327-BLU-64GB,37,11
+Monitor 328,Best value for money,447.25,Accessories,SKU-0328,Silver,128GB,130.22,SKU-0328-SIL-128GB,37,20
+Laptop 329,Enhanced performance and battery life,1966.86,Gadgets,SKU-0329,Silver,512GB,1.16,SKU-0329-SIL-512GB,37,11
+Smartwatch 330,Enhanced performance and battery life,587.84,Electronics,SKU-0330,Gold,128GB,65.67,SKU-0330-GOL-128GB,100,18
+Monitor 331,High quality and durable product,1602.89,Accessories,SKU-0331,White,256GB,95.29,SKU-0331-WHI-256GB,41,20
+Speaker 332,Best value for money,1415.74,Gadgets,SKU-0332,Blue,64GB,70.07,SKU-0332-BLU-64GB,68,13
+Camera 333,Best value for money,81.07,Electronics,SKU-0333,Blue,512GB,58.58,SKU-0333-BLU-512GB,52,15
+Smartphone 334,Compact and lightweight design,83.64,Accessories,SKU-0334,Red,16GB,186.91,SKU-0334-RED-16GB,10,7
+Camera 335,Latest model with advanced features,112.31,Electronics,SKU-0335,White,32GB,34.72,SKU-0335-WHI-32GB,61,14
+Smartphone 336,Compact and lightweight design,958.12,Electronics,SKU-0336,Silver,256GB,13.45,SKU-0336-SIL-256GB,56,8
+Smartphone 337,Compact and lightweight design,246.46,Accessories,SKU-0337,Red,64GB,24.7,SKU-0337-RED-64GB,54,17
+Tablet 338,Enhanced performance and battery life,1655.15,Gadgets,SKU-0338,White,64GB,172.76,SKU-0338-WHI-64GB,83,12
+Speaker 339,Best value for money,1883.06,Electronics,SKU-0339,Silver,16GB,113.94,SKU-0339-SIL-16GB,28,5
+Camera 340,Best value for money,789.12,Electronics,SKU-0340,Gold,64GB,129.65,SKU-0340-GOL-64GB,10,20
+Camera 341,Enhanced performance and battery life,1991.38,Gadgets,SKU-0341,Silver,16GB,88.95,SKU-0341-SIL-16GB,55,13
+Camera 342,High quality and durable product,556.2,Gadgets,SKU-0342,Blue,64GB,127.59,SKU-0342-BLU-64GB,45,8
+Camera 343,Latest model with advanced features,1525.59,Accessories,SKU-0343,Blue,256GB,37.63,SKU-0343-BLU-256GB,56,16
+Camera 344,Latest model with advanced features,689.38,Accessories,SKU-0344,Blue,512GB,154.29,SKU-0344-BLU-512GB,59,6
+Smartwatch 345,High quality and durable product,808.02,Gadgets,SKU-0345,White,32GB,30.87,SKU-0345-WHI-32GB,36,9
+Speaker 346,Compact and lightweight design,1394.93,Gadgets,SKU-0346,Blue,512GB,166.39,SKU-0346-BLU-512GB,74,7
+Camera 347,Enhanced performance and battery life,1135.99,Accessories,SKU-0347,Black,16GB,174.38,SKU-0347-BLA-16GB,80,20
+Camera 348,Best value for money,338.23,Electronics,SKU-0348,White,256GB,69.5,SKU-0348-WHI-256GB,72,6
+Smartphone 349,Best value for money,512.3,Electronics,SKU-0349,White,32GB,25.3,SKU-0349-WHI-32GB,36,20
+Smartphone 350,Enhanced performance and battery life,895.91,Electronics,SKU-0350,Black,256GB,99.99,SKU-0350-BLA-256GB,58,6
+Laptop 351,High quality and durable product,1461.23,Gadgets,SKU-0351,Gold,32GB,130.12,SKU-0351-GOL-32GB,48,5
+Speaker 352,Enhanced performance and battery life,1289.89,Electronics,SKU-0352,Blue,16GB,49.75,SKU-0352-BLU-16GB,56,5
+Headphones 353,Enhanced performance and battery life,301.3,Accessories,SKU-0353,Gold,128GB,113.45,SKU-0353-GOL-128GB,43,14
+Smartwatch 354,High quality and durable product,90.39,Gadgets,SKU-0354,Red,32GB,118.12,SKU-0354-RED-32GB,45,5
+Camera 355,Best value for money,1175.98,Gadgets,SKU-0355,Silver,16GB,108.57,SKU-0355-SIL-16GB,68,6
+Laptop 356,Compact and lightweight design,780.63,Electronics,SKU-0356,Gold,32GB,70.73,SKU-0356-GOL-32GB,19,10
+Camera 357,Latest model with advanced features,247.91,Accessories,SKU-0357,Gold,128GB,20.49,SKU-0357-GOL-128GB,41,16
+Tablet 358,Enhanced performance and battery life,664.28,Accessories,SKU-0358,Green,64GB,161.32,SKU-0358-GRE-64GB,39,6
+Camera 359,Best value for money,1414.02,Accessories,SKU-0359,Silver,32GB,87.26,SKU-0359-SIL-32GB,22,19
+Monitor 360,Compact and lightweight design,96.97,Accessories,SKU-0360,Green,512GB,72.32,SKU-0360-GRE-512GB,74,12
+Headphones 361,Best value for money,1918.92,Accessories,SKU-0361,Gold,64GB,59.07,SKU-0361-GOL-64GB,50,14
+Tablet 362,Best value for money,1012.38,Gadgets,SKU-0362,Green,128GB,153.58,SKU-0362-GRE-128GB,66,12
+Laptop 363,High quality and durable product,1500.37,Accessories,SKU-0363,Red,16GB,170.43,SKU-0363-RED-16GB,73,10
+Camera 364,Latest model with advanced features,1025.46,Electronics,SKU-0364,Red,32GB,36.81,SKU-0364-RED-32GB,81,7
+Camera 365,Compact and lightweight design,1306.53,Accessories,SKU-0365,Red,16GB,18.61,SKU-0365-RED-16GB,100,20
+Tablet 366,Enhanced performance and battery life,1186.54,Gadgets,SKU-0366,Blue,512GB,121.91,SKU-0366-BLU-512GB,18,11
+Speaker 367,Enhanced performance and battery life,691.69,Electronics,SKU-0367,Silver,128GB,189.64,SKU-0367-SIL-128GB,40,15
+Tablet 368,Compact and lightweight design,1312.54,Electronics,SKU-0368,Green,64GB,98.24,SKU-0368-GRE-64GB,34,5
+Monitor 369,Latest model with advanced features,87.5,Electronics,SKU-0369,Green,32GB,172.66,SKU-0369-GRE-32GB,26,17
+Speaker 370,Enhanced performance and battery life,953.94,Gadgets,SKU-0370,Gold,64GB,21.93,SKU-0370-GOL-64GB,40,16
+Speaker 371,Compact and lightweight design,1371.69,Accessories,SKU-0371,White,64GB,64.95,SKU-0371-WHI-64GB,14,10
+Speaker 372,Best value for money,1686.21,Gadgets,SKU-0372,Blue,32GB,54.05,SKU-0372-BLU-32GB,65,13
+Laptop 373,Latest model with advanced features,1458.66,Gadgets,SKU-0373,Red,16GB,158.59,SKU-0373-RED-16GB,65,15
+Headphones 374,Best value for money,1514.15,Accessories,SKU-0374,Red,512GB,67.71,SKU-0374-RED-512GB,45,18
+Tablet 375,High quality and durable product,1813.34,Gadgets,SKU-0375,Silver,64GB,127.62,SKU-0375-SIL-64GB,98,17
+Monitor 376,Best value for money,999.11,Accessories,SKU-0376,Black,128GB,114.0,SKU-0376-BLA-128GB,37,18
+Headphones 377,High quality and durable product,1516.55,Gadgets,SKU-0377,White,64GB,11.62,SKU-0377-WHI-64GB,73,13
+Laptop 378,Best value for money,982.1,Gadgets,SKU-0378,Blue,256GB,93.0,SKU-0378-BLU-256GB,65,20
+Tablet 379,High quality and durable product,696.78,Electronics,SKU-0379,Silver,16GB,3.56,SKU-0379-SIL-16GB,83,10
+Camera 380,Enhanced performance and battery life,1609.69,Electronics,SKU-0380,Black,16GB,58.04,SKU-0380-BLA-16GB,7,20
+Camera 381,High quality and durable product,975.77,Accessories,SKU-0381,Silver,128GB,59.38,SKU-0381-SIL-128GB,9,12
+Headphones 382,High quality and durable product,1702.8,Electronics,SKU-0382,Green,512GB,107.42,SKU-0382-GRE-512GB,48,12
+Camera 383,Latest model with advanced features,1154.22,Gadgets,SKU-0383,Blue,16GB,7.59,SKU-0383-BLU-16GB,26,12
+Smartphone 384,Latest model with advanced features,222.03,Electronics,SKU-0384,Red,512GB,165.4,SKU-0384-RED-512GB,65,16
+Monitor 385,Compact and lightweight design,983.31,Electronics,SKU-0385,Blue,32GB,97.43,SKU-0385-BLU-32GB,66,19
+Smartphone 386,Enhanced performance and battery life,1388.79,Gadgets,SKU-0386,White,128GB,79.4,SKU-0386-WHI-128GB,15,9
+Smartwatch 387,High quality and durable product,1413.06,Electronics,SKU-0387,Green,256GB,142.25,SKU-0387-GRE-256GB,24,15
+Laptop 388,Enhanced performance and battery life,647.01,Gadgets,SKU-0388,Silver,512GB,100.45,SKU-0388-SIL-512GB,67,5
+Monitor 389,High quality and durable product,1010.63,Gadgets,SKU-0389,Green,64GB,170.95,SKU-0389-GRE-64GB,85,11
+Headphones 390,Latest model with advanced features,963.88,Gadgets,SKU-0390,Black,512GB,118.57,SKU-0390-BLA-512GB,60,7
+Laptop 391,Latest model with advanced features,833.98,Accessories,SKU-0391,White,64GB,80.21,SKU-0391-WHI-64GB,54,10
+Headphones 392,Compact and lightweight design,928.11,Accessories,SKU-0392,Silver,128GB,48.23,SKU-0392-SIL-128GB,91,11
+Headphones 393,Best value for money,1592.95,Electronics,SKU-0393,Red,256GB,97.41,SKU-0393-RED-256GB,28,19
+Smartphone 394,Latest model with advanced features,1903.0,Gadgets,SKU-0394,Black,128GB,63.91,SKU-0394-BLA-128GB,43,9
+Monitor 395,High quality and durable product,465.53,Accessories,SKU-0395,Blue,128GB,130.49,SKU-0395-BLU-128GB,57,6
+Tablet 396,High quality and durable product,1779.83,Accessories,SKU-0396,Green,16GB,65.73,SKU-0396-GRE-16GB,93,20
+Laptop 397,Compact and lightweight design,127.25,Gadgets,SKU-0397,White,512GB,0.24,SKU-0397-WHI-512GB,100,7
+Tablet 398,Compact and lightweight design,404.05,Electronics,SKU-0398,Silver,128GB,152.75,SKU-0398-SIL-128GB,71,11
+Smartwatch 399,High quality and durable product,847.52,Electronics,SKU-0399,Black,64GB,78.65,SKU-0399-BLA-64GB,32,8
+Headphones 400,Enhanced performance and battery life,1459.73,Gadgets,SKU-0400,Red,64GB,32.35,SKU-0400-RED-64GB,95,12
+Tablet 401,Compact and lightweight design,1481.86,Accessories,SKU-0401,White,256GB,91.11,SKU-0401-WHI-256GB,38,10
+Camera 402,Best value for money,1335.28,Electronics,SKU-0402,White,64GB,148.42,SKU-0402-WHI-64GB,47,16
+Tablet 403,Compact and lightweight design,1923.49,Gadgets,SKU-0403,Blue,64GB,51.24,SKU-0403-BLU-64GB,57,10
+Camera 404,Best value for money,459.12,Gadgets,SKU-0404,Gold,64GB,6.49,SKU-0404-GOL-64GB,81,8
+Smartwatch 405,Enhanced performance and battery life,384.85,Accessories,SKU-0405,Black,16GB,59.63,SKU-0405-BLA-16GB,70,11
+Tablet 406,High quality and durable product,1909.89,Gadgets,SKU-0406,Red,32GB,156.95,SKU-0406-RED-32GB,48,5
+Headphones 407,Best value for money,469.08,Gadgets,SKU-0407,Blue,64GB,70.87,SKU-0407-BLU-64GB,89,5
+Smartwatch 408,Compact and lightweight design,298.98,Accessories,SKU-0408,White,256GB,105.75,SKU-0408-WHI-256GB,91,16
+Speaker 409,Compact and lightweight design,1724.23,Electronics,SKU-0409,Silver,512GB,62.19,SKU-0409-SIL-512GB,71,17
+Speaker 410,Compact and lightweight design,880.55,Gadgets,SKU-0410,White,128GB,10.66,SKU-0410-WHI-128GB,86,17
+Camera 411,Latest model with advanced features,1071.96,Electronics,SKU-0411,Green,256GB,162.52,SKU-0411-GRE-256GB,31,16
+Tablet 412,Best value for money,447.61,Electronics,SKU-0412,Red,64GB,160.4,SKU-0412-RED-64GB,71,14
+Smartphone 413,High quality and durable product,1255.77,Electronics,SKU-0413,Gold,512GB,142.94,SKU-0413-GOL-512GB,6,7
+Smartphone 414,High quality and durable product,1453.93,Accessories,SKU-0414,Black,16GB,196.94,SKU-0414-BLA-16GB,22,9
+Monitor 415,Latest model with advanced features,201.55,Gadgets,SKU-0415,Green,512GB,162.24,SKU-0415-GRE-512GB,39,20
+Camera 416,High quality and durable product,1317.0,Accessories,SKU-0416,Blue,16GB,124.35,SKU-0416-BLU-16GB,5,9
+Smartwatch 417,Enhanced performance and battery life,1106.9,Gadgets,SKU-0417,Green,64GB,97.83,SKU-0417-GRE-64GB,28,12
+Headphones 418,Best value for money,1489.78,Electronics,SKU-0418,Gold,128GB,186.24,SKU-0418-GOL-128GB,9,11
+Speaker 419,Enhanced performance and battery life,1100.62,Gadgets,SKU-0419,Blue,128GB,66.32,SKU-0419-BLU-128GB,87,16
+Speaker 420,Compact and lightweight design,1872.17,Gadgets,SKU-0420,White,32GB,90.6,SKU-0420-WHI-32GB,86,17
+Tablet 421,Best value for money,175.33,Accessories,SKU-0421,Black,128GB,146.06,SKU-0421-BLA-128GB,41,7
+Laptop 422,Enhanced performance and battery life,510.92,Electronics,SKU-0422,Silver,16GB,70.56,SKU-0422-SIL-16GB,42,9
+Laptop 423,Best value for money,525.69,Accessories,SKU-0423,Black,16GB,180.33,SKU-0423-BLA-16GB,80,5
+Monitor 424,Best value for money,912.85,Gadgets,SKU-0424,Black,128GB,97.99,SKU-0424-BLA-128GB,51,16
+Camera 425,High quality and durable product,1933.34,Gadgets,SKU-0425,Red,256GB,38.03,SKU-0425-RED-256GB,73,9
+Smartphone 426,Best value for money,1514.85,Electronics,SKU-0426,Gold,64GB,199.06,SKU-0426-GOL-64GB,33,13
+Monitor 427,Best value for money,583.81,Gadgets,SKU-0427,Silver,32GB,8.16,SKU-0427-SIL-32GB,55,7
+Headphones 428,Best value for money,1299.85,Electronics,SKU-0428,White,16GB,54.53,SKU-0428-WHI-16GB,71,11
+Smartwatch 429,Enhanced performance and battery life,1558.86,Gadgets,SKU-0429,Red,16GB,81.82,SKU-0429-RED-16GB,5,5
+Camera 430,Compact and lightweight design,854.99,Electronics,SKU-0430,Blue,256GB,71.02,SKU-0430-BLU-256GB,57,15
+Headphones 431,Best value for money,1052.8,Electronics,SKU-0431,White,128GB,55.43,SKU-0431-WHI-128GB,99,18
+Camera 432,Best value for money,1815.24,Gadgets,SKU-0432,White,128GB,116.81,SKU-0432-WHI-128GB,7,14
+Smartwatch 433,Best value for money,353.71,Electronics,SKU-0433,White,256GB,23.24,SKU-0433-WHI-256GB,81,14
+Camera 434,High quality and durable product,1969.58,Accessories,SKU-0434,Silver,256GB,78.44,SKU-0434-SIL-256GB,90,16
+Speaker 435,Enhanced performance and battery life,1318.45,Accessories,SKU-0435,White,64GB,136.42,SKU-0435-WHI-64GB,12,19
+Camera 436,Enhanced performance and battery life,741.93,Gadgets,SKU-0436,Blue,16GB,147.33,SKU-0436-BLU-16GB,15,7
+Headphones 437,Latest model with advanced features,1509.9,Electronics,SKU-0437,Blue,512GB,124.85,SKU-0437-BLU-512GB,73,12
+Monitor 438,Latest model with advanced features,392.2,Accessories,SKU-0438,Gold,32GB,5.26,SKU-0438-GOL-32GB,29,15
+Laptop 439,Best value for money,1689.78,Electronics,SKU-0439,Gold,32GB,101.59,SKU-0439-GOL-32GB,69,9
+Camera 440,High quality and durable product,1398.56,Accessories,SKU-0440,Silver,16GB,192.0,SKU-0440-SIL-16GB,86,5
+Smartphone 441,Best value for money,1759.46,Accessories,SKU-0441,Gold,128GB,58.67,SKU-0441-GOL-128GB,19,12
+Tablet 442,Compact and lightweight design,328.4,Gadgets,SKU-0442,White,512GB,132.65,SKU-0442-WHI-512GB,38,10
+Smartwatch 443,Latest model with advanced features,1643.36,Accessories,SKU-0443,Red,128GB,132.15,SKU-0443-RED-128GB,95,18
+Smartphone 444,Compact and lightweight design,607.66,Electronics,SKU-0444,Gold,32GB,25.04,SKU-0444-GOL-32GB,88,11
+Headphones 445,Enhanced performance and battery life,957.46,Accessories,SKU-0445,Red,16GB,176.76,SKU-0445-RED-16GB,74,11
+Laptop 446,Latest model with advanced features,953.2,Gadgets,SKU-0446,Gold,256GB,45.95,SKU-0446-GOL-256GB,74,19
+Tablet 447,Compact and lightweight design,870.97,Accessories,SKU-0447,Green,64GB,178.62,SKU-0447-GRE-64GB,27,14
+Smartphone 448,Compact and lightweight design,1123.89,Electronics,SKU-0448,Red,128GB,5.71,SKU-0448-RED-128GB,45,9
+Smartphone 449,Best value for money,759.7,Gadgets,SKU-0449,Black,128GB,137.76,SKU-0449-BLA-128GB,77,7
+Smartwatch 450,High quality and durable product,103.49,Accessories,SKU-0450,Red,64GB,157.68,SKU-0450-RED-64GB,63,12
+Headphones 451,High quality and durable product,1772.7,Electronics,SKU-0451,White,64GB,33.25,SKU-0451-WHI-64GB,74,18
+Tablet 452,Enhanced performance and battery life,508.73,Gadgets,SKU-0452,Silver,64GB,88.28,SKU-0452-SIL-64GB,70,17
+Tablet 453,High quality and durable product,1597.09,Gadgets,SKU-0453,Green,32GB,73.39,SKU-0453-GRE-32GB,74,9
+Speaker 454,High quality and durable product,1787.19,Gadgets,SKU-0454,Green,256GB,149.69,SKU-0454-GRE-256GB,79,8
+Headphones 455,Enhanced performance and battery life,941.47,Electronics,SKU-0455,Blue,256GB,170.98,SKU-0455-BLU-256GB,35,13
+Headphones 456,Best value for money,1234.86,Electronics,SKU-0456,White,64GB,65.13,SKU-0456-WHI-64GB,8,10
+Laptop 457,High quality and durable product,347.44,Electronics,SKU-0457,Gold,16GB,98.54,SKU-0457-GOL-16GB,11,8
+Laptop 458,Enhanced performance and battery life,1288.52,Gadgets,SKU-0458,Gold,512GB,103.52,SKU-0458-GOL-512GB,89,17
+Monitor 459,Compact and lightweight design,553.93,Accessories,SKU-0459,Blue,256GB,65.71,SKU-0459-BLU-256GB,85,13
+Headphones 460,Enhanced performance and battery life,1401.11,Electronics,SKU-0460,Gold,32GB,36.86,SKU-0460-GOL-32GB,86,11
+Laptop 461,Enhanced performance and battery life,1742.05,Gadgets,SKU-0461,Black,64GB,42.11,SKU-0461-BLA-64GB,83,19
+Tablet 462,Enhanced performance and battery life,1699.2,Accessories,SKU-0462,Blue,32GB,9.95,SKU-0462-BLU-32GB,50,14
+Tablet 463,Compact and lightweight design,521.96,Electronics,SKU-0463,Green,64GB,42.93,SKU-0463-GRE-64GB,40,20
+Laptop 464,Compact and lightweight design,1893.15,Electronics,SKU-0464,White,512GB,112.62,SKU-0464-WHI-512GB,85,9
+Tablet 465,Best value for money,1423.51,Accessories,SKU-0465,Red,512GB,184.72,SKU-0465-RED-512GB,30,19
+Smartphone 466,Compact and lightweight design,1681.17,Accessories,SKU-0466,Silver,512GB,186.01,SKU-0466-SIL-512GB,70,13
+Smartphone 467,High quality and durable product,1789.14,Gadgets,SKU-0467,Blue,256GB,139.65,SKU-0467-BLU-256GB,46,8
+Tablet 468,Enhanced performance and battery life,1032.98,Accessories,SKU-0468,Green,256GB,87.52,SKU-0468-GRE-256GB,64,14
+Smartwatch 469,Compact and lightweight design,205.51,Gadgets,SKU-0469,Black,512GB,53.14,SKU-0469-BLA-512GB,63,9
+Headphones 470,Compact and lightweight design,222.81,Accessories,SKU-0470,Silver,32GB,139.59,SKU-0470-SIL-32GB,61,19
+Headphones 471,Compact and lightweight design,950.61,Accessories,SKU-0471,Blue,32GB,0.02,SKU-0471-BLU-32GB,48,16
+Speaker 472,Best value for money,1449.22,Electronics,SKU-0472,Red,512GB,101.89,SKU-0472-RED-512GB,76,11
+Headphones 473,Compact and lightweight design,1585.48,Accessories,SKU-0473,Black,128GB,66.51,SKU-0473-BLA-128GB,59,15
+Smartwatch 474,Compact and lightweight design,1256.99,Gadgets,SKU-0474,Gold,256GB,76.33,SKU-0474-GOL-256GB,58,14
+Camera 475,Best value for money,567.18,Electronics,SKU-0475,White,256GB,165.29,SKU-0475-WHI-256GB,48,10
+Smartwatch 476,Latest model with advanced features,820.99,Gadgets,SKU-0476,Blue,32GB,173.02,SKU-0476-BLU-32GB,100,17
+Speaker 477,Compact and lightweight design,1272.19,Accessories,SKU-0477,Silver,256GB,182.82,SKU-0477-SIL-256GB,23,11
+Speaker 478,Enhanced performance and battery life,1522.48,Gadgets,SKU-0478,Black,128GB,72.47,SKU-0478-BLA-128GB,77,14
+Headphones 479,High quality and durable product,946.44,Electronics,SKU-0479,Black,16GB,129.89,SKU-0479-BLA-16GB,85,18
+Camera 480,Latest model with advanced features,1205.74,Electronics,SKU-0480,Black,16GB,163.41,SKU-0480-BLA-16GB,72,17
+Smartwatch 481,Best value for money,56.33,Accessories,SKU-0481,Red,128GB,187.75,SKU-0481-RED-128GB,77,8
+Laptop 482,High quality and durable product,1351.51,Electronics,SKU-0482,Gold,512GB,123.44,SKU-0482-GOL-512GB,26,11
+Speaker 483,Latest model with advanced features,1875.69,Electronics,SKU-0483,Gold,512GB,37.84,SKU-0483-GOL-512GB,40,7
+Laptop 484,Latest model with advanced features,177.65,Electronics,SKU-0484,Green,16GB,151.82,SKU-0484-GRE-16GB,95,6
+Smartphone 485,Compact and lightweight design,1041.88,Electronics,SKU-0485,Gold,32GB,143.41,SKU-0485-GOL-32GB,46,5
+Camera 486,High quality and durable product,994.93,Accessories,SKU-0486,Green,64GB,60.08,SKU-0486-GRE-64GB,51,5
+Camera 487,Compact and lightweight design,1596.9,Accessories,SKU-0487,Blue,16GB,58.98,SKU-0487-BLU-16GB,68,12
+Headphones 488,High quality and durable product,323.13,Electronics,SKU-0488,Red,64GB,135.08,SKU-0488-RED-64GB,97,7
+Monitor 489,Enhanced performance and battery life,1680.1,Gadgets,SKU-0489,Gold,128GB,137.07,SKU-0489-GOL-128GB,57,8
+Monitor 490,Best value for money,419.16,Gadgets,SKU-0490,Red,32GB,73.99,SKU-0490-RED-32GB,84,14
+Monitor 491,Compact and lightweight design,650.04,Gadgets,SKU-0491,Green,128GB,71.1,SKU-0491-GRE-128GB,76,8
+Monitor 492,Compact and lightweight design,122.21,Accessories,SKU-0492,Silver,16GB,111.95,SKU-0492-SIL-16GB,54,5
+Monitor 493,Best value for money,160.83,Accessories,SKU-0493,Red,128GB,179.29,SKU-0493-RED-128GB,47,7
+Camera 494,Latest model with advanced features,1711.47,Accessories,SKU-0494,Blue,64GB,183.75,SKU-0494-BLU-64GB,24,9
+Smartwatch 495,Latest model with advanced features,844.32,Electronics,SKU-0495,Red,256GB,124.17,SKU-0495-RED-256GB,66,8
+Camera 496,Compact and lightweight design,388.22,Gadgets,SKU-0496,White,256GB,23.93,SKU-0496-WHI-256GB,5,15
+Smartphone 497,Best value for money,1952.29,Electronics,SKU-0497,White,256GB,19.89,SKU-0497-WHI-256GB,76,9
+Tablet 498,Enhanced performance and battery life,1530.96,Accessories,SKU-0498,Red,16GB,48.11,SKU-0498-RED-16GB,85,7
+Tablet 499,High quality and durable product,1638.37,Gadgets,SKU-0499,Green,128GB,120.91,SKU-0499-GRE-128GB,69,18
+Camera 500,Best value for money,782.51,Accessories,SKU-0500,Green,256GB,72.26,SKU-0500-GRE-256GB,94,10
+Smartwatch 501,Best value for money,559.59,Electronics,SKU-0501,Gold,16GB,86.65,SKU-0501-GOL-16GB,7,17
+Tablet 502,Enhanced performance and battery life,1311.23,Accessories,SKU-0502,White,128GB,175.21,SKU-0502-WHI-128GB,87,17
+Camera 503,Enhanced performance and battery life,775.48,Electronics,SKU-0503,Blue,16GB,78.34,SKU-0503-BLU-16GB,56,19
+Smartwatch 504,Latest model with advanced features,692.43,Accessories,SKU-0504,Black,64GB,102.37,SKU-0504-BLA-64GB,33,8
+Speaker 505,Latest model with advanced features,596.0,Accessories,SKU-0505,Blue,128GB,136.38,SKU-0505-BLU-128GB,24,5
+Smartwatch 506,Enhanced performance and battery life,868.28,Accessories,SKU-0506,Black,16GB,2.59,SKU-0506-BLA-16GB,96,19
+Tablet 507,Enhanced performance and battery life,1454.81,Electronics,SKU-0507,Gold,16GB,27.42,SKU-0507-GOL-16GB,77,13
+Smartphone 508,Enhanced performance and battery life,512.33,Accessories,SKU-0508,Green,256GB,167.41,SKU-0508-GRE-256GB,14,14
+Tablet 509,High quality and durable product,1631.71,Electronics,SKU-0509,Silver,256GB,175.78,SKU-0509-SIL-256GB,76,18
+Smartwatch 510,Enhanced performance and battery life,1511.93,Accessories,SKU-0510,White,32GB,30.29,SKU-0510-WHI-32GB,84,12
+Monitor 511,Compact and lightweight design,1367.67,Electronics,SKU-0511,Gold,256GB,86.25,SKU-0511-GOL-256GB,97,20
+Tablet 512,High quality and durable product,1102.45,Electronics,SKU-0512,Gold,16GB,5.61,SKU-0512-GOL-16GB,94,6
+Headphones 513,High quality and durable product,1750.3,Accessories,SKU-0513,White,64GB,91.62,SKU-0513-WHI-64GB,45,14
+Smartphone 514,Enhanced performance and battery life,1867.92,Gadgets,SKU-0514,Blue,128GB,188.31,SKU-0514-BLU-128GB,86,15
+Headphones 515,Compact and lightweight design,117.4,Electronics,SKU-0515,White,128GB,49.27,SKU-0515-WHI-128GB,70,15
+Monitor 516,Best value for money,422.71,Accessories,SKU-0516,Black,16GB,52.17,SKU-0516-BLA-16GB,81,12
+Smartphone 517,Best value for money,498.73,Electronics,SKU-0517,Red,64GB,160.55,SKU-0517-RED-64GB,76,5
+Monitor 518,Latest model with advanced features,458.79,Accessories,SKU-0518,Black,64GB,48.45,SKU-0518-BLA-64GB,6,7
+Smartwatch 519,Best value for money,1610.95,Electronics,SKU-0519,White,16GB,151.92,SKU-0519-WHI-16GB,53,14
+Speaker 520,Compact and lightweight design,1963.44,Accessories,SKU-0520,Silver,32GB,124.33,SKU-0520-SIL-32GB,33,19
+Laptop 521,Enhanced performance and battery life,1274.16,Accessories,SKU-0521,Green,512GB,41.99,SKU-0521-GRE-512GB,63,17
+Laptop 522,Enhanced performance and battery life,1781.97,Electronics,SKU-0522,Blue,64GB,102.94,SKU-0522-BLU-64GB,40,15
+Smartphone 523,High quality and durable product,430.83,Gadgets,SKU-0523,Silver,16GB,155.25,SKU-0523-SIL-16GB,32,10
+Camera 524,Enhanced performance and battery life,155.69,Electronics,SKU-0524,White,32GB,46.38,SKU-0524-WHI-32GB,60,20
+Speaker 525,Best value for money,1527.71,Gadgets,SKU-0525,Gold,64GB,189.6,SKU-0525-GOL-64GB,51,8
+Headphones 526,Enhanced performance and battery life,340.43,Electronics,SKU-0526,Silver,16GB,119.88,SKU-0526-SIL-16GB,25,11
+Smartwatch 527,High quality and durable product,1285.62,Electronics,SKU-0527,Silver,128GB,41.68,SKU-0527-SIL-128GB,28,11
+Smartphone 528,High quality and durable product,266.35,Electronics,SKU-0528,Silver,256GB,140.08,SKU-0528-SIL-256GB,63,20
+Tablet 529,Enhanced performance and battery life,144.33,Accessories,SKU-0529,Silver,512GB,196.44,SKU-0529-SIL-512GB,8,18
+Laptop 530,High quality and durable product,1339.14,Accessories,SKU-0530,Green,128GB,195.0,SKU-0530-GRE-128GB,74,5
+Monitor 531,Latest model with advanced features,50.31,Gadgets,SKU-0531,Black,128GB,153.75,SKU-0531-BLA-128GB,33,17
+Speaker 532,Best value for money,137.5,Gadgets,SKU-0532,Silver,128GB,16.87,SKU-0532-SIL-128GB,73,7
+Camera 533,High quality and durable product,1267.35,Electronics,SKU-0533,Green,16GB,178.62,SKU-0533-GRE-16GB,63,12
+Laptop 534,High quality and durable product,518.92,Gadgets,SKU-0534,Gold,512GB,76.79,SKU-0534-GOL-512GB,82,14
+Smartphone 535,Compact and lightweight design,626.64,Gadgets,SKU-0535,Blue,32GB,122.57,SKU-0535-BLU-32GB,18,9
+Speaker 536,High quality and durable product,185.87,Gadgets,SKU-0536,Green,128GB,109.5,SKU-0536-GRE-128GB,7,19
+Camera 537,Enhanced performance and battery life,589.8,Gadgets,SKU-0537,Black,32GB,133.16,SKU-0537-BLA-32GB,63,10
+Tablet 538,Latest model with advanced features,1279.37,Electronics,SKU-0538,Black,16GB,180.19,SKU-0538-BLA-16GB,46,9
+Headphones 539,High quality and durable product,490.12,Gadgets,SKU-0539,Blue,128GB,59.1,SKU-0539-BLU-128GB,67,5
+Camera 540,Enhanced performance and battery life,503.92,Electronics,SKU-0540,Black,256GB,160.36,SKU-0540-BLA-256GB,97,13
+Smartwatch 541,Latest model with advanced features,276.57,Electronics,SKU-0541,Blue,64GB,173.8,SKU-0541-BLU-64GB,97,12
+Monitor 542,Compact and lightweight design,517.89,Accessories,SKU-0542,Blue,256GB,155.93,SKU-0542-BLU-256GB,47,5
+Monitor 543,Enhanced performance and battery life,923.72,Electronics,SKU-0543,Blue,32GB,116.94,SKU-0543-BLU-32GB,65,7
+Laptop 544,Latest model with advanced features,1185.63,Electronics,SKU-0544,White,256GB,59.21,SKU-0544-WHI-256GB,39,5
+Headphones 545,Enhanced performance and battery life,1274.0,Accessories,SKU-0545,Blue,32GB,133.27,SKU-0545-BLU-32GB,54,14
+Smartphone 546,Compact and lightweight design,1293.25,Accessories,SKU-0546,Red,128GB,159.27,SKU-0546-RED-128GB,18,7
+Headphones 547,Latest model with advanced features,989.98,Gadgets,SKU-0547,Red,256GB,97.68,SKU-0547-RED-256GB,100,7
+Headphones 548,Latest model with advanced features,1001.78,Accessories,SKU-0548,Gold,32GB,186.21,SKU-0548-GOL-32GB,81,18
+Smartwatch 549,Enhanced performance and battery life,443.48,Accessories,SKU-0549,Green,128GB,103.81,SKU-0549-GRE-128GB,98,12
+Headphones 550,Best value for money,470.68,Electronics,SKU-0550,Red,128GB,8.77,SKU-0550-RED-128GB,77,5
+Headphones 551,Best value for money,377.78,Electronics,SKU-0551,White,64GB,131.21,SKU-0551-WHI-64GB,21,18
+Laptop 552,Compact and lightweight design,573.56,Electronics,SKU-0552,Green,32GB,132.4,SKU-0552-GRE-32GB,55,15
+Smartphone 553,Compact and lightweight design,1064.29,Electronics,SKU-0553,Black,512GB,74.98,SKU-0553-BLA-512GB,56,11
+Tablet 554,High quality and durable product,69.3,Gadgets,SKU-0554,Black,256GB,132.26,SKU-0554-BLA-256GB,44,17
+Headphones 555,Latest model with advanced features,1932.16,Electronics,SKU-0555,Green,16GB,97.07,SKU-0555-GRE-16GB,98,10
+Speaker 556,Latest model with advanced features,850.5,Electronics,SKU-0556,Silver,64GB,77.59,SKU-0556-SIL-64GB,47,16
+Tablet 557,High quality and durable product,1853.51,Electronics,SKU-0557,Blue,256GB,112.36,SKU-0557-BLU-256GB,26,10
+Camera 558,Compact and lightweight design,975.78,Gadgets,SKU-0558,Black,512GB,85.18,SKU-0558-BLA-512GB,98,13
+Smartwatch 559,Enhanced performance and battery life,1425.54,Electronics,SKU-0559,Silver,64GB,54.99,SKU-0559-SIL-64GB,95,8
+Monitor 560,Best value for money,1520.09,Electronics,SKU-0560,Gold,128GB,178.04,SKU-0560-GOL-128GB,71,10
+Laptop 561,Enhanced performance and battery life,1550.21,Accessories,SKU-0561,Gold,16GB,21.09,SKU-0561-GOL-16GB,68,12
+Tablet 562,High quality and durable product,753.79,Accessories,SKU-0562,Green,32GB,34.38,SKU-0562-GRE-32GB,91,11
+Camera 563,Best value for money,1359.83,Gadgets,SKU-0563,Gold,512GB,54.84,SKU-0563-GOL-512GB,41,14
+Camera 564,Best value for money,972.28,Gadgets,SKU-0564,Green,64GB,49.16,SKU-0564-GRE-64GB,98,10
+Headphones 565,Compact and lightweight design,461.15,Accessories,SKU-0565,Gold,128GB,84.36,SKU-0565-GOL-128GB,37,5
+Smartwatch 566,Best value for money,861.4,Electronics,SKU-0566,Red,16GB,94.14,SKU-0566-RED-16GB,81,9
+Smartwatch 567,High quality and durable product,510.62,Accessories,SKU-0567,Black,512GB,150.02,SKU-0567-BLA-512GB,75,18
+Monitor 568,Latest model with advanced features,1694.09,Gadgets,SKU-0568,Blue,32GB,197.38,SKU-0568-BLU-32GB,68,5
+Camera 569,High quality and durable product,926.21,Gadgets,SKU-0569,Gold,64GB,2.05,SKU-0569-GOL-64GB,77,5
+Monitor 570,Enhanced performance and battery life,1323.63,Gadgets,SKU-0570,Gold,128GB,158.98,SKU-0570-GOL-128GB,75,16
+Camera 571,High quality and durable product,930.87,Electronics,SKU-0571,Red,256GB,192.13,SKU-0571-RED-256GB,19,19
+Smartwatch 572,Best value for money,1733.21,Accessories,SKU-0572,Silver,512GB,24.39,SKU-0572-SIL-512GB,68,14
+Tablet 573,Best value for money,321.51,Electronics,SKU-0573,Green,128GB,58.36,SKU-0573-GRE-128GB,14,8
+Tablet 574,Latest model with advanced features,770.68,Accessories,SKU-0574,Red,32GB,84.62,SKU-0574-RED-32GB,18,14
+Camera 575,High quality and durable product,1101.89,Accessories,SKU-0575,Black,256GB,191.01,SKU-0575-BLA-256GB,76,14
+Smartphone 576,Enhanced performance and battery life,163.05,Gadgets,SKU-0576,Black,512GB,30.87,SKU-0576-BLA-512GB,76,13
+Speaker 577,Latest model with advanced features,1330.42,Accessories,SKU-0577,Red,32GB,163.81,SKU-0577-RED-32GB,17,14
+Tablet 578,Latest model with advanced features,842.16,Accessories,SKU-0578,Green,16GB,22.32,SKU-0578-GRE-16GB,35,18
+Laptop 579,Best value for money,765.92,Gadgets,SKU-0579,Blue,32GB,84.9,SKU-0579-BLU-32GB,85,18
+Smartwatch 580,Compact and lightweight design,293.94,Accessories,SKU-0580,Silver,16GB,71.94,SKU-0580-SIL-16GB,65,11
+Smartphone 581,Latest model with advanced features,1124.44,Electronics,SKU-0581,Blue,16GB,172.21,SKU-0581-BLU-16GB,83,20
+Monitor 582,Compact and lightweight design,1469.87,Electronics,SKU-0582,Black,256GB,38.96,SKU-0582-BLA-256GB,78,14
+Tablet 583,Enhanced performance and battery life,1526.75,Gadgets,SKU-0583,Gold,32GB,11.03,SKU-0583-GOL-32GB,14,18
+Headphones 584,Best value for money,519.8,Gadgets,SKU-0584,Red,256GB,85.05,SKU-0584-RED-256GB,96,8
+Laptop 585,High quality and durable product,1327.85,Gadgets,SKU-0585,Gold,128GB,166.81,SKU-0585-GOL-128GB,38,13
+Camera 586,Compact and lightweight design,213.47,Accessories,SKU-0586,Gold,32GB,58.06,SKU-0586-GOL-32GB,53,6
+Headphones 587,High quality and durable product,1191.7,Gadgets,SKU-0587,Black,512GB,61.38,SKU-0587-BLA-512GB,68,11
+Tablet 588,Best value for money,472.52,Accessories,SKU-0588,Blue,16GB,88.88,SKU-0588-BLU-16GB,97,19
+Smartwatch 589,Enhanced performance and battery life,397.4,Gadgets,SKU-0589,White,128GB,178.15,SKU-0589-WHI-128GB,24,8
+Monitor 590,Latest model with advanced features,1413.17,Gadgets,SKU-0590,Green,64GB,170.38,SKU-0590-GRE-64GB,45,11
+Smartwatch 591,Latest model with advanced features,1011.54,Electronics,SKU-0591,Gold,16GB,37.34,SKU-0591-GOL-16GB,78,13
+Smartwatch 592,Best value for money,1515.42,Accessories,SKU-0592,Gold,128GB,21.37,SKU-0592-GOL-128GB,70,18
+Smartphone 593,Best value for money,1190.87,Electronics,SKU-0593,Red,64GB,1.03,SKU-0593-RED-64GB,72,18
+Smartphone 594,Best value for money,1764.49,Gadgets,SKU-0594,Silver,32GB,153.98,SKU-0594-SIL-32GB,60,8
+Laptop 595,Best value for money,1216.97,Gadgets,SKU-0595,Black,64GB,121.22,SKU-0595-BLA-64GB,36,6
+Tablet 596,Best value for money,1632.28,Accessories,SKU-0596,Black,64GB,56.39,SKU-0596-BLA-64GB,20,9
+Camera 597,Enhanced performance and battery life,311.5,Electronics,SKU-0597,Red,256GB,191.13,SKU-0597-RED-256GB,94,8
+Camera 598,Latest model with advanced features,1458.44,Accessories,SKU-0598,Green,64GB,189.18,SKU-0598-GRE-64GB,42,19
+Smartphone 599,Compact and lightweight design,1885.65,Gadgets,SKU-0599,Green,128GB,189.63,SKU-0599-GRE-128GB,31,18
+Tablet 600,Enhanced performance and battery life,103.41,Electronics,SKU-0600,Gold,32GB,128.42,SKU-0600-GOL-32GB,92,8
+Smartwatch 601,Compact and lightweight design,1012.6,Accessories,SKU-0601,Silver,16GB,16.48,SKU-0601-SIL-16GB,55,19
+Monitor 602,Best value for money,506.13,Gadgets,SKU-0602,Red,128GB,39.5,SKU-0602-RED-128GB,82,14
+Laptop 603,Enhanced performance and battery life,1611.34,Gadgets,SKU-0603,Gold,256GB,52.94,SKU-0603-GOL-256GB,81,6
+Monitor 604,Enhanced performance and battery life,344.99,Accessories,SKU-0604,Silver,64GB,109.34,SKU-0604-SIL-64GB,98,18
+Smartwatch 605,Enhanced performance and battery life,1665.6,Electronics,SKU-0605,Silver,128GB,87.04,SKU-0605-SIL-128GB,33,8
+Smartphone 606,Best value for money,504.55,Electronics,SKU-0606,Black,128GB,181.11,SKU-0606-BLA-128GB,70,12
+Monitor 607,Compact and lightweight design,738.93,Accessories,SKU-0607,Blue,256GB,8.33,SKU-0607-BLU-256GB,30,8
+Camera 608,Enhanced performance and battery life,1436.18,Accessories,SKU-0608,Red,64GB,79.36,SKU-0608-RED-64GB,79,6
+Camera 609,Compact and lightweight design,1619.6,Electronics,SKU-0609,Blue,16GB,122.36,SKU-0609-BLU-16GB,78,20
+Smartphone 610,High quality and durable product,1492.68,Gadgets,SKU-0610,White,512GB,85.81,SKU-0610-WHI-512GB,40,10
+Smartphone 611,Compact and lightweight design,1826.18,Accessories,SKU-0611,Silver,128GB,168.96,SKU-0611-SIL-128GB,31,8
+Headphones 612,High quality and durable product,1439.28,Gadgets,SKU-0612,Green,16GB,157.53,SKU-0612-GRE-16GB,11,9
+Tablet 613,Latest model with advanced features,418.22,Accessories,SKU-0613,White,32GB,106.66,SKU-0613-WHI-32GB,41,15
+Monitor 614,Compact and lightweight design,416.89,Electronics,SKU-0614,Gold,32GB,156.69,SKU-0614-GOL-32GB,65,20
+Smartphone 615,Compact and lightweight design,969.47,Electronics,SKU-0615,Silver,128GB,16.25,SKU-0615-SIL-128GB,33,9
+Smartwatch 616,Enhanced performance and battery life,1563.19,Accessories,SKU-0616,Red,64GB,105.95,SKU-0616-RED-64GB,69,10
+Laptop 617,Compact and lightweight design,1709.64,Electronics,SKU-0617,White,32GB,96.35,SKU-0617-WHI-32GB,10,17
+Smartwatch 618,High quality and durable product,1250.68,Electronics,SKU-0618,Silver,64GB,161.94,SKU-0618-SIL-64GB,57,12
+Camera 619,Enhanced performance and battery life,388.93,Electronics,SKU-0619,Silver,512GB,28.69,SKU-0619-SIL-512GB,77,18
+Smartphone 620,High quality and durable product,1614.58,Gadgets,SKU-0620,Green,256GB,83.99,SKU-0620-GRE-256GB,34,12
+Camera 621,Enhanced performance and battery life,1308.72,Electronics,SKU-0621,Blue,16GB,47.26,SKU-0621-BLU-16GB,81,16
+Camera 622,High quality and durable product,1351.46,Accessories,SKU-0622,Gold,64GB,90.5,SKU-0622-GOL-64GB,69,12
+Laptop 623,Enhanced performance and battery life,1396.42,Accessories,SKU-0623,Red,512GB,47.27,SKU-0623-RED-512GB,43,14
+Tablet 624,Enhanced performance and battery life,1266.23,Accessories,SKU-0624,White,32GB,128.54,SKU-0624-WHI-32GB,90,20
+Tablet 625,Compact and lightweight design,266.84,Gadgets,SKU-0625,Blue,16GB,109.82,SKU-0625-BLU-16GB,33,17
+Headphones 626,Best value for money,90.64,Accessories,SKU-0626,Blue,256GB,181.64,SKU-0626-BLU-256GB,73,20
+Monitor 627,Best value for money,527.47,Gadgets,SKU-0627,Red,32GB,94.41,SKU-0627-RED-32GB,83,19
+Smartwatch 628,Enhanced performance and battery life,1960.55,Electronics,SKU-0628,Blue,64GB,167.36,SKU-0628-BLU-64GB,22,16
+Camera 629,High quality and durable product,1869.5,Electronics,SKU-0629,Red,512GB,24.52,SKU-0629-RED-512GB,48,8
+Tablet 630,Enhanced performance and battery life,874.28,Electronics,SKU-0630,Red,16GB,29.12,SKU-0630-RED-16GB,42,16
+Camera 631,Enhanced performance and battery life,1263.05,Accessories,SKU-0631,Blue,16GB,10.05,SKU-0631-BLU-16GB,67,7
+Speaker 632,Compact and lightweight design,284.69,Gadgets,SKU-0632,Gold,128GB,160.8,SKU-0632-GOL-128GB,16,6
+Laptop 633,Compact and lightweight design,1437.78,Electronics,SKU-0633,White,256GB,16.71,SKU-0633-WHI-256GB,35,20
+Tablet 634,Enhanced performance and battery life,926.29,Accessories,SKU-0634,Black,512GB,75.11,SKU-0634-BLA-512GB,19,8
+Speaker 635,Compact and lightweight design,400.46,Accessories,SKU-0635,Gold,512GB,86.91,SKU-0635-GOL-512GB,93,12
+Smartphone 636,Enhanced performance and battery life,1600.86,Accessories,SKU-0636,Blue,64GB,72.33,SKU-0636-BLU-64GB,76,12
+Monitor 637,High quality and durable product,1613.97,Gadgets,SKU-0637,Black,64GB,142.32,SKU-0637-BLA-64GB,11,10
+Speaker 638,Latest model with advanced features,597.07,Gadgets,SKU-0638,White,256GB,167.7,SKU-0638-WHI-256GB,67,16
+Smartwatch 639,High quality and durable product,1487.17,Electronics,SKU-0639,Red,32GB,29.3,SKU-0639-RED-32GB,88,5
+Smartphone 640,High quality and durable product,321.15,Electronics,SKU-0640,Gold,128GB,2.94,SKU-0640-GOL-128GB,31,12
+Camera 641,Latest model with advanced features,166.73,Gadgets,SKU-0641,Black,512GB,33.86,SKU-0641-BLA-512GB,52,20
+Headphones 642,High quality and durable product,1017.63,Electronics,SKU-0642,Silver,128GB,129.02,SKU-0642-SIL-128GB,38,16
+Laptop 643,High quality and durable product,1210.02,Accessories,SKU-0643,Black,256GB,23.8,SKU-0643-BLA-256GB,59,11
+Tablet 644,Latest model with advanced features,1405.81,Electronics,SKU-0644,Gold,16GB,66.63,SKU-0644-GOL-16GB,6,5
+Speaker 645,Enhanced performance and battery life,1648.51,Gadgets,SKU-0645,Silver,128GB,25.98,SKU-0645-SIL-128GB,53,7
+Monitor 646,Compact and lightweight design,1483.11,Accessories,SKU-0646,Green,256GB,165.15,SKU-0646-GRE-256GB,11,18
+Headphones 647,Compact and lightweight design,1161.97,Electronics,SKU-0647,Black,64GB,40.46,SKU-0647-BLA-64GB,83,19
+Smartwatch 648,Compact and lightweight design,1645.77,Accessories,SKU-0648,Gold,128GB,115.9,SKU-0648-GOL-128GB,88,8
+Smartwatch 649,High quality and durable product,1494.52,Electronics,SKU-0649,Blue,128GB,26.41,SKU-0649-BLU-128GB,93,8
+Laptop 650,Latest model with advanced features,1026.71,Gadgets,SKU-0650,White,512GB,145.05,SKU-0650-WHI-512GB,7,14
+Laptop 651,Latest model with advanced features,555.02,Gadgets,SKU-0651,White,256GB,153.15,SKU-0651-WHI-256GB,39,7
+Monitor 652,Compact and lightweight design,1510.01,Electronics,SKU-0652,Red,32GB,5.73,SKU-0652-RED-32GB,73,6
+Tablet 653,Best value for money,1905.47,Accessories,SKU-0653,Gold,32GB,142.94,SKU-0653-GOL-32GB,84,13
+Smartphone 654,Compact and lightweight design,341.41,Gadgets,SKU-0654,Gold,16GB,198.78,SKU-0654-GOL-16GB,57,19
+Smartwatch 655,Latest model with advanced features,1579.29,Gadgets,SKU-0655,Gold,32GB,13.08,SKU-0655-GOL-32GB,11,19
+Headphones 656,High quality and durable product,1286.46,Electronics,SKU-0656,Green,32GB,93.72,SKU-0656-GRE-32GB,17,10
+Tablet 657,High quality and durable product,95.81,Accessories,SKU-0657,Red,16GB,108.03,SKU-0657-RED-16GB,60,5
+Monitor 658,Latest model with advanced features,1740.6,Electronics,SKU-0658,Black,32GB,82.21,SKU-0658-BLA-32GB,15,15
+Tablet 659,Best value for money,1155.42,Electronics,SKU-0659,Blue,256GB,30.01,SKU-0659-BLU-256GB,93,15
+Laptop 660,High quality and durable product,1902.42,Accessories,SKU-0660,Silver,128GB,15.79,SKU-0660-SIL-128GB,86,10
+Smartphone 661,High quality and durable product,817.06,Electronics,SKU-0661,Silver,512GB,110.21,SKU-0661-SIL-512GB,11,8
+Smartwatch 662,Best value for money,460.68,Gadgets,SKU-0662,Silver,512GB,183.33,SKU-0662-SIL-512GB,85,8
+Monitor 663,Best value for money,1160.8,Electronics,SKU-0663,Red,128GB,8.44,SKU-0663-RED-128GB,50,8
+Speaker 664,Latest model with advanced features,323.8,Gadgets,SKU-0664,Green,16GB,45.17,SKU-0664-GRE-16GB,46,10
+Laptop 665,Best value for money,479.85,Electronics,SKU-0665,Red,128GB,130.52,SKU-0665-RED-128GB,60,9
+Headphones 666,High quality and durable product,203.11,Gadgets,SKU-0666,Blue,16GB,27.15,SKU-0666-BLU-16GB,65,19
+Smartwatch 667,Latest model with advanced features,181.49,Electronics,SKU-0667,Red,128GB,137.51,SKU-0667-RED-128GB,7,7
+Speaker 668,Best value for money,131.69,Gadgets,SKU-0668,Red,512GB,116.23,SKU-0668-RED-512GB,65,9
+Smartphone 669,Latest model with advanced features,1247.79,Accessories,SKU-0669,Gold,32GB,182.49,SKU-0669-GOL-32GB,54,7
+Smartphone 670,Latest model with advanced features,444.51,Gadgets,SKU-0670,Gold,64GB,112.98,SKU-0670-GOL-64GB,84,10
+Monitor 671,High quality and durable product,127.0,Accessories,SKU-0671,Gold,256GB,105.68,SKU-0671-GOL-256GB,56,17
+Camera 672,Compact and lightweight design,865.38,Electronics,SKU-0672,Black,16GB,125.7,SKU-0672-BLA-16GB,22,7
+Tablet 673,High quality and durable product,1104.32,Electronics,SKU-0673,Blue,512GB,61.44,SKU-0673-BLU-512GB,39,9
+Monitor 674,High quality and durable product,1798.06,Accessories,SKU-0674,Blue,256GB,92.36,SKU-0674-BLU-256GB,21,14
+Tablet 675,High quality and durable product,1265.72,Accessories,SKU-0675,Red,32GB,27.89,SKU-0675-RED-32GB,78,19
+Laptop 676,Best value for money,307.99,Gadgets,SKU-0676,Blue,128GB,168.91,SKU-0676-BLU-128GB,81,12
+Camera 677,Enhanced performance and battery life,1357.23,Electronics,SKU-0677,White,32GB,45.93,SKU-0677-WHI-32GB,97,9
+Headphones 678,Compact and lightweight design,1729.3,Electronics,SKU-0678,Black,128GB,187.66,SKU-0678-BLA-128GB,16,19
+Speaker 679,Compact and lightweight design,1923.94,Electronics,SKU-0679,Green,128GB,11.95,SKU-0679-GRE-128GB,55,18
+Tablet 680,Enhanced performance and battery life,1321.11,Gadgets,SKU-0680,Black,32GB,92.69,SKU-0680-BLA-32GB,67,8
+Laptop 681,Best value for money,1498.79,Gadgets,SKU-0681,Green,256GB,147.97,SKU-0681-GRE-256GB,56,9
+Monitor 682,Compact and lightweight design,450.79,Electronics,SKU-0682,Silver,128GB,113.32,SKU-0682-SIL-128GB,29,9
+Camera 683,Latest model with advanced features,1946.62,Gadgets,SKU-0683,Black,16GB,198.69,SKU-0683-BLA-16GB,84,15
+Tablet 684,Best value for money,487.98,Gadgets,SKU-0684,Green,16GB,169.45,SKU-0684-GRE-16GB,31,17
+Monitor 685,Best value for money,1046.41,Gadgets,SKU-0685,Green,256GB,25.6,SKU-0685-GRE-256GB,38,19
+Headphones 686,Compact and lightweight design,707.11,Electronics,SKU-0686,Green,64GB,66.99,SKU-0686-GRE-64GB,58,7
+Tablet 687,High quality and durable product,62.26,Electronics,SKU-0687,Blue,64GB,74.03,SKU-0687-BLU-64GB,50,17
+Monitor 688,Best value for money,1482.7,Gadgets,SKU-0688,Blue,16GB,97.72,SKU-0688-BLU-16GB,100,20
+Smartphone 689,Enhanced performance and battery life,1967.07,Accessories,SKU-0689,Red,64GB,108.9,SKU-0689-RED-64GB,47,7
+Laptop 690,Latest model with advanced features,1557.91,Gadgets,SKU-0690,Blue,512GB,137.24,SKU-0690-BLU-512GB,35,20
+Monitor 691,Best value for money,1475.89,Gadgets,SKU-0691,Gold,16GB,142.6,SKU-0691-GOL-16GB,62,18
+Headphones 692,High quality and durable product,946.37,Accessories,SKU-0692,White,16GB,56.33,SKU-0692-WHI-16GB,81,15
+Smartphone 693,Compact and lightweight design,129.31,Electronics,SKU-0693,Black,64GB,100.15,SKU-0693-BLA-64GB,97,9
+Monitor 694,Enhanced performance and battery life,1550.27,Accessories,SKU-0694,Gold,64GB,21.53,SKU-0694-GOL-64GB,35,18
+Headphones 695,Compact and lightweight design,966.47,Accessories,SKU-0695,Silver,32GB,95.03,SKU-0695-SIL-32GB,16,16
+Tablet 696,Best value for money,1272.3,Electronics,SKU-0696,Black,16GB,94.8,SKU-0696-BLA-16GB,27,12
+Monitor 697,Latest model with advanced features,1106.44,Accessories,SKU-0697,Green,32GB,57.63,SKU-0697-GRE-32GB,46,17
+Camera 698,Compact and lightweight design,1439.73,Accessories,SKU-0698,Silver,256GB,18.59,SKU-0698-SIL-256GB,17,7
+Laptop 699,Compact and lightweight design,394.34,Gadgets,SKU-0699,Blue,256GB,98.58,SKU-0699-BLU-256GB,67,19
+Smartphone 700,Compact and lightweight design,1496.99,Accessories,SKU-0700,Silver,256GB,72.68,SKU-0700-SIL-256GB,96,8
+Smartphone 701,High quality and durable product,378.22,Accessories,SKU-0701,Black,16GB,17.22,SKU-0701-BLA-16GB,13,17
+Tablet 702,Best value for money,512.8,Gadgets,SKU-0702,Blue,128GB,140.08,SKU-0702-BLU-128GB,62,17
+Smartwatch 703,High quality and durable product,368.38,Gadgets,SKU-0703,Black,32GB,175.69,SKU-0703-BLA-32GB,48,14
+Smartphone 704,High quality and durable product,292.07,Gadgets,SKU-0704,Blue,512GB,88.56,SKU-0704-BLU-512GB,80,15
+Smartwatch 705,Compact and lightweight design,1258.38,Gadgets,SKU-0705,Blue,512GB,2.22,SKU-0705-BLU-512GB,15,11
+Laptop 706,Latest model with advanced features,1183.61,Electronics,SKU-0706,White,16GB,195.49,SKU-0706-WHI-16GB,51,14
+Headphones 707,Compact and lightweight design,151.02,Gadgets,SKU-0707,Silver,256GB,149.08,SKU-0707-SIL-256GB,50,9
+Camera 708,Latest model with advanced features,1782.4,Electronics,SKU-0708,Black,512GB,20.93,SKU-0708-BLA-512GB,36,9
+Speaker 709,Compact and lightweight design,585.6,Gadgets,SKU-0709,Blue,256GB,27.6,SKU-0709-BLU-256GB,92,14
+Monitor 710,Compact and lightweight design,1209.45,Electronics,SKU-0710,Green,32GB,82.79,SKU-0710-GRE-32GB,89,11
+Headphones 711,Enhanced performance and battery life,1678.23,Electronics,SKU-0711,Green,512GB,94.65,SKU-0711-GRE-512GB,43,15
+Headphones 712,Compact and lightweight design,1796.93,Electronics,SKU-0712,White,64GB,109.74,SKU-0712-WHI-64GB,15,5
+Speaker 713,Compact and lightweight design,1717.86,Gadgets,SKU-0713,Black,32GB,122.6,SKU-0713-BLA-32GB,40,7
+Monitor 714,High quality and durable product,1336.07,Accessories,SKU-0714,Blue,128GB,140.43,SKU-0714-BLU-128GB,30,18
+Laptop 715,High quality and durable product,81.78,Gadgets,SKU-0715,White,64GB,139.21,SKU-0715-WHI-64GB,56,9
+Smartphone 716,Latest model with advanced features,1968.56,Electronics,SKU-0716,Silver,16GB,103.0,SKU-0716-SIL-16GB,13,11
+Camera 717,High quality and durable product,519.38,Accessories,SKU-0717,Silver,256GB,183.54,SKU-0717-SIL-256GB,41,20
+Headphones 718,High quality and durable product,127.15,Gadgets,SKU-0718,Gold,256GB,57.52,SKU-0718-GOL-256GB,42,5
+Monitor 719,Compact and lightweight design,368.69,Accessories,SKU-0719,Blue,512GB,160.23,SKU-0719-BLU-512GB,68,10
+Headphones 720,High quality and durable product,776.86,Electronics,SKU-0720,Blue,64GB,181.8,SKU-0720-BLU-64GB,74,5
+Laptop 721,Enhanced performance and battery life,859.62,Electronics,SKU-0721,Red,32GB,182.97,SKU-0721-RED-32GB,43,19
+Speaker 722,Compact and lightweight design,326.69,Gadgets,SKU-0722,Green,32GB,25.28,SKU-0722-GRE-32GB,5,11
+Camera 723,High quality and durable product,1146.93,Gadgets,SKU-0723,Green,256GB,193.07,SKU-0723-GRE-256GB,81,6
+Smartwatch 724,Enhanced performance and battery life,1627.87,Electronics,SKU-0724,White,32GB,131.26,SKU-0724-WHI-32GB,12,5
+Headphones 725,Latest model with advanced features,1510.19,Accessories,SKU-0725,Red,128GB,2.31,SKU-0725-RED-128GB,31,17
+Laptop 726,Latest model with advanced features,1947.78,Electronics,SKU-0726,Blue,512GB,159.36,SKU-0726-BLU-512GB,88,6
+Camera 727,Best value for money,1277.69,Accessories,SKU-0727,Gold,128GB,72.01,SKU-0727-GOL-128GB,31,17
+Tablet 728,High quality and durable product,300.57,Electronics,SKU-0728,Black,128GB,63.42,SKU-0728-BLA-128GB,7,17
+Monitor 729,Latest model with advanced features,1381.33,Electronics,SKU-0729,Red,32GB,74.32,SKU-0729-RED-32GB,95,19
+Monitor 730,High quality and durable product,792.38,Electronics,SKU-0730,Black,256GB,82.05,SKU-0730-BLA-256GB,78,7
+Tablet 731,Enhanced performance and battery life,1375.69,Gadgets,SKU-0731,Blue,16GB,102.38,SKU-0731-BLU-16GB,7,11
+Tablet 732,Latest model with advanced features,1783.08,Electronics,SKU-0732,Blue,16GB,163.19,SKU-0732-BLU-16GB,80,9
+Camera 733,Best value for money,192.48,Gadgets,SKU-0733,Blue,512GB,53.98,SKU-0733-BLU-512GB,25,20
+Camera 734,Compact and lightweight design,69.01,Electronics,SKU-0734,Gold,512GB,50.32,SKU-0734-GOL-512GB,38,9
+Tablet 735,Compact and lightweight design,494.21,Accessories,SKU-0735,Blue,512GB,186.08,SKU-0735-BLU-512GB,62,11
+Laptop 736,Best value for money,147.15,Electronics,SKU-0736,Blue,256GB,149.69,SKU-0736-BLU-256GB,11,17
+Smartphone 737,Latest model with advanced features,1868.96,Gadgets,SKU-0737,Red,256GB,194.26,SKU-0737-RED-256GB,17,20
+Camera 738,Latest model with advanced features,785.22,Accessories,SKU-0738,White,512GB,192.97,SKU-0738-WHI-512GB,55,8
+Camera 739,Latest model with advanced features,1163.56,Gadgets,SKU-0739,White,32GB,177.17,SKU-0739-WHI-32GB,28,8
+Smartphone 740,Best value for money,133.41,Electronics,SKU-0740,Silver,64GB,118.02,SKU-0740-SIL-64GB,23,20
+Tablet 741,Enhanced performance and battery life,1228.54,Gadgets,SKU-0741,Gold,256GB,97.0,SKU-0741-GOL-256GB,90,6
+Smartwatch 742,High quality and durable product,1200.2,Gadgets,SKU-0742,Silver,512GB,168.31,SKU-0742-SIL-512GB,78,5
+Speaker 743,Enhanced performance and battery life,1201.4,Accessories,SKU-0743,Black,256GB,51.5,SKU-0743-BLA-256GB,76,19
+Headphones 744,Enhanced performance and battery life,110.02,Electronics,SKU-0744,Blue,16GB,47.68,SKU-0744-BLU-16GB,27,14
+Tablet 745,Best value for money,1581.8,Electronics,SKU-0745,White,16GB,144.98,SKU-0745-WHI-16GB,42,17
+Smartphone 746,Enhanced performance and battery life,1948.99,Electronics,SKU-0746,Black,128GB,116.93,SKU-0746-BLA-128GB,69,12
+Laptop 747,Best value for money,213.71,Accessories,SKU-0747,White,64GB,76.12,SKU-0747-WHI-64GB,86,16
+Monitor 748,High quality and durable product,1323.63,Accessories,SKU-0748,Green,64GB,79.25,SKU-0748-GRE-64GB,13,14
+Headphones 749,Enhanced performance and battery life,1233.57,Electronics,SKU-0749,Red,64GB,182.3,SKU-0749-RED-64GB,24,13
+Smartwatch 750,Latest model with advanced features,1841.3,Gadgets,SKU-0750,Blue,256GB,108.82,SKU-0750-BLU-256GB,16,5
+Tablet 751,Compact and lightweight design,1120.56,Accessories,SKU-0751,Silver,128GB,16.58,SKU-0751-SIL-128GB,21,7
+Camera 752,Best value for money,1420.25,Electronics,SKU-0752,Silver,16GB,174.31,SKU-0752-SIL-16GB,77,6
+Headphones 753,Compact and lightweight design,829.25,Accessories,SKU-0753,Black,512GB,83.85,SKU-0753-BLA-512GB,58,6
+Camera 754,Latest model with advanced features,215.12,Gadgets,SKU-0754,Green,128GB,66.99,SKU-0754-GRE-128GB,94,12
+Tablet 755,Best value for money,53.84,Electronics,SKU-0755,Silver,16GB,29.01,SKU-0755-SIL-16GB,30,17
+Monitor 756,Enhanced performance and battery life,467.52,Accessories,SKU-0756,Green,16GB,32.58,SKU-0756-GRE-16GB,82,12
+Smartphone 757,Enhanced performance and battery life,1941.57,Electronics,SKU-0757,White,128GB,100.25,SKU-0757-WHI-128GB,16,12
+Headphones 758,Compact and lightweight design,871.79,Gadgets,SKU-0758,Blue,128GB,91.01,SKU-0758-BLU-128GB,55,18
+Headphones 759,Enhanced performance and battery life,1090.56,Gadgets,SKU-0759,Green,128GB,62.52,SKU-0759-GRE-128GB,64,6
+Headphones 760,Latest model with advanced features,1999.23,Accessories,SKU-0760,Red,256GB,17.38,SKU-0760-RED-256GB,11,10
+Laptop 761,Best value for money,962.5,Accessories,SKU-0761,Blue,64GB,182.68,SKU-0761-BLU-64GB,93,11
+Laptop 762,Enhanced performance and battery life,1194.8,Accessories,SKU-0762,Silver,128GB,81.22,SKU-0762-SIL-128GB,7,5
+Monitor 763,Enhanced performance and battery life,183.77,Gadgets,SKU-0763,Blue,64GB,33.94,SKU-0763-BLU-64GB,10,12
+Monitor 764,Latest model with advanced features,1836.24,Gadgets,SKU-0764,Blue,128GB,146.78,SKU-0764-BLU-128GB,12,17
+Laptop 765,Best value for money,368.11,Electronics,SKU-0765,White,128GB,185.58,SKU-0765-WHI-128GB,76,12
+Camera 766,Best value for money,1156.79,Accessories,SKU-0766,Black,256GB,136.43,SKU-0766-BLA-256GB,19,10
+Tablet 767,Latest model with advanced features,1047.09,Gadgets,SKU-0767,White,256GB,75.52,SKU-0767-WHI-256GB,90,9
+Camera 768,Latest model with advanced features,377.09,Gadgets,SKU-0768,Green,16GB,118.74,SKU-0768-GRE-16GB,24,15
+Monitor 769,Enhanced performance and battery life,618.26,Electronics,SKU-0769,Blue,128GB,128.89,SKU-0769-BLU-128GB,18,8
+Tablet 770,Compact and lightweight design,1896.59,Electronics,SKU-0770,Green,512GB,36.23,SKU-0770-GRE-512GB,95,16
+Laptop 771,Latest model with advanced features,586.28,Gadgets,SKU-0771,White,256GB,132.66,SKU-0771-WHI-256GB,36,13
+Camera 772,Latest model with advanced features,1498.09,Electronics,SKU-0772,Blue,64GB,126.26,SKU-0772-BLU-64GB,6,7
+Camera 773,High quality and durable product,1172.4,Gadgets,SKU-0773,Gold,64GB,32.75,SKU-0773-GOL-64GB,16,18
+Speaker 774,Latest model with advanced features,1834.92,Gadgets,SKU-0774,Red,32GB,149.01,SKU-0774-RED-32GB,21,16
+Speaker 775,Compact and lightweight design,1193.04,Electronics,SKU-0775,Black,16GB,47.44,SKU-0775-BLA-16GB,20,10
+Headphones 776,Latest model with advanced features,212.82,Accessories,SKU-0776,White,256GB,187.23,SKU-0776-WHI-256GB,24,17
+Smartwatch 777,Best value for money,1765.3,Gadgets,SKU-0777,Green,256GB,194.02,SKU-0777-GRE-256GB,57,20
+Speaker 778,Compact and lightweight design,531.84,Gadgets,SKU-0778,Blue,512GB,182.96,SKU-0778-BLU-512GB,45,17
+Tablet 779,Best value for money,920.72,Gadgets,SKU-0779,Silver,64GB,144.57,SKU-0779-SIL-64GB,9,15
+Smartwatch 780,Compact and lightweight design,1121.17,Gadgets,SKU-0780,Black,16GB,88.54,SKU-0780-BLA-16GB,14,10
+Laptop 781,Best value for money,128.32,Gadgets,SKU-0781,White,512GB,66.76,SKU-0781-WHI-512GB,62,17
+Headphones 782,High quality and durable product,1007.56,Electronics,SKU-0782,Green,32GB,94.51,SKU-0782-GRE-32GB,48,14
+Monitor 783,Latest model with advanced features,575.42,Gadgets,SKU-0783,Silver,128GB,50.97,SKU-0783-SIL-128GB,32,16
+Camera 784,Best value for money,1428.1,Electronics,SKU-0784,Gold,128GB,174.43,SKU-0784-GOL-128GB,14,15
+Laptop 785,Compact and lightweight design,633.64,Electronics,SKU-0785,Silver,256GB,12.8,SKU-0785-SIL-256GB,57,9
+Monitor 786,Latest model with advanced features,1989.05,Electronics,SKU-0786,Blue,16GB,186.61,SKU-0786-BLU-16GB,39,13
+Tablet 787,Enhanced performance and battery life,1427.35,Accessories,SKU-0787,Gold,64GB,151.86,SKU-0787-GOL-64GB,25,11
+Laptop 788,Compact and lightweight design,598.92,Electronics,SKU-0788,Blue,16GB,40.64,SKU-0788-BLU-16GB,81,11
+Smartwatch 789,Enhanced performance and battery life,1629.19,Accessories,SKU-0789,Silver,256GB,86.99,SKU-0789-SIL-256GB,20,13
+Smartphone 790,Best value for money,1321.57,Accessories,SKU-0790,Blue,64GB,13.1,SKU-0790-BLU-64GB,27,16
+Headphones 791,Latest model with advanced features,817.02,Gadgets,SKU-0791,Red,32GB,29.04,SKU-0791-RED-32GB,24,17
+Headphones 792,Compact and lightweight design,1386.54,Gadgets,SKU-0792,Silver,64GB,15.65,SKU-0792-SIL-64GB,21,8
+Smartphone 793,Compact and lightweight design,1998.59,Electronics,SKU-0793,Silver,256GB,128.9,SKU-0793-SIL-256GB,30,19
+Camera 794,Compact and lightweight design,672.69,Gadgets,SKU-0794,White,16GB,161.4,SKU-0794-WHI-16GB,48,5
+Headphones 795,High quality and durable product,405.31,Accessories,SKU-0795,White,16GB,121.48,SKU-0795-WHI-16GB,44,13
+Headphones 796,Best value for money,1546.6,Electronics,SKU-0796,Black,128GB,105.37,SKU-0796-BLA-128GB,65,11
+Monitor 797,Compact and lightweight design,583.71,Electronics,SKU-0797,Black,128GB,26.84,SKU-0797-BLA-128GB,19,17
+Laptop 798,High quality and durable product,1521.61,Electronics,SKU-0798,Gold,64GB,91.05,SKU-0798-GOL-64GB,83,8
+Speaker 799,Latest model with advanced features,1839.67,Gadgets,SKU-0799,Black,64GB,38.92,SKU-0799-BLA-64GB,98,19
+Headphones 800,High quality and durable product,1678.68,Accessories,SKU-0800,Silver,64GB,178.81,SKU-0800-SIL-64GB,5,20
+Tablet 801,Enhanced performance and battery life,214.26,Accessories,SKU-0801,Gold,32GB,63.25,SKU-0801-GOL-32GB,97,16
+Monitor 802,High quality and durable product,1848.48,Gadgets,SKU-0802,Silver,256GB,199.1,SKU-0802-SIL-256GB,31,19
+Headphones 803,High quality and durable product,1330.07,Accessories,SKU-0803,Red,32GB,122.87,SKU-0803-RED-32GB,54,5
+Camera 804,Latest model with advanced features,56.49,Accessories,SKU-0804,Green,128GB,78.91,SKU-0804-GRE-128GB,54,7
+Headphones 805,Compact and lightweight design,863.26,Accessories,SKU-0805,Blue,64GB,31.63,SKU-0805-BLU-64GB,21,17
+Tablet 806,Latest model with advanced features,386.39,Electronics,SKU-0806,Green,16GB,91.9,SKU-0806-GRE-16GB,6,17
+Laptop 807,Compact and lightweight design,78.89,Electronics,SKU-0807,Red,512GB,78.15,SKU-0807-RED-512GB,70,20
+Smartwatch 808,Best value for money,430.5,Gadgets,SKU-0808,Green,16GB,178.53,SKU-0808-GRE-16GB,45,9
+Monitor 809,Latest model with advanced features,845.7,Accessories,SKU-0809,Black,32GB,195.16,SKU-0809-BLA-32GB,50,11
+Smartphone 810,High quality and durable product,1534.79,Gadgets,SKU-0810,Silver,512GB,45.8,SKU-0810-SIL-512GB,43,9
+Laptop 811,High quality and durable product,1742.86,Gadgets,SKU-0811,Red,512GB,78.38,SKU-0811-RED-512GB,97,15
+Smartwatch 812,Enhanced performance and battery life,832.16,Accessories,SKU-0812,Black,32GB,1.24,SKU-0812-BLA-32GB,37,16
+Laptop 813,Latest model with advanced features,1867.21,Gadgets,SKU-0813,Black,128GB,150.73,SKU-0813-BLA-128GB,55,14
+Headphones 814,High quality and durable product,1735.83,Gadgets,SKU-0814,White,128GB,198.48,SKU-0814-WHI-128GB,78,11
+Tablet 815,Enhanced performance and battery life,1080.24,Gadgets,SKU-0815,Black,64GB,9.36,SKU-0815-BLA-64GB,59,19
+Tablet 816,High quality and durable product,1566.89,Accessories,SKU-0816,Gold,32GB,12.13,SKU-0816-GOL-32GB,92,15
+Camera 817,High quality and durable product,247.33,Accessories,SKU-0817,Green,256GB,17.91,SKU-0817-GRE-256GB,39,5
+Laptop 818,High quality and durable product,1847.66,Gadgets,SKU-0818,Red,128GB,130.23,SKU-0818-RED-128GB,91,17
+Laptop 819,Latest model with advanced features,1348.73,Gadgets,SKU-0819,Red,512GB,66.51,SKU-0819-RED-512GB,79,14
+Monitor 820,Compact and lightweight design,1652.1,Accessories,SKU-0820,Silver,128GB,3.1,SKU-0820-SIL-128GB,94,11
+Smartphone 821,Enhanced performance and battery life,116.26,Electronics,SKU-0821,Green,128GB,144.72,SKU-0821-GRE-128GB,34,18
+Smartphone 822,Compact and lightweight design,57.54,Gadgets,SKU-0822,Silver,16GB,15.07,SKU-0822-SIL-16GB,98,13
+Smartphone 823,Latest model with advanced features,1103.48,Electronics,SKU-0823,Blue,64GB,90.82,SKU-0823-BLU-64GB,90,8
+Tablet 824,Compact and lightweight design,1972.02,Accessories,SKU-0824,Black,512GB,102.75,SKU-0824-BLA-512GB,30,6
+Smartphone 825,High quality and durable product,225.26,Gadgets,SKU-0825,Black,512GB,139.35,SKU-0825-BLA-512GB,50,8
+Monitor 826,Compact and lightweight design,1317.75,Gadgets,SKU-0826,Black,128GB,77.95,SKU-0826-BLA-128GB,23,5
+Laptop 827,Best value for money,749.21,Electronics,SKU-0827,White,128GB,99.3,SKU-0827-WHI-128GB,48,15
+Laptop 828,High quality and durable product,1150.41,Accessories,SKU-0828,Blue,16GB,4.85,SKU-0828-BLU-16GB,35,15
+Smartwatch 829,Latest model with advanced features,246.24,Electronics,SKU-0829,Black,128GB,75.85,SKU-0829-BLA-128GB,31,8
+Smartwatch 830,Best value for money,452.79,Gadgets,SKU-0830,Green,128GB,189.8,SKU-0830-GRE-128GB,48,7
+Monitor 831,Latest model with advanced features,631.12,Gadgets,SKU-0831,Red,16GB,168.9,SKU-0831-RED-16GB,19,8
+Smartwatch 832,High quality and durable product,967.73,Electronics,SKU-0832,Red,16GB,105.43,SKU-0832-RED-16GB,84,17
+Headphones 833,High quality and durable product,222.71,Accessories,SKU-0833,Silver,32GB,68.15,SKU-0833-SIL-32GB,47,10
+Smartphone 834,Best value for money,115.69,Accessories,SKU-0834,Red,256GB,62.47,SKU-0834-RED-256GB,50,12
+Headphones 835,High quality and durable product,1681.32,Gadgets,SKU-0835,Black,256GB,58.29,SKU-0835-BLA-256GB,86,12
+Smartphone 836,High quality and durable product,1484.05,Electronics,SKU-0836,Gold,512GB,46.35,SKU-0836-GOL-512GB,56,6
+Tablet 837,Best value for money,998.7,Accessories,SKU-0837,Silver,64GB,66.07,SKU-0837-SIL-64GB,9,20
+Smartwatch 838,Enhanced performance and battery life,619.92,Electronics,SKU-0838,Gold,256GB,153.06,SKU-0838-GOL-256GB,53,8
+Camera 839,Enhanced performance and battery life,1273.72,Gadgets,SKU-0839,Gold,128GB,163.94,SKU-0839-GOL-128GB,59,17
+Camera 840,Latest model with advanced features,1067.12,Electronics,SKU-0840,Green,128GB,44.77,SKU-0840-GRE-128GB,88,5
+Monitor 841,Best value for money,1809.08,Gadgets,SKU-0841,Black,16GB,19.46,SKU-0841-BLA-16GB,62,13
+Tablet 842,Best value for money,1517.93,Gadgets,SKU-0842,Black,16GB,167.46,SKU-0842-BLA-16GB,49,19
+Camera 843,Compact and lightweight design,944.86,Gadgets,SKU-0843,Green,128GB,129.18,SKU-0843-GRE-128GB,16,15
+Smartwatch 844,Enhanced performance and battery life,369.2,Accessories,SKU-0844,Red,512GB,57.85,SKU-0844-RED-512GB,32,5
+Monitor 845,Compact and lightweight design,1425.95,Accessories,SKU-0845,Black,16GB,57.05,SKU-0845-BLA-16GB,94,11
+Speaker 846,Best value for money,100.35,Accessories,SKU-0846,White,32GB,45.46,SKU-0846-WHI-32GB,28,9
+Camera 847,Latest model with advanced features,1887.86,Electronics,SKU-0847,Silver,512GB,85.86,SKU-0847-SIL-512GB,89,10
+Tablet 848,Latest model with advanced features,1086.81,Accessories,SKU-0848,Blue,32GB,116.12,SKU-0848-BLU-32GB,49,8
+Smartphone 849,High quality and durable product,1563.39,Electronics,SKU-0849,Silver,128GB,65.22,SKU-0849-SIL-128GB,61,16
+Laptop 850,Compact and lightweight design,1965.96,Electronics,SKU-0850,Silver,16GB,192.91,SKU-0850-SIL-16GB,46,19
+Tablet 851,Best value for money,1315.58,Electronics,SKU-0851,Blue,64GB,24.48,SKU-0851-BLU-64GB,73,11
+Speaker 852,High quality and durable product,1444.15,Accessories,SKU-0852,Silver,32GB,64.1,SKU-0852-SIL-32GB,38,17
+Smartwatch 853,Latest model with advanced features,1355.58,Accessories,SKU-0853,White,256GB,93.71,SKU-0853-WHI-256GB,61,19
+Headphones 854,High quality and durable product,1829.97,Gadgets,SKU-0854,Gold,128GB,143.36,SKU-0854-GOL-128GB,19,20
+Headphones 855,Best value for money,1913.85,Accessories,SKU-0855,White,64GB,16.94,SKU-0855-WHI-64GB,60,10
+Smartphone 856,Enhanced performance and battery life,450.13,Accessories,SKU-0856,Blue,16GB,84.0,SKU-0856-BLU-16GB,6,17
+Speaker 857,High quality and durable product,175.95,Electronics,SKU-0857,Red,512GB,134.46,SKU-0857-RED-512GB,72,13
+Speaker 858,Best value for money,844.97,Accessories,SKU-0858,Green,16GB,104.83,SKU-0858-GRE-16GB,65,10
+Monitor 859,High quality and durable product,397.89,Accessories,SKU-0859,Red,32GB,144.4,SKU-0859-RED-32GB,37,13
+Laptop 860,Latest model with advanced features,1348.21,Electronics,SKU-0860,Gold,16GB,54.65,SKU-0860-GOL-16GB,13,13
+Laptop 861,Latest model with advanced features,1006.92,Electronics,SKU-0861,Red,256GB,10.84,SKU-0861-RED-256GB,69,9
+Speaker 862,Latest model with advanced features,106.02,Gadgets,SKU-0862,Silver,16GB,142.41,SKU-0862-SIL-16GB,5,16
+Smartwatch 863,Compact and lightweight design,1080.89,Electronics,SKU-0863,Green,128GB,56.55,SKU-0863-GRE-128GB,5,11
+Speaker 864,Enhanced performance and battery life,1728.15,Accessories,SKU-0864,Red,16GB,158.05,SKU-0864-RED-16GB,5,11
+Monitor 865,Latest model with advanced features,1701.12,Gadgets,SKU-0865,Silver,512GB,162.08,SKU-0865-SIL-512GB,15,15
+Tablet 866,Best value for money,449.34,Gadgets,SKU-0866,Black,32GB,157.06,SKU-0866-BLA-32GB,71,10
+Laptop 867,Best value for money,1084.56,Electronics,SKU-0867,Gold,64GB,103.63,SKU-0867-GOL-64GB,62,7
+Monitor 868,Latest model with advanced features,1550.14,Gadgets,SKU-0868,Silver,256GB,28.76,SKU-0868-SIL-256GB,35,13
+Smartphone 869,Enhanced performance and battery life,1432.49,Electronics,SKU-0869,Silver,128GB,41.07,SKU-0869-SIL-128GB,81,18
+Laptop 870,Best value for money,52.74,Accessories,SKU-0870,Green,512GB,10.13,SKU-0870-GRE-512GB,40,18
+Speaker 871,Best value for money,1124.55,Accessories,SKU-0871,Blue,128GB,154.66,SKU-0871-BLU-128GB,51,18
+Monitor 872,Latest model with advanced features,166.74,Gadgets,SKU-0872,Blue,512GB,164.64,SKU-0872-BLU-512GB,30,10
+Headphones 873,Enhanced performance and battery life,506.56,Gadgets,SKU-0873,Blue,32GB,195.76,SKU-0873-BLU-32GB,37,14
+Smartwatch 874,Compact and lightweight design,133.62,Accessories,SKU-0874,Gold,512GB,191.2,SKU-0874-GOL-512GB,30,10
+Smartphone 875,Latest model with advanced features,734.48,Electronics,SKU-0875,Black,256GB,91.69,SKU-0875-BLA-256GB,84,11
+Laptop 876,Latest model with advanced features,379.49,Gadgets,SKU-0876,Gold,32GB,134.52,SKU-0876-GOL-32GB,73,6
+Smartwatch 877,High quality and durable product,1414.28,Accessories,SKU-0877,Blue,128GB,139.8,SKU-0877-BLU-128GB,65,7
+Speaker 878,Compact and lightweight design,1300.1,Electronics,SKU-0878,Gold,256GB,43.84,SKU-0878-GOL-256GB,87,15
+Tablet 879,Best value for money,661.79,Gadgets,SKU-0879,Red,32GB,66.4,SKU-0879-RED-32GB,41,18
+Smartwatch 880,Enhanced performance and battery life,268.15,Electronics,SKU-0880,Blue,32GB,44.07,SKU-0880-BLU-32GB,88,8
+Laptop 881,Enhanced performance and battery life,1875.4,Electronics,SKU-0881,Black,16GB,37.45,SKU-0881-BLA-16GB,100,15
+Speaker 882,Enhanced performance and battery life,1349.52,Gadgets,SKU-0882,Green,16GB,53.23,SKU-0882-GRE-16GB,32,18
+Tablet 883,High quality and durable product,137.15,Gadgets,SKU-0883,Red,64GB,117.22,SKU-0883-RED-64GB,80,16
+Speaker 884,Best value for money,286.5,Electronics,SKU-0884,Black,128GB,89.0,SKU-0884-BLA-128GB,76,13
+Tablet 885,Enhanced performance and battery life,144.91,Accessories,SKU-0885,Red,256GB,166.26,SKU-0885-RED-256GB,13,7
+Headphones 886,Best value for money,665.63,Electronics,SKU-0886,Red,512GB,182.12,SKU-0886-RED-512GB,33,10
+Camera 887,High quality and durable product,1733.87,Accessories,SKU-0887,White,128GB,56.52,SKU-0887-WHI-128GB,48,19
+Laptop 888,Latest model with advanced features,404.82,Electronics,SKU-0888,Blue,64GB,197.35,SKU-0888-BLU-64GB,84,15
+Smartphone 889,High quality and durable product,865.96,Gadgets,SKU-0889,Green,64GB,32.68,SKU-0889-GRE-64GB,98,6
+Monitor 890,Best value for money,1517.39,Gadgets,SKU-0890,Red,32GB,108.65,SKU-0890-RED-32GB,68,7
+Monitor 891,Best value for money,753.69,Electronics,SKU-0891,Gold,16GB,184.58,SKU-0891-GOL-16GB,56,10
+Monitor 892,Compact and lightweight design,1920.47,Gadgets,SKU-0892,White,64GB,153.61,SKU-0892-WHI-64GB,74,12
+Speaker 893,Latest model with advanced features,447.44,Electronics,SKU-0893,Silver,64GB,95.23,SKU-0893-SIL-64GB,8,20
+Headphones 894,Compact and lightweight design,1220.97,Electronics,SKU-0894,Black,64GB,170.62,SKU-0894-BLA-64GB,72,14
+Monitor 895,Best value for money,1070.84,Gadgets,SKU-0895,Blue,256GB,42.36,SKU-0895-BLU-256GB,19,15
+Smartphone 896,Latest model with advanced features,343.53,Gadgets,SKU-0896,Black,16GB,114.64,SKU-0896-BLA-16GB,77,8
+Smartwatch 897,Best value for money,937.43,Electronics,SKU-0897,Red,512GB,10.41,SKU-0897-RED-512GB,39,20
+Smartphone 898,Compact and lightweight design,1574.17,Electronics,SKU-0898,Silver,32GB,147.97,SKU-0898-SIL-32GB,76,18
+Smartphone 899,Best value for money,1934.89,Accessories,SKU-0899,Green,128GB,115.9,SKU-0899-GRE-128GB,50,17
+Speaker 900,Latest model with advanced features,1862.08,Gadgets,SKU-0900,Black,128GB,162.09,SKU-0900-BLA-128GB,12,11
+Smartphone 901,Enhanced performance and battery life,1490.25,Accessories,SKU-0901,Blue,32GB,116.36,SKU-0901-BLU-32GB,97,9
+Tablet 902,Best value for money,127.66,Accessories,SKU-0902,Black,32GB,90.49,SKU-0902-BLA-32GB,31,20
+Camera 903,High quality and durable product,697.48,Gadgets,SKU-0903,Silver,512GB,125.17,SKU-0903-SIL-512GB,11,11
+Smartphone 904,Latest model with advanced features,1511.54,Gadgets,SKU-0904,Black,128GB,149.26,SKU-0904-BLA-128GB,58,5
+Speaker 905,Compact and lightweight design,1116.66,Electronics,SKU-0905,Black,64GB,141.42,SKU-0905-BLA-64GB,68,17
+Smartphone 906,Latest model with advanced features,1013.25,Gadgets,SKU-0906,Green,128GB,190.81,SKU-0906-GRE-128GB,41,13
+Headphones 907,High quality and durable product,962.95,Electronics,SKU-0907,White,32GB,4.18,SKU-0907-WHI-32GB,77,20
+Camera 908,High quality and durable product,132.18,Accessories,SKU-0908,Black,16GB,158.51,SKU-0908-BLA-16GB,50,10
+Speaker 909,Latest model with advanced features,647.29,Gadgets,SKU-0909,Green,64GB,129.05,SKU-0909-GRE-64GB,7,13
+Monitor 910,Latest model with advanced features,1619.54,Gadgets,SKU-0910,Gold,16GB,108.5,SKU-0910-GOL-16GB,81,6
+Smartwatch 911,Compact and lightweight design,1385.72,Accessories,SKU-0911,Black,16GB,0.51,SKU-0911-BLA-16GB,43,17
+Smartphone 912,Best value for money,1571.15,Accessories,SKU-0912,White,128GB,151.51,SKU-0912-WHI-128GB,68,16
+Speaker 913,High quality and durable product,1282.41,Electronics,SKU-0913,White,32GB,134.53,SKU-0913-WHI-32GB,22,7
+Headphones 914,Latest model with advanced features,278.51,Electronics,SKU-0914,Silver,256GB,175.22,SKU-0914-SIL-256GB,50,7
+Laptop 915,Enhanced performance and battery life,471.5,Gadgets,SKU-0915,Gold,16GB,49.59,SKU-0915-GOL-16GB,80,20
+Speaker 916,Enhanced performance and battery life,581.92,Gadgets,SKU-0916,White,64GB,9.94,SKU-0916-WHI-64GB,75,12
+Headphones 917,High quality and durable product,1455.39,Gadgets,SKU-0917,Gold,512GB,88.83,SKU-0917-GOL-512GB,55,20
+Camera 918,High quality and durable product,662.3,Gadgets,SKU-0918,Black,16GB,152.42,SKU-0918-BLA-16GB,23,5
+Smartwatch 919,Best value for money,1798.28,Gadgets,SKU-0919,Red,32GB,144.48,SKU-0919-RED-32GB,74,8
+Camera 920,Enhanced performance and battery life,231.73,Accessories,SKU-0920,Blue,16GB,176.51,SKU-0920-BLU-16GB,19,11
+Smartphone 921,Latest model with advanced features,992.5,Electronics,SKU-0921,Black,512GB,21.39,SKU-0921-BLA-512GB,49,19
+Tablet 922,Latest model with advanced features,343.73,Accessories,SKU-0922,Gold,128GB,140.97,SKU-0922-GOL-128GB,55,12
+Smartphone 923,Best value for money,1474.72,Gadgets,SKU-0923,Gold,64GB,34.47,SKU-0923-GOL-64GB,51,17
+Camera 924,Latest model with advanced features,140.91,Gadgets,SKU-0924,Silver,16GB,49.66,SKU-0924-SIL-16GB,87,12
+Tablet 925,Latest model with advanced features,534.88,Gadgets,SKU-0925,Silver,64GB,94.84,SKU-0925-SIL-64GB,63,19
+Smartphone 926,Latest model with advanced features,153.19,Accessories,SKU-0926,Red,512GB,18.38,SKU-0926-RED-512GB,78,18
+Speaker 927,High quality and durable product,1052.66,Electronics,SKU-0927,Gold,32GB,90.25,SKU-0927-GOL-32GB,24,15
+Monitor 928,High quality and durable product,424.28,Electronics,SKU-0928,White,256GB,144.23,SKU-0928-WHI-256GB,23,16
+Speaker 929,Compact and lightweight design,334.04,Electronics,SKU-0929,Blue,64GB,121.28,SKU-0929-BLU-64GB,71,8
+Laptop 930,Latest model with advanced features,1401.85,Electronics,SKU-0930,Blue,128GB,107.04,SKU-0930-BLU-128GB,13,19
+Monitor 931,Compact and lightweight design,1535.62,Gadgets,SKU-0931,Red,32GB,75.22,SKU-0931-RED-32GB,47,19
+Headphones 932,Latest model with advanced features,899.72,Accessories,SKU-0932,Blue,256GB,187.47,SKU-0932-BLU-256GB,90,13
+Smartwatch 933,Compact and lightweight design,588.18,Electronics,SKU-0933,Green,16GB,185.57,SKU-0933-GRE-16GB,28,15
+Smartphone 934,Enhanced performance and battery life,181.89,Gadgets,SKU-0934,Green,512GB,160.27,SKU-0934-GRE-512GB,27,9
+Speaker 935,Enhanced performance and battery life,1314.59,Electronics,SKU-0935,Red,16GB,38.72,SKU-0935-RED-16GB,35,14
+Smartphone 936,Best value for money,1360.17,Gadgets,SKU-0936,Silver,128GB,51.89,SKU-0936-SIL-128GB,58,17
+Camera 937,Latest model with advanced features,675.33,Gadgets,SKU-0937,Green,64GB,100.93,SKU-0937-GRE-64GB,48,19
+Tablet 938,High quality and durable product,484.81,Accessories,SKU-0938,White,32GB,188.32,SKU-0938-WHI-32GB,35,5
+Tablet 939,High quality and durable product,764.51,Gadgets,SKU-0939,Green,64GB,90.12,SKU-0939-GRE-64GB,13,16
+Tablet 940,Enhanced performance and battery life,203.34,Electronics,SKU-0940,Black,32GB,135.78,SKU-0940-BLA-32GB,63,5
+Monitor 941,Latest model with advanced features,1163.64,Electronics,SKU-0941,White,512GB,51.35,SKU-0941-WHI-512GB,58,11
+Camera 942,Enhanced performance and battery life,1227.97,Electronics,SKU-0942,Black,64GB,152.09,SKU-0942-BLA-64GB,57,14
+Tablet 943,High quality and durable product,504.95,Gadgets,SKU-0943,Gold,16GB,33.57,SKU-0943-GOL-16GB,14,13
+Speaker 944,Enhanced performance and battery life,1272.76,Accessories,SKU-0944,Green,64GB,36.66,SKU-0944-GRE-64GB,76,12
+Speaker 945,Compact and lightweight design,1699.28,Accessories,SKU-0945,Black,32GB,92.77,SKU-0945-BLA-32GB,68,9
+Smartwatch 946,High quality and durable product,983.56,Gadgets,SKU-0946,Black,16GB,49.69,SKU-0946-BLA-16GB,34,12
+Monitor 947,Best value for money,1487.03,Electronics,SKU-0947,Blue,32GB,20.66,SKU-0947-BLU-32GB,54,16
+Tablet 948,High quality and durable product,1001.62,Gadgets,SKU-0948,Blue,512GB,13.89,SKU-0948-BLU-512GB,52,14
+Monitor 949,High quality and durable product,1530.42,Accessories,SKU-0949,Black,512GB,105.35,SKU-0949-BLA-512GB,89,10
+Camera 950,Latest model with advanced features,658.42,Accessories,SKU-0950,Green,512GB,198.93,SKU-0950-GRE-512GB,84,5
+Speaker 951,Compact and lightweight design,1911.62,Accessories,SKU-0951,Green,128GB,140.39,SKU-0951-GRE-128GB,23,13
+Laptop 952,Best value for money,69.69,Gadgets,SKU-0952,Green,512GB,39.86,SKU-0952-GRE-512GB,65,8
+Smartwatch 953,Enhanced performance and battery life,807.36,Electronics,SKU-0953,Gold,32GB,167.7,SKU-0953-GOL-32GB,63,13
+Speaker 954,Enhanced performance and battery life,1522.4,Electronics,SKU-0954,Blue,16GB,197.23,SKU-0954-BLU-16GB,84,5
+Smartwatch 955,Best value for money,1085.19,Gadgets,SKU-0955,Red,512GB,107.78,SKU-0955-RED-512GB,46,5
+Headphones 956,Enhanced performance and battery life,1688.15,Accessories,SKU-0956,Red,256GB,64.62,SKU-0956-RED-256GB,91,15
+Laptop 957,Enhanced performance and battery life,762.46,Electronics,SKU-0957,Green,64GB,151.86,SKU-0957-GRE-64GB,32,15
+Laptop 958,Enhanced performance and battery life,648.17,Accessories,SKU-0958,White,16GB,163.85,SKU-0958-WHI-16GB,54,8
+Laptop 959,High quality and durable product,825.91,Electronics,SKU-0959,Gold,512GB,98.22,SKU-0959-GOL-512GB,81,12
+Headphones 960,Enhanced performance and battery life,842.21,Gadgets,SKU-0960,Silver,16GB,27.88,SKU-0960-SIL-16GB,21,9
+Camera 961,Latest model with advanced features,1614.85,Gadgets,SKU-0961,Black,128GB,6.21,SKU-0961-BLA-128GB,93,8
+Monitor 962,Enhanced performance and battery life,1312.76,Gadgets,SKU-0962,Red,128GB,193.48,SKU-0962-RED-128GB,46,12
+Smartwatch 963,Compact and lightweight design,1443.85,Gadgets,SKU-0963,Green,128GB,24.47,SKU-0963-GRE-128GB,61,5
+Laptop 964,Enhanced performance and battery life,440.47,Accessories,SKU-0964,White,32GB,74.44,SKU-0964-WHI-32GB,52,13
+Camera 965,Latest model with advanced features,1544.59,Gadgets,SKU-0965,Silver,16GB,63.53,SKU-0965-SIL-16GB,40,9
+Headphones 966,Enhanced performance and battery life,491.33,Gadgets,SKU-0966,Green,256GB,119.61,SKU-0966-GRE-256GB,62,13
+Laptop 967,Enhanced performance and battery life,1517.42,Electronics,SKU-0967,Green,256GB,158.63,SKU-0967-GRE-256GB,46,19
+Headphones 968,Enhanced performance and battery life,811.84,Gadgets,SKU-0968,Red,16GB,8.55,SKU-0968-RED-16GB,43,18
+Speaker 969,Latest model with advanced features,948.96,Electronics,SKU-0969,Red,512GB,166.49,SKU-0969-RED-512GB,67,16
+Smartwatch 970,High quality and durable product,256.34,Electronics,SKU-0970,Green,32GB,16.17,SKU-0970-GRE-32GB,18,11
+Speaker 971,Compact and lightweight design,1367.1,Gadgets,SKU-0971,Green,16GB,100.31,SKU-0971-GRE-16GB,48,18
+Headphones 972,Enhanced performance and battery life,1397.58,Gadgets,SKU-0972,White,16GB,193.46,SKU-0972-WHI-16GB,79,16
+Headphones 973,Compact and lightweight design,114.59,Electronics,SKU-0973,Green,128GB,155.82,SKU-0973-GRE-128GB,37,7
+Speaker 974,High quality and durable product,1998.93,Accessories,SKU-0974,Blue,256GB,65.94,SKU-0974-BLU-256GB,9,12
+Laptop 975,Compact and lightweight design,322.02,Gadgets,SKU-0975,Red,128GB,92.74,SKU-0975-RED-128GB,90,8
+Laptop 976,Enhanced performance and battery life,207.54,Gadgets,SKU-0976,Black,16GB,53.85,SKU-0976-BLA-16GB,23,8
+Camera 977,High quality and durable product,557.97,Gadgets,SKU-0977,White,16GB,37.07,SKU-0977-WHI-16GB,32,9
+Smartwatch 978,Best value for money,1128.52,Gadgets,SKU-0978,Silver,64GB,121.68,SKU-0978-SIL-64GB,37,5
+Headphones 979,Latest model with advanced features,150.87,Gadgets,SKU-0979,White,64GB,52.53,SKU-0979-WHI-64GB,69,19
+Smartphone 980,Enhanced performance and battery life,1155.98,Electronics,SKU-0980,Silver,64GB,20.49,SKU-0980-SIL-64GB,26,5
+Monitor 981,Best value for money,878.51,Gadgets,SKU-0981,Red,64GB,179.41,SKU-0981-RED-64GB,100,19
+Tablet 982,High quality and durable product,1696.59,Gadgets,SKU-0982,Blue,128GB,54.48,SKU-0982-BLU-128GB,19,17
+Camera 983,Latest model with advanced features,850.17,Electronics,SKU-0983,Green,32GB,32.39,SKU-0983-GRE-32GB,85,9
+Headphones 984,High quality and durable product,581.8,Gadgets,SKU-0984,Silver,256GB,150.47,SKU-0984-SIL-256GB,72,6
+Monitor 985,Enhanced performance and battery life,904.77,Electronics,SKU-0985,Green,256GB,50.01,SKU-0985-GRE-256GB,88,10
+Camera 986,Compact and lightweight design,1591.14,Gadgets,SKU-0986,Blue,32GB,168.6,SKU-0986-BLU-32GB,49,18
+Tablet 987,Compact and lightweight design,128.28,Electronics,SKU-0987,Green,128GB,32.37,SKU-0987-GRE-128GB,66,19
+Camera 988,Compact and lightweight design,1566.96,Gadgets,SKU-0988,Gold,16GB,74.31,SKU-0988-GOL-16GB,62,9
+Speaker 989,High quality and durable product,1279.07,Electronics,SKU-0989,Black,512GB,26.27,SKU-0989-BLA-512GB,20,11
+Headphones 990,Compact and lightweight design,381.62,Accessories,SKU-0990,White,64GB,66.83,SKU-0990-WHI-64GB,77,11
+Smartphone 991,Best value for money,1745.34,Gadgets,SKU-0991,White,32GB,50.59,SKU-0991-WHI-32GB,90,15
+Smartwatch 992,Enhanced performance and battery life,1230.67,Electronics,SKU-0992,Blue,256GB,104.55,SKU-0992-BLU-256GB,28,13
+Tablet 993,Compact and lightweight design,643.73,Accessories,SKU-0993,Blue,128GB,12.31,SKU-0993-BLU-128GB,34,17
+Camera 994,Compact and lightweight design,474.55,Gadgets,SKU-0994,Silver,32GB,190.24,SKU-0994-SIL-32GB,99,16
+Smartphone 995,High quality and durable product,372.24,Gadgets,SKU-0995,Red,64GB,161.46,SKU-0995-RED-64GB,33,8
+Speaker 996,Best value for money,174.73,Electronics,SKU-0996,Silver,64GB,115.82,SKU-0996-SIL-64GB,80,14
+Camera 997,Best value for money,1278.37,Gadgets,SKU-0997,White,32GB,84.74,SKU-0997-WHI-32GB,24,17
+Smartwatch 998,Latest model with advanced features,1357.29,Electronics,SKU-0998,Silver,128GB,178.25,SKU-0998-SIL-128GB,55,15
+Smartphone 999,Compact and lightweight design,1904.55,Gadgets,SKU-0999,Silver,128GB,146.34,SKU-0999-SIL-128GB,81,6
+Camera 1000,Compact and lightweight design,1355.3,Accessories,SKU-1000,Black,512GB,192.72,SKU-1000-BLA-512GB,84,10
