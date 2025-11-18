@@ -72,6 +72,9 @@ class ProductRepository extends BaseRepository
 
             if (!ini_get('mysqli.allow_local_infile')) {
                 throw new \Exception("LOCAL INFILE not enabled on MySQL server and you can set by running 'SET GLOBAL local_infile=ON;'");
+
+                // SET GLOBAL local_infile = ON;
+                // SHOW VARIABLES LIKE 'local_infile';
             }
 
             // 1 Check if CSV has header
