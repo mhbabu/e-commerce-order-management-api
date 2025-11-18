@@ -22,8 +22,6 @@ class Product extends Model
         'is_active' => 'boolean',
     ];
 
-
-
     /**
      * Inventory belongs to a ProductVariant
      */

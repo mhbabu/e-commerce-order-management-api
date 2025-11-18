@@ -37,3 +37,23 @@ if (!function_exists('jsonResponseWithPagination')) {
         return response()->json(['message' => $message, 'status' => $status] + $response, $statusCode);
     }
 }
+
+if (!function_exists('formatDateTime')) {
+    /**
+     * Format a timestamp into a standardized string
+     *
+     * @param \DateTime|string|null $timestamp
+     * @param string $format
+     * @return string|null
+     */
+    function formatDateTime($timestamp, string $format = 'Y-m-d H:i:s'): ?string
+    {
+        if (!$timestamp) return null;
+
+        if (is_string($timestamp)) {
+            return date($format, strtotime($timestamp));
+        }
+
+        return $timestamp->format($format);
+    }
+}

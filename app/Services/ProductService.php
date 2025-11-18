@@ -24,31 +24,72 @@ class ProductService
         return $this->productRepository->list($filters, $authUser);
     }
 
-    public function createProduct(array $data, int $vendorId): Product
+
+    /**
+     * Full creation with variants and inventory
+     */
+    public function createProductWithVariants(array $data, int $vendorId): Product
     {
         return DB::transaction(function () use ($data, $vendorId) {
-            $product = $this->productRepository->create(array_merge($data, ['vendor_id' => $vendorId]));
-            return $product;
+            $variants = $data['variants'] ?? [];
+
+            // Create product
+            $product = $this->createProduct($data, $vendorId);
+
+            // Create variants with inventory
+            $this->createVariantsWithInventory($product, $variants);
+
+            // Return product with loaded relations
+            return $product->load('variants.inventory');
         });
     }
 
-    public function createVariant(int $productId, array $variantData, array $inventoryData): ProductVariant
+    /**
+     * Create product
+     */
+    public function createProduct(array $data, int $vendorId): Product
     {
-        return DB::transaction(function () use ($productId, $variantData, $inventoryData) {
-            $variant = ProductVariant::create(array_merge($variantData, ['product_id' => $productId]));
-            Inventory::create(array_merge($inventoryData, ['product_variant_id' => $variant->id]));
-            return $variant;
-        });
+        return $this->productRepository->create(array_merge($data, ['vendor_id' => $vendorId]));
     }
 
-    public function getProductsByVendor(int $vendorId): Collection
+    /**
+     * Bulk insert variants with inventory
+     */
+    public function createVariantsWithInventory(Product $product, array $variants): void
     {
-        return $this->productRepository->findByVendor($vendorId);
-    }
+        if (empty($variants)) return;
 
-    public function searchProducts(string $query): Collection
-    {
-        return $this->productRepository->search($query);
+        $variantsInsert  = [];
+        $inventoryInsert = [];
+
+        foreach ($variants as $variantData) {
+            $variantsInsert[] = [
+                'product_id'     => $product->id,
+                'attributes'     => json_encode($variantData['attributes'] ?? []),
+                'price_modifier' => $variantData['price_modifier'] ?? 0,
+                'sku'            => $variantData['sku'],
+                'is_active'      => true,
+                'created_at'     => now(),
+                'updated_at'     => now(),
+            ];
+        }
+
+        ProductVariant::insert($variantsInsert);
+
+        $insertedVariants = ProductVariant::where('product_id', $product->id)->get();
+
+        foreach ($insertedVariants as $variant) {
+            $originalData = collect($variants)->firstWhere('sku', $variant->sku);
+            $inventoryInsert[] = [
+                'product_variant_id' => $variant->id,
+                'quantity'           => $originalData['quantity'] ?? 0,
+                'low_stock_threshold' => $originalData['low_stock_threshold'] ?? 10,
+                'created_at'         => now(),
+                'updated_at'         => now(),
+            ];
+        }
+
+        Inventory::insert($inventoryInsert);
     }
 
     public function updateProduct(int $id, array $data): bool

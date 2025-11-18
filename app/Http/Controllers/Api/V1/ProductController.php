@@ -39,19 +39,8 @@ class ProductController extends Controller
 
     public function store(StoreProductRequest $request)
     {
-        $product = $this->productService->createProduct($request->only(['name', 'description', 'base_price', 'category', 'sku']), auth('api')->user()->id);
-
-        foreach ($request->variants as $variantData) {
-            $this->productService->createVariant($product->id, [
-                'attributes' => $variantData['attributes'],
-                'price_modifier' => $variantData['price_modifier'] ?? 0,
-                'sku' => $variantData['sku'],
-            ], [
-                'quantity' => $variantData['quantity'],
-                'low_stock_threshold' => $variantData['low_stock_threshold'] ?? 10,
-            ]);
-        }
-
+        $data    = $request->all(); // grab all request data including variants
+        $product = $this->productService->createProductWithVariants($data, auth('api')->id());
         return jsonResponse('Product created', true, new ProductResource($product->load('variants.inventory')), 201);
     }
 

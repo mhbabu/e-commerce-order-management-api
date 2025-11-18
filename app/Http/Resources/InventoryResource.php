@@ -15,9 +15,9 @@ class InventoryResource extends JsonResource
     public function toArray(Request $request): array
     {
         return [
-            'quantity' => $this->quantity,
+            'quantity'            => $this->quantity,
             'low_stock_threshold' => $this->low_stock_threshold,
-            'last_updated' => $this->last_updated,
+            'last_updated'        => formatDateTime($this->updated_at),
         ];
     }
 }
