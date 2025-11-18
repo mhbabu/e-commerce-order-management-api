@@ -6,6 +6,7 @@ use App\Models\Product;
 use App\Models\ProductVariant;
 use App\Models\Inventory;
 use App\Repositories\ProductRepository;
+use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\DB;
 
 class ProductService
@@ -114,4 +115,12 @@ class ProductService
             );
         }
     }
+
+
+    public function importProductsFromCsv(UploadedFile $file, int $vendorId = 1): int
+    {
+        return $this->productRepository->bulkImport($file, $vendorId);
+    }
+
+    
 }
