@@ -13,17 +13,21 @@ return new class extends Migration
     {
         Schema::create('product_import_staging', function (Blueprint $table) {
             $table->id();
-            $table->string('product_name');
+            $table->string('product_name', 191);
             $table->text('description')->nullable();
             $table->decimal('base_price', 10, 2)->default(0);
-            $table->string('category');
-            $table->string('product_sku')->unique();
-            $table->string('variant_color')->nullable();
-            $table->string('variant_storage')->nullable();
+            $table->string('category', 191)->nullable();
+            $table->string('product_sku', 191)->nullable()->index();
+            $table->string('variant_color', 100)->nullable();
+            $table->string('variant_storage', 50)->nullable();
             $table->decimal('price_modifier', 10, 2)->default(0);
-            $table->string('variant_sku')->unique();
+            $table->string('variant_sku', 191)->nullable()->index();
             $table->integer('quantity')->default(0);
             $table->integer('low_stock_threshold')->default(10);
+            $table->timestamps();
+
+            // Ensure unique combination of product + variant SKU
+            $table->unique(['product_sku', 'variant_sku'], 'staging_product_variant_unique');
         });
     }
 

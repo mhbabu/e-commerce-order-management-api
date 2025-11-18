@@ -75,12 +75,12 @@ class ProductController extends Controller
 
     public function bulkImport(BulkImportProductsRequest $request)
     {
-        $file = $request->file('file');
+        $file     = $request->file('file');
         $vendorId = auth('api')->id();
 
         try {
-            $this->productService->importProductsFromCsv($file, $vendorId);
-            return jsonResponse('Product imorted successfully', true);
+            $data = $this->productService->importProductsFromCsv($file, $vendorId);
+            return jsonResponse('Product imorted successfully', true, $data);
         } catch (\Exception $e) {
             return jsonResponse($e->getMessage(), false, null, 500);
         }

@@ -117,7 +117,7 @@ class ProductService
     }
 
 
-    public function importProductsFromCsv(UploadedFile $file, int $vendorId = 1): int
+    public function importProductsFromCsv(UploadedFile $file, int $vendorId = 1): array
     {
         return $this->productRepository->bulkImport($file, $vendorId);
     }
