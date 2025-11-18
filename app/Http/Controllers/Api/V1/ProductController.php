@@ -6,7 +6,7 @@ use App\Services\ProductService;
 use App\Http\Requests\Products\StoreProductRequest;
 use App\Http\Requests\Products\UpdateProductRequest;
 use App\Http\Requests\Products\BulkImportProductsRequest;
-use App\Http\Resources\ProductResource;
+use App\Http\Resources\Product\ProductResource;
 use App\Jobs\BulkImportProducts;
 use Illuminate\Http\Request;
 
@@ -36,7 +36,6 @@ class ProductController extends Controller
         return jsonResponseWithPagination('Products retrieved successfully', true,  $productList);
     }
 
-
     public function store(StoreProductRequest $request)
     {
         $data    = $request->all(); // grab all request data including variants
@@ -53,14 +52,15 @@ class ProductController extends Controller
         return jsonResponse('Product retrieved', true, new ProductResource($product->load('variants.inventory')));
     }
 
-    public function update(UpdateProductRequest $request, $id)
+    public function update(UpdateProductRequest $request, int $id)
     {
-        $updated = $this->productService->updateProduct($id, $request->all());
-        if (!$updated) {
+        $product = $this->productService->updateProductWithVariants($id, $request->all());
+
+        if (!$product) {
             return jsonResponse('Product not found', false, null, 404);
         }
 
-        return jsonResponse('Product updated', true);
+        return jsonResponse('Product updated successfully', true, new ProductResource($product->load('variants.inventory')));
     }
 
     public function destroy($id)

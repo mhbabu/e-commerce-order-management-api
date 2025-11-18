@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Resources;
+namespace App\Http\Resources\Product;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
@@ -24,8 +24,8 @@ class ProductResource extends JsonResource
             'is_active'   => $this->is_active,
             'vendor_id'   => $this->vendor_id,
             'variants'    => ProductVariantResource::collection($this->whenLoaded('variants')),
-            'created_at'  => $this->created_at,
-            'updated_at'  => $this->updated_at,
+            'created_at'  => formatDateTime($this->created_at),
+            'updated_at'  => formatDateTime($this->updated_at),
         ];
     }
 }
