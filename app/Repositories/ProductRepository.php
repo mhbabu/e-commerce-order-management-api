@@ -75,6 +75,9 @@ class ProductRepository extends BaseRepository
 
                 // SET GLOBAL local_infile = ON;
                 // SHOW VARIABLES LIKE 'local_infile';
+                // mysql -u root -p -e "SET GLOBAL local_infile = 1;"
+                // mysql -u root -p -e "SHOW VARIABLES LIKE 'local_infile';"
+
             }
 
             // 1 Check if CSV has header
