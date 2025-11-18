@@ -17,8 +17,7 @@ class AuthController extends Controller
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
-            'role' => $request->role ?? 'customer',
-            'emai'
+            'role' => $request->role ?? 'customer' // by default role is customer, only admin can change the role
         ]);
 
         $token = JWTAuth::fromUser($user);

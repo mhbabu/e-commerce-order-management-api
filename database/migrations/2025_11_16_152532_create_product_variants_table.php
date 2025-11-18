@@ -14,7 +14,8 @@ return new class extends Migration
         Schema::create('product_variants', function (Blueprint $table) {
             $table->id();
             $table->foreignId('product_id')->constrained()->cascadeOnDelete();
-            $table->decimal('price_modifier', 10, 2)->default(0);
+            $table->json('attributes')->nullable();  // JSON attributes
+            $table->decimal('price_modifier', 10, 2)->default(0); // // Price difference from base_price
             $table->string('sku')->unique();
             $table->boolean('is_active')->default(true);
             $table->timestamps();

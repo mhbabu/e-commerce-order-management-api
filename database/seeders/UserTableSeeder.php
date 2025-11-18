@@ -17,7 +17,7 @@ class UserTableSeeder extends Seeder
             ],
             [
                 'name'  => 'TechMart Electronics',
-                'email' => 'vendor1@example.com',
+                'email' => 'vendor@example.com',
                 'role'  => 'vendor',
             ],
             [

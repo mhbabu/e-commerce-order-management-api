@@ -15,12 +15,12 @@ class ProductVariantResource extends JsonResource
     public function toArray(Request $request): array
     {
         return [
-            'id' => $this->id,
-            'attributes' => $this->attributes,
+            'id'             => $this->id,
+            'attributes'     => $this->attributes,
             'price_modifier' => $this->price_modifier,
-            'sku' => $this->sku,
-            'is_active' => $this->is_active,
-            'inventory' => new InventoryResource($this->whenLoaded('inventory')),
+            'sku'            => $this->sku,
+            'is_active'      => $this->is_active,
+            'inventory'      => new InventoryResource($this->whenLoaded('inventory')),
         ];
     }
 }

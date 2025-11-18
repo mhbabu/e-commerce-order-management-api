@@ -10,7 +10,7 @@ class Product extends Model
 {
     protected $fillable = [
         'vendor_id',
-        'category_id',
+        'category',
         'name',
         'description',
         'base_price',
@@ -22,23 +22,13 @@ class Product extends Model
         'is_active' => 'boolean',
     ];
 
-    public function category()
-    {
-        return $this->belongsTo(Category::class);
-    }
 
+
+    /**
+     * Inventory belongs to a ProductVariant
+     */
     public function variants()
     {
         return $this->hasMany(ProductVariant::class);
-    }
-
-    public function attributes()
-    {
-        return $this->belongsToMany(Attribute::class, 'product_attributes');
-    }
-
-    public function vendor()
-    {
-        return $this->belongsTo(User::class, 'vendor_id');
     }
 }

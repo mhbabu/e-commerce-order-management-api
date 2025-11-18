@@ -7,6 +7,13 @@ use Illuminate\Database\Eloquent\Collection;
 
 class ProductRepository extends BaseRepository
 {
+    protected array $searchableColumns = [ // for safe search
+        'name',
+        'sku',
+        'category', // instead of category_name
+        'description'
+    ];
+
     public function __construct(Product $model)
     {
         parent::__construct($model);
@@ -20,15 +27,15 @@ class ProductRepository extends BaseRepository
             $query->where('vendor_id', $authUser->id);
         }
 
-        if (!empty($filters['search']) && !empty($filters['search_by'])) { // when search by multiple columns
+        if (!empty($filters['search']) && !empty($filters['search_by'])) {
             $searchText = $filters['search'];
-
-            // Make sure search_by is always an array
             $columns = is_array($filters['search_by']) ? $filters['search_by'] : [$filters['search_by']];
 
             $query->where(function ($q) use ($columns, $searchText) {
                 foreach ($columns as $column) {
-                    $q->orWhere($column, 'like', "%{$searchText}%");
+                    if (in_array($column, $this->searchableColumns)) {
+                        $q->orWhere($column, 'like', "%{$searchText}%");
+                    }
                 }
             });
         }
