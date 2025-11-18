@@ -1,0 +1,1001 @@
+product_name,description,base_price,category,product_sku,variant_color,variant_storage,price_modifier,variant_sku,quantity,low_stock_threshold
+Apple Tablet 1,Apple Tablet 1 high-quality modern tablet with advanced features.,1693.15,Tablets,SKU-0001,Silver,64GB,0,SKU-0001-SIL-64,9,10
+Vivo Headphone 49,Vivo Headphone 49 high-quality modern headphone with advanced features.,1043.45,Headphones,SKU-0002,Silver,512GB,25,SKU-0002-SIL-512,19,9
+Oppo Monitor 8,Oppo Monitor 8 high-quality modern monitor with advanced features.,1612.6,Monitors,SKU-0003,Blue,64GB,0,SKU-0003-BLU-64,74,20
+LG Smartwatche 3,LG Smartwatche 3 high-quality modern smartwatche with advanced features.,802.59,Smartwatches,SKU-0004,Gold,32GB,25,SKU-0004-GOL-32,28,13
+Asus Smartwatche 26,Asus Smartwatche 26 high-quality modern smartwatche with advanced features.,1415.5,Smartwatches,SKU-0005,White,32GB,10,SKU-0005-WHI-32,91,5
+HP Gaming Console 47,HP Gaming Console 47 high-quality modern gaming console with advanced features.,1790.31,Gaming Consoles,SKU-0006,Red,32GB,5,SKU-0006-RED-32,49,10
+Vivo Tablet 41,Vivo Tablet 41 high-quality modern tablet with advanced features.,1543.19,Tablets,SKU-0007,Green,32GB,25,SKU-0007-GRE-32,56,16
+LG Headphone 18,LG Headphone 18 high-quality modern headphone with advanced features.,100.87,Headphones,SKU-0008,Red,128GB,20,SKU-0008-RED-128,17,11
+Vivo Home Appliance 27,Vivo Home Appliance 27 high-quality modern home appliance with advanced features.,600.13,Home Appliances,SKU-0009,Blue,64GB,25,SKU-0009-BLU-64,65,10
+LG Smartwatche 43,LG Smartwatche 43 high-quality modern smartwatche with advanced features.,1185.27,Smartwatches,SKU-0010,Black,128GB,5,SKU-0010-BLA-128,71,9
+Canon Smartwatche 38,Canon Smartwatche 38 high-quality modern smartwatche with advanced features.,862.78,Smartwatches,SKU-0011,White,128GB,10,SKU-0011-WHI-128,50,20
+Apple Tablet 41,Apple Tablet 41 high-quality modern tablet with advanced features.,1888.69,Tablets,SKU-0012,Green,1TB,20,SKU-0012-GRE-1TB,91,10
+HP Camera 3,HP Camera 3 high-quality modern camera with advanced features.,1434.29,Cameras,SKU-0013,Blue,128GB,10,SKU-0013-BLU-128,74,9
+Canon Tablet 9,Canon Tablet 9 high-quality modern tablet with advanced features.,1197.4,Tablets,SKU-0014,Silver,256GB,10,SKU-0014-SIL-256,69,18
+Sony Smartwatche 37,Sony Smartwatche 37 high-quality modern smartwatche with advanced features.,132.03,Smartwatches,SKU-0015,Green,128GB,15,SKU-0015-GRE-128,17,6
+Asus Gaming Console 16,Asus Gaming Console 16 high-quality modern gaming console with advanced features.,791.86,Gaming Consoles,SKU-0016,Silver,64GB,25,SKU-0016-SIL-64,27,7
+Canon Smartphone 24,Canon Smartphone 24 high-quality modern smartphone with advanced features.,933.64,Smartphones,SKU-0017,Silver,512GB,10,SKU-0017-SIL-512,54,8
+Canon Monitor 25,Canon Monitor 25 high-quality modern monitor with advanced features.,1069.1,Monitors,SKU-0018,Blue,512GB,15,SKU-0018-BLU-512,98,20
+Apple Camera 15,Apple Camera 15 high-quality modern camera with advanced features.,1807.55,Cameras,SKU-0019,Gold,512GB,5,SKU-0019-GOL-512,23,12
+Asus Monitor 17,Asus Monitor 17 high-quality modern monitor with advanced features.,1139.74,Monitors,SKU-0020,Silver,512GB,0,SKU-0020-SIL-512,86,15
+Vivo Camera 38,Vivo Camera 38 high-quality modern camera with advanced features.,1046.85,Cameras,SKU-0021,Gold,64GB,10,SKU-0021-GOL-64,17,15
+Sony Smartphone 7,Sony Smartphone 7 high-quality modern smartphone with advanced features.,1137.51,Smartphones,SKU-0022,Silver,64GB,10,SKU-0022-SIL-64,19,17
+LG Gaming Console 22,LG Gaming Console 22 high-quality modern gaming console with advanced features.,1671.58,Gaming Consoles,SKU-0023,Silver,256GB,0,SKU-0023-SIL-256,50,7
+Asus Tablet 45,Asus Tablet 45 high-quality modern tablet with advanced features.,951.42,Tablets,SKU-0024,Black,32GB,5,SKU-0024-BLA-32,17,13
+Samsung Smartphone 33,Samsung Smartphone 33 high-quality modern smartphone with advanced features.,1671.8,Smartphones,SKU-0025,Red,512GB,20,SKU-0025-RED-512,39,15
+Nikon Home Appliance 16,Nikon Home Appliance 16 high-quality modern home appliance with advanced features.,153.59,Home Appliances,SKU-0026,Silver,128GB,10,SKU-0026-SIL-128,62,14
+Vivo Smartwatche 8,Vivo Smartwatche 8 high-quality modern smartwatche with advanced features.,994.34,Smartwatches,SKU-0027,Blue,64GB,5,SKU-0027-BLU-64,36,14
+Lenovo Headphone 11,Lenovo Headphone 11 high-quality modern headphone with advanced features.,409.73,Headphones,SKU-0028,Red,512GB,15,SKU-0028-RED-512,17,11
+Lenovo Camera 42,Lenovo Camera 42 high-quality modern camera with advanced features.,213.04,Cameras,SKU-0029,Silver,64GB,15,SKU-0029-SIL-64,43,13
+Asus Smartwatche 34,Asus Smartwatche 34 high-quality modern smartwatche with advanced features.,1298.98,Smartwatches,SKU-0030,Black,256GB,0,SKU-0030-BLA-256,13,16
+Xiaomi Camera 22,Xiaomi Camera 22 high-quality modern camera with advanced features.,1499.3,Cameras,SKU-0031,Silver,256GB,25,SKU-0031-SIL-256,69,6
+Samsung Smartwatche 19,Samsung Smartwatche 19 high-quality modern smartwatche with advanced features.,1989.79,Smartwatches,SKU-0032,Red,64GB,20,SKU-0032-RED-64,53,8
+LG Smartphone 1,LG Smartphone 1 high-quality modern smartphone with advanced features.,1042.29,Smartphones,SKU-0033,Gold,256GB,10,SKU-0033-GOL-256,32,10
+Asus Monitor 42,Asus Monitor 42 high-quality modern monitor with advanced features.,1251.09,Monitors,SKU-0034,Blue,32GB,5,SKU-0034-BLU-32,74,17
+HP Smartwatche 24,HP Smartwatche 24 high-quality modern smartwatche with advanced features.,767.71,Smartwatches,SKU-0035,Black,128GB,0,SKU-0035-BLA-128,89,11
+HP Monitor 38,HP Monitor 38 high-quality modern monitor with advanced features.,1036.76,Monitors,SKU-0036,Black,32GB,0,SKU-0036-BLA-32,21,14
+Lenovo Monitor 6,Lenovo Monitor 6 high-quality modern monitor with advanced features.,1400.58,Monitors,SKU-0037,Silver,64GB,15,SKU-0037-SIL-64,99,15
+Oppo Headphone 27,Oppo Headphone 27 high-quality modern headphone with advanced features.,191.24,Headphones,SKU-0038,Silver,256GB,25,SKU-0038-SIL-256,7,19
+Sony Monitor 26,Sony Monitor 26 high-quality modern monitor with advanced features.,797.6,Monitors,SKU-0039,Black,32GB,5,SKU-0039-BLA-32,23,20
+LG Headphone 37,LG Headphone 37 high-quality modern headphone with advanced features.,314.25,Headphones,SKU-0040,Green,128GB,10,SKU-0040-GRE-128,23,14
+Canon Camera 34,Canon Camera 34 high-quality modern camera with advanced features.,1069.76,Cameras,SKU-0041,Green,256GB,0,SKU-0041-GRE-256,50,17
+Dell Camera 15,Dell Camera 15 high-quality modern camera with advanced features.,449.78,Cameras,SKU-0042,Blue,128GB,5,SKU-0042-BLU-128,100,14
+Asus Tablet 44,Asus Tablet 44 high-quality modern tablet with advanced features.,944.73,Tablets,SKU-0043,White,64GB,20,SKU-0043-WHI-64,13,8
+HP Monitor 8,HP Monitor 8 high-quality modern monitor with advanced features.,973.54,Monitors,SKU-0044,Silver,512GB,0,SKU-0044-SIL-512,59,5
+Apple Tablet 29,Apple Tablet 29 high-quality modern tablet with advanced features.,1197.71,Tablets,SKU-0045,Red,512GB,10,SKU-0045-RED-512,61,13
+LG Camera 47,LG Camera 47 high-quality modern camera with advanced features.,141.71,Cameras,SKU-0046,White,32GB,15,SKU-0046-WHI-32,53,12
+HP Camera 38,HP Camera 38 high-quality modern camera with advanced features.,1808.3,Cameras,SKU-0047,White,128GB,10,SKU-0047-WHI-128,49,14
+Apple Camera 50,Apple Camera 50 high-quality modern camera with advanced features.,1177.26,Cameras,SKU-0048,Blue,1TB,5,SKU-0048-BLU-1TB,80,7
+LG Smartwatche 41,LG Smartwatche 41 high-quality modern smartwatche with advanced features.,1626.1,Smartwatches,SKU-0049,White,1TB,20,SKU-0049-WHI-1TB,26,18
+Sony Camera 39,Sony Camera 39 high-quality modern camera with advanced features.,1500.45,Cameras,SKU-0050,Red,128GB,20,SKU-0050-RED-128,62,5
+Asus Headphone 14,Asus Headphone 14 high-quality modern headphone with advanced features.,1979.23,Headphones,SKU-0051,Green,256GB,5,SKU-0051-GRE-256,35,9
+Canon Tablet 1,Canon Tablet 1 high-quality modern tablet with advanced features.,812.72,Tablets,SKU-0052,Black,128GB,15,SKU-0052-BLA-128,42,20
+Lenovo Gaming Console 23,Lenovo Gaming Console 23 high-quality modern gaming console with advanced features.,1238.94,Gaming Consoles,SKU-0053,Green,256GB,10,SKU-0053-GRE-256,71,18
+Oppo Headphone 1,Oppo Headphone 1 high-quality modern headphone with advanced features.,610.13,Headphones,SKU-0054,Silver,64GB,5,SKU-0054-SIL-64,42,15
+Asus Tablet 31,Asus Tablet 31 high-quality modern tablet with advanced features.,383.51,Tablets,SKU-0055,Red,1TB,5,SKU-0055-RED-1TB,92,5
+Oppo Smartwatche 48,Oppo Smartwatche 48 high-quality modern smartwatche with advanced features.,626.36,Smartwatches,SKU-0056,Blue,512GB,10,SKU-0056-BLU-512,50,5
+Oppo Tablet 11,Oppo Tablet 11 high-quality modern tablet with advanced features.,425.95,Tablets,SKU-0057,White,512GB,10,SKU-0057-WHI-512,59,19
+Xiaomi Laptop 41,Xiaomi Laptop 41 high-quality modern laptop with advanced features.,299.05,Laptops,SKU-0058,Red,256GB,5,SKU-0058-RED-256,99,16
+Asus Headphone 6,Asus Headphone 6 high-quality modern headphone with advanced features.,561.91,Headphones,SKU-0059,Green,256GB,20,SKU-0059-GRE-256,55,14
+Xiaomi Gaming Console 38,Xiaomi Gaming Console 38 high-quality modern gaming console with advanced features.,1774.62,Gaming Consoles,SKU-0060,Blue,64GB,20,SKU-0060-BLU-64,63,5
+LG Smartwatche 16,LG Smartwatche 16 high-quality modern smartwatche with advanced features.,605.52,Smartwatches,SKU-0061,Green,1TB,5,SKU-0061-GRE-1TB,61,9
+Apple Headphone 1,Apple Headphone 1 high-quality modern headphone with advanced features.,1040.72,Headphones,SKU-0062,Red,512GB,15,SKU-0062-RED-512,25,17
+Xiaomi Headphone 6,Xiaomi Headphone 6 high-quality modern headphone with advanced features.,1239.15,Headphones,SKU-0063,Black,512GB,0,SKU-0063-BLA-512,54,14
+Vivo Gaming Console 15,Vivo Gaming Console 15 high-quality modern gaming console with advanced features.,561.54,Gaming Consoles,SKU-0064,Black,1TB,20,SKU-0064-BLA-1TB,87,11
+Dell Headphone 47,Dell Headphone 47 high-quality modern headphone with advanced features.,776.45,Headphones,SKU-0065,White,256GB,20,SKU-0065-WHI-256,9,12
+Sony Camera 50,Sony Camera 50 high-quality modern camera with advanced features.,1427.44,Cameras,SKU-0066,Silver,256GB,20,SKU-0066-SIL-256,89,5
+LG Networking Device 14,LG Networking Device 14 high-quality modern networking device with advanced features.,1957.65,Networking Devices,SKU-0067,Green,1TB,5,SKU-0067-GRE-1TB,95,13
+Dell Laptop 1,Dell Laptop 1 high-quality modern laptop with advanced features.,460.04,Laptops,SKU-0068,Red,1TB,0,SKU-0068-RED-1TB,85,17
+Samsung Tablet 49,Samsung Tablet 49 high-quality modern tablet with advanced features.,839.33,Tablets,SKU-0069,Silver,1TB,20,SKU-0069-SIL-1TB,22,6
+LG Tablet 20,LG Tablet 20 high-quality modern tablet with advanced features.,339.44,Tablets,SKU-0070,Red,32GB,10,SKU-0070-RED-32,35,8
+Nikon Laptop 5,Nikon Laptop 5 high-quality modern laptop with advanced features.,1177.22,Laptops,SKU-0071,Red,512GB,20,SKU-0071-RED-512,73,20
+Apple Home Appliance 30,Apple Home Appliance 30 high-quality modern home appliance with advanced features.,480.49,Home Appliances,SKU-0072,Silver,512GB,0,SKU-0072-SIL-512,59,5
+Dell Smartphone 18,Dell Smartphone 18 high-quality modern smartphone with advanced features.,847.85,Smartphones,SKU-0073,Black,512GB,25,SKU-0073-BLA-512,90,7
+Nikon Headphone 50,Nikon Headphone 50 high-quality modern headphone with advanced features.,1183.28,Headphones,SKU-0074,Blue,32GB,5,SKU-0074-BLU-32,48,18
+Vivo Smartwatche 47,Vivo Smartwatche 47 high-quality modern smartwatche with advanced features.,973.28,Smartwatches,SKU-0075,Black,32GB,0,SKU-0075-BLA-32,14,9
+Nikon Camera 22,Nikon Camera 22 high-quality modern camera with advanced features.,1473.62,Cameras,SKU-0076,Green,32GB,0,SKU-0076-GRE-32,66,14
+Samsung Networking Device 26,Samsung Networking Device 26 high-quality modern networking device with advanced features.,1444.99,Networking Devices,SKU-0077,Green,1TB,15,SKU-0077-GRE-1TB,67,20
+Oppo Headphone 44,Oppo Headphone 44 high-quality modern headphone with advanced features.,781.33,Headphones,SKU-0078,Blue,512GB,20,SKU-0078-BLU-512,32,10
+Nikon Monitor 3,Nikon Monitor 3 high-quality modern monitor with advanced features.,1952.08,Monitors,SKU-0079,Green,256GB,0,SKU-0079-GRE-256,28,8
+Apple Home Appliance 35,Apple Home Appliance 35 high-quality modern home appliance with advanced features.,1444.96,Home Appliances,SKU-0080,White,1TB,15,SKU-0080-WHI-1TB,61,5
+Samsung Smartphone 50,Samsung Smartphone 50 high-quality modern smartphone with advanced features.,954.96,Smartphones,SKU-0081,Gold,256GB,0,SKU-0081-GOL-256,47,19
+LG Laptop 46,LG Laptop 46 high-quality modern laptop with advanced features.,917.24,Laptops,SKU-0082,Gold,256GB,15,SKU-0082-GOL-256,37,9
+Nikon Gaming Console 4,Nikon Gaming Console 4 high-quality modern gaming console with advanced features.,865.67,Gaming Consoles,SKU-0083,White,64GB,0,SKU-0083-WHI-64,18,11
+HP Tablet 42,HP Tablet 42 high-quality modern tablet with advanced features.,1481.79,Tablets,SKU-0084,Silver,1TB,20,SKU-0084-SIL-1TB,27,13
+Sony Home Appliance 35,Sony Home Appliance 35 high-quality modern home appliance with advanced features.,742.47,Home Appliances,SKU-0085,Silver,64GB,10,SKU-0085-SIL-64,8,18
+Vivo Networking Device 27,Vivo Networking Device 27 high-quality modern networking device with advanced features.,1533.54,Networking Devices,SKU-0086,White,256GB,25,SKU-0086-WHI-256,95,10
+Sony Home Appliance 38,Sony Home Appliance 38 high-quality modern home appliance with advanced features.,1882.96,Home Appliances,SKU-0087,Green,64GB,0,SKU-0087-GRE-64,12,6
+Oppo Camera 10,Oppo Camera 10 high-quality modern camera with advanced features.,1341.1,Cameras,SKU-0088,Red,512GB,0,SKU-0088-RED-512,86,17
+Xiaomi Smartphone 45,Xiaomi Smartphone 45 high-quality modern smartphone with advanced features.,332.99,Smartphones,SKU-0089,Red,128GB,15,SKU-0089-RED-128,63,12
+HP Tablet 30,HP Tablet 30 high-quality modern tablet with advanced features.,155.66,Tablets,SKU-0090,Black,32GB,15,SKU-0090-BLA-32,21,9
+Canon Camera 8,Canon Camera 8 high-quality modern camera with advanced features.,1055.88,Cameras,SKU-0091,White,1TB,0,SKU-0091-WHI-1TB,87,18
+Samsung Smartwatche 17,Samsung Smartwatche 17 high-quality modern smartwatche with advanced features.,1402.07,Smartwatches,SKU-0092,Green,512GB,5,SKU-0092-GRE-512,64,19
+Nikon Laptop 20,Nikon Laptop 20 high-quality modern laptop with advanced features.,1428.01,Laptops,SKU-0093,Green,512GB,5,SKU-0093-GRE-512,21,5
+Dell Networking Device 9,Dell Networking Device 9 high-quality modern networking device with advanced features.,1030.22,Networking Devices,SKU-0094,Green,32GB,5,SKU-0094-GRE-32,62,11
+Oppo Headphone 1,Oppo Headphone 1 high-quality modern headphone with advanced features.,479.23,Headphones,SKU-0095,Red,32GB,15,SKU-0095-RED-32,58,17
+LG Gaming Console 44,LG Gaming Console 44 high-quality modern gaming console with advanced features.,1069.79,Gaming Consoles,SKU-0096,Green,32GB,25,SKU-0096-GRE-32,38,5
+Asus Headphone 19,Asus Headphone 19 high-quality modern headphone with advanced features.,249.22,Headphones,SKU-0097,Black,64GB,25,SKU-0097-BLA-64,5,19
+LG Smartphone 48,LG Smartphone 48 high-quality modern smartphone with advanced features.,833.77,Smartphones,SKU-0098,White,32GB,5,SKU-0098-WHI-32,44,5
+Sony Headphone 33,Sony Headphone 33 high-quality modern headphone with advanced features.,1917.84,Headphones,SKU-0099,Black,128GB,5,SKU-0099-BLA-128,12,15
+Nikon Tablet 3,Nikon Tablet 3 high-quality modern tablet with advanced features.,1726.22,Tablets,SKU-0100,Silver,512GB,25,SKU-0100-SIL-512,63,8
+Oppo Home Appliance 14,Oppo Home Appliance 14 high-quality modern home appliance with advanced features.,1354.29,Home Appliances,SKU-0101,Blue,512GB,5,SKU-0101-BLU-512,51,17
+Samsung Camera 5,Samsung Camera 5 high-quality modern camera with advanced features.,158.49,Cameras,SKU-0102,Blue,1TB,10,SKU-0102-BLU-1TB,20,14
+Asus Headphone 35,Asus Headphone 35 high-quality modern headphone with advanced features.,1174.2,Headphones,SKU-0103,Green,512GB,20,SKU-0103-GRE-512,31,17
+Samsung Smartphone 7,Samsung Smartphone 7 high-quality modern smartphone with advanced features.,667.55,Smartphones,SKU-0104,Black,256GB,0,SKU-0104-BLA-256,29,5
+Vivo Laptop 41,Vivo Laptop 41 high-quality modern laptop with advanced features.,748.7,Laptops,SKU-0105,Green,64GB,0,SKU-0105-GRE-64,72,19
+Lenovo Smartphone 13,Lenovo Smartphone 13 high-quality modern smartphone with advanced features.,1490,Smartphones,SKU-0106,Green,32GB,15,SKU-0106-GRE-32,32,13
+Nikon Laptop 3,Nikon Laptop 3 high-quality modern laptop with advanced features.,732.5,Laptops,SKU-0107,Green,1TB,0,SKU-0107-GRE-1TB,36,15
+Xiaomi Camera 30,Xiaomi Camera 30 high-quality modern camera with advanced features.,1239.47,Cameras,SKU-0108,Gold,1TB,5,SKU-0108-GOL-1TB,18,6
+LG Camera 4,LG Camera 4 high-quality modern camera with advanced features.,1571.21,Cameras,SKU-0109,Black,1TB,10,SKU-0109-BLA-1TB,85,11
+Apple Smartphone 26,Apple Smartphone 26 high-quality modern smartphone with advanced features.,252.77,Smartphones,SKU-0110,White,64GB,0,SKU-0110-WHI-64,82,18
+Apple Monitor 22,Apple Monitor 22 high-quality modern monitor with advanced features.,1112.76,Monitors,SKU-0111,White,512GB,15,SKU-0111-WHI-512,38,15
+Lenovo Networking Device 4,Lenovo Networking Device 4 high-quality modern networking device with advanced features.,947.34,Networking Devices,SKU-0112,White,64GB,0,SKU-0112-WHI-64,69,5
+Canon Headphone 12,Canon Headphone 12 high-quality modern headphone with advanced features.,865.07,Headphones,SKU-0113,Green,256GB,15,SKU-0113-GRE-256,46,20
+Samsung Home Appliance 12,Samsung Home Appliance 12 high-quality modern home appliance with advanced features.,755.55,Home Appliances,SKU-0114,Black,256GB,20,SKU-0114-BLA-256,35,6
+Canon Smartphone 25,Canon Smartphone 25 high-quality modern smartphone with advanced features.,219.26,Smartphones,SKU-0115,Red,64GB,25,SKU-0115-RED-64,84,14
+Vivo Headphone 13,Vivo Headphone 13 high-quality modern headphone with advanced features.,1164.04,Headphones,SKU-0116,Silver,256GB,10,SKU-0116-SIL-256,90,5
+Nikon Monitor 22,Nikon Monitor 22 high-quality modern monitor with advanced features.,1378.54,Monitors,SKU-0117,Blue,64GB,5,SKU-0117-BLU-64,10,12
+LG Tablet 12,LG Tablet 12 high-quality modern tablet with advanced features.,1357.29,Tablets,SKU-0118,White,512GB,15,SKU-0118-WHI-512,99,17
+Lenovo Networking Device 45,Lenovo Networking Device 45 high-quality modern networking device with advanced features.,635.15,Networking Devices,SKU-0119,Silver,1TB,20,SKU-0119-SIL-1TB,97,17
+Oppo Smartwatche 28,Oppo Smartwatche 28 high-quality modern smartwatche with advanced features.,1703.62,Smartwatches,SKU-0120,Blue,32GB,15,SKU-0120-BLU-32,27,5
+Sony Smartphone 19,Sony Smartphone 19 high-quality modern smartphone with advanced features.,1533.34,Smartphones,SKU-0121,Green,128GB,25,SKU-0121-GRE-128,74,16
+Vivo Gaming Console 12,Vivo Gaming Console 12 high-quality modern gaming console with advanced features.,1251.91,Gaming Consoles,SKU-0122,Blue,128GB,25,SKU-0122-BLU-128,5,11
+LG Networking Device 29,LG Networking Device 29 high-quality modern networking device with advanced features.,1157.19,Networking Devices,SKU-0123,Red,256GB,25,SKU-0123-RED-256,16,19
+Apple Home Appliance 3,Apple Home Appliance 3 high-quality modern home appliance with advanced features.,140.57,Home Appliances,SKU-0124,Green,128GB,15,SKU-0124-GRE-128,17,12
+Dell Home Appliance 2,Dell Home Appliance 2 high-quality modern home appliance with advanced features.,240.35,Home Appliances,SKU-0125,Red,32GB,10,SKU-0125-RED-32,99,7
+HP Camera 25,HP Camera 25 high-quality modern camera with advanced features.,786.64,Cameras,SKU-0126,Gold,32GB,20,SKU-0126-GOL-32,99,10
+Vivo Monitor 26,Vivo Monitor 26 high-quality modern monitor with advanced features.,877.98,Monitors,SKU-0127,White,128GB,5,SKU-0127-WHI-128,38,19
+Nikon Gaming Console 48,Nikon Gaming Console 48 high-quality modern gaming console with advanced features.,1967.29,Gaming Consoles,SKU-0128,Black,64GB,20,SKU-0128-BLA-64,37,10
+HP Laptop 50,HP Laptop 50 high-quality modern laptop with advanced features.,1149.76,Laptops,SKU-0129,Gold,256GB,15,SKU-0129-GOL-256,40,9
+Vivo Headphone 3,Vivo Headphone 3 high-quality modern headphone with advanced features.,436.96,Headphones,SKU-0130,Silver,512GB,20,SKU-0130-SIL-512,85,20
+Dell Gaming Console 9,Dell Gaming Console 9 high-quality modern gaming console with advanced features.,537.93,Gaming Consoles,SKU-0131,Blue,64GB,5,SKU-0131-BLU-64,42,5
+Dell Camera 45,Dell Camera 45 high-quality modern camera with advanced features.,313.98,Cameras,SKU-0132,White,1TB,5,SKU-0132-WHI-1TB,14,9
+Oppo Home Appliance 11,Oppo Home Appliance 11 high-quality modern home appliance with advanced features.,422.24,Home Appliances,SKU-0133,Green,512GB,15,SKU-0133-GRE-512,49,19
+Vivo Tablet 34,Vivo Tablet 34 high-quality modern tablet with advanced features.,1151.38,Tablets,SKU-0134,Red,64GB,5,SKU-0134-RED-64,80,10
+Xiaomi Home Appliance 47,Xiaomi Home Appliance 47 high-quality modern home appliance with advanced features.,1770.75,Home Appliances,SKU-0135,White,64GB,20,SKU-0135-WHI-64,83,11
+Lenovo Networking Device 43,Lenovo Networking Device 43 high-quality modern networking device with advanced features.,1956.06,Networking Devices,SKU-0136,Black,128GB,25,SKU-0136-BLA-128,52,19
+LG Tablet 42,LG Tablet 42 high-quality modern tablet with advanced features.,984.62,Tablets,SKU-0137,Red,128GB,10,SKU-0137-RED-128,12,17
+Nikon Camera 35,Nikon Camera 35 high-quality modern camera with advanced features.,1297.54,Cameras,SKU-0138,White,256GB,10,SKU-0138-WHI-256,19,16
+Apple Networking Device 22,Apple Networking Device 22 high-quality modern networking device with advanced features.,682.26,Networking Devices,SKU-0139,Green,256GB,15,SKU-0139-GRE-256,11,18
+Apple Smartphone 43,Apple Smartphone 43 high-quality modern smartphone with advanced features.,227.36,Smartphones,SKU-0140,Silver,256GB,25,SKU-0140-SIL-256,62,7
+Lenovo Monitor 23,Lenovo Monitor 23 high-quality modern monitor with advanced features.,1758.51,Monitors,SKU-0141,Blue,64GB,10,SKU-0141-BLU-64,46,11
+Dell Home Appliance 5,Dell Home Appliance 5 high-quality modern home appliance with advanced features.,1549.19,Home Appliances,SKU-0142,Silver,128GB,25,SKU-0142-SIL-128,69,12
+Nikon Networking Device 26,Nikon Networking Device 26 high-quality modern networking device with advanced features.,426.8,Networking Devices,SKU-0143,Blue,64GB,0,SKU-0143-BLU-64,41,11
+Lenovo Smartphone 38,Lenovo Smartphone 38 high-quality modern smartphone with advanced features.,178.01,Smartphones,SKU-0144,Red,32GB,25,SKU-0144-RED-32,37,16
+Xiaomi Smartphone 8,Xiaomi Smartphone 8 high-quality modern smartphone with advanced features.,1590.19,Smartphones,SKU-0145,White,512GB,10,SKU-0145-WHI-512,48,17
+Xiaomi Smartphone 18,Xiaomi Smartphone 18 high-quality modern smartphone with advanced features.,1697.57,Smartphones,SKU-0146,White,256GB,10,SKU-0146-WHI-256,77,8
+Dell Gaming Console 12,Dell Gaming Console 12 high-quality modern gaming console with advanced features.,861.93,Gaming Consoles,SKU-0147,Red,512GB,15,SKU-0147-RED-512,77,17
+Dell Smartphone 39,Dell Smartphone 39 high-quality modern smartphone with advanced features.,1960.45,Smartphones,SKU-0148,Red,32GB,25,SKU-0148-RED-32,39,12
+LG Camera 16,LG Camera 16 high-quality modern camera with advanced features.,888.18,Cameras,SKU-0149,White,64GB,15,SKU-0149-WHI-64,38,12
+Oppo Home Appliance 3,Oppo Home Appliance 3 high-quality modern home appliance with advanced features.,1360.63,Home Appliances,SKU-0150,Gold,1TB,0,SKU-0150-GOL-1TB,46,15
+Sony Tablet 2,Sony Tablet 2 high-quality modern tablet with advanced features.,511.31,Tablets,SKU-0151,Red,256GB,0,SKU-0151-RED-256,16,9
+Dell Camera 12,Dell Camera 12 high-quality modern camera with advanced features.,1733.38,Cameras,SKU-0152,White,128GB,20,SKU-0152-WHI-128,91,11
+Vivo Tablet 24,Vivo Tablet 24 high-quality modern tablet with advanced features.,1140.35,Tablets,SKU-0153,Red,64GB,25,SKU-0153-RED-64,53,11
+Nikon Laptop 42,Nikon Laptop 42 high-quality modern laptop with advanced features.,202.7,Laptops,SKU-0154,White,256GB,20,SKU-0154-WHI-256,14,18
+HP Tablet 47,HP Tablet 47 high-quality modern tablet with advanced features.,373.24,Tablets,SKU-0155,Blue,64GB,15,SKU-0155-BLU-64,87,18
+Oppo Home Appliance 4,Oppo Home Appliance 4 high-quality modern home appliance with advanced features.,1654.24,Home Appliances,SKU-0156,Blue,256GB,10,SKU-0156-BLU-256,42,8
+Sony Smartwatche 9,Sony Smartwatche 9 high-quality modern smartwatche with advanced features.,225.63,Smartwatches,SKU-0157,Blue,32GB,5,SKU-0157-BLU-32,46,11
+Asus Monitor 16,Asus Monitor 16 high-quality modern monitor with advanced features.,161.72,Monitors,SKU-0158,White,512GB,10,SKU-0158-WHI-512,62,20
+Sony Tablet 3,Sony Tablet 3 high-quality modern tablet with advanced features.,1720.36,Tablets,SKU-0159,Silver,128GB,25,SKU-0159-SIL-128,28,15
+Nikon Tablet 1,Nikon Tablet 1 high-quality modern tablet with advanced features.,701.19,Tablets,SKU-0160,Gold,32GB,10,SKU-0160-GOL-32,76,15
+LG Networking Device 46,LG Networking Device 46 high-quality modern networking device with advanced features.,506.01,Networking Devices,SKU-0161,Green,256GB,0,SKU-0161-GRE-256,99,13
+Lenovo Laptop 45,Lenovo Laptop 45 high-quality modern laptop with advanced features.,1817.5,Laptops,SKU-0162,Blue,512GB,15,SKU-0162-BLU-512,79,11
+Asus Smartwatche 26,Asus Smartwatche 26 high-quality modern smartwatche with advanced features.,428.69,Smartwatches,SKU-0163,Black,512GB,10,SKU-0163-BLA-512,17,14
+Dell Tablet 38,Dell Tablet 38 high-quality modern tablet with advanced features.,1318.42,Tablets,SKU-0164,Blue,512GB,0,SKU-0164-BLU-512,69,18
+Lenovo Smartwatche 5,Lenovo Smartwatche 5 high-quality modern smartwatche with advanced features.,530.79,Smartwatches,SKU-0165,Black,512GB,20,SKU-0165-BLA-512,12,19
+Samsung Gaming Console 7,Samsung Gaming Console 7 high-quality modern gaming console with advanced features.,1452.43,Gaming Consoles,SKU-0166,Black,512GB,5,SKU-0166-BLA-512,31,9
+Canon Smartphone 1,Canon Smartphone 1 high-quality modern smartphone with advanced features.,378.67,Smartphones,SKU-0167,White,512GB,20,SKU-0167-WHI-512,34,17
+Apple Networking Device 23,Apple Networking Device 23 high-quality modern networking device with advanced features.,641.15,Networking Devices,SKU-0168,Black,128GB,15,SKU-0168-BLA-128,13,12
+Asus Headphone 3,Asus Headphone 3 high-quality modern headphone with advanced features.,344.67,Headphones,SKU-0169,Red,256GB,20,SKU-0169-RED-256,71,13
+Sony Networking Device 9,Sony Networking Device 9 high-quality modern networking device with advanced features.,714.83,Networking Devices,SKU-0170,Red,512GB,10,SKU-0170-RED-512,29,20
+Oppo Networking Device 43,Oppo Networking Device 43 high-quality modern networking device with advanced features.,1021.58,Networking Devices,SKU-0171,Green,256GB,25,SKU-0171-GRE-256,20,12
+Sony Monitor 31,Sony Monitor 31 high-quality modern monitor with advanced features.,1368.52,Monitors,SKU-0172,Silver,1TB,25,SKU-0172-SIL-1TB,88,20
+HP Networking Device 6,HP Networking Device 6 high-quality modern networking device with advanced features.,1334.49,Networking Devices,SKU-0173,Blue,32GB,25,SKU-0173-BLU-32,13,5
+Samsung Monitor 31,Samsung Monitor 31 high-quality modern monitor with advanced features.,441.91,Monitors,SKU-0174,Blue,32GB,0,SKU-0174-BLU-32,54,12
+Asus Gaming Console 24,Asus Gaming Console 24 high-quality modern gaming console with advanced features.,397.14,Gaming Consoles,SKU-0175,White,64GB,5,SKU-0175-WHI-64,50,10
+Apple Smartwatche 31,Apple Smartwatche 31 high-quality modern smartwatche with advanced features.,214.58,Smartwatches,SKU-0176,Green,256GB,15,SKU-0176-GRE-256,49,16
+Oppo Tablet 28,Oppo Tablet 28 high-quality modern tablet with advanced features.,191.91,Tablets,SKU-0177,Green,512GB,20,SKU-0177-GRE-512,89,20
+HP Headphone 47,HP Headphone 47 high-quality modern headphone with advanced features.,842.15,Headphones,SKU-0178,White,512GB,5,SKU-0178-WHI-512,29,12
+Vivo Gaming Console 7,Vivo Gaming Console 7 high-quality modern gaming console with advanced features.,1198.27,Gaming Consoles,SKU-0179,Gold,32GB,5,SKU-0179-GOL-32,63,10
+Samsung Headphone 14,Samsung Headphone 14 high-quality modern headphone with advanced features.,1048.16,Headphones,SKU-0180,Green,32GB,10,SKU-0180-GRE-32,89,18
+Xiaomi Networking Device 50,Xiaomi Networking Device 50 high-quality modern networking device with advanced features.,1313.25,Networking Devices,SKU-0181,White,1TB,5,SKU-0181-WHI-1TB,67,10
+Samsung Home Appliance 28,Samsung Home Appliance 28 high-quality modern home appliance with advanced features.,1781.35,Home Appliances,SKU-0182,Black,128GB,15,SKU-0182-BLA-128,82,8
+Apple Monitor 5,Apple Monitor 5 high-quality modern monitor with advanced features.,638.49,Monitors,SKU-0183,Silver,64GB,0,SKU-0183-SIL-64,42,18
+Sony Gaming Console 9,Sony Gaming Console 9 high-quality modern gaming console with advanced features.,956.75,Gaming Consoles,SKU-0184,Blue,256GB,15,SKU-0184-BLU-256,10,15
+Canon Gaming Console 36,Canon Gaming Console 36 high-quality modern gaming console with advanced features.,1810.69,Gaming Consoles,SKU-0185,Black,64GB,15,SKU-0185-BLA-64,98,9
+LG Gaming Console 39,LG Gaming Console 39 high-quality modern gaming console with advanced features.,829.97,Gaming Consoles,SKU-0186,Green,1TB,15,SKU-0186-GRE-1TB,71,20
+Sony Laptop 6,Sony Laptop 6 high-quality modern laptop with advanced features.,281.47,Laptops,SKU-0187,Gold,256GB,15,SKU-0187-GOL-256,58,14
+Samsung Monitor 14,Samsung Monitor 14 high-quality modern monitor with advanced features.,1706.99,Monitors,SKU-0188,Blue,32GB,20,SKU-0188-BLU-32,58,5
+Asus Camera 26,Asus Camera 26 high-quality modern camera with advanced features.,1872.28,Cameras,SKU-0189,Red,64GB,25,SKU-0189-RED-64,64,20
+Asus Laptop 49,Asus Laptop 49 high-quality modern laptop with advanced features.,687.31,Laptops,SKU-0190,Red,256GB,5,SKU-0190-RED-256,94,8
+Xiaomi Networking Device 11,Xiaomi Networking Device 11 high-quality modern networking device with advanced features.,168.07,Networking Devices,SKU-0191,Silver,256GB,0,SKU-0191-SIL-256,31,14
+Canon Tablet 2,Canon Tablet 2 high-quality modern tablet with advanced features.,1375.31,Tablets,SKU-0192,Blue,512GB,10,SKU-0192-BLU-512,49,19
+HP Headphone 13,HP Headphone 13 high-quality modern headphone with advanced features.,1989.39,Headphones,SKU-0193,Black,128GB,10,SKU-0193-BLA-128,61,11
+Canon Networking Device 1,Canon Networking Device 1 high-quality modern networking device with advanced features.,1590.67,Networking Devices,SKU-0194,Green,32GB,15,SKU-0194-GRE-32,21,7
+Apple Laptop 12,Apple Laptop 12 high-quality modern laptop with advanced features.,491.32,Laptops,SKU-0195,Green,1TB,15,SKU-0195-GRE-1TB,42,11
+Asus Headphone 21,Asus Headphone 21 high-quality modern headphone with advanced features.,629.8,Headphones,SKU-0196,Silver,1TB,15,SKU-0196-SIL-1TB,96,19
+Canon Smartwatche 35,Canon Smartwatche 35 high-quality modern smartwatche with advanced features.,556.77,Smartwatches,SKU-0197,Green,512GB,10,SKU-0197-GRE-512,95,8
+Xiaomi Smartwatche 41,Xiaomi Smartwatche 41 high-quality modern smartwatche with advanced features.,283.88,Smartwatches,SKU-0198,Silver,64GB,0,SKU-0198-SIL-64,43,19
+Dell Home Appliance 1,Dell Home Appliance 1 high-quality modern home appliance with advanced features.,627.94,Home Appliances,SKU-0199,Silver,128GB,15,SKU-0199-SIL-128,66,18
+Apple Laptop 3,Apple Laptop 3 high-quality modern laptop with advanced features.,205.52,Laptops,SKU-0200,Gold,512GB,20,SKU-0200-GOL-512,71,12
+Asus Gaming Console 24,Asus Gaming Console 24 high-quality modern gaming console with advanced features.,566.79,Gaming Consoles,SKU-0201,Red,128GB,5,SKU-0201-RED-128,36,20
+Vivo Tablet 46,Vivo Tablet 46 high-quality modern tablet with advanced features.,317.13,Tablets,SKU-0202,Blue,32GB,20,SKU-0202-BLU-32,44,5
+Nikon Monitor 34,Nikon Monitor 34 high-quality modern monitor with advanced features.,1739.49,Monitors,SKU-0203,Black,64GB,5,SKU-0203-BLA-64,97,6
+Sony Headphone 19,Sony Headphone 19 high-quality modern headphone with advanced features.,926.62,Headphones,SKU-0204,Black,1TB,10,SKU-0204-BLA-1TB,91,5
+LG Camera 20,LG Camera 20 high-quality modern camera with advanced features.,825.19,Cameras,SKU-0205,Blue,256GB,15,SKU-0205-BLU-256,16,10
+Canon Headphone 50,Canon Headphone 50 high-quality modern headphone with advanced features.,916.52,Headphones,SKU-0206,White,1TB,5,SKU-0206-WHI-1TB,46,13
+Lenovo Smartphone 11,Lenovo Smartphone 11 high-quality modern smartphone with advanced features.,278.03,Smartphones,SKU-0207,Silver,32GB,5,SKU-0207-SIL-32,62,19
+LG Smartphone 37,LG Smartphone 37 high-quality modern smartphone with advanced features.,1287.1,Smartphones,SKU-0208,White,512GB,25,SKU-0208-WHI-512,17,11
+Lenovo Gaming Console 50,Lenovo Gaming Console 50 high-quality modern gaming console with advanced features.,1470.72,Gaming Consoles,SKU-0209,Black,32GB,15,SKU-0209-BLA-32,11,18
+Samsung Monitor 4,Samsung Monitor 4 high-quality modern monitor with advanced features.,1514.29,Monitors,SKU-0210,Black,1TB,0,SKU-0210-BLA-1TB,98,8
+Sony Smartphone 30,Sony Smartphone 30 high-quality modern smartphone with advanced features.,1011.13,Smartphones,SKU-0211,Gold,256GB,10,SKU-0211-GOL-256,40,18
+Oppo Smartwatche 37,Oppo Smartwatche 37 high-quality modern smartwatche with advanced features.,362.08,Smartwatches,SKU-0212,Gold,256GB,5,SKU-0212-GOL-256,81,8
+Samsung Gaming Console 48,Samsung Gaming Console 48 high-quality modern gaming console with advanced features.,768.46,Gaming Consoles,SKU-0213,Red,128GB,0,SKU-0213-RED-128,94,14
+Lenovo Networking Device 45,Lenovo Networking Device 45 high-quality modern networking device with advanced features.,102.49,Networking Devices,SKU-0214,Black,1TB,15,SKU-0214-BLA-1TB,43,15
+Canon Smartphone 3,Canon Smartphone 3 high-quality modern smartphone with advanced features.,561.98,Smartphones,SKU-0215,Green,32GB,0,SKU-0215-GRE-32,23,7
+Sony Home Appliance 21,Sony Home Appliance 21 high-quality modern home appliance with advanced features.,1726.95,Home Appliances,SKU-0216,Gold,32GB,20,SKU-0216-GOL-32,5,17
+Apple Networking Device 11,Apple Networking Device 11 high-quality modern networking device with advanced features.,134.81,Networking Devices,SKU-0217,Silver,32GB,0,SKU-0217-SIL-32,99,18
+Xiaomi Headphone 27,Xiaomi Headphone 27 high-quality modern headphone with advanced features.,1523.4,Headphones,SKU-0218,Black,32GB,20,SKU-0218-BLA-32,18,17
+Lenovo Gaming Console 19,Lenovo Gaming Console 19 high-quality modern gaming console with advanced features.,619.97,Gaming Consoles,SKU-0219,Red,128GB,10,SKU-0219-RED-128,45,9
+HP Camera 35,HP Camera 35 high-quality modern camera with advanced features.,1818.4,Cameras,SKU-0220,Blue,256GB,25,SKU-0220-BLU-256,57,11
+Lenovo Networking Device 19,Lenovo Networking Device 19 high-quality modern networking device with advanced features.,1619.73,Networking Devices,SKU-0221,Black,1TB,20,SKU-0221-BLA-1TB,100,13
+Lenovo Smartphone 1,Lenovo Smartphone 1 high-quality modern smartphone with advanced features.,1032.67,Smartphones,SKU-0222,Red,128GB,0,SKU-0222-RED-128,16,5
+HP Smartwatche 32,HP Smartwatche 32 high-quality modern smartwatche with advanced features.,629.82,Smartwatches,SKU-0223,White,32GB,20,SKU-0223-WHI-32,92,8
+Lenovo Headphone 40,Lenovo Headphone 40 high-quality modern headphone with advanced features.,930.68,Headphones,SKU-0224,Black,128GB,25,SKU-0224-BLA-128,27,7
+Dell Camera 18,Dell Camera 18 high-quality modern camera with advanced features.,1791.08,Cameras,SKU-0225,Gold,256GB,25,SKU-0225-GOL-256,49,10
+LG Gaming Console 28,LG Gaming Console 28 high-quality modern gaming console with advanced features.,1258.11,Gaming Consoles,SKU-0226,White,1TB,15,SKU-0226-WHI-1TB,9,15
+Lenovo Smartwatche 49,Lenovo Smartwatche 49 high-quality modern smartwatche with advanced features.,1198.19,Smartwatches,SKU-0227,Black,256GB,5,SKU-0227-BLA-256,62,5
+Canon Headphone 33,Canon Headphone 33 high-quality modern headphone with advanced features.,262.88,Headphones,SKU-0228,Red,128GB,5,SKU-0228-RED-128,57,11
+Asus Laptop 25,Asus Laptop 25 high-quality modern laptop with advanced features.,161.42,Laptops,SKU-0229,White,1TB,20,SKU-0229-WHI-1TB,59,13
+LG Networking Device 19,LG Networking Device 19 high-quality modern networking device with advanced features.,1398.15,Networking Devices,SKU-0230,White,1TB,10,SKU-0230-WHI-1TB,43,9
+Samsung Gaming Console 31,Samsung Gaming Console 31 high-quality modern gaming console with advanced features.,293.61,Gaming Consoles,SKU-0231,Green,64GB,0,SKU-0231-GRE-64,59,9
+Oppo Gaming Console 24,Oppo Gaming Console 24 high-quality modern gaming console with advanced features.,1944.22,Gaming Consoles,SKU-0232,Green,64GB,10,SKU-0232-GRE-64,98,12
+Sony Networking Device 28,Sony Networking Device 28 high-quality modern networking device with advanced features.,1169.79,Networking Devices,SKU-0233,Green,128GB,5,SKU-0233-GRE-128,53,9
+Canon Networking Device 36,Canon Networking Device 36 high-quality modern networking device with advanced features.,1353.5,Networking Devices,SKU-0234,Gold,512GB,10,SKU-0234-GOL-512,69,16
+LG Home Appliance 47,LG Home Appliance 47 high-quality modern home appliance with advanced features.,117.19,Home Appliances,SKU-0235,Red,128GB,0,SKU-0235-RED-128,95,9
+Lenovo Camera 34,Lenovo Camera 34 high-quality modern camera with advanced features.,515.96,Cameras,SKU-0236,Silver,1TB,20,SKU-0236-SIL-1TB,7,17
+Apple Home Appliance 47,Apple Home Appliance 47 high-quality modern home appliance with advanced features.,278.47,Home Appliances,SKU-0237,Silver,64GB,5,SKU-0237-SIL-64,44,7
+Canon Networking Device 19,Canon Networking Device 19 high-quality modern networking device with advanced features.,1798.22,Networking Devices,SKU-0238,Blue,128GB,15,SKU-0238-BLU-128,23,16
+Apple Gaming Console 36,Apple Gaming Console 36 high-quality modern gaming console with advanced features.,783.13,Gaming Consoles,SKU-0239,Gold,32GB,5,SKU-0239-GOL-32,17,9
+Sony Smartphone 32,Sony Smartphone 32 high-quality modern smartphone with advanced features.,1946.68,Smartphones,SKU-0240,Silver,1TB,15,SKU-0240-SIL-1TB,88,6
+LG Networking Device 6,LG Networking Device 6 high-quality modern networking device with advanced features.,508.08,Networking Devices,SKU-0241,Gold,512GB,0,SKU-0241-GOL-512,74,13
+LG Smartwatche 47,LG Smartwatche 47 high-quality modern smartwatche with advanced features.,170.95,Smartwatches,SKU-0242,Red,1TB,25,SKU-0242-RED-1TB,39,10
+LG Tablet 42,LG Tablet 42 high-quality modern tablet with advanced features.,552.8,Tablets,SKU-0243,Red,128GB,10,SKU-0243-RED-128,74,16
+Samsung Home Appliance 25,Samsung Home Appliance 25 high-quality modern home appliance with advanced features.,813.21,Home Appliances,SKU-0244,Green,512GB,0,SKU-0244-GRE-512,100,7
+Xiaomi Home Appliance 30,Xiaomi Home Appliance 30 high-quality modern home appliance with advanced features.,111.57,Home Appliances,SKU-0245,Blue,32GB,10,SKU-0245-BLU-32,14,17
+Lenovo Headphone 47,Lenovo Headphone 47 high-quality modern headphone with advanced features.,961.39,Headphones,SKU-0246,Gold,1TB,20,SKU-0246-GOL-1TB,31,19
+Canon Home Appliance 49,Canon Home Appliance 49 high-quality modern home appliance with advanced features.,441.4,Home Appliances,SKU-0247,Blue,512GB,0,SKU-0247-BLU-512,29,20
+Apple Home Appliance 44,Apple Home Appliance 44 high-quality modern home appliance with advanced features.,1256.07,Home Appliances,SKU-0248,Red,128GB,10,SKU-0248-RED-128,77,8
+Apple Networking Device 16,Apple Networking Device 16 high-quality modern networking device with advanced features.,186.88,Networking Devices,SKU-0249,Red,1TB,20,SKU-0249-RED-1TB,72,7
+Vivo Home Appliance 23,Vivo Home Appliance 23 high-quality modern home appliance with advanced features.,1278.88,Home Appliances,SKU-0250,Gold,512GB,5,SKU-0250-GOL-512,16,7
+Oppo Home Appliance 38,Oppo Home Appliance 38 high-quality modern home appliance with advanced features.,1717.22,Home Appliances,SKU-0251,Red,512GB,0,SKU-0251-RED-512,14,14
+Oppo Home Appliance 46,Oppo Home Appliance 46 high-quality modern home appliance with advanced features.,1111.15,Home Appliances,SKU-0252,Green,512GB,10,SKU-0252-GRE-512,35,10
+Asus Headphone 46,Asus Headphone 46 high-quality modern headphone with advanced features.,926.14,Headphones,SKU-0253,White,32GB,0,SKU-0253-WHI-32,86,8
+Xiaomi Headphone 22,Xiaomi Headphone 22 high-quality modern headphone with advanced features.,164.75,Headphones,SKU-0254,Red,1TB,25,SKU-0254-RED-1TB,84,7
+Dell Laptop 12,Dell Laptop 12 high-quality modern laptop with advanced features.,1663.72,Laptops,SKU-0255,Black,512GB,0,SKU-0255-BLA-512,6,7
+Xiaomi Networking Device 31,Xiaomi Networking Device 31 high-quality modern networking device with advanced features.,393.31,Networking Devices,SKU-0256,Blue,32GB,0,SKU-0256-BLU-32,71,10
+Canon Tablet 33,Canon Tablet 33 high-quality modern tablet with advanced features.,528.33,Tablets,SKU-0257,Silver,256GB,0,SKU-0257-SIL-256,87,18
+Dell Monitor 30,Dell Monitor 30 high-quality modern monitor with advanced features.,281.17,Monitors,SKU-0258,Blue,128GB,25,SKU-0258-BLU-128,50,7
+Canon Home Appliance 18,Canon Home Appliance 18 high-quality modern home appliance with advanced features.,503.26,Home Appliances,SKU-0259,Red,512GB,10,SKU-0259-RED-512,32,14
+HP Networking Device 10,HP Networking Device 10 high-quality modern networking device with advanced features.,475.55,Networking Devices,SKU-0260,Red,512GB,10,SKU-0260-RED-512,69,11
+Xiaomi Laptop 27,Xiaomi Laptop 27 high-quality modern laptop with advanced features.,1655.05,Laptops,SKU-0261,Green,512GB,20,SKU-0261-GRE-512,71,6
+Sony Headphone 49,Sony Headphone 49 high-quality modern headphone with advanced features.,1536.82,Headphones,SKU-0262,Red,512GB,5,SKU-0262-RED-512,82,5
+Asus Smartwatche 7,Asus Smartwatche 7 high-quality modern smartwatche with advanced features.,1806.32,Smartwatches,SKU-0263,Black,64GB,15,SKU-0263-BLA-64,91,18
+HP Camera 11,HP Camera 11 high-quality modern camera with advanced features.,837.05,Cameras,SKU-0264,Black,1TB,10,SKU-0264-BLA-1TB,21,6
+Asus Gaming Console 15,Asus Gaming Console 15 high-quality modern gaming console with advanced features.,746.73,Gaming Consoles,SKU-0265,Green,32GB,5,SKU-0265-GRE-32,56,12
+Sony Headphone 2,Sony Headphone 2 high-quality modern headphone with advanced features.,1173.58,Headphones,SKU-0266,White,1TB,5,SKU-0266-WHI-1TB,76,12
+HP Laptop 45,HP Laptop 45 high-quality modern laptop with advanced features.,1324.64,Laptops,SKU-0267,White,256GB,15,SKU-0267-WHI-256,72,17
+Asus Monitor 23,Asus Monitor 23 high-quality modern monitor with advanced features.,271.85,Monitors,SKU-0268,Black,1TB,15,SKU-0268-BLA-1TB,32,8
+Sony Headphone 3,Sony Headphone 3 high-quality modern headphone with advanced features.,425.38,Headphones,SKU-0269,Gold,32GB,0,SKU-0269-GOL-32,36,12
+Samsung Home Appliance 40,Samsung Home Appliance 40 high-quality modern home appliance with advanced features.,182.96,Home Appliances,SKU-0270,Green,256GB,20,SKU-0270-GRE-256,89,12
+Apple Headphone 16,Apple Headphone 16 high-quality modern headphone with advanced features.,1411.78,Headphones,SKU-0271,White,256GB,0,SKU-0271-WHI-256,71,19
+Oppo Networking Device 27,Oppo Networking Device 27 high-quality modern networking device with advanced features.,1206.35,Networking Devices,SKU-0272,Gold,64GB,20,SKU-0272-GOL-64,9,14
+Lenovo Gaming Console 14,Lenovo Gaming Console 14 high-quality modern gaming console with advanced features.,367.77,Gaming Consoles,SKU-0273,Red,64GB,20,SKU-0273-RED-64,69,12
+Samsung Home Appliance 25,Samsung Home Appliance 25 high-quality modern home appliance with advanced features.,1598.87,Home Appliances,SKU-0274,Red,512GB,10,SKU-0274-RED-512,16,5
+Lenovo Gaming Console 45,Lenovo Gaming Console 45 high-quality modern gaming console with advanced features.,778.76,Gaming Consoles,SKU-0275,Blue,128GB,20,SKU-0275-BLU-128,13,20
+Vivo Monitor 14,Vivo Monitor 14 high-quality modern monitor with advanced features.,539.71,Monitors,SKU-0276,Red,1TB,0,SKU-0276-RED-1TB,51,12
+Canon Home Appliance 48,Canon Home Appliance 48 high-quality modern home appliance with advanced features.,1974.03,Home Appliances,SKU-0277,Red,512GB,5,SKU-0277-RED-512,55,11
+Apple Monitor 10,Apple Monitor 10 high-quality modern monitor with advanced features.,1394.99,Monitors,SKU-0278,White,256GB,25,SKU-0278-WHI-256,63,11
+Canon Smartphone 4,Canon Smartphone 4 high-quality modern smartphone with advanced features.,1911.76,Smartphones,SKU-0279,Gold,64GB,5,SKU-0279-GOL-64,41,14
+Oppo Smartwatche 28,Oppo Smartwatche 28 high-quality modern smartwatche with advanced features.,1678.08,Smartwatches,SKU-0280,Green,512GB,5,SKU-0280-GRE-512,61,6
+Canon Camera 33,Canon Camera 33 high-quality modern camera with advanced features.,1910.56,Cameras,SKU-0281,Green,32GB,15,SKU-0281-GRE-32,19,15
+Lenovo Laptop 29,Lenovo Laptop 29 high-quality modern laptop with advanced features.,835,Laptops,SKU-0282,Silver,256GB,20,SKU-0282-SIL-256,80,17
+Lenovo Camera 33,Lenovo Camera 33 high-quality modern camera with advanced features.,1949.66,Cameras,SKU-0283,Black,32GB,25,SKU-0283-BLA-32,45,16
+Vivo Monitor 18,Vivo Monitor 18 high-quality modern monitor with advanced features.,327.85,Monitors,SKU-0284,Red,1TB,10,SKU-0284-RED-1TB,69,10
+Dell Laptop 13,Dell Laptop 13 high-quality modern laptop with advanced features.,416.64,Laptops,SKU-0285,Silver,128GB,10,SKU-0285-SIL-128,8,6
+Vivo Headphone 6,Vivo Headphone 6 high-quality modern headphone with advanced features.,659.44,Headphones,SKU-0286,Silver,512GB,0,SKU-0286-SIL-512,14,15
+Samsung Smartphone 47,Samsung Smartphone 47 high-quality modern smartphone with advanced features.,518.72,Smartphones,SKU-0287,Black,128GB,25,SKU-0287-BLA-128,42,11
+Apple Gaming Console 9,Apple Gaming Console 9 high-quality modern gaming console with advanced features.,1438.48,Gaming Consoles,SKU-0288,Gold,64GB,5,SKU-0288-GOL-64,92,19
+Asus Laptop 37,Asus Laptop 37 high-quality modern laptop with advanced features.,673.58,Laptops,SKU-0289,Green,128GB,20,SKU-0289-GRE-128,93,13
+Xiaomi Smartwatche 33,Xiaomi Smartwatche 33 high-quality modern smartwatche with advanced features.,1006.69,Smartwatches,SKU-0290,Black,512GB,0,SKU-0290-BLA-512,23,20
+Dell Laptop 33,Dell Laptop 33 high-quality modern laptop with advanced features.,330.52,Laptops,SKU-0291,Silver,1TB,15,SKU-0291-SIL-1TB,90,15
+Dell Smartwatche 49,Dell Smartwatche 49 high-quality modern smartwatche with advanced features.,240.61,Smartwatches,SKU-0292,Blue,32GB,25,SKU-0292-BLU-32,70,16
+Xiaomi Networking Device 48,Xiaomi Networking Device 48 high-quality modern networking device with advanced features.,312.63,Networking Devices,SKU-0293,Blue,1TB,25,SKU-0293-BLU-1TB,68,19
+Canon Laptop 29,Canon Laptop 29 high-quality modern laptop with advanced features.,1775.33,Laptops,SKU-0294,Black,1TB,15,SKU-0294-BLA-1TB,25,20
+HP Smartphone 26,HP Smartphone 26 high-quality modern smartphone with advanced features.,606.95,Smartphones,SKU-0295,White,1TB,0,SKU-0295-WHI-1TB,58,17
+Canon Smartwatche 47,Canon Smartwatche 47 high-quality modern smartwatche with advanced features.,1214.94,Smartwatches,SKU-0296,Gold,256GB,5,SKU-0296-GOL-256,33,18
+Oppo Monitor 16,Oppo Monitor 16 high-quality modern monitor with advanced features.,1195.86,Monitors,SKU-0297,Black,128GB,10,SKU-0297-BLA-128,78,10
+Oppo Tablet 11,Oppo Tablet 11 high-quality modern tablet with advanced features.,1683.92,Tablets,SKU-0298,Green,512GB,0,SKU-0298-GRE-512,72,17
+Oppo Smartphone 36,Oppo Smartphone 36 high-quality modern smartphone with advanced features.,317.27,Smartphones,SKU-0299,Gold,128GB,10,SKU-0299-GOL-128,27,5
+Oppo Monitor 50,Oppo Monitor 50 high-quality modern monitor with advanced features.,535.6,Monitors,SKU-0300,Red,128GB,10,SKU-0300-RED-128,13,5
+Lenovo Tablet 49,Lenovo Tablet 49 high-quality modern tablet with advanced features.,680.51,Tablets,SKU-0301,White,128GB,15,SKU-0301-WHI-128,79,18
+Vivo Laptop 46,Vivo Laptop 46 high-quality modern laptop with advanced features.,1636.39,Laptops,SKU-0302,Green,512GB,5,SKU-0302-GRE-512,33,17
+Nikon Monitor 12,Nikon Monitor 12 high-quality modern monitor with advanced features.,686.68,Monitors,SKU-0303,Blue,1TB,15,SKU-0303-BLU-1TB,99,20
+Samsung Gaming Console 32,Samsung Gaming Console 32 high-quality modern gaming console with advanced features.,1038.59,Gaming Consoles,SKU-0304,Black,32GB,0,SKU-0304-BLA-32,80,19
+Vivo Gaming Console 18,Vivo Gaming Console 18 high-quality modern gaming console with advanced features.,1062.85,Gaming Consoles,SKU-0305,White,32GB,15,SKU-0305-WHI-32,62,9
+Apple Gaming Console 20,Apple Gaming Console 20 high-quality modern gaming console with advanced features.,1393.08,Gaming Consoles,SKU-0306,Blue,1TB,25,SKU-0306-BLU-1TB,26,6
+Asus Smartwatche 19,Asus Smartwatche 19 high-quality modern smartwatche with advanced features.,1859.36,Smartwatches,SKU-0307,Black,1TB,5,SKU-0307-BLA-1TB,43,8
+Sony Camera 33,Sony Camera 33 high-quality modern camera with advanced features.,741.74,Cameras,SKU-0308,Green,128GB,15,SKU-0308-GRE-128,28,20
+Samsung Networking Device 6,Samsung Networking Device 6 high-quality modern networking device with advanced features.,692.31,Networking Devices,SKU-0309,Gold,1TB,5,SKU-0309-GOL-1TB,18,19
+Lenovo Gaming Console 7,Lenovo Gaming Console 7 high-quality modern gaming console with advanced features.,461.37,Gaming Consoles,SKU-0310,Blue,256GB,0,SKU-0310-BLU-256,57,20
+Nikon Gaming Console 16,Nikon Gaming Console 16 high-quality modern gaming console with advanced features.,348.07,Gaming Consoles,SKU-0311,Silver,256GB,0,SKU-0311-SIL-256,11,8
+Lenovo Smartwatche 23,Lenovo Smartwatche 23 high-quality modern smartwatche with advanced features.,187.87,Smartwatches,SKU-0312,Silver,512GB,20,SKU-0312-SIL-512,23,9
+Nikon Laptop 8,Nikon Laptop 8 high-quality modern laptop with advanced features.,882.7,Laptops,SKU-0313,Blue,256GB,0,SKU-0313-BLU-256,90,19
+LG Tablet 8,LG Tablet 8 high-quality modern tablet with advanced features.,751.98,Tablets,SKU-0314,Silver,256GB,5,SKU-0314-SIL-256,82,14
+Canon Smartphone 48,Canon Smartphone 48 high-quality modern smartphone with advanced features.,765.87,Smartphones,SKU-0315,Silver,1TB,0,SKU-0315-SIL-1TB,56,19
+Canon Camera 27,Canon Camera 27 high-quality modern camera with advanced features.,1418.1,Cameras,SKU-0316,Green,256GB,10,SKU-0316-GRE-256,62,13
+Vivo Smartwatche 14,Vivo Smartwatche 14 high-quality modern smartwatche with advanced features.,1070.19,Smartwatches,SKU-0317,Silver,1TB,20,SKU-0317-SIL-1TB,52,6
+HP Home Appliance 42,HP Home Appliance 42 high-quality modern home appliance with advanced features.,1924.15,Home Appliances,SKU-0318,White,32GB,15,SKU-0318-WHI-32,30,11
+Apple Networking Device 34,Apple Networking Device 34 high-quality modern networking device with advanced features.,1363.87,Networking Devices,SKU-0319,Red,32GB,5,SKU-0319-RED-32,12,14
+HP Laptop 41,HP Laptop 41 high-quality modern laptop with advanced features.,197.41,Laptops,SKU-0320,Green,64GB,0,SKU-0320-GRE-64,59,17
+Lenovo Gaming Console 26,Lenovo Gaming Console 26 high-quality modern gaming console with advanced features.,490.01,Gaming Consoles,SKU-0321,Blue,64GB,15,SKU-0321-BLU-64,80,14
+Samsung Home Appliance 20,Samsung Home Appliance 20 high-quality modern home appliance with advanced features.,427.73,Home Appliances,SKU-0322,White,512GB,25,SKU-0322-WHI-512,29,13
+Sony Networking Device 22,Sony Networking Device 22 high-quality modern networking device with advanced features.,372.83,Networking Devices,SKU-0323,Silver,1TB,20,SKU-0323-SIL-1TB,79,14
+LG Smartphone 3,LG Smartphone 3 high-quality modern smartphone with advanced features.,515.53,Smartphones,SKU-0324,Black,32GB,15,SKU-0324-BLA-32,48,5
+Asus Gaming Console 9,Asus Gaming Console 9 high-quality modern gaming console with advanced features.,1956.09,Gaming Consoles,SKU-0325,Blue,32GB,15,SKU-0325-BLU-32,83,17
+LG Home Appliance 29,LG Home Appliance 29 high-quality modern home appliance with advanced features.,1515.99,Home Appliances,SKU-0326,Silver,256GB,15,SKU-0326-SIL-256,98,15
+Vivo Smartwatche 7,Vivo Smartwatche 7 high-quality modern smartwatche with advanced features.,1202.36,Smartwatches,SKU-0327,Blue,1TB,15,SKU-0327-BLU-1TB,36,7
+Apple Monitor 25,Apple Monitor 25 high-quality modern monitor with advanced features.,1333.36,Monitors,SKU-0328,Green,64GB,5,SKU-0328-GRE-64,80,17
+Canon Tablet 14,Canon Tablet 14 high-quality modern tablet with advanced features.,1147.36,Tablets,SKU-0329,Red,32GB,10,SKU-0329-RED-32,45,16
+Apple Smartphone 41,Apple Smartphone 41 high-quality modern smartphone with advanced features.,1432.06,Smartphones,SKU-0330,Blue,32GB,25,SKU-0330-BLU-32,70,16
+Canon Home Appliance 5,Canon Home Appliance 5 high-quality modern home appliance with advanced features.,359.88,Home Appliances,SKU-0331,Green,64GB,15,SKU-0331-GRE-64,35,9
+Apple Smartphone 14,Apple Smartphone 14 high-quality modern smartphone with advanced features.,1052,Smartphones,SKU-0332,Red,1TB,10,SKU-0332-RED-1TB,48,15
+Dell Networking Device 16,Dell Networking Device 16 high-quality modern networking device with advanced features.,1696.69,Networking Devices,SKU-0333,White,64GB,15,SKU-0333-WHI-64,51,16
+Samsung Gaming Console 3,Samsung Gaming Console 3 high-quality modern gaming console with advanced features.,1645.99,Gaming Consoles,SKU-0334,Green,128GB,0,SKU-0334-GRE-128,43,10
+Oppo Laptop 16,Oppo Laptop 16 high-quality modern laptop with advanced features.,1130.13,Laptops,SKU-0335,Black,128GB,5,SKU-0335-BLA-128,13,8
+Oppo Headphone 39,Oppo Headphone 39 high-quality modern headphone with advanced features.,641.7,Headphones,SKU-0336,Green,512GB,10,SKU-0336-GRE-512,85,11
+HP Tablet 13,HP Tablet 13 high-quality modern tablet with advanced features.,1996.95,Tablets,SKU-0337,White,512GB,10,SKU-0337-WHI-512,40,17
+HP Monitor 37,HP Monitor 37 high-quality modern monitor with advanced features.,305.16,Monitors,SKU-0338,Green,64GB,15,SKU-0338-GRE-64,18,16
+Apple Laptop 14,Apple Laptop 14 high-quality modern laptop with advanced features.,1011.26,Laptops,SKU-0339,Green,512GB,25,SKU-0339-GRE-512,6,6
+Dell Camera 25,Dell Camera 25 high-quality modern camera with advanced features.,245.75,Cameras,SKU-0340,Black,1TB,25,SKU-0340-BLA-1TB,82,14
+Apple Tablet 34,Apple Tablet 34 high-quality modern tablet with advanced features.,1942.6,Tablets,SKU-0341,Gold,512GB,25,SKU-0341-GOL-512,37,17
+LG Tablet 19,LG Tablet 19 high-quality modern tablet with advanced features.,634.37,Tablets,SKU-0342,Green,32GB,25,SKU-0342-GRE-32,27,15
+Lenovo Networking Device 13,Lenovo Networking Device 13 high-quality modern networking device with advanced features.,1274.54,Networking Devices,SKU-0343,Silver,64GB,15,SKU-0343-SIL-64,15,9
+Samsung Home Appliance 36,Samsung Home Appliance 36 high-quality modern home appliance with advanced features.,892.39,Home Appliances,SKU-0344,Blue,512GB,15,SKU-0344-BLU-512,64,8
+Apple Smartphone 45,Apple Smartphone 45 high-quality modern smartphone with advanced features.,193.72,Smartphones,SKU-0345,Gold,1TB,15,SKU-0345-GOL-1TB,11,10
+Vivo Monitor 19,Vivo Monitor 19 high-quality modern monitor with advanced features.,602.01,Monitors,SKU-0346,Green,64GB,5,SKU-0346-GRE-64,95,17
+LG Tablet 50,LG Tablet 50 high-quality modern tablet with advanced features.,252.12,Tablets,SKU-0347,White,512GB,0,SKU-0347-WHI-512,80,17
+Lenovo Networking Device 27,Lenovo Networking Device 27 high-quality modern networking device with advanced features.,189.04,Networking Devices,SKU-0348,White,1TB,15,SKU-0348-WHI-1TB,44,5
+Nikon Networking Device 29,Nikon Networking Device 29 high-quality modern networking device with advanced features.,124.9,Networking Devices,SKU-0349,Gold,64GB,20,SKU-0349-GOL-64,66,10
+Nikon Monitor 15,Nikon Monitor 15 high-quality modern monitor with advanced features.,660.46,Monitors,SKU-0350,Silver,32GB,0,SKU-0350-SIL-32,99,9
+Apple Camera 14,Apple Camera 14 high-quality modern camera with advanced features.,1818.84,Cameras,SKU-0351,White,128GB,15,SKU-0351-WHI-128,99,20
+Sony Headphone 11,Sony Headphone 11 high-quality modern headphone with advanced features.,1764.37,Headphones,SKU-0352,Blue,1TB,15,SKU-0352-BLU-1TB,81,13
+Dell Home Appliance 21,Dell Home Appliance 21 high-quality modern home appliance with advanced features.,1649.27,Home Appliances,SKU-0353,Black,64GB,20,SKU-0353-BLA-64,70,14
+Apple Monitor 5,Apple Monitor 5 high-quality modern monitor with advanced features.,1695.75,Monitors,SKU-0354,Gold,128GB,20,SKU-0354-GOL-128,23,9
+HP Gaming Console 15,HP Gaming Console 15 high-quality modern gaming console with advanced features.,926.42,Gaming Consoles,SKU-0355,White,128GB,20,SKU-0355-WHI-128,52,15
+Canon Gaming Console 16,Canon Gaming Console 16 high-quality modern gaming console with advanced features.,421.86,Gaming Consoles,SKU-0356,Red,1TB,5,SKU-0356-RED-1TB,7,12
+Oppo Smartwatche 3,Oppo Smartwatche 3 high-quality modern smartwatche with advanced features.,1681.78,Smartwatches,SKU-0357,Red,64GB,15,SKU-0357-RED-64,27,11
+Canon Smartphone 29,Canon Smartphone 29 high-quality modern smartphone with advanced features.,808.79,Smartphones,SKU-0358,White,128GB,20,SKU-0358-WHI-128,7,7
+Xiaomi Headphone 31,Xiaomi Headphone 31 high-quality modern headphone with advanced features.,589.55,Headphones,SKU-0359,Red,64GB,0,SKU-0359-RED-64,86,15
+Vivo Laptop 43,Vivo Laptop 43 high-quality modern laptop with advanced features.,158.77,Laptops,SKU-0360,Black,256GB,20,SKU-0360-BLA-256,97,9
+Sony Networking Device 22,Sony Networking Device 22 high-quality modern networking device with advanced features.,1286.12,Networking Devices,SKU-0361,Gold,1TB,0,SKU-0361-GOL-1TB,73,18
+Nikon Smartphone 40,Nikon Smartphone 40 high-quality modern smartphone with advanced features.,281.97,Smartphones,SKU-0362,White,32GB,0,SKU-0362-WHI-32,40,8
+Nikon Monitor 28,Nikon Monitor 28 high-quality modern monitor with advanced features.,1122.58,Monitors,SKU-0363,Black,128GB,0,SKU-0363-BLA-128,46,12
+Lenovo Home Appliance 20,Lenovo Home Appliance 20 high-quality modern home appliance with advanced features.,344.83,Home Appliances,SKU-0364,Silver,512GB,5,SKU-0364-SIL-512,27,5
+LG Home Appliance 23,LG Home Appliance 23 high-quality modern home appliance with advanced features.,1459.58,Home Appliances,SKU-0365,Green,64GB,0,SKU-0365-GRE-64,65,13
+Oppo Headphone 23,Oppo Headphone 23 high-quality modern headphone with advanced features.,1734.27,Headphones,SKU-0366,Red,256GB,0,SKU-0366-RED-256,22,8
+Sony Headphone 22,Sony Headphone 22 high-quality modern headphone with advanced features.,616.59,Headphones,SKU-0367,White,256GB,25,SKU-0367-WHI-256,10,17
+LG Gaming Console 3,LG Gaming Console 3 high-quality modern gaming console with advanced features.,414.95,Gaming Consoles,SKU-0368,Silver,32GB,20,SKU-0368-SIL-32,70,5
+Oppo Home Appliance 9,Oppo Home Appliance 9 high-quality modern home appliance with advanced features.,1958.16,Home Appliances,SKU-0369,Silver,256GB,10,SKU-0369-SIL-256,90,8
+Lenovo Tablet 40,Lenovo Tablet 40 high-quality modern tablet with advanced features.,590.06,Tablets,SKU-0370,White,64GB,0,SKU-0370-WHI-64,62,6
+Nikon Monitor 45,Nikon Monitor 45 high-quality modern monitor with advanced features.,1811.31,Monitors,SKU-0371,Green,512GB,10,SKU-0371-GRE-512,22,5
+Samsung Laptop 36,Samsung Laptop 36 high-quality modern laptop with advanced features.,428.97,Laptops,SKU-0372,Blue,512GB,15,SKU-0372-BLU-512,70,16
+LG Smartwatche 8,LG Smartwatche 8 high-quality modern smartwatche with advanced features.,1537.12,Smartwatches,SKU-0373,Silver,32GB,5,SKU-0373-SIL-32,11,13
+LG Headphone 41,LG Headphone 41 high-quality modern headphone with advanced features.,1948.31,Headphones,SKU-0374,Silver,1TB,10,SKU-0374-SIL-1TB,46,9
+Lenovo Home Appliance 24,Lenovo Home Appliance 24 high-quality modern home appliance with advanced features.,1369.37,Home Appliances,SKU-0375,White,64GB,10,SKU-0375-WHI-64,98,15
+Lenovo Monitor 15,Lenovo Monitor 15 high-quality modern monitor with advanced features.,175.49,Monitors,SKU-0376,Black,512GB,5,SKU-0376-BLA-512,91,10
+Dell Networking Device 42,Dell Networking Device 42 high-quality modern networking device with advanced features.,223.67,Networking Devices,SKU-0377,White,1TB,25,SKU-0377-WHI-1TB,61,13
+HP Smartphone 33,HP Smartphone 33 high-quality modern smartphone with advanced features.,1233.41,Smartphones,SKU-0378,Green,256GB,15,SKU-0378-GRE-256,62,5
+Canon Smartwatche 45,Canon Smartwatche 45 high-quality modern smartwatche with advanced features.,678.99,Smartwatches,SKU-0379,Gold,128GB,20,SKU-0379-GOL-128,43,5
+Xiaomi Headphone 39,Xiaomi Headphone 39 high-quality modern headphone with advanced features.,367.41,Headphones,SKU-0380,Black,128GB,25,SKU-0380-BLA-128,27,18
+Canon Gaming Console 13,Canon Gaming Console 13 high-quality modern gaming console with advanced features.,532.32,Gaming Consoles,SKU-0381,Green,64GB,5,SKU-0381-GRE-64,26,15
+Dell Tablet 12,Dell Tablet 12 high-quality modern tablet with advanced features.,815.67,Tablets,SKU-0382,Red,64GB,10,SKU-0382-RED-64,87,10
+Vivo Gaming Console 3,Vivo Gaming Console 3 high-quality modern gaming console with advanced features.,1092.88,Gaming Consoles,SKU-0383,White,1TB,20,SKU-0383-WHI-1TB,40,12
+Xiaomi Smartphone 2,Xiaomi Smartphone 2 high-quality modern smartphone with advanced features.,258.49,Smartphones,SKU-0384,Blue,1TB,5,SKU-0384-BLU-1TB,44,11
+Samsung Networking Device 2,Samsung Networking Device 2 high-quality modern networking device with advanced features.,988.92,Networking Devices,SKU-0385,Blue,64GB,15,SKU-0385-BLU-64,71,17
+Oppo Networking Device 9,Oppo Networking Device 9 high-quality modern networking device with advanced features.,1458.58,Networking Devices,SKU-0386,Black,128GB,5,SKU-0386-BLA-128,6,18
+Oppo Headphone 37,Oppo Headphone 37 high-quality modern headphone with advanced features.,999.98,Headphones,SKU-0387,Silver,128GB,15,SKU-0387-SIL-128,12,9
+Samsung Networking Device 34,Samsung Networking Device 34 high-quality modern networking device with advanced features.,460.28,Networking Devices,SKU-0388,White,512GB,15,SKU-0388-WHI-512,52,15
+Samsung Gaming Console 2,Samsung Gaming Console 2 high-quality modern gaming console with advanced features.,1500.95,Gaming Consoles,SKU-0389,White,1TB,20,SKU-0389-WHI-1TB,86,17
+Xiaomi Networking Device 21,Xiaomi Networking Device 21 high-quality modern networking device with advanced features.,1064.19,Networking Devices,SKU-0390,Gold,64GB,20,SKU-0390-GOL-64,74,11
+HP Monitor 28,HP Monitor 28 high-quality modern monitor with advanced features.,705.11,Monitors,SKU-0391,White,32GB,5,SKU-0391-WHI-32,21,9
+Samsung Headphone 8,Samsung Headphone 8 high-quality modern headphone with advanced features.,1001.93,Headphones,SKU-0392,Gold,512GB,15,SKU-0392-GOL-512,70,13
+Oppo Smartwatche 21,Oppo Smartwatche 21 high-quality modern smartwatche with advanced features.,292.56,Smartwatches,SKU-0393,Silver,64GB,5,SKU-0393-SIL-64,21,5
+Lenovo Camera 2,Lenovo Camera 2 high-quality modern camera with advanced features.,1336.54,Cameras,SKU-0394,White,1TB,25,SKU-0394-WHI-1TB,51,16
+Nikon Gaming Console 20,Nikon Gaming Console 20 high-quality modern gaming console with advanced features.,885.03,Gaming Consoles,SKU-0395,White,512GB,10,SKU-0395-WHI-512,97,7
+HP Networking Device 29,HP Networking Device 29 high-quality modern networking device with advanced features.,698.66,Networking Devices,SKU-0396,Gold,64GB,10,SKU-0396-GOL-64,30,10
+Asus Headphone 3,Asus Headphone 3 high-quality modern headphone with advanced features.,1652.54,Headphones,SKU-0397,Silver,256GB,15,SKU-0397-SIL-256,52,7
+Dell Tablet 26,Dell Tablet 26 high-quality modern tablet with advanced features.,669.26,Tablets,SKU-0398,Red,512GB,20,SKU-0398-RED-512,62,15
+Lenovo Headphone 27,Lenovo Headphone 27 high-quality modern headphone with advanced features.,648.59,Headphones,SKU-0399,Red,1TB,0,SKU-0399-RED-1TB,44,11
+HP Gaming Console 35,HP Gaming Console 35 high-quality modern gaming console with advanced features.,213.05,Gaming Consoles,SKU-0400,Silver,1TB,10,SKU-0400-SIL-1TB,79,8
+HP Smartwatche 12,HP Smartwatche 12 high-quality modern smartwatche with advanced features.,625.86,Smartwatches,SKU-0401,Green,64GB,20,SKU-0401-GRE-64,76,19
+Nikon Camera 17,Nikon Camera 17 high-quality modern camera with advanced features.,1170.29,Cameras,SKU-0402,Blue,128GB,20,SKU-0402-BLU-128,31,14
+Sony Home Appliance 47,Sony Home Appliance 47 high-quality modern home appliance with advanced features.,1961.11,Home Appliances,SKU-0403,White,512GB,5,SKU-0403-WHI-512,90,14
+LG Smartphone 48,LG Smartphone 48 high-quality modern smartphone with advanced features.,1516.51,Smartphones,SKU-0404,White,32GB,20,SKU-0404-WHI-32,72,11
+Sony Headphone 3,Sony Headphone 3 high-quality modern headphone with advanced features.,1725.57,Headphones,SKU-0405,Red,128GB,10,SKU-0405-RED-128,24,19
+Lenovo Tablet 40,Lenovo Tablet 40 high-quality modern tablet with advanced features.,1124.99,Tablets,SKU-0406,Gold,128GB,0,SKU-0406-GOL-128,12,6
+Nikon Tablet 4,Nikon Tablet 4 high-quality modern tablet with advanced features.,473.92,Tablets,SKU-0407,White,1TB,20,SKU-0407-WHI-1TB,63,20
+Nikon Smartphone 31,Nikon Smartphone 31 high-quality modern smartphone with advanced features.,1952.87,Smartphones,SKU-0408,Red,256GB,15,SKU-0408-RED-256,12,7
+Oppo Tablet 48,Oppo Tablet 48 high-quality modern tablet with advanced features.,1705.37,Tablets,SKU-0409,Black,512GB,20,SKU-0409-BLA-512,6,17
+Dell Gaming Console 5,Dell Gaming Console 5 high-quality modern gaming console with advanced features.,135.02,Gaming Consoles,SKU-0410,Red,256GB,5,SKU-0410-RED-256,54,6
+Asus Headphone 11,Asus Headphone 11 high-quality modern headphone with advanced features.,1467.51,Headphones,SKU-0411,Green,1TB,15,SKU-0411-GRE-1TB,73,11
+Samsung Monitor 14,Samsung Monitor 14 high-quality modern monitor with advanced features.,1657.52,Monitors,SKU-0412,Gold,1TB,25,SKU-0412-GOL-1TB,45,5
+Lenovo Tablet 47,Lenovo Tablet 47 high-quality modern tablet with advanced features.,1668.12,Tablets,SKU-0413,Green,64GB,25,SKU-0413-GRE-64,51,6
+Vivo Smartwatche 21,Vivo Smartwatche 21 high-quality modern smartwatche with advanced features.,100.69,Smartwatches,SKU-0414,Black,1TB,15,SKU-0414-BLA-1TB,97,17
+LG Home Appliance 19,LG Home Appliance 19 high-quality modern home appliance with advanced features.,169.55,Home Appliances,SKU-0415,Red,64GB,0,SKU-0415-RED-64,79,5
+Lenovo Camera 19,Lenovo Camera 19 high-quality modern camera with advanced features.,627.34,Cameras,SKU-0416,Blue,64GB,20,SKU-0416-BLU-64,10,16
+Dell Laptop 17,Dell Laptop 17 high-quality modern laptop with advanced features.,1153.09,Laptops,SKU-0417,Silver,32GB,25,SKU-0417-SIL-32,45,11
+Xiaomi Headphone 29,Xiaomi Headphone 29 high-quality modern headphone with advanced features.,1830.73,Headphones,SKU-0418,Red,256GB,0,SKU-0418-RED-256,84,19
+Canon Networking Device 23,Canon Networking Device 23 high-quality modern networking device with advanced features.,524.25,Networking Devices,SKU-0419,Black,128GB,25,SKU-0419-BLA-128,15,12
+Nikon Smartphone 41,Nikon Smartphone 41 high-quality modern smartphone with advanced features.,1997.28,Smartphones,SKU-0420,White,1TB,20,SKU-0420-WHI-1TB,63,14
+Oppo Camera 20,Oppo Camera 20 high-quality modern camera with advanced features.,1399.11,Cameras,SKU-0421,Blue,256GB,15,SKU-0421-BLU-256,32,19
+Nikon Home Appliance 9,Nikon Home Appliance 9 high-quality modern home appliance with advanced features.,608.28,Home Appliances,SKU-0422,Blue,128GB,15,SKU-0422-BLU-128,38,7
+Vivo Laptop 29,Vivo Laptop 29 high-quality modern laptop with advanced features.,889.07,Laptops,SKU-0423,Blue,256GB,20,SKU-0423-BLU-256,7,11
+Apple Home Appliance 41,Apple Home Appliance 41 high-quality modern home appliance with advanced features.,606.64,Home Appliances,SKU-0424,Green,128GB,0,SKU-0424-GRE-128,69,13
+Lenovo Camera 25,Lenovo Camera 25 high-quality modern camera with advanced features.,794.12,Cameras,SKU-0425,Silver,128GB,10,SKU-0425-SIL-128,47,17
+Sony Networking Device 28,Sony Networking Device 28 high-quality modern networking device with advanced features.,764.3,Networking Devices,SKU-0426,Blue,32GB,20,SKU-0426-BLU-32,79,15
+Asus Smartwatche 14,Asus Smartwatche 14 high-quality modern smartwatche with advanced features.,1352.37,Smartwatches,SKU-0427,Green,32GB,0,SKU-0427-GRE-32,98,11
+Apple Monitor 28,Apple Monitor 28 high-quality modern monitor with advanced features.,1478.65,Monitors,SKU-0428,White,1TB,5,SKU-0428-WHI-1TB,72,19
+Xiaomi Camera 28,Xiaomi Camera 28 high-quality modern camera with advanced features.,444.79,Cameras,SKU-0429,Green,128GB,0,SKU-0429-GRE-128,5,18
+Samsung Networking Device 5,Samsung Networking Device 5 high-quality modern networking device with advanced features.,1926.38,Networking Devices,SKU-0430,Green,128GB,20,SKU-0430-GRE-128,39,12
+Canon Smartphone 24,Canon Smartphone 24 high-quality modern smartphone with advanced features.,1898.83,Smartphones,SKU-0431,Blue,32GB,10,SKU-0431-BLU-32,39,19
+HP Smartwatche 36,HP Smartwatche 36 high-quality modern smartwatche with advanced features.,1598,Smartwatches,SKU-0432,White,128GB,5,SKU-0432-WHI-128,70,8
+Oppo Camera 44,Oppo Camera 44 high-quality modern camera with advanced features.,1374.1,Cameras,SKU-0433,Silver,128GB,0,SKU-0433-SIL-128,92,20
+Dell Smartphone 10,Dell Smartphone 10 high-quality modern smartphone with advanced features.,628.2,Smartphones,SKU-0434,White,32GB,10,SKU-0434-WHI-32,63,19
+Lenovo Smartphone 5,Lenovo Smartphone 5 high-quality modern smartphone with advanced features.,799.3,Smartphones,SKU-0435,Gold,256GB,5,SKU-0435-GOL-256,93,9
+Asus Camera 32,Asus Camera 32 high-quality modern camera with advanced features.,1986.05,Cameras,SKU-0436,White,256GB,5,SKU-0436-WHI-256,52,18
+Vivo Camera 48,Vivo Camera 48 high-quality modern camera with advanced features.,1542.6,Cameras,SKU-0437,Blue,1TB,20,SKU-0437-BLU-1TB,95,5
+Lenovo Headphone 48,Lenovo Headphone 48 high-quality modern headphone with advanced features.,260.5,Headphones,SKU-0438,Gold,128GB,5,SKU-0438-GOL-128,45,12
+Sony Tablet 11,Sony Tablet 11 high-quality modern tablet with advanced features.,305.6,Tablets,SKU-0439,Red,32GB,10,SKU-0439-RED-32,75,18
+Samsung Tablet 50,Samsung Tablet 50 high-quality modern tablet with advanced features.,1221.83,Tablets,SKU-0440,Gold,512GB,10,SKU-0440-GOL-512,63,16
+Oppo Gaming Console 3,Oppo Gaming Console 3 high-quality modern gaming console with advanced features.,625.67,Gaming Consoles,SKU-0441,Green,64GB,20,SKU-0441-GRE-64,65,19
+Sony Headphone 50,Sony Headphone 50 high-quality modern headphone with advanced features.,413.8,Headphones,SKU-0442,White,256GB,25,SKU-0442-WHI-256,75,5
+Asus Camera 19,Asus Camera 19 high-quality modern camera with advanced features.,254.7,Cameras,SKU-0443,Black,1TB,10,SKU-0443-BLA-1TB,96,8
+Asus Laptop 36,Asus Laptop 36 high-quality modern laptop with advanced features.,1362.37,Laptops,SKU-0444,Green,64GB,5,SKU-0444-GRE-64,99,15
+Lenovo Laptop 41,Lenovo Laptop 41 high-quality modern laptop with advanced features.,1351.72,Laptops,SKU-0445,Gold,128GB,5,SKU-0445-GOL-128,61,17
+LG Smartphone 43,LG Smartphone 43 high-quality modern smartphone with advanced features.,1811.62,Smartphones,SKU-0446,Green,256GB,5,SKU-0446-GRE-256,99,9
+HP Smartphone 47,HP Smartphone 47 high-quality modern smartphone with advanced features.,696.68,Smartphones,SKU-0447,Silver,1TB,15,SKU-0447-SIL-1TB,89,8
+Lenovo Tablet 24,Lenovo Tablet 24 high-quality modern tablet with advanced features.,1245.78,Tablets,SKU-0448,Red,512GB,10,SKU-0448-RED-512,45,17
+LG Monitor 13,LG Monitor 13 high-quality modern monitor with advanced features.,1592.42,Monitors,SKU-0449,Gold,1TB,10,SKU-0449-GOL-1TB,30,11
+Oppo Networking Device 44,Oppo Networking Device 44 high-quality modern networking device with advanced features.,1673.04,Networking Devices,SKU-0450,Silver,32GB,10,SKU-0450-SIL-32,24,17
+Dell Smartphone 11,Dell Smartphone 11 high-quality modern smartphone with advanced features.,358.81,Smartphones,SKU-0451,Blue,512GB,15,SKU-0451-BLU-512,66,9
+Apple Smartphone 25,Apple Smartphone 25 high-quality modern smartphone with advanced features.,965.54,Smartphones,SKU-0452,Silver,1TB,5,SKU-0452-SIL-1TB,89,11
+Xiaomi Smartphone 44,Xiaomi Smartphone 44 high-quality modern smartphone with advanced features.,309.49,Smartphones,SKU-0453,Green,256GB,0,SKU-0453-GRE-256,29,13
+Sony Smartwatche 1,Sony Smartwatche 1 high-quality modern smartwatche with advanced features.,1634.22,Smartwatches,SKU-0454,Gold,32GB,5,SKU-0454-GOL-32,62,10
+HP Home Appliance 9,HP Home Appliance 9 high-quality modern home appliance with advanced features.,105.26,Home Appliances,SKU-0455,Gold,512GB,10,SKU-0455-GOL-512,70,11
+Xiaomi Headphone 28,Xiaomi Headphone 28 high-quality modern headphone with advanced features.,1843.18,Headphones,SKU-0456,White,64GB,0,SKU-0456-WHI-64,55,7
+Nikon Gaming Console 25,Nikon Gaming Console 25 high-quality modern gaming console with advanced features.,128.44,Gaming Consoles,SKU-0457,White,128GB,20,SKU-0457-WHI-128,80,8
+Lenovo Monitor 50,Lenovo Monitor 50 high-quality modern monitor with advanced features.,830.03,Monitors,SKU-0458,Red,1TB,5,SKU-0458-RED-1TB,36,20
+Oppo Home Appliance 5,Oppo Home Appliance 5 high-quality modern home appliance with advanced features.,155.13,Home Appliances,SKU-0459,Red,32GB,15,SKU-0459-RED-32,76,20
+Dell Smartwatche 16,Dell Smartwatche 16 high-quality modern smartwatche with advanced features.,1387.94,Smartwatches,SKU-0460,White,1TB,20,SKU-0460-WHI-1TB,9,18
+Asus Smartphone 16,Asus Smartphone 16 high-quality modern smartphone with advanced features.,626.2,Smartphones,SKU-0461,Silver,64GB,25,SKU-0461-SIL-64,12,17
+Xiaomi Networking Device 13,Xiaomi Networking Device 13 high-quality modern networking device with advanced features.,611.28,Networking Devices,SKU-0462,Gold,1TB,20,SKU-0462-GOL-1TB,65,6
+Vivo Headphone 49,Vivo Headphone 49 high-quality modern headphone with advanced features.,1288.59,Headphones,SKU-0463,Green,1TB,20,SKU-0463-GRE-1TB,36,16
+Oppo Headphone 5,Oppo Headphone 5 high-quality modern headphone with advanced features.,442.17,Headphones,SKU-0464,Blue,1TB,0,SKU-0464-BLU-1TB,10,16
+HP Networking Device 47,HP Networking Device 47 high-quality modern networking device with advanced features.,1509.92,Networking Devices,SKU-0465,Black,64GB,5,SKU-0465-BLA-64,100,17
+Oppo Camera 42,Oppo Camera 42 high-quality modern camera with advanced features.,655.35,Cameras,SKU-0466,Blue,512GB,5,SKU-0466-BLU-512,41,16
+Xiaomi Laptop 21,Xiaomi Laptop 21 high-quality modern laptop with advanced features.,714.14,Laptops,SKU-0467,Green,32GB,20,SKU-0467-GRE-32,70,15
+Sony Smartwatche 50,Sony Smartwatche 50 high-quality modern smartwatche with advanced features.,993.97,Smartwatches,SKU-0468,White,64GB,15,SKU-0468-WHI-64,42,5
+Nikon Monitor 4,Nikon Monitor 4 high-quality modern monitor with advanced features.,542.41,Monitors,SKU-0469,Blue,32GB,5,SKU-0469-BLU-32,10,8
+Vivo Home Appliance 47,Vivo Home Appliance 47 high-quality modern home appliance with advanced features.,790.8,Home Appliances,SKU-0470,Green,512GB,0,SKU-0470-GRE-512,38,8
+Lenovo Monitor 42,Lenovo Monitor 42 high-quality modern monitor with advanced features.,119.98,Monitors,SKU-0471,Silver,64GB,10,SKU-0471-SIL-64,20,14
+HP Headphone 34,HP Headphone 34 high-quality modern headphone with advanced features.,309.67,Headphones,SKU-0472,Green,256GB,10,SKU-0472-GRE-256,34,15
+LG Headphone 5,LG Headphone 5 high-quality modern headphone with advanced features.,1726.67,Headphones,SKU-0473,Black,256GB,10,SKU-0473-BLA-256,94,11
+LG Smartphone 5,LG Smartphone 5 high-quality modern smartphone with advanced features.,1719.32,Smartphones,SKU-0474,Red,64GB,25,SKU-0474-RED-64,95,17
+Xiaomi Networking Device 1,Xiaomi Networking Device 1 high-quality modern networking device with advanced features.,664.56,Networking Devices,SKU-0475,White,128GB,20,SKU-0475-WHI-128,93,11
+HP Laptop 23,HP Laptop 23 high-quality modern laptop with advanced features.,1970.91,Laptops,SKU-0476,Blue,256GB,20,SKU-0476-BLU-256,13,15
+Canon Networking Device 41,Canon Networking Device 41 high-quality modern networking device with advanced features.,654.11,Networking Devices,SKU-0477,Blue,1TB,0,SKU-0477-BLU-1TB,75,14
+Vivo Monitor 24,Vivo Monitor 24 high-quality modern monitor with advanced features.,1012.59,Monitors,SKU-0478,Silver,256GB,20,SKU-0478-SIL-256,22,19
+Oppo Monitor 3,Oppo Monitor 3 high-quality modern monitor with advanced features.,628.39,Monitors,SKU-0479,Green,1TB,5,SKU-0479-GRE-1TB,79,13
+Vivo Monitor 46,Vivo Monitor 46 high-quality modern monitor with advanced features.,358.02,Monitors,SKU-0480,Red,512GB,0,SKU-0480-RED-512,8,10
+Sony Monitor 5,Sony Monitor 5 high-quality modern monitor with advanced features.,1775.57,Monitors,SKU-0481,Blue,32GB,10,SKU-0481-BLU-32,65,12
+HP Smartphone 28,HP Smartphone 28 high-quality modern smartphone with advanced features.,1733.27,Smartphones,SKU-0482,Blue,1TB,0,SKU-0482-BLU-1TB,65,12
+HP Networking Device 2,HP Networking Device 2 high-quality modern networking device with advanced features.,860.68,Networking Devices,SKU-0483,White,64GB,25,SKU-0483-WHI-64,27,9
+Sony Gaming Console 26,Sony Gaming Console 26 high-quality modern gaming console with advanced features.,690.25,Gaming Consoles,SKU-0484,Black,64GB,5,SKU-0484-BLA-64,23,8
+Samsung Headphone 22,Samsung Headphone 22 high-quality modern headphone with advanced features.,875.72,Headphones,SKU-0485,White,64GB,15,SKU-0485-WHI-64,90,15
+Asus Headphone 48,Asus Headphone 48 high-quality modern headphone with advanced features.,1018.88,Headphones,SKU-0486,Black,64GB,20,SKU-0486-BLA-64,76,15
+HP Home Appliance 24,HP Home Appliance 24 high-quality modern home appliance with advanced features.,1624.36,Home Appliances,SKU-0487,Red,256GB,25,SKU-0487-RED-256,15,7
+Oppo Smartphone 44,Oppo Smartphone 44 high-quality modern smartphone with advanced features.,453.06,Smartphones,SKU-0488,Silver,256GB,15,SKU-0488-SIL-256,26,17
+Xiaomi Headphone 50,Xiaomi Headphone 50 high-quality modern headphone with advanced features.,688.47,Headphones,SKU-0489,Green,128GB,20,SKU-0489-GRE-128,87,14
+Oppo Smartphone 3,Oppo Smartphone 3 high-quality modern smartphone with advanced features.,1705.37,Smartphones,SKU-0490,Gold,512GB,0,SKU-0490-GOL-512,100,7
+Xiaomi Smartwatche 41,Xiaomi Smartwatche 41 high-quality modern smartwatche with advanced features.,370.27,Smartwatches,SKU-0491,White,512GB,5,SKU-0491-WHI-512,74,16
+Canon Laptop 14,Canon Laptop 14 high-quality modern laptop with advanced features.,1285.73,Laptops,SKU-0492,Blue,256GB,5,SKU-0492-BLU-256,33,11
+Apple Monitor 31,Apple Monitor 31 high-quality modern monitor with advanced features.,1056.63,Monitors,SKU-0493,Blue,64GB,5,SKU-0493-BLU-64,100,16
+LG Home Appliance 36,LG Home Appliance 36 high-quality modern home appliance with advanced features.,740.14,Home Appliances,SKU-0494,White,128GB,5,SKU-0494-WHI-128,32,19
+Nikon Monitor 26,Nikon Monitor 26 high-quality modern monitor with advanced features.,1814.11,Monitors,SKU-0495,Black,1TB,0,SKU-0495-BLA-1TB,55,18
+Samsung Headphone 4,Samsung Headphone 4 high-quality modern headphone with advanced features.,1183.94,Headphones,SKU-0496,Black,128GB,5,SKU-0496-BLA-128,85,18
+Canon Smartwatche 37,Canon Smartwatche 37 high-quality modern smartwatche with advanced features.,583.01,Smartwatches,SKU-0497,Gold,64GB,10,SKU-0497-GOL-64,68,10
+Canon Camera 9,Canon Camera 9 high-quality modern camera with advanced features.,1784.93,Cameras,SKU-0498,Blue,1TB,25,SKU-0498-BLU-1TB,31,14
+Asus Tablet 36,Asus Tablet 36 high-quality modern tablet with advanced features.,269.89,Tablets,SKU-0499,Silver,128GB,5,SKU-0499-SIL-128,64,6
+Lenovo Smartphone 49,Lenovo Smartphone 49 high-quality modern smartphone with advanced features.,541.42,Smartphones,SKU-0500,Black,512GB,5,SKU-0500-BLA-512,5,11
+Xiaomi Smartphone 15,Xiaomi Smartphone 15 high-quality modern smartphone with advanced features.,1965.99,Smartphones,SKU-0501,Red,256GB,10,SKU-0501-RED-256,84,5
+Nikon Home Appliance 45,Nikon Home Appliance 45 high-quality modern home appliance with advanced features.,629.92,Home Appliances,SKU-0502,Green,64GB,20,SKU-0502-GRE-64,27,5
+Dell Laptop 50,Dell Laptop 50 high-quality modern laptop with advanced features.,607.44,Laptops,SKU-0503,Green,512GB,5,SKU-0503-GRE-512,77,14
+Apple Gaming Console 21,Apple Gaming Console 21 high-quality modern gaming console with advanced features.,1804.26,Gaming Consoles,SKU-0504,Red,64GB,5,SKU-0504-RED-64,47,8
+Oppo Smartphone 24,Oppo Smartphone 24 high-quality modern smartphone with advanced features.,852.1,Smartphones,SKU-0505,Green,1TB,10,SKU-0505-GRE-1TB,29,12
+Canon Networking Device 18,Canon Networking Device 18 high-quality modern networking device with advanced features.,1250.39,Networking Devices,SKU-0506,Silver,32GB,5,SKU-0506-SIL-32,89,18
+Xiaomi Gaming Console 1,Xiaomi Gaming Console 1 high-quality modern gaming console with advanced features.,1894.01,Gaming Consoles,SKU-0507,Silver,512GB,0,SKU-0507-SIL-512,100,7
+LG Headphone 46,LG Headphone 46 high-quality modern headphone with advanced features.,228.2,Headphones,SKU-0508,Green,128GB,25,SKU-0508-GRE-128,85,11
+Dell Headphone 10,Dell Headphone 10 high-quality modern headphone with advanced features.,1024.41,Headphones,SKU-0509,Blue,128GB,5,SKU-0509-BLU-128,6,10
+Dell Headphone 48,Dell Headphone 48 high-quality modern headphone with advanced features.,1991.36,Headphones,SKU-0510,Red,32GB,0,SKU-0510-RED-32,17,18
+Vivo Laptop 18,Vivo Laptop 18 high-quality modern laptop with advanced features.,1542.77,Laptops,SKU-0511,Blue,256GB,5,SKU-0511-BLU-256,93,8
+LG Gaming Console 39,LG Gaming Console 39 high-quality modern gaming console with advanced features.,624.93,Gaming Consoles,SKU-0512,Gold,256GB,10,SKU-0512-GOL-256,87,18
+HP Smartwatche 50,HP Smartwatche 50 high-quality modern smartwatche with advanced features.,420.69,Smartwatches,SKU-0513,Silver,64GB,10,SKU-0513-SIL-64,91,12
+LG Gaming Console 22,LG Gaming Console 22 high-quality modern gaming console with advanced features.,1693.94,Gaming Consoles,SKU-0514,Green,1TB,0,SKU-0514-GRE-1TB,43,10
+Dell Camera 10,Dell Camera 10 high-quality modern camera with advanced features.,180.03,Cameras,SKU-0515,Red,128GB,5,SKU-0515-RED-128,24,19
+Xiaomi Monitor 31,Xiaomi Monitor 31 high-quality modern monitor with advanced features.,423.06,Monitors,SKU-0516,Black,32GB,20,SKU-0516-BLA-32,24,14
+Xiaomi Laptop 32,Xiaomi Laptop 32 high-quality modern laptop with advanced features.,1902.19,Laptops,SKU-0517,Red,32GB,5,SKU-0517-RED-32,98,16
+Canon Smartphone 37,Canon Smartphone 37 high-quality modern smartphone with advanced features.,1619.78,Smartphones,SKU-0518,Green,128GB,10,SKU-0518-GRE-128,72,14
+Apple Gaming Console 12,Apple Gaming Console 12 high-quality modern gaming console with advanced features.,1829.84,Gaming Consoles,SKU-0519,Green,512GB,15,SKU-0519-GRE-512,77,10
+Nikon Tablet 37,Nikon Tablet 37 high-quality modern tablet with advanced features.,1228.96,Tablets,SKU-0520,Blue,128GB,20,SKU-0520-BLU-128,9,7
+HP Headphone 32,HP Headphone 32 high-quality modern headphone with advanced features.,1708.38,Headphones,SKU-0521,Silver,128GB,5,SKU-0521-SIL-128,71,10
+Canon Headphone 7,Canon Headphone 7 high-quality modern headphone with advanced features.,1317,Headphones,SKU-0522,Red,256GB,25,SKU-0522-RED-256,20,5
+Xiaomi Tablet 10,Xiaomi Tablet 10 high-quality modern tablet with advanced features.,1540.82,Tablets,SKU-0523,Green,64GB,25,SKU-0523-GRE-64,89,8
+LG Smartwatche 33,LG Smartwatche 33 high-quality modern smartwatche with advanced features.,1489.48,Smartwatches,SKU-0524,Red,64GB,15,SKU-0524-RED-64,52,12
+Lenovo Smartphone 36,Lenovo Smartphone 36 high-quality modern smartphone with advanced features.,1004.05,Smartphones,SKU-0525,Gold,64GB,20,SKU-0525-GOL-64,5,9
+Nikon Home Appliance 22,Nikon Home Appliance 22 high-quality modern home appliance with advanced features.,1304.4,Home Appliances,SKU-0526,Blue,32GB,5,SKU-0526-BLU-32,93,9
+Asus Laptop 7,Asus Laptop 7 high-quality modern laptop with advanced features.,1352.22,Laptops,SKU-0527,Blue,64GB,10,SKU-0527-BLU-64,16,12
+Sony Networking Device 46,Sony Networking Device 46 high-quality modern networking device with advanced features.,1266.34,Networking Devices,SKU-0528,Green,256GB,5,SKU-0528-GRE-256,80,7
+Apple Gaming Console 32,Apple Gaming Console 32 high-quality modern gaming console with advanced features.,847.02,Gaming Consoles,SKU-0529,Red,64GB,10,SKU-0529-RED-64,9,6
+Vivo Networking Device 39,Vivo Networking Device 39 high-quality modern networking device with advanced features.,383.13,Networking Devices,SKU-0530,Red,64GB,0,SKU-0530-RED-64,49,12
+Nikon Monitor 1,Nikon Monitor 1 high-quality modern monitor with advanced features.,1387.87,Monitors,SKU-0531,Gold,64GB,15,SKU-0531-GOL-64,28,6
+HP Smartwatche 13,HP Smartwatche 13 high-quality modern smartwatche with advanced features.,1680.17,Smartwatches,SKU-0532,Green,128GB,0,SKU-0532-GRE-128,67,13
+Vivo Home Appliance 6,Vivo Home Appliance 6 high-quality modern home appliance with advanced features.,1731.73,Home Appliances,SKU-0533,Red,64GB,20,SKU-0533-RED-64,42,7
+HP Smartwatche 28,HP Smartwatche 28 high-quality modern smartwatche with advanced features.,275.86,Smartwatches,SKU-0534,Green,64GB,5,SKU-0534-GRE-64,80,10
+Asus Home Appliance 25,Asus Home Appliance 25 high-quality modern home appliance with advanced features.,198.96,Home Appliances,SKU-0535,Green,64GB,0,SKU-0535-GRE-64,76,11
+Samsung Smartwatche 11,Samsung Smartwatche 11 high-quality modern smartwatche with advanced features.,427.49,Smartwatches,SKU-0536,Silver,1TB,15,SKU-0536-SIL-1TB,30,6
+Dell Headphone 13,Dell Headphone 13 high-quality modern headphone with advanced features.,822.18,Headphones,SKU-0537,Gold,64GB,10,SKU-0537-GOL-64,64,8
+Dell Headphone 7,Dell Headphone 7 high-quality modern headphone with advanced features.,1140.84,Headphones,SKU-0538,Green,128GB,0,SKU-0538-GRE-128,60,12
+Oppo Home Appliance 45,Oppo Home Appliance 45 high-quality modern home appliance with advanced features.,562.29,Home Appliances,SKU-0539,Gold,1TB,15,SKU-0539-GOL-1TB,33,10
+Dell Smartphone 11,Dell Smartphone 11 high-quality modern smartphone with advanced features.,1440.08,Smartphones,SKU-0540,Silver,256GB,25,SKU-0540-SIL-256,71,14
+Oppo Smartwatche 49,Oppo Smartwatche 49 high-quality modern smartwatche with advanced features.,1377.3,Smartwatches,SKU-0541,Black,1TB,5,SKU-0541-BLA-1TB,42,12
+LG Home Appliance 6,LG Home Appliance 6 high-quality modern home appliance with advanced features.,1479.35,Home Appliances,SKU-0542,Gold,128GB,10,SKU-0542-GOL-128,83,19
+Oppo Camera 38,Oppo Camera 38 high-quality modern camera with advanced features.,596.72,Cameras,SKU-0543,Black,256GB,15,SKU-0543-BLA-256,37,18
+Dell Gaming Console 8,Dell Gaming Console 8 high-quality modern gaming console with advanced features.,982.28,Gaming Consoles,SKU-0544,Red,256GB,15,SKU-0544-RED-256,48,17
+Samsung Gaming Console 10,Samsung Gaming Console 10 high-quality modern gaming console with advanced features.,872.5,Gaming Consoles,SKU-0545,White,64GB,25,SKU-0545-WHI-64,24,19
+Oppo Tablet 8,Oppo Tablet 8 high-quality modern tablet with advanced features.,1411.25,Tablets,SKU-0546,Blue,32GB,10,SKU-0546-BLU-32,13,16
+LG Smartwatche 13,LG Smartwatche 13 high-quality modern smartwatche with advanced features.,1068.56,Smartwatches,SKU-0547,Green,32GB,20,SKU-0547-GRE-32,52,15
+Vivo Tablet 42,Vivo Tablet 42 high-quality modern tablet with advanced features.,1254.71,Tablets,SKU-0548,Green,64GB,5,SKU-0548-GRE-64,22,10
+Oppo Monitor 38,Oppo Monitor 38 high-quality modern monitor with advanced features.,1858.94,Monitors,SKU-0549,Black,256GB,0,SKU-0549-BLA-256,35,20
+Dell Laptop 46,Dell Laptop 46 high-quality modern laptop with advanced features.,733.37,Laptops,SKU-0550,White,32GB,25,SKU-0550-WHI-32,45,19
+Apple Laptop 46,Apple Laptop 46 high-quality modern laptop with advanced features.,1801.01,Laptops,SKU-0551,Red,1TB,25,SKU-0551-RED-1TB,85,16
+Canon Gaming Console 14,Canon Gaming Console 14 high-quality modern gaming console with advanced features.,559.42,Gaming Consoles,SKU-0552,Silver,512GB,25,SKU-0552-SIL-512,98,20
+LG Smartphone 38,LG Smartphone 38 high-quality modern smartphone with advanced features.,588.56,Smartphones,SKU-0553,Blue,512GB,20,SKU-0553-BLU-512,20,20
+Oppo Monitor 18,Oppo Monitor 18 high-quality modern monitor with advanced features.,1964.33,Monitors,SKU-0554,Red,256GB,10,SKU-0554-RED-256,10,16
+Lenovo Camera 6,Lenovo Camera 6 high-quality modern camera with advanced features.,1498.32,Cameras,SKU-0555,Black,512GB,25,SKU-0555-BLA-512,28,13
+Xiaomi Monitor 21,Xiaomi Monitor 21 high-quality modern monitor with advanced features.,985.25,Monitors,SKU-0556,Blue,64GB,5,SKU-0556-BLU-64,5,18
+Samsung Home Appliance 42,Samsung Home Appliance 42 high-quality modern home appliance with advanced features.,1962.04,Home Appliances,SKU-0557,Blue,512GB,5,SKU-0557-BLU-512,63,8
+Xiaomi Home Appliance 28,Xiaomi Home Appliance 28 high-quality modern home appliance with advanced features.,1667.72,Home Appliances,SKU-0558,Green,64GB,10,SKU-0558-GRE-64,95,16
+LG Smartwatche 27,LG Smartwatche 27 high-quality modern smartwatche with advanced features.,314.01,Smartwatches,SKU-0559,White,128GB,0,SKU-0559-WHI-128,23,9
+Vivo Home Appliance 49,Vivo Home Appliance 49 high-quality modern home appliance with advanced features.,236.9,Home Appliances,SKU-0560,Gold,64GB,10,SKU-0560-GOL-64,5,8
+Canon Camera 16,Canon Camera 16 high-quality modern camera with advanced features.,1969.06,Cameras,SKU-0561,White,128GB,15,SKU-0561-WHI-128,82,18
+Xiaomi Laptop 5,Xiaomi Laptop 5 high-quality modern laptop with advanced features.,434.49,Laptops,SKU-0562,Gold,128GB,0,SKU-0562-GOL-128,80,5
+Canon Smartwatche 29,Canon Smartwatche 29 high-quality modern smartwatche with advanced features.,1987.56,Smartwatches,SKU-0563,Silver,32GB,10,SKU-0563-SIL-32,36,15
+Apple Home Appliance 15,Apple Home Appliance 15 high-quality modern home appliance with advanced features.,1436.69,Home Appliances,SKU-0564,Gold,1TB,25,SKU-0564-GOL-1TB,24,17
+Sony Gaming Console 28,Sony Gaming Console 28 high-quality modern gaming console with advanced features.,484.91,Gaming Consoles,SKU-0565,Red,32GB,25,SKU-0565-RED-32,97,9
+Xiaomi Gaming Console 8,Xiaomi Gaming Console 8 high-quality modern gaming console with advanced features.,1979.36,Gaming Consoles,SKU-0566,Silver,256GB,25,SKU-0566-SIL-256,75,8
+Xiaomi Monitor 18,Xiaomi Monitor 18 high-quality modern monitor with advanced features.,519.62,Monitors,SKU-0567,Black,32GB,20,SKU-0567-BLA-32,50,6
+Xiaomi Gaming Console 10,Xiaomi Gaming Console 10 high-quality modern gaming console with advanced features.,1070.27,Gaming Consoles,SKU-0568,Blue,32GB,10,SKU-0568-BLU-32,69,10
+Samsung Gaming Console 31,Samsung Gaming Console 31 high-quality modern gaming console with advanced features.,1628.73,Gaming Consoles,SKU-0569,Silver,64GB,5,SKU-0569-SIL-64,40,7
+Canon Camera 48,Canon Camera 48 high-quality modern camera with advanced features.,593.96,Cameras,SKU-0570,White,32GB,5,SKU-0570-WHI-32,50,18
+Lenovo Home Appliance 7,Lenovo Home Appliance 7 high-quality modern home appliance with advanced features.,1394.48,Home Appliances,SKU-0571,White,512GB,15,SKU-0571-WHI-512,60,12
+Vivo Smartwatche 11,Vivo Smartwatche 11 high-quality modern smartwatche with advanced features.,1719.79,Smartwatches,SKU-0572,Gold,64GB,25,SKU-0572-GOL-64,58,7
+Samsung Smartphone 29,Samsung Smartphone 29 high-quality modern smartphone with advanced features.,1285.94,Smartphones,SKU-0573,Red,1TB,0,SKU-0573-RED-1TB,26,10
+Oppo Gaming Console 1,Oppo Gaming Console 1 high-quality modern gaming console with advanced features.,1567.84,Gaming Consoles,SKU-0574,Green,1TB,25,SKU-0574-GRE-1TB,90,6
+Sony Laptop 40,Sony Laptop 40 high-quality modern laptop with advanced features.,1799.5,Laptops,SKU-0575,Black,32GB,20,SKU-0575-BLA-32,42,16
+Samsung Tablet 14,Samsung Tablet 14 high-quality modern tablet with advanced features.,258.91,Tablets,SKU-0576,Green,128GB,15,SKU-0576-GRE-128,67,11
+Nikon Smartwatche 19,Nikon Smartwatche 19 high-quality modern smartwatche with advanced features.,1922.74,Smartwatches,SKU-0577,Blue,32GB,25,SKU-0577-BLU-32,66,7
+Vivo Headphone 31,Vivo Headphone 31 high-quality modern headphone with advanced features.,1192.35,Headphones,SKU-0578,White,1TB,10,SKU-0578-WHI-1TB,47,19
+Asus Smartphone 46,Asus Smartphone 46 high-quality modern smartphone with advanced features.,1706.21,Smartphones,SKU-0579,Green,32GB,20,SKU-0579-GRE-32,79,9
+Canon Headphone 21,Canon Headphone 21 high-quality modern headphone with advanced features.,716.08,Headphones,SKU-0580,White,128GB,15,SKU-0580-WHI-128,37,12
+Xiaomi Home Appliance 44,Xiaomi Home Appliance 44 high-quality modern home appliance with advanced features.,912.11,Home Appliances,SKU-0581,Red,64GB,0,SKU-0581-RED-64,25,8
+Lenovo Headphone 33,Lenovo Headphone 33 high-quality modern headphone with advanced features.,484.1,Headphones,SKU-0582,Gold,256GB,5,SKU-0582-GOL-256,80,6
+Dell Camera 47,Dell Camera 47 high-quality modern camera with advanced features.,1983.63,Cameras,SKU-0583,Red,128GB,10,SKU-0583-RED-128,46,5
+Xiaomi Laptop 17,Xiaomi Laptop 17 high-quality modern laptop with advanced features.,698.11,Laptops,SKU-0584,Black,256GB,10,SKU-0584-BLA-256,20,7
+Sony Networking Device 22,Sony Networking Device 22 high-quality modern networking device with advanced features.,1542.49,Networking Devices,SKU-0585,Green,1TB,10,SKU-0585-GRE-1TB,72,11
+LG Networking Device 45,LG Networking Device 45 high-quality modern networking device with advanced features.,1959.62,Networking Devices,SKU-0586,White,32GB,15,SKU-0586-WHI-32,58,20
+Xiaomi Tablet 39,Xiaomi Tablet 39 high-quality modern tablet with advanced features.,178.82,Tablets,SKU-0587,Black,512GB,10,SKU-0587-BLA-512,29,15
+Samsung Headphone 24,Samsung Headphone 24 high-quality modern headphone with advanced features.,1859.32,Headphones,SKU-0588,Silver,512GB,0,SKU-0588-SIL-512,76,12
+Sony Tablet 37,Sony Tablet 37 high-quality modern tablet with advanced features.,1707.09,Tablets,SKU-0589,White,128GB,5,SKU-0589-WHI-128,52,19
+Lenovo Monitor 25,Lenovo Monitor 25 high-quality modern monitor with advanced features.,302.49,Monitors,SKU-0590,Gold,1TB,20,SKU-0590-GOL-1TB,38,6
+HP Camera 22,HP Camera 22 high-quality modern camera with advanced features.,1710,Cameras,SKU-0591,Gold,512GB,10,SKU-0591-GOL-512,32,6
+Asus Smartphone 22,Asus Smartphone 22 high-quality modern smartphone with advanced features.,270.55,Smartphones,SKU-0592,Green,256GB,0,SKU-0592-GRE-256,15,7
+Nikon Smartphone 31,Nikon Smartphone 31 high-quality modern smartphone with advanced features.,1719.26,Smartphones,SKU-0593,Red,64GB,15,SKU-0593-RED-64,15,14
+Canon Headphone 10,Canon Headphone 10 high-quality modern headphone with advanced features.,1099.86,Headphones,SKU-0594,Blue,1TB,20,SKU-0594-BLU-1TB,19,10
+Sony Home Appliance 41,Sony Home Appliance 41 high-quality modern home appliance with advanced features.,805.21,Home Appliances,SKU-0595,Green,64GB,20,SKU-0595-GRE-64,17,8
+HP Monitor 39,HP Monitor 39 high-quality modern monitor with advanced features.,1781.55,Monitors,SKU-0596,Blue,512GB,10,SKU-0596-BLU-512,51,16
+Canon Monitor 34,Canon Monitor 34 high-quality modern monitor with advanced features.,464.44,Monitors,SKU-0597,Green,64GB,5,SKU-0597-GRE-64,70,6
+Sony Home Appliance 34,Sony Home Appliance 34 high-quality modern home appliance with advanced features.,1255.68,Home Appliances,SKU-0598,Red,32GB,10,SKU-0598-RED-32,16,18
+Nikon Smartphone 5,Nikon Smartphone 5 high-quality modern smartphone with advanced features.,1713.45,Smartphones,SKU-0599,Green,128GB,10,SKU-0599-GRE-128,15,16
+Dell Smartphone 22,Dell Smartphone 22 high-quality modern smartphone with advanced features.,633.06,Smartphones,SKU-0600,Blue,256GB,10,SKU-0600-BLU-256,92,8
+Oppo Monitor 7,Oppo Monitor 7 high-quality modern monitor with advanced features.,1021.03,Monitors,SKU-0601,Gold,1TB,15,SKU-0601-GOL-1TB,51,6
+Asus Camera 30,Asus Camera 30 high-quality modern camera with advanced features.,962.76,Cameras,SKU-0602,White,128GB,25,SKU-0602-WHI-128,53,18
+Dell Smartphone 16,Dell Smartphone 16 high-quality modern smartphone with advanced features.,127.65,Smartphones,SKU-0603,Gold,512GB,20,SKU-0603-GOL-512,93,7
+Sony Headphone 26,Sony Headphone 26 high-quality modern headphone with advanced features.,596.1,Headphones,SKU-0604,Silver,256GB,10,SKU-0604-SIL-256,56,18
+Lenovo Laptop 45,Lenovo Laptop 45 high-quality modern laptop with advanced features.,680.52,Laptops,SKU-0605,White,64GB,20,SKU-0605-WHI-64,17,12
+Oppo Laptop 19,Oppo Laptop 19 high-quality modern laptop with advanced features.,399.27,Laptops,SKU-0606,White,256GB,5,SKU-0606-WHI-256,96,17
+HP Home Appliance 49,HP Home Appliance 49 high-quality modern home appliance with advanced features.,1117.04,Home Appliances,SKU-0607,Green,512GB,5,SKU-0607-GRE-512,88,13
+Dell Tablet 49,Dell Tablet 49 high-quality modern tablet with advanced features.,1035.25,Tablets,SKU-0608,Blue,256GB,20,SKU-0608-BLU-256,33,14
+Samsung Monitor 12,Samsung Monitor 12 high-quality modern monitor with advanced features.,1737.5,Monitors,SKU-0609,Blue,1TB,10,SKU-0609-BLU-1TB,97,19
+Sony Home Appliance 35,Sony Home Appliance 35 high-quality modern home appliance with advanced features.,1708.95,Home Appliances,SKU-0610,Blue,512GB,5,SKU-0610-BLU-512,31,17
+Oppo Networking Device 50,Oppo Networking Device 50 high-quality modern networking device with advanced features.,1549.45,Networking Devices,SKU-0611,White,512GB,20,SKU-0611-WHI-512,87,18
+Sony Laptop 36,Sony Laptop 36 high-quality modern laptop with advanced features.,879.02,Laptops,SKU-0612,Red,1TB,10,SKU-0612-RED-1TB,73,10
+Asus Tablet 4,Asus Tablet 4 high-quality modern tablet with advanced features.,164.69,Tablets,SKU-0613,White,512GB,5,SKU-0613-WHI-512,99,16
+Asus Smartphone 1,Asus Smartphone 1 high-quality modern smartphone with advanced features.,1000.9,Smartphones,SKU-0614,Gold,256GB,5,SKU-0614-GOL-256,6,8
+HP Networking Device 35,HP Networking Device 35 high-quality modern networking device with advanced features.,545.85,Networking Devices,SKU-0615,Blue,128GB,25,SKU-0615-BLU-128,66,17
+Dell Gaming Console 16,Dell Gaming Console 16 high-quality modern gaming console with advanced features.,774.14,Gaming Consoles,SKU-0616,Black,128GB,15,SKU-0616-BLA-128,14,11
+Dell Tablet 31,Dell Tablet 31 high-quality modern tablet with advanced features.,572.37,Tablets,SKU-0617,Red,32GB,15,SKU-0617-RED-32,6,7
+Apple Tablet 6,Apple Tablet 6 high-quality modern tablet with advanced features.,1010.38,Tablets,SKU-0618,Blue,32GB,0,SKU-0618-BLU-32,22,11
+Vivo Smartwatche 20,Vivo Smartwatche 20 high-quality modern smartwatche with advanced features.,1305.02,Smartwatches,SKU-0619,Gold,512GB,5,SKU-0619-GOL-512,55,19
+Oppo Networking Device 7,Oppo Networking Device 7 high-quality modern networking device with advanced features.,297.52,Networking Devices,SKU-0620,Gold,128GB,10,SKU-0620-GOL-128,62,10
+HP Smartphone 33,HP Smartphone 33 high-quality modern smartphone with advanced features.,863.39,Smartphones,SKU-0621,Silver,256GB,20,SKU-0621-SIL-256,55,11
+Samsung Home Appliance 43,Samsung Home Appliance 43 high-quality modern home appliance with advanced features.,388.95,Home Appliances,SKU-0622,Red,32GB,15,SKU-0622-RED-32,96,19
+Xiaomi Home Appliance 24,Xiaomi Home Appliance 24 high-quality modern home appliance with advanced features.,976.7,Home Appliances,SKU-0623,Red,32GB,0,SKU-0623-RED-32,46,13
+HP Tablet 33,HP Tablet 33 high-quality modern tablet with advanced features.,838.18,Tablets,SKU-0624,Red,512GB,10,SKU-0624-RED-512,72,8
+Samsung Smartwatche 39,Samsung Smartwatche 39 high-quality modern smartwatche with advanced features.,1731.4,Smartwatches,SKU-0625,Silver,64GB,20,SKU-0625-SIL-64,80,14
+Vivo Home Appliance 8,Vivo Home Appliance 8 high-quality modern home appliance with advanced features.,1123.15,Home Appliances,SKU-0626,Blue,256GB,5,SKU-0626-BLU-256,11,9
+HP Networking Device 48,HP Networking Device 48 high-quality modern networking device with advanced features.,1927.9,Networking Devices,SKU-0627,Silver,32GB,10,SKU-0627-SIL-32,80,15
+Xiaomi Home Appliance 7,Xiaomi Home Appliance 7 high-quality modern home appliance with advanced features.,544.39,Home Appliances,SKU-0628,Black,1TB,25,SKU-0628-BLA-1TB,36,16
+Xiaomi Camera 37,Xiaomi Camera 37 high-quality modern camera with advanced features.,1149.35,Cameras,SKU-0629,Gold,512GB,25,SKU-0629-GOL-512,36,15
+HP Networking Device 28,HP Networking Device 28 high-quality modern networking device with advanced features.,1773.08,Networking Devices,SKU-0630,Silver,128GB,25,SKU-0630-SIL-128,8,6
+Apple Networking Device 15,Apple Networking Device 15 high-quality modern networking device with advanced features.,946.24,Networking Devices,SKU-0631,Red,64GB,20,SKU-0631-RED-64,39,19
+LG Camera 22,LG Camera 22 high-quality modern camera with advanced features.,1203.16,Cameras,SKU-0632,White,1TB,5,SKU-0632-WHI-1TB,76,5
+Apple Networking Device 46,Apple Networking Device 46 high-quality modern networking device with advanced features.,1313.9,Networking Devices,SKU-0633,Blue,256GB,25,SKU-0633-BLU-256,31,13
+Canon Laptop 32,Canon Laptop 32 high-quality modern laptop with advanced features.,1554.11,Laptops,SKU-0634,Red,128GB,5,SKU-0634-RED-128,94,12
+HP Home Appliance 5,HP Home Appliance 5 high-quality modern home appliance with advanced features.,1635.15,Home Appliances,SKU-0635,Silver,512GB,15,SKU-0635-SIL-512,64,5
+Canon Tablet 27,Canon Tablet 27 high-quality modern tablet with advanced features.,657.74,Tablets,SKU-0636,Silver,64GB,25,SKU-0636-SIL-64,40,8
+Asus Tablet 33,Asus Tablet 33 high-quality modern tablet with advanced features.,780.59,Tablets,SKU-0637,Red,128GB,15,SKU-0637-RED-128,25,20
+Nikon Monitor 30,Nikon Monitor 30 high-quality modern monitor with advanced features.,1315.77,Monitors,SKU-0638,Gold,1TB,5,SKU-0638-GOL-1TB,48,7
+Dell Camera 28,Dell Camera 28 high-quality modern camera with advanced features.,1748.43,Cameras,SKU-0639,Gold,512GB,0,SKU-0639-GOL-512,35,11
+Apple Smartphone 13,Apple Smartphone 13 high-quality modern smartphone with advanced features.,808.88,Smartphones,SKU-0640,White,128GB,10,SKU-0640-WHI-128,28,17
+Lenovo Gaming Console 3,Lenovo Gaming Console 3 high-quality modern gaming console with advanced features.,1585.99,Gaming Consoles,SKU-0641,Green,64GB,15,SKU-0641-GRE-64,49,16
+Apple Networking Device 37,Apple Networking Device 37 high-quality modern networking device with advanced features.,176.91,Networking Devices,SKU-0642,Blue,1TB,15,SKU-0642-BLU-1TB,30,16
+Xiaomi Smartwatche 26,Xiaomi Smartwatche 26 high-quality modern smartwatche with advanced features.,963.1,Smartwatches,SKU-0643,Black,32GB,15,SKU-0643-BLA-32,57,7
+Xiaomi Gaming Console 11,Xiaomi Gaming Console 11 high-quality modern gaming console with advanced features.,1636.36,Gaming Consoles,SKU-0644,Silver,1TB,15,SKU-0644-SIL-1TB,77,15
+Samsung Networking Device 11,Samsung Networking Device 11 high-quality modern networking device with advanced features.,1581.96,Networking Devices,SKU-0645,White,128GB,20,SKU-0645-WHI-128,51,9
+Oppo Gaming Console 48,Oppo Gaming Console 48 high-quality modern gaming console with advanced features.,1473.96,Gaming Consoles,SKU-0646,Red,64GB,0,SKU-0646-RED-64,95,16
+Apple Monitor 39,Apple Monitor 39 high-quality modern monitor with advanced features.,1668.14,Monitors,SKU-0647,Gold,512GB,15,SKU-0647-GOL-512,46,6
+Lenovo Home Appliance 38,Lenovo Home Appliance 38 high-quality modern home appliance with advanced features.,1301.68,Home Appliances,SKU-0648,Black,512GB,15,SKU-0648-BLA-512,54,12
+Canon Camera 41,Canon Camera 41 high-quality modern camera with advanced features.,1580.81,Cameras,SKU-0649,Green,64GB,0,SKU-0649-GRE-64,67,12
+Lenovo Home Appliance 45,Lenovo Home Appliance 45 high-quality modern home appliance with advanced features.,1872.97,Home Appliances,SKU-0650,Red,512GB,5,SKU-0650-RED-512,72,13
+Samsung Home Appliance 26,Samsung Home Appliance 26 high-quality modern home appliance with advanced features.,1184.14,Home Appliances,SKU-0651,White,64GB,15,SKU-0651-WHI-64,19,18
+Nikon Laptop 27,Nikon Laptop 27 high-quality modern laptop with advanced features.,1733.53,Laptops,SKU-0652,Black,128GB,0,SKU-0652-BLA-128,33,15
+Oppo Gaming Console 47,Oppo Gaming Console 47 high-quality modern gaming console with advanced features.,1014.96,Gaming Consoles,SKU-0653,Red,128GB,20,SKU-0653-RED-128,86,7
+HP Smartphone 14,HP Smartphone 14 high-quality modern smartphone with advanced features.,1226.89,Smartphones,SKU-0654,Silver,64GB,25,SKU-0654-SIL-64,23,12
+LG Gaming Console 43,LG Gaming Console 43 high-quality modern gaming console with advanced features.,1305.04,Gaming Consoles,SKU-0655,White,1TB,0,SKU-0655-WHI-1TB,41,13
+Oppo Monitor 32,Oppo Monitor 32 high-quality modern monitor with advanced features.,1741.35,Monitors,SKU-0656,Silver,32GB,5,SKU-0656-SIL-32,63,14
+Dell Networking Device 49,Dell Networking Device 49 high-quality modern networking device with advanced features.,885.61,Networking Devices,SKU-0657,Gold,64GB,15,SKU-0657-GOL-64,13,14
+HP Headphone 49,HP Headphone 49 high-quality modern headphone with advanced features.,911.89,Headphones,SKU-0658,Red,256GB,15,SKU-0658-RED-256,75,5
+Xiaomi Gaming Console 28,Xiaomi Gaming Console 28 high-quality modern gaming console with advanced features.,583.93,Gaming Consoles,SKU-0659,White,512GB,10,SKU-0659-WHI-512,65,15
+Apple Monitor 47,Apple Monitor 47 high-quality modern monitor with advanced features.,255.27,Monitors,SKU-0660,Blue,1TB,15,SKU-0660-BLU-1TB,23,6
+Xiaomi Gaming Console 5,Xiaomi Gaming Console 5 high-quality modern gaming console with advanced features.,1465.42,Gaming Consoles,SKU-0661,White,1TB,0,SKU-0661-WHI-1TB,25,19
+Apple Monitor 13,Apple Monitor 13 high-quality modern monitor with advanced features.,1038.15,Monitors,SKU-0662,Black,256GB,15,SKU-0662-BLA-256,51,15
+LG Home Appliance 22,LG Home Appliance 22 high-quality modern home appliance with advanced features.,898.28,Home Appliances,SKU-0663,Silver,256GB,0,SKU-0663-SIL-256,25,14
+Vivo Headphone 6,Vivo Headphone 6 high-quality modern headphone with advanced features.,480.1,Headphones,SKU-0664,Blue,1TB,5,SKU-0664-BLU-1TB,5,19
+LG Headphone 50,LG Headphone 50 high-quality modern headphone with advanced features.,691.48,Headphones,SKU-0665,Gold,512GB,25,SKU-0665-GOL-512,55,9
+Samsung Monitor 14,Samsung Monitor 14 high-quality modern monitor with advanced features.,1567.03,Monitors,SKU-0666,Black,32GB,15,SKU-0666-BLA-32,72,13
+Oppo Gaming Console 35,Oppo Gaming Console 35 high-quality modern gaming console with advanced features.,1324.01,Gaming Consoles,SKU-0667,White,512GB,25,SKU-0667-WHI-512,32,15
+Oppo Camera 24,Oppo Camera 24 high-quality modern camera with advanced features.,1782.9,Cameras,SKU-0668,Green,32GB,0,SKU-0668-GRE-32,19,14
+Vivo Monitor 33,Vivo Monitor 33 high-quality modern monitor with advanced features.,889.93,Monitors,SKU-0669,Gold,128GB,10,SKU-0669-GOL-128,12,9
+Xiaomi Laptop 18,Xiaomi Laptop 18 high-quality modern laptop with advanced features.,1583.06,Laptops,SKU-0670,Red,256GB,15,SKU-0670-RED-256,55,19
+Xiaomi Tablet 11,Xiaomi Tablet 11 high-quality modern tablet with advanced features.,1615.86,Tablets,SKU-0671,Blue,512GB,20,SKU-0671-BLU-512,24,11
+Dell Smartwatche 42,Dell Smartwatche 42 high-quality modern smartwatche with advanced features.,1817.23,Smartwatches,SKU-0672,Silver,64GB,10,SKU-0672-SIL-64,56,16
+Dell Smartphone 11,Dell Smartphone 11 high-quality modern smartphone with advanced features.,134.77,Smartphones,SKU-0673,Gold,256GB,15,SKU-0673-GOL-256,52,16
+Nikon Smartwatche 25,Nikon Smartwatche 25 high-quality modern smartwatche with advanced features.,301.31,Smartwatches,SKU-0674,Black,128GB,0,SKU-0674-BLA-128,88,12
+Canon Networking Device 20,Canon Networking Device 20 high-quality modern networking device with advanced features.,1377.18,Networking Devices,SKU-0675,Silver,32GB,5,SKU-0675-SIL-32,93,11
+Canon Home Appliance 39,Canon Home Appliance 39 high-quality modern home appliance with advanced features.,168.24,Home Appliances,SKU-0676,Green,1TB,10,SKU-0676-GRE-1TB,58,18
+Xiaomi Laptop 19,Xiaomi Laptop 19 high-quality modern laptop with advanced features.,891.58,Laptops,SKU-0677,Blue,1TB,25,SKU-0677-BLU-1TB,74,19
+Apple Monitor 40,Apple Monitor 40 high-quality modern monitor with advanced features.,932.05,Monitors,SKU-0678,Silver,32GB,15,SKU-0678-SIL-32,25,15
+Vivo Headphone 35,Vivo Headphone 35 high-quality modern headphone with advanced features.,1658.51,Headphones,SKU-0679,Silver,32GB,5,SKU-0679-SIL-32,7,14
+Dell Tablet 44,Dell Tablet 44 high-quality modern tablet with advanced features.,129.31,Tablets,SKU-0680,Blue,512GB,5,SKU-0680-BLU-512,65,8
+Lenovo Headphone 45,Lenovo Headphone 45 high-quality modern headphone with advanced features.,198.06,Headphones,SKU-0681,Red,128GB,20,SKU-0681-RED-128,57,5
+LG Home Appliance 43,LG Home Appliance 43 high-quality modern home appliance with advanced features.,494.87,Home Appliances,SKU-0682,Silver,32GB,10,SKU-0682-SIL-32,27,6
+Asus Camera 2,Asus Camera 2 high-quality modern camera with advanced features.,1774.19,Cameras,SKU-0683,Red,256GB,0,SKU-0683-RED-256,99,9
+Samsung Camera 14,Samsung Camera 14 high-quality modern camera with advanced features.,772.65,Cameras,SKU-0684,Gold,512GB,10,SKU-0684-GOL-512,54,8
+HP Smartphone 3,HP Smartphone 3 high-quality modern smartphone with advanced features.,216.95,Smartphones,SKU-0685,Silver,1TB,5,SKU-0685-SIL-1TB,46,13
+Oppo Tablet 27,Oppo Tablet 27 high-quality modern tablet with advanced features.,1342.13,Tablets,SKU-0686,Red,1TB,25,SKU-0686-RED-1TB,23,20
+Vivo Home Appliance 20,Vivo Home Appliance 20 high-quality modern home appliance with advanced features.,1688.74,Home Appliances,SKU-0687,Green,256GB,0,SKU-0687-GRE-256,37,12
+Canon Monitor 3,Canon Monitor 3 high-quality modern monitor with advanced features.,1259.8,Monitors,SKU-0688,Black,1TB,0,SKU-0688-BLA-1TB,5,11
+Asus Laptop 19,Asus Laptop 19 high-quality modern laptop with advanced features.,598.76,Laptops,SKU-0689,White,256GB,0,SKU-0689-WHI-256,62,14
+Sony Laptop 24,Sony Laptop 24 high-quality modern laptop with advanced features.,1801,Laptops,SKU-0690,Silver,1TB,0,SKU-0690-SIL-1TB,66,13
+Canon Smartphone 46,Canon Smartphone 46 high-quality modern smartphone with advanced features.,1861.11,Smartphones,SKU-0691,Gold,512GB,10,SKU-0691-GOL-512,26,11
+Nikon Home Appliance 46,Nikon Home Appliance 46 high-quality modern home appliance with advanced features.,1722.17,Home Appliances,SKU-0692,Gold,32GB,15,SKU-0692-GOL-32,78,14
+Nikon Camera 48,Nikon Camera 48 high-quality modern camera with advanced features.,1295.11,Cameras,SKU-0693,Red,64GB,0,SKU-0693-RED-64,41,11
+Xiaomi Smartwatche 14,Xiaomi Smartwatche 14 high-quality modern smartwatche with advanced features.,283.31,Smartwatches,SKU-0694,Black,64GB,15,SKU-0694-BLA-64,14,6
+Samsung Tablet 12,Samsung Tablet 12 high-quality modern tablet with advanced features.,1583.75,Tablets,SKU-0695,Green,1TB,25,SKU-0695-GRE-1TB,91,10
+Oppo Camera 13,Oppo Camera 13 high-quality modern camera with advanced features.,268.03,Cameras,SKU-0696,Red,32GB,0,SKU-0696-RED-32,99,20
+HP Networking Device 32,HP Networking Device 32 high-quality modern networking device with advanced features.,1018.96,Networking Devices,SKU-0697,Black,128GB,25,SKU-0697-BLA-128,49,15
+LG Monitor 40,LG Monitor 40 high-quality modern monitor with advanced features.,1653.36,Monitors,SKU-0698,Blue,32GB,0,SKU-0698-BLU-32,75,20
+HP Networking Device 41,HP Networking Device 41 high-quality modern networking device with advanced features.,1965.37,Networking Devices,SKU-0699,Black,128GB,15,SKU-0699-BLA-128,25,8
+Nikon Smartphone 13,Nikon Smartphone 13 high-quality modern smartphone with advanced features.,683.98,Smartphones,SKU-0700,Blue,256GB,25,SKU-0700-BLU-256,41,18
+LG Laptop 38,LG Laptop 38 high-quality modern laptop with advanced features.,1948.48,Laptops,SKU-0701,Red,64GB,25,SKU-0701-RED-64,65,19
+HP Smartphone 39,HP Smartphone 39 high-quality modern smartphone with advanced features.,1696.8,Smartphones,SKU-0702,Blue,512GB,15,SKU-0702-BLU-512,9,18
+Sony Networking Device 41,Sony Networking Device 41 high-quality modern networking device with advanced features.,837.42,Networking Devices,SKU-0703,Silver,256GB,25,SKU-0703-SIL-256,56,12
+Oppo Gaming Console 47,Oppo Gaming Console 47 high-quality modern gaming console with advanced features.,1006.59,Gaming Consoles,SKU-0704,Gold,256GB,15,SKU-0704-GOL-256,59,19
+Vivo Camera 22,Vivo Camera 22 high-quality modern camera with advanced features.,627.71,Cameras,SKU-0705,Green,128GB,25,SKU-0705-GRE-128,42,6
+LG Laptop 33,LG Laptop 33 high-quality modern laptop with advanced features.,914.33,Laptops,SKU-0706,Red,256GB,10,SKU-0706-RED-256,35,13
+Nikon Camera 21,Nikon Camera 21 high-quality modern camera with advanced features.,432.25,Cameras,SKU-0707,Gold,1TB,5,SKU-0707-GOL-1TB,12,8
+Nikon Smartwatche 46,Nikon Smartwatche 46 high-quality modern smartwatche with advanced features.,308.37,Smartwatches,SKU-0708,Silver,128GB,15,SKU-0708-SIL-128,95,14
+Sony Smartphone 31,Sony Smartphone 31 high-quality modern smartphone with advanced features.,669.47,Smartphones,SKU-0709,Silver,32GB,10,SKU-0709-SIL-32,80,16
+Canon Tablet 38,Canon Tablet 38 high-quality modern tablet with advanced features.,1104.59,Tablets,SKU-0710,White,32GB,5,SKU-0710-WHI-32,90,9
+HP Laptop 44,HP Laptop 44 high-quality modern laptop with advanced features.,1519.46,Laptops,SKU-0711,Silver,512GB,15,SKU-0711-SIL-512,84,7
+Sony Smartphone 37,Sony Smartphone 37 high-quality modern smartphone with advanced features.,909.33,Smartphones,SKU-0712,Silver,64GB,5,SKU-0712-SIL-64,85,8
+Apple Networking Device 29,Apple Networking Device 29 high-quality modern networking device with advanced features.,858.84,Networking Devices,SKU-0713,Red,512GB,10,SKU-0713-RED-512,59,15
+Vivo Laptop 17,Vivo Laptop 17 high-quality modern laptop with advanced features.,1364.5,Laptops,SKU-0714,Silver,256GB,25,SKU-0714-SIL-256,89,5
+HP Tablet 20,HP Tablet 20 high-quality modern tablet with advanced features.,1704.03,Tablets,SKU-0715,White,64GB,5,SKU-0715-WHI-64,81,19
+Dell Networking Device 11,Dell Networking Device 11 high-quality modern networking device with advanced features.,1966.16,Networking Devices,SKU-0716,Gold,1TB,20,SKU-0716-GOL-1TB,67,15
+Canon Laptop 33,Canon Laptop 33 high-quality modern laptop with advanced features.,458.77,Laptops,SKU-0717,Black,128GB,20,SKU-0717-BLA-128,21,18
+HP Camera 36,HP Camera 36 high-quality modern camera with advanced features.,934.69,Cameras,SKU-0718,Green,256GB,0,SKU-0718-GRE-256,75,20
+Asus Smartphone 8,Asus Smartphone 8 high-quality modern smartphone with advanced features.,1811.79,Smartphones,SKU-0719,Blue,512GB,25,SKU-0719-BLU-512,38,13
+Lenovo Monitor 48,Lenovo Monitor 48 high-quality modern monitor with advanced features.,653.13,Monitors,SKU-0720,Red,256GB,25,SKU-0720-RED-256,29,20
+Xiaomi Headphone 18,Xiaomi Headphone 18 high-quality modern headphone with advanced features.,972.95,Headphones,SKU-0721,Green,512GB,15,SKU-0721-GRE-512,7,14
+LG Gaming Console 22,LG Gaming Console 22 high-quality modern gaming console with advanced features.,1337.29,Gaming Consoles,SKU-0722,Green,128GB,0,SKU-0722-GRE-128,87,17
+Xiaomi Smartphone 34,Xiaomi Smartphone 34 high-quality modern smartphone with advanced features.,1410.37,Smartphones,SKU-0723,Blue,32GB,0,SKU-0723-BLU-32,90,8
+Oppo Laptop 16,Oppo Laptop 16 high-quality modern laptop with advanced features.,640.64,Laptops,SKU-0724,White,32GB,0,SKU-0724-WHI-32,97,8
+Canon Networking Device 16,Canon Networking Device 16 high-quality modern networking device with advanced features.,1676.56,Networking Devices,SKU-0725,White,64GB,25,SKU-0725-WHI-64,41,12
+HP Home Appliance 25,HP Home Appliance 25 high-quality modern home appliance with advanced features.,868.24,Home Appliances,SKU-0726,Gold,1TB,15,SKU-0726-GOL-1TB,20,15
+Vivo Smartwatche 44,Vivo Smartwatche 44 high-quality modern smartwatche with advanced features.,658.01,Smartwatches,SKU-0727,Red,256GB,5,SKU-0727-RED-256,59,8
+Asus Camera 26,Asus Camera 26 high-quality modern camera with advanced features.,279.9,Cameras,SKU-0728,Black,32GB,5,SKU-0728-BLA-32,63,9
+Canon Smartwatche 13,Canon Smartwatche 13 high-quality modern smartwatche with advanced features.,1007.4,Smartwatches,SKU-0729,Blue,32GB,5,SKU-0729-BLU-32,33,15
+Nikon Networking Device 9,Nikon Networking Device 9 high-quality modern networking device with advanced features.,1418.67,Networking Devices,SKU-0730,Blue,1TB,25,SKU-0730-BLU-1TB,41,9
+Vivo Headphone 45,Vivo Headphone 45 high-quality modern headphone with advanced features.,1807.15,Headphones,SKU-0731,Gold,1TB,25,SKU-0731-GOL-1TB,87,5
+Asus Camera 38,Asus Camera 38 high-quality modern camera with advanced features.,791.47,Cameras,SKU-0732,Green,256GB,15,SKU-0732-GRE-256,75,17
+Nikon Monitor 7,Nikon Monitor 7 high-quality modern monitor with advanced features.,1337.6,Monitors,SKU-0733,Red,64GB,15,SKU-0733-RED-64,32,12
+Canon Smartphone 44,Canon Smartphone 44 high-quality modern smartphone with advanced features.,1665.5,Smartphones,SKU-0734,Gold,32GB,10,SKU-0734-GOL-32,39,6
+Canon Gaming Console 24,Canon Gaming Console 24 high-quality modern gaming console with advanced features.,1015.25,Gaming Consoles,SKU-0735,Black,32GB,10,SKU-0735-BLA-32,79,15
+Sony Smartphone 17,Sony Smartphone 17 high-quality modern smartphone with advanced features.,1417.77,Smartphones,SKU-0736,Gold,512GB,10,SKU-0736-GOL-512,98,9
+Apple Gaming Console 7,Apple Gaming Console 7 high-quality modern gaming console with advanced features.,1731.07,Gaming Consoles,SKU-0737,Silver,32GB,5,SKU-0737-SIL-32,9,12
+Asus Camera 44,Asus Camera 44 high-quality modern camera with advanced features.,1857.97,Cameras,SKU-0738,White,32GB,0,SKU-0738-WHI-32,17,10
+Canon Smartphone 13,Canon Smartphone 13 high-quality modern smartphone with advanced features.,870.46,Smartphones,SKU-0739,Black,256GB,0,SKU-0739-BLA-256,58,10
+HP Headphone 24,HP Headphone 24 high-quality modern headphone with advanced features.,1706.86,Headphones,SKU-0740,Gold,256GB,5,SKU-0740-GOL-256,70,11
+Xiaomi Laptop 29,Xiaomi Laptop 29 high-quality modern laptop with advanced features.,1015.66,Laptops,SKU-0741,White,64GB,15,SKU-0741-WHI-64,96,10
+Lenovo Smartwatche 22,Lenovo Smartwatche 22 high-quality modern smartwatche with advanced features.,1648.84,Smartwatches,SKU-0742,Gold,32GB,5,SKU-0742-GOL-32,24,17
+HP Headphone 4,HP Headphone 4 high-quality modern headphone with advanced features.,266.59,Headphones,SKU-0743,Green,256GB,10,SKU-0743-GRE-256,81,20
+Canon Tablet 48,Canon Tablet 48 high-quality modern tablet with advanced features.,1865.79,Tablets,SKU-0744,Gold,512GB,25,SKU-0744-GOL-512,23,19
+Sony Gaming Console 9,Sony Gaming Console 9 high-quality modern gaming console with advanced features.,823.85,Gaming Consoles,SKU-0745,White,128GB,20,SKU-0745-WHI-128,12,20
+Samsung Gaming Console 24,Samsung Gaming Console 24 high-quality modern gaming console with advanced features.,1321.84,Gaming Consoles,SKU-0746,White,64GB,10,SKU-0746-WHI-64,99,7
+HP Headphone 19,HP Headphone 19 high-quality modern headphone with advanced features.,1799.88,Headphones,SKU-0747,Blue,128GB,20,SKU-0747-BLU-128,61,11
+Dell Camera 43,Dell Camera 43 high-quality modern camera with advanced features.,184.78,Cameras,SKU-0748,Green,32GB,25,SKU-0748-GRE-32,39,8
+Samsung Smartphone 38,Samsung Smartphone 38 high-quality modern smartphone with advanced features.,1189.17,Smartphones,SKU-0749,Gold,256GB,5,SKU-0749-GOL-256,8,19
+Oppo Smartphone 32,Oppo Smartphone 32 high-quality modern smartphone with advanced features.,1273.8,Smartphones,SKU-0750,Black,256GB,10,SKU-0750-BLA-256,38,19
+Apple Networking Device 28,Apple Networking Device 28 high-quality modern networking device with advanced features.,906.74,Networking Devices,SKU-0751,Black,256GB,20,SKU-0751-BLA-256,40,8
+Xiaomi Smartwatche 23,Xiaomi Smartwatche 23 high-quality modern smartwatche with advanced features.,186.14,Smartwatches,SKU-0752,Gold,128GB,5,SKU-0752-GOL-128,55,8
+Oppo Networking Device 16,Oppo Networking Device 16 high-quality modern networking device with advanced features.,1917.08,Networking Devices,SKU-0753,Black,512GB,15,SKU-0753-BLA-512,92,16
+Xiaomi Smartwatche 5,Xiaomi Smartwatche 5 high-quality modern smartwatche with advanced features.,205.74,Smartwatches,SKU-0754,White,128GB,15,SKU-0754-WHI-128,97,16
+Canon Networking Device 27,Canon Networking Device 27 high-quality modern networking device with advanced features.,782.18,Networking Devices,SKU-0755,Gold,32GB,15,SKU-0755-GOL-32,48,18
+Vivo Camera 43,Vivo Camera 43 high-quality modern camera with advanced features.,1658.62,Cameras,SKU-0756,White,1TB,20,SKU-0756-WHI-1TB,42,10
+Apple Home Appliance 42,Apple Home Appliance 42 high-quality modern home appliance with advanced features.,144.97,Home Appliances,SKU-0757,Black,512GB,10,SKU-0757-BLA-512,40,11
+Dell Smartphone 39,Dell Smartphone 39 high-quality modern smartphone with advanced features.,1780.52,Smartphones,SKU-0758,Blue,64GB,15,SKU-0758-BLU-64,89,7
+Canon Gaming Console 2,Canon Gaming Console 2 high-quality modern gaming console with advanced features.,1767.77,Gaming Consoles,SKU-0759,Silver,512GB,15,SKU-0759-SIL-512,100,20
+Apple Headphone 48,Apple Headphone 48 high-quality modern headphone with advanced features.,996.73,Headphones,SKU-0760,Black,128GB,0,SKU-0760-BLA-128,87,7
+Lenovo Networking Device 13,Lenovo Networking Device 13 high-quality modern networking device with advanced features.,1815.86,Networking Devices,SKU-0761,Black,32GB,5,SKU-0761-BLA-32,54,7
+Xiaomi Home Appliance 41,Xiaomi Home Appliance 41 high-quality modern home appliance with advanced features.,222.43,Home Appliances,SKU-0762,White,64GB,15,SKU-0762-WHI-64,89,20
+Asus Camera 5,Asus Camera 5 high-quality modern camera with advanced features.,972.17,Cameras,SKU-0763,White,1TB,5,SKU-0763-WHI-1TB,34,16
+Samsung Headphone 16,Samsung Headphone 16 high-quality modern headphone with advanced features.,511.98,Headphones,SKU-0764,Red,512GB,10,SKU-0764-RED-512,49,9
+Xiaomi Gaming Console 48,Xiaomi Gaming Console 48 high-quality modern gaming console with advanced features.,1622.48,Gaming Consoles,SKU-0765,Silver,64GB,0,SKU-0765-SIL-64,79,5
+Canon Headphone 38,Canon Headphone 38 high-quality modern headphone with advanced features.,195.97,Headphones,SKU-0766,Black,128GB,0,SKU-0766-BLA-128,89,8
+Samsung Smartphone 19,Samsung Smartphone 19 high-quality modern smartphone with advanced features.,1123.79,Smartphones,SKU-0767,Gold,32GB,0,SKU-0767-GOL-32,40,6
+Vivo Networking Device 41,Vivo Networking Device 41 high-quality modern networking device with advanced features.,601.69,Networking Devices,SKU-0768,Black,128GB,25,SKU-0768-BLA-128,30,9
+Xiaomi Smartphone 21,Xiaomi Smartphone 21 high-quality modern smartphone with advanced features.,894.03,Smartphones,SKU-0769,Silver,1TB,10,SKU-0769-SIL-1TB,12,20
+Canon Tablet 15,Canon Tablet 15 high-quality modern tablet with advanced features.,1110.75,Tablets,SKU-0770,Red,128GB,5,SKU-0770-RED-128,13,14
+HP Smartwatche 50,HP Smartwatche 50 high-quality modern smartwatche with advanced features.,932.07,Smartwatches,SKU-0771,Silver,32GB,20,SKU-0771-SIL-32,54,20
+LG Monitor 30,LG Monitor 30 high-quality modern monitor with advanced features.,1467.69,Monitors,SKU-0772,White,256GB,15,SKU-0772-WHI-256,9,9
+Dell Smartphone 21,Dell Smartphone 21 high-quality modern smartphone with advanced features.,1818.77,Smartphones,SKU-0773,Blue,32GB,20,SKU-0773-BLU-32,7,11
+Sony Home Appliance 29,Sony Home Appliance 29 high-quality modern home appliance with advanced features.,811.16,Home Appliances,SKU-0774,Red,128GB,20,SKU-0774-RED-128,11,8
+Nikon Headphone 34,Nikon Headphone 34 high-quality modern headphone with advanced features.,1954.67,Headphones,SKU-0775,Green,32GB,20,SKU-0775-GRE-32,8,7
+Vivo Smartwatche 13,Vivo Smartwatche 13 high-quality modern smartwatche with advanced features.,1917.51,Smartwatches,SKU-0776,Red,1TB,5,SKU-0776-RED-1TB,11,16
+Xiaomi Headphone 18,Xiaomi Headphone 18 high-quality modern headphone with advanced features.,260.82,Headphones,SKU-0777,Gold,512GB,0,SKU-0777-GOL-512,52,5
+Canon Smartwatche 38,Canon Smartwatche 38 high-quality modern smartwatche with advanced features.,721.39,Smartwatches,SKU-0778,Silver,64GB,15,SKU-0778-SIL-64,95,5
+Lenovo Smartphone 37,Lenovo Smartphone 37 high-quality modern smartphone with advanced features.,1633.32,Smartphones,SKU-0779,Black,32GB,20,SKU-0779-BLA-32,46,19
+Dell Monitor 43,Dell Monitor 43 high-quality modern monitor with advanced features.,1683.62,Monitors,SKU-0780,Gold,512GB,20,SKU-0780-GOL-512,53,16
+LG Tablet 32,LG Tablet 32 high-quality modern tablet with advanced features.,882.15,Tablets,SKU-0781,Black,64GB,5,SKU-0781-BLA-64,45,12
+Asus Headphone 10,Asus Headphone 10 high-quality modern headphone with advanced features.,1479.27,Headphones,SKU-0782,Green,32GB,5,SKU-0782-GRE-32,98,16
+Samsung Monitor 37,Samsung Monitor 37 high-quality modern monitor with advanced features.,265.83,Monitors,SKU-0783,Red,128GB,0,SKU-0783-RED-128,47,12
+Lenovo Smartphone 21,Lenovo Smartphone 21 high-quality modern smartphone with advanced features.,1210.98,Smartphones,SKU-0784,Black,128GB,0,SKU-0784-BLA-128,90,5
+LG Gaming Console 45,LG Gaming Console 45 high-quality modern gaming console with advanced features.,1852.25,Gaming Consoles,SKU-0785,Red,128GB,0,SKU-0785-RED-128,7,8
+HP Headphone 40,HP Headphone 40 high-quality modern headphone with advanced features.,1524.26,Headphones,SKU-0786,Black,64GB,15,SKU-0786-BLA-64,53,7
+LG Monitor 21,LG Monitor 21 high-quality modern monitor with advanced features.,849.99,Monitors,SKU-0787,Green,128GB,10,SKU-0787-GRE-128,25,18
+Samsung Networking Device 20,Samsung Networking Device 20 high-quality modern networking device with advanced features.,1982.93,Networking Devices,SKU-0788,Red,128GB,15,SKU-0788-RED-128,71,6
+Xiaomi Camera 7,Xiaomi Camera 7 high-quality modern camera with advanced features.,501.93,Cameras,SKU-0789,Red,512GB,5,SKU-0789-RED-512,64,7
+Nikon Home Appliance 26,Nikon Home Appliance 26 high-quality modern home appliance with advanced features.,1616.21,Home Appliances,SKU-0790,White,1TB,10,SKU-0790-WHI-1TB,68,18
+Asus Gaming Console 23,Asus Gaming Console 23 high-quality modern gaming console with advanced features.,231.28,Gaming Consoles,SKU-0791,Blue,32GB,15,SKU-0791-BLU-32,96,8
+Dell Tablet 4,Dell Tablet 4 high-quality modern tablet with advanced features.,1498.31,Tablets,SKU-0792,Silver,32GB,15,SKU-0792-SIL-32,80,18
+Nikon Camera 37,Nikon Camera 37 high-quality modern camera with advanced features.,134.54,Cameras,SKU-0793,Gold,32GB,20,SKU-0793-GOL-32,17,20
+Lenovo Home Appliance 42,Lenovo Home Appliance 42 high-quality modern home appliance with advanced features.,1007.72,Home Appliances,SKU-0794,Black,128GB,15,SKU-0794-BLA-128,50,15
+HP Camera 2,HP Camera 2 high-quality modern camera with advanced features.,413.61,Cameras,SKU-0795,Green,128GB,15,SKU-0795-GRE-128,96,9
+Dell Headphone 36,Dell Headphone 36 high-quality modern headphone with advanced features.,319.87,Headphones,SKU-0796,Green,32GB,5,SKU-0796-GRE-32,81,6
+HP Monitor 30,HP Monitor 30 high-quality modern monitor with advanced features.,952.94,Monitors,SKU-0797,Red,512GB,0,SKU-0797-RED-512,45,6
+Vivo Gaming Console 22,Vivo Gaming Console 22 high-quality modern gaming console with advanced features.,942.41,Gaming Consoles,SKU-0798,Gold,1TB,10,SKU-0798-GOL-1TB,48,19
+Samsung Home Appliance 49,Samsung Home Appliance 49 high-quality modern home appliance with advanced features.,1383.84,Home Appliances,SKU-0799,Silver,128GB,0,SKU-0799-SIL-128,10,11
+Sony Headphone 22,Sony Headphone 22 high-quality modern headphone with advanced features.,1238.49,Headphones,SKU-0800,Black,256GB,15,SKU-0800-BLA-256,82,14
+Apple Camera 42,Apple Camera 42 high-quality modern camera with advanced features.,1685.73,Cameras,SKU-0801,Blue,256GB,25,SKU-0801-BLU-256,52,10
+Sony Home Appliance 43,Sony Home Appliance 43 high-quality modern home appliance with advanced features.,706.97,Home Appliances,SKU-0802,Silver,256GB,15,SKU-0802-SIL-256,44,19
+Dell Headphone 28,Dell Headphone 28 high-quality modern headphone with advanced features.,1662.59,Headphones,SKU-0803,Green,128GB,0,SKU-0803-GRE-128,22,14
+Canon Gaming Console 7,Canon Gaming Console 7 high-quality modern gaming console with advanced features.,1439.59,Gaming Consoles,SKU-0804,Silver,64GB,0,SKU-0804-SIL-64,6,6
+Vivo Tablet 6,Vivo Tablet 6 high-quality modern tablet with advanced features.,1327.77,Tablets,SKU-0805,Green,1TB,25,SKU-0805-GRE-1TB,93,8
+Lenovo Headphone 1,Lenovo Headphone 1 high-quality modern headphone with advanced features.,1181.06,Headphones,SKU-0806,Gold,256GB,10,SKU-0806-GOL-256,7,16
+Asus Smartphone 33,Asus Smartphone 33 high-quality modern smartphone with advanced features.,1892.4,Smartphones,SKU-0807,Blue,128GB,5,SKU-0807-BLU-128,59,12
+Samsung Tablet 33,Samsung Tablet 33 high-quality modern tablet with advanced features.,1448.14,Tablets,SKU-0808,Blue,32GB,5,SKU-0808-BLU-32,15,20
+Asus Gaming Console 10,Asus Gaming Console 10 high-quality modern gaming console with advanced features.,167.34,Gaming Consoles,SKU-0809,Green,128GB,25,SKU-0809-GRE-128,43,14
+Vivo Networking Device 27,Vivo Networking Device 27 high-quality modern networking device with advanced features.,1695.83,Networking Devices,SKU-0810,Red,32GB,10,SKU-0810-RED-32,78,9
+LG Gaming Console 11,LG Gaming Console 11 high-quality modern gaming console with advanced features.,1907.89,Gaming Consoles,SKU-0811,Blue,512GB,0,SKU-0811-BLU-512,44,14
+Canon Headphone 47,Canon Headphone 47 high-quality modern headphone with advanced features.,849.03,Headphones,SKU-0812,Blue,512GB,10,SKU-0812-BLU-512,18,11
+Nikon Monitor 19,Nikon Monitor 19 high-quality modern monitor with advanced features.,930.4,Monitors,SKU-0813,Gold,256GB,0,SKU-0813-GOL-256,94,9
+LG Laptop 34,LG Laptop 34 high-quality modern laptop with advanced features.,699.82,Laptops,SKU-0814,Red,1TB,0,SKU-0814-RED-1TB,33,10
+Vivo Smartphone 4,Vivo Smartphone 4 high-quality modern smartphone with advanced features.,918.01,Smartphones,SKU-0815,Black,1TB,25,SKU-0815-BLA-1TB,58,10
+Canon Smartwatche 19,Canon Smartwatche 19 high-quality modern smartwatche with advanced features.,186.93,Smartwatches,SKU-0816,Red,256GB,10,SKU-0816-RED-256,5,5
+LG Networking Device 26,LG Networking Device 26 high-quality modern networking device with advanced features.,1617.11,Networking Devices,SKU-0817,Silver,64GB,20,SKU-0817-SIL-64,90,19
+Oppo Tablet 48,Oppo Tablet 48 high-quality modern tablet with advanced features.,839.84,Tablets,SKU-0818,Silver,1TB,15,SKU-0818-SIL-1TB,98,10
+Xiaomi Tablet 11,Xiaomi Tablet 11 high-quality modern tablet with advanced features.,1486.4,Tablets,SKU-0819,Green,128GB,20,SKU-0819-GRE-128,5,11
+Xiaomi Networking Device 29,Xiaomi Networking Device 29 high-quality modern networking device with advanced features.,1186.82,Networking Devices,SKU-0820,Gold,512GB,5,SKU-0820-GOL-512,65,17
+Sony Networking Device 19,Sony Networking Device 19 high-quality modern networking device with advanced features.,343.24,Networking Devices,SKU-0821,Gold,256GB,5,SKU-0821-GOL-256,32,18
+HP Networking Device 25,HP Networking Device 25 high-quality modern networking device with advanced features.,261.05,Networking Devices,SKU-0822,Red,64GB,15,SKU-0822-RED-64,42,14
+Xiaomi Tablet 27,Xiaomi Tablet 27 high-quality modern tablet with advanced features.,800.1,Tablets,SKU-0823,Gold,64GB,20,SKU-0823-GOL-64,66,16
+Vivo Monitor 8,Vivo Monitor 8 high-quality modern monitor with advanced features.,300.52,Monitors,SKU-0824,Blue,128GB,5,SKU-0824-BLU-128,14,14
+Oppo Camera 21,Oppo Camera 21 high-quality modern camera with advanced features.,898.88,Cameras,SKU-0825,Silver,256GB,5,SKU-0825-SIL-256,73,18
+Apple Networking Device 22,Apple Networking Device 22 high-quality modern networking device with advanced features.,1046.27,Networking Devices,SKU-0826,Gold,64GB,15,SKU-0826-GOL-64,55,5
+Apple Headphone 16,Apple Headphone 16 high-quality modern headphone with advanced features.,1317.25,Headphones,SKU-0827,White,512GB,10,SKU-0827-WHI-512,100,11
+Apple Monitor 29,Apple Monitor 29 high-quality modern monitor with advanced features.,1027.16,Monitors,SKU-0828,Red,256GB,20,SKU-0828-RED-256,52,6
+Lenovo Camera 31,Lenovo Camera 31 high-quality modern camera with advanced features.,1269.9,Cameras,SKU-0829,Red,512GB,15,SKU-0829-RED-512,54,5
+Vivo Camera 25,Vivo Camera 25 high-quality modern camera with advanced features.,327.42,Cameras,SKU-0830,White,256GB,10,SKU-0830-WHI-256,9,18
+Sony Smartwatche 32,Sony Smartwatche 32 high-quality modern smartwatche with advanced features.,749.75,Smartwatches,SKU-0831,White,1TB,15,SKU-0831-WHI-1TB,36,17
+Apple Headphone 38,Apple Headphone 38 high-quality modern headphone with advanced features.,293.18,Headphones,SKU-0832,Green,512GB,25,SKU-0832-GRE-512,75,16
+Canon Smartwatche 1,Canon Smartwatche 1 high-quality modern smartwatche with advanced features.,984.76,Smartwatches,SKU-0833,Green,32GB,5,SKU-0833-GRE-32,79,18
+Sony Headphone 6,Sony Headphone 6 high-quality modern headphone with advanced features.,156.35,Headphones,SKU-0834,Red,128GB,0,SKU-0834-RED-128,62,14
+Vivo Tablet 7,Vivo Tablet 7 high-quality modern tablet with advanced features.,426.58,Tablets,SKU-0835,Green,128GB,5,SKU-0835-GRE-128,68,5
+Vivo Gaming Console 12,Vivo Gaming Console 12 high-quality modern gaming console with advanced features.,138.32,Gaming Consoles,SKU-0836,Blue,256GB,20,SKU-0836-BLU-256,54,16
+Apple Networking Device 46,Apple Networking Device 46 high-quality modern networking device with advanced features.,1010.74,Networking Devices,SKU-0837,Black,128GB,20,SKU-0837-BLA-128,72,6
+Dell Networking Device 11,Dell Networking Device 11 high-quality modern networking device with advanced features.,390.82,Networking Devices,SKU-0838,Gold,1TB,15,SKU-0838-GOL-1TB,29,18
+Apple Tablet 31,Apple Tablet 31 high-quality modern tablet with advanced features.,142.26,Tablets,SKU-0839,Blue,1TB,15,SKU-0839-BLU-1TB,90,13
+Lenovo Headphone 9,Lenovo Headphone 9 high-quality modern headphone with advanced features.,510.96,Headphones,SKU-0840,White,512GB,5,SKU-0840-WHI-512,53,17
+Canon Networking Device 12,Canon Networking Device 12 high-quality modern networking device with advanced features.,907.31,Networking Devices,SKU-0841,Red,512GB,20,SKU-0841-RED-512,94,15
+Xiaomi Smartphone 44,Xiaomi Smartphone 44 high-quality modern smartphone with advanced features.,1993.84,Smartphones,SKU-0842,Silver,128GB,5,SKU-0842-SIL-128,21,9
+Xiaomi Gaming Console 16,Xiaomi Gaming Console 16 high-quality modern gaming console with advanced features.,125.32,Gaming Consoles,SKU-0843,Green,128GB,0,SKU-0843-GRE-128,64,9
+LG Headphone 26,LG Headphone 26 high-quality modern headphone with advanced features.,1224.16,Headphones,SKU-0844,White,128GB,10,SKU-0844-WHI-128,64,7
+Samsung Gaming Console 28,Samsung Gaming Console 28 high-quality modern gaming console with advanced features.,1554.49,Gaming Consoles,SKU-0845,Silver,128GB,20,SKU-0845-SIL-128,51,10
+Apple Home Appliance 6,Apple Home Appliance 6 high-quality modern home appliance with advanced features.,1107.47,Home Appliances,SKU-0846,White,1TB,25,SKU-0846-WHI-1TB,53,18
+Apple Camera 6,Apple Camera 6 high-quality modern camera with advanced features.,139.55,Cameras,SKU-0847,White,256GB,5,SKU-0847-WHI-256,42,18
+Xiaomi Home Appliance 31,Xiaomi Home Appliance 31 high-quality modern home appliance with advanced features.,644.72,Home Appliances,SKU-0848,White,512GB,5,SKU-0848-WHI-512,50,12
+Apple Monitor 33,Apple Monitor 33 high-quality modern monitor with advanced features.,664.92,Monitors,SKU-0849,Gold,256GB,10,SKU-0849-GOL-256,59,6
+Lenovo Tablet 1,Lenovo Tablet 1 high-quality modern tablet with advanced features.,1272.51,Tablets,SKU-0850,Green,32GB,10,SKU-0850-GRE-32,22,10
+Vivo Headphone 24,Vivo Headphone 24 high-quality modern headphone with advanced features.,1734.29,Headphones,SKU-0851,Blue,1TB,15,SKU-0851-BLU-1TB,37,20
+Canon Monitor 12,Canon Monitor 12 high-quality modern monitor with advanced features.,1747.49,Monitors,SKU-0852,Silver,512GB,5,SKU-0852-SIL-512,16,11
+LG Monitor 42,LG Monitor 42 high-quality modern monitor with advanced features.,792.24,Monitors,SKU-0853,Blue,512GB,15,SKU-0853-BLU-512,44,13
+Sony Home Appliance 2,Sony Home Appliance 2 high-quality modern home appliance with advanced features.,1989.56,Home Appliances,SKU-0854,White,256GB,10,SKU-0854-WHI-256,51,20
+Nikon Smartphone 26,Nikon Smartphone 26 high-quality modern smartphone with advanced features.,468.62,Smartphones,SKU-0855,Green,128GB,20,SKU-0855-GRE-128,18,20
+HP Networking Device 2,HP Networking Device 2 high-quality modern networking device with advanced features.,1008.93,Networking Devices,SKU-0856,Blue,64GB,5,SKU-0856-BLU-64,59,5
+Samsung Laptop 47,Samsung Laptop 47 high-quality modern laptop with advanced features.,375.62,Laptops,SKU-0857,Blue,512GB,10,SKU-0857-BLU-512,65,18
+Dell Smartwatche 26,Dell Smartwatche 26 high-quality modern smartwatche with advanced features.,1465.51,Smartwatches,SKU-0858,White,512GB,25,SKU-0858-WHI-512,85,19
+Asus Laptop 2,Asus Laptop 2 high-quality modern laptop with advanced features.,695.22,Laptops,SKU-0859,Red,32GB,25,SKU-0859-RED-32,12,20
+Dell Gaming Console 16,Dell Gaming Console 16 high-quality modern gaming console with advanced features.,691.33,Gaming Consoles,SKU-0860,Red,1TB,0,SKU-0860-RED-1TB,37,5
+Asus Monitor 20,Asus Monitor 20 high-quality modern monitor with advanced features.,1007.3,Monitors,SKU-0861,Silver,1TB,20,SKU-0861-SIL-1TB,13,9
+HP Smartwatche 7,HP Smartwatche 7 high-quality modern smartwatche with advanced features.,1077.36,Smartwatches,SKU-0862,Black,1TB,20,SKU-0862-BLA-1TB,29,7
+Dell Smartwatche 13,Dell Smartwatche 13 high-quality modern smartwatche with advanced features.,1796.41,Smartwatches,SKU-0863,Green,64GB,0,SKU-0863-GRE-64,11,13
+Xiaomi Networking Device 39,Xiaomi Networking Device 39 high-quality modern networking device with advanced features.,894.18,Networking Devices,SKU-0864,Black,1TB,10,SKU-0864-BLA-1TB,82,14
+Nikon Networking Device 11,Nikon Networking Device 11 high-quality modern networking device with advanced features.,283.47,Networking Devices,SKU-0865,Blue,256GB,15,SKU-0865-BLU-256,90,7
+LG Gaming Console 1,LG Gaming Console 1 high-quality modern gaming console with advanced features.,1027.48,Gaming Consoles,SKU-0866,Blue,256GB,15,SKU-0866-BLU-256,17,14
+Dell Networking Device 42,Dell Networking Device 42 high-quality modern networking device with advanced features.,279.7,Networking Devices,SKU-0867,Silver,64GB,10,SKU-0867-SIL-64,79,6
+Nikon Home Appliance 18,Nikon Home Appliance 18 high-quality modern home appliance with advanced features.,1984.77,Home Appliances,SKU-0868,Silver,128GB,5,SKU-0868-SIL-128,71,13
+Nikon Headphone 7,Nikon Headphone 7 high-quality modern headphone with advanced features.,1569.87,Headphones,SKU-0869,Silver,512GB,20,SKU-0869-SIL-512,98,12
+Samsung Camera 5,Samsung Camera 5 high-quality modern camera with advanced features.,416.84,Cameras,SKU-0870,Red,128GB,15,SKU-0870-RED-128,71,10
+Sony Gaming Console 44,Sony Gaming Console 44 high-quality modern gaming console with advanced features.,584.3,Gaming Consoles,SKU-0871,Gold,128GB,15,SKU-0871-GOL-128,45,12
+LG Smartphone 20,LG Smartphone 20 high-quality modern smartphone with advanced features.,392.24,Smartphones,SKU-0872,Blue,256GB,10,SKU-0872-BLU-256,52,17
+Canon Smartwatche 36,Canon Smartwatche 36 high-quality modern smartwatche with advanced features.,262.88,Smartwatches,SKU-0873,Silver,256GB,20,SKU-0873-SIL-256,27,19
+Xiaomi Networking Device 31,Xiaomi Networking Device 31 high-quality modern networking device with advanced features.,1145.97,Networking Devices,SKU-0874,Gold,256GB,25,SKU-0874-GOL-256,5,10
+Dell Smartwatche 19,Dell Smartwatche 19 high-quality modern smartwatche with advanced features.,1504.53,Smartwatches,SKU-0875,Blue,512GB,10,SKU-0875-BLU-512,33,5
+Nikon Gaming Console 18,Nikon Gaming Console 18 high-quality modern gaming console with advanced features.,1774.92,Gaming Consoles,SKU-0876,Silver,128GB,0,SKU-0876-SIL-128,38,5
+Vivo Smartphone 41,Vivo Smartphone 41 high-quality modern smartphone with advanced features.,1321.48,Smartphones,SKU-0877,Silver,512GB,0,SKU-0877-SIL-512,54,16
+HP Headphone 24,HP Headphone 24 high-quality modern headphone with advanced features.,1116.1,Headphones,SKU-0878,Silver,32GB,15,SKU-0878-SIL-32,57,9
+Apple Monitor 2,Apple Monitor 2 high-quality modern monitor with advanced features.,159.4,Monitors,SKU-0879,Silver,128GB,5,SKU-0879-SIL-128,57,12
+Oppo Headphone 9,Oppo Headphone 9 high-quality modern headphone with advanced features.,792.32,Headphones,SKU-0880,Black,1TB,10,SKU-0880-BLA-1TB,30,15
+LG Gaming Console 25,LG Gaming Console 25 high-quality modern gaming console with advanced features.,1533.19,Gaming Consoles,SKU-0881,Green,128GB,25,SKU-0881-GRE-128,42,12
+Vivo Networking Device 28,Vivo Networking Device 28 high-quality modern networking device with advanced features.,220.71,Networking Devices,SKU-0882,Black,32GB,5,SKU-0882-BLA-32,28,8
+Dell Monitor 36,Dell Monitor 36 high-quality modern monitor with advanced features.,216.83,Monitors,SKU-0883,Black,128GB,0,SKU-0883-BLA-128,64,7
+Sony Smartphone 40,Sony Smartphone 40 high-quality modern smartphone with advanced features.,1925.32,Smartphones,SKU-0884,White,32GB,5,SKU-0884-WHI-32,18,11
+Sony Gaming Console 35,Sony Gaming Console 35 high-quality modern gaming console with advanced features.,1721.34,Gaming Consoles,SKU-0885,Gold,64GB,10,SKU-0885-GOL-64,76,11
+Vivo Headphone 13,Vivo Headphone 13 high-quality modern headphone with advanced features.,568.71,Headphones,SKU-0886,Green,512GB,10,SKU-0886-GRE-512,86,11
+Lenovo Headphone 5,Lenovo Headphone 5 high-quality modern headphone with advanced features.,1484.4,Headphones,SKU-0887,Blue,32GB,20,SKU-0887-BLU-32,44,11
+Dell Camera 23,Dell Camera 23 high-quality modern camera with advanced features.,1925.28,Cameras,SKU-0888,Green,256GB,20,SKU-0888-GRE-256,36,15
+Apple Headphone 39,Apple Headphone 39 high-quality modern headphone with advanced features.,332.75,Headphones,SKU-0889,Green,256GB,10,SKU-0889-GRE-256,82,8
+Sony Networking Device 50,Sony Networking Device 50 high-quality modern networking device with advanced features.,1399.51,Networking Devices,SKU-0890,White,512GB,5,SKU-0890-WHI-512,83,18
+Apple Laptop 4,Apple Laptop 4 high-quality modern laptop with advanced features.,974.78,Laptops,SKU-0891,Gold,128GB,20,SKU-0891-GOL-128,42,11
+Lenovo Camera 28,Lenovo Camera 28 high-quality modern camera with advanced features.,176.22,Cameras,SKU-0892,Black,1TB,15,SKU-0892-BLA-1TB,15,18
+LG Home Appliance 34,LG Home Appliance 34 high-quality modern home appliance with advanced features.,924.29,Home Appliances,SKU-0893,White,64GB,5,SKU-0893-WHI-64,46,20
+Asus Smartphone 11,Asus Smartphone 11 high-quality modern smartphone with advanced features.,1163.78,Smartphones,SKU-0894,Silver,64GB,20,SKU-0894-SIL-64,11,20
+Lenovo Laptop 22,Lenovo Laptop 22 high-quality modern laptop with advanced features.,394.99,Laptops,SKU-0895,Blue,64GB,20,SKU-0895-BLU-64,60,8
+Nikon Camera 14,Nikon Camera 14 high-quality modern camera with advanced features.,560.43,Cameras,SKU-0896,Gold,128GB,5,SKU-0896-GOL-128,60,19
+Oppo Camera 45,Oppo Camera 45 high-quality modern camera with advanced features.,786.2,Cameras,SKU-0897,Black,512GB,15,SKU-0897-BLA-512,56,10
+Vivo Headphone 2,Vivo Headphone 2 high-quality modern headphone with advanced features.,788.42,Headphones,SKU-0898,White,1TB,15,SKU-0898-WHI-1TB,18,6
+LG Home Appliance 4,LG Home Appliance 4 high-quality modern home appliance with advanced features.,496.09,Home Appliances,SKU-0899,Red,64GB,0,SKU-0899-RED-64,39,10
+Canon Smartphone 14,Canon Smartphone 14 high-quality modern smartphone with advanced features.,1035.67,Smartphones,SKU-0900,Green,128GB,20,SKU-0900-GRE-128,57,8
+Xiaomi Smartphone 1,Xiaomi Smartphone 1 high-quality modern smartphone with advanced features.,1459.89,Smartphones,SKU-0901,Blue,256GB,5,SKU-0901-BLU-256,50,14
+Samsung Home Appliance 42,Samsung Home Appliance 42 high-quality modern home appliance with advanced features.,312.94,Home Appliances,SKU-0902,Red,1TB,15,SKU-0902-RED-1TB,68,19
+HP Home Appliance 21,HP Home Appliance 21 high-quality modern home appliance with advanced features.,1224.44,Home Appliances,SKU-0903,Gold,128GB,15,SKU-0903-GOL-128,37,8
+Canon Gaming Console 18,Canon Gaming Console 18 high-quality modern gaming console with advanced features.,199.86,Gaming Consoles,SKU-0904,Red,128GB,25,SKU-0904-RED-128,87,17
+HP Camera 38,HP Camera 38 high-quality modern camera with advanced features.,712.16,Cameras,SKU-0905,Black,64GB,20,SKU-0905-BLA-64,7,11
+Asus Laptop 35,Asus Laptop 35 high-quality modern laptop with advanced features.,1174.62,Laptops,SKU-0906,Gold,128GB,0,SKU-0906-GOL-128,21,16
+Apple Tablet 4,Apple Tablet 4 high-quality modern tablet with advanced features.,201.32,Tablets,SKU-0907,Silver,32GB,10,SKU-0907-SIL-32,81,15
+Xiaomi Smartphone 39,Xiaomi Smartphone 39 high-quality modern smartphone with advanced features.,1892.35,Smartphones,SKU-0908,Green,256GB,5,SKU-0908-GRE-256,100,10
+Asus Monitor 11,Asus Monitor 11 high-quality modern monitor with advanced features.,1543.5,Monitors,SKU-0909,Gold,32GB,25,SKU-0909-GOL-32,57,16
+Lenovo Headphone 18,Lenovo Headphone 18 high-quality modern headphone with advanced features.,250.79,Headphones,SKU-0910,Silver,64GB,25,SKU-0910-SIL-64,31,9
+Asus Networking Device 48,Asus Networking Device 48 high-quality modern networking device with advanced features.,783.4,Networking Devices,SKU-0911,Gold,256GB,20,SKU-0911-GOL-256,89,15
+LG Gaming Console 33,LG Gaming Console 33 high-quality modern gaming console with advanced features.,863.26,Gaming Consoles,SKU-0912,Green,32GB,10,SKU-0912-GRE-32,61,5
+LG Tablet 13,LG Tablet 13 high-quality modern tablet with advanced features.,1636.3,Tablets,SKU-0913,Gold,32GB,20,SKU-0913-GOL-32,89,15
+Asus Gaming Console 46,Asus Gaming Console 46 high-quality modern gaming console with advanced features.,440.23,Gaming Consoles,SKU-0914,Green,256GB,0,SKU-0914-GRE-256,10,10
+Oppo Tablet 34,Oppo Tablet 34 high-quality modern tablet with advanced features.,1370.82,Tablets,SKU-0915,Green,256GB,15,SKU-0915-GRE-256,56,11
+Lenovo Tablet 39,Lenovo Tablet 39 high-quality modern tablet with advanced features.,1111.97,Tablets,SKU-0916,Silver,1TB,10,SKU-0916-SIL-1TB,55,12
+Oppo Home Appliance 36,Oppo Home Appliance 36 high-quality modern home appliance with advanced features.,1784.26,Home Appliances,SKU-0917,Black,128GB,10,SKU-0917-BLA-128,41,14
+Lenovo Laptop 27,Lenovo Laptop 27 high-quality modern laptop with advanced features.,1493.14,Laptops,SKU-0918,Red,64GB,10,SKU-0918-RED-64,52,18
+Samsung Laptop 37,Samsung Laptop 37 high-quality modern laptop with advanced features.,1915.72,Laptops,SKU-0919,Green,64GB,20,SKU-0919-GRE-64,6,10
+Oppo Headphone 21,Oppo Headphone 21 high-quality modern headphone with advanced features.,1875.92,Headphones,SKU-0920,Blue,64GB,25,SKU-0920-BLU-64,5,6
+Canon Smartwatche 22,Canon Smartwatche 22 high-quality modern smartwatche with advanced features.,1996.77,Smartwatches,SKU-0921,Black,128GB,0,SKU-0921-BLA-128,73,15
+Nikon Tablet 45,Nikon Tablet 45 high-quality modern tablet with advanced features.,613.94,Tablets,SKU-0922,Gold,512GB,0,SKU-0922-GOL-512,45,15
+Asus Tablet 31,Asus Tablet 31 high-quality modern tablet with advanced features.,134.76,Tablets,SKU-0923,Green,1TB,25,SKU-0923-GRE-1TB,10,13
+Canon Monitor 46,Canon Monitor 46 high-quality modern monitor with advanced features.,1632.96,Monitors,SKU-0924,Blue,128GB,20,SKU-0924-BLU-128,58,10
+Oppo Monitor 34,Oppo Monitor 34 high-quality modern monitor with advanced features.,1007.71,Monitors,SKU-0925,Blue,256GB,15,SKU-0925-BLU-256,43,13
+Sony Gaming Console 31,Sony Gaming Console 31 high-quality modern gaming console with advanced features.,122.28,Gaming Consoles,SKU-0926,Black,128GB,5,SKU-0926-BLA-128,77,20
+Xiaomi Smartphone 12,Xiaomi Smartphone 12 high-quality modern smartphone with advanced features.,1405.57,Smartphones,SKU-0927,Black,1TB,25,SKU-0927-BLA-1TB,43,14
+Canon Home Appliance 42,Canon Home Appliance 42 high-quality modern home appliance with advanced features.,1668.81,Home Appliances,SKU-0928,Red,128GB,20,SKU-0928-RED-128,32,19
+LG Smartphone 15,LG Smartphone 15 high-quality modern smartphone with advanced features.,1128.07,Smartphones,SKU-0929,Black,32GB,20,SKU-0929-BLA-32,55,11
+Lenovo Smartphone 39,Lenovo Smartphone 39 high-quality modern smartphone with advanced features.,265.83,Smartphones,SKU-0930,Gold,32GB,15,SKU-0930-GOL-32,98,5
+LG Laptop 4,LG Laptop 4 high-quality modern laptop with advanced features.,1025.07,Laptops,SKU-0931,Black,128GB,10,SKU-0931-BLA-128,89,7
+Samsung Home Appliance 37,Samsung Home Appliance 37 high-quality modern home appliance with advanced features.,402,Home Appliances,SKU-0932,Red,64GB,25,SKU-0932-RED-64,93,13
+Samsung Laptop 28,Samsung Laptop 28 high-quality modern laptop with advanced features.,1025.68,Laptops,SKU-0933,Gold,128GB,10,SKU-0933-GOL-128,14,13
+Xiaomi Headphone 46,Xiaomi Headphone 46 high-quality modern headphone with advanced features.,1442.77,Headphones,SKU-0934,Black,32GB,15,SKU-0934-BLA-32,5,12
+Oppo Gaming Console 18,Oppo Gaming Console 18 high-quality modern gaming console with advanced features.,1794.45,Gaming Consoles,SKU-0935,Green,256GB,25,SKU-0935-GRE-256,63,8
+Apple Smartphone 39,Apple Smartphone 39 high-quality modern smartphone with advanced features.,1555.92,Smartphones,SKU-0936,Green,32GB,20,SKU-0936-GRE-32,64,7
+Lenovo Networking Device 42,Lenovo Networking Device 42 high-quality modern networking device with advanced features.,1939.39,Networking Devices,SKU-0937,Black,1TB,10,SKU-0937-BLA-1TB,39,17
+Oppo Monitor 17,Oppo Monitor 17 high-quality modern monitor with advanced features.,743.49,Monitors,SKU-0938,Red,128GB,15,SKU-0938-RED-128,22,12
+Sony Headphone 46,Sony Headphone 46 high-quality modern headphone with advanced features.,279.59,Headphones,SKU-0939,Silver,128GB,10,SKU-0939-SIL-128,36,17
+Asus Home Appliance 36,Asus Home Appliance 36 high-quality modern home appliance with advanced features.,527.98,Home Appliances,SKU-0940,Black,64GB,10,SKU-0940-BLA-64,72,12
+LG Laptop 28,LG Laptop 28 high-quality modern laptop with advanced features.,1456.03,Laptops,SKU-0941,Green,32GB,0,SKU-0941-GRE-32,40,14
+LG Smartwatche 40,LG Smartwatche 40 high-quality modern smartwatche with advanced features.,573.46,Smartwatches,SKU-0942,Red,512GB,25,SKU-0942-RED-512,26,5
+Apple Smartwatche 7,Apple Smartwatche 7 high-quality modern smartwatche with advanced features.,1258.76,Smartwatches,SKU-0943,Red,256GB,25,SKU-0943-RED-256,22,6
+HP Headphone 25,HP Headphone 25 high-quality modern headphone with advanced features.,223.34,Headphones,SKU-0944,White,256GB,10,SKU-0944-WHI-256,36,18
+LG Networking Device 30,LG Networking Device 30 high-quality modern networking device with advanced features.,1365.76,Networking Devices,SKU-0945,White,64GB,20,SKU-0945-WHI-64,25,5
+Samsung Headphone 37,Samsung Headphone 37 high-quality modern headphone with advanced features.,1097.11,Headphones,SKU-0946,Black,128GB,0,SKU-0946-BLA-128,41,12
+LG Tablet 48,LG Tablet 48 high-quality modern tablet with advanced features.,1405.15,Tablets,SKU-0947,White,256GB,10,SKU-0947-WHI-256,69,5
+Asus Gaming Console 46,Asus Gaming Console 46 high-quality modern gaming console with advanced features.,356.92,Gaming Consoles,SKU-0948,Red,64GB,25,SKU-0948-RED-64,8,17
+Oppo Monitor 22,Oppo Monitor 22 high-quality modern monitor with advanced features.,893.84,Monitors,SKU-0949,Gold,256GB,25,SKU-0949-GOL-256,34,10
+Sony Gaming Console 1,Sony Gaming Console 1 high-quality modern gaming console with advanced features.,635.06,Gaming Consoles,SKU-0950,Blue,1TB,0,SKU-0950-BLU-1TB,89,9
+Oppo Monitor 42,Oppo Monitor 42 high-quality modern monitor with advanced features.,917.31,Monitors,SKU-0951,Silver,32GB,20,SKU-0951-SIL-32,27,16
+Asus Networking Device 9,Asus Networking Device 9 high-quality modern networking device with advanced features.,820.19,Networking Devices,SKU-0952,Black,64GB,0,SKU-0952-BLA-64,85,17
+Canon Smartphone 27,Canon Smartphone 27 high-quality modern smartphone with advanced features.,1122.39,Smartphones,SKU-0953,Blue,256GB,20,SKU-0953-BLU-256,88,19
+Dell Camera 40,Dell Camera 40 high-quality modern camera with advanced features.,1613.74,Cameras,SKU-0954,White,512GB,5,SKU-0954-WHI-512,60,12
+Asus Home Appliance 47,Asus Home Appliance 47 high-quality modern home appliance with advanced features.,925.28,Home Appliances,SKU-0955,Gold,32GB,5,SKU-0955-GOL-32,10,10
+Vivo Camera 22,Vivo Camera 22 high-quality modern camera with advanced features.,1781.03,Cameras,SKU-0956,White,512GB,10,SKU-0956-WHI-512,12,6
+Dell Smartphone 26,Dell Smartphone 26 high-quality modern smartphone with advanced features.,823.39,Smartphones,SKU-0957,Red,64GB,25,SKU-0957-RED-64,91,18
+Samsung Camera 15,Samsung Camera 15 high-quality modern camera with advanced features.,868.41,Cameras,SKU-0958,Green,32GB,20,SKU-0958-GRE-32,8,13
+Samsung Laptop 34,Samsung Laptop 34 high-quality modern laptop with advanced features.,1301.21,Laptops,SKU-0959,Red,256GB,15,SKU-0959-RED-256,86,14
+LG Headphone 34,LG Headphone 34 high-quality modern headphone with advanced features.,973.03,Headphones,SKU-0960,Red,512GB,0,SKU-0960-RED-512,32,9
+Apple Headphone 29,Apple Headphone 29 high-quality modern headphone with advanced features.,1895.81,Headphones,SKU-0961,Blue,32GB,0,SKU-0961-BLU-32,82,14
+Vivo Smartphone 11,Vivo Smartphone 11 high-quality modern smartphone with advanced features.,1003.65,Smartphones,SKU-0962,Gold,1TB,0,SKU-0962-GOL-1TB,17,18
+Nikon Laptop 28,Nikon Laptop 28 high-quality modern laptop with advanced features.,754.39,Laptops,SKU-0963,Silver,512GB,10,SKU-0963-SIL-512,79,5
+Asus Monitor 4,Asus Monitor 4 high-quality modern monitor with advanced features.,862.62,Monitors,SKU-0964,Gold,512GB,5,SKU-0964-GOL-512,32,7
+Oppo Smartphone 2,Oppo Smartphone 2 high-quality modern smartphone with advanced features.,1470.31,Smartphones,SKU-0965,Blue,256GB,15,SKU-0965-BLU-256,59,11
+Dell Smartphone 9,Dell Smartphone 9 high-quality modern smartphone with advanced features.,124.75,Smartphones,SKU-0966,Silver,128GB,15,SKU-0966-SIL-128,59,10
+Vivo Monitor 41,Vivo Monitor 41 high-quality modern monitor with advanced features.,1732.17,Monitors,SKU-0967,Green,1TB,15,SKU-0967-GRE-1TB,73,8
+Vivo Monitor 41,Vivo Monitor 41 high-quality modern monitor with advanced features.,1973.57,Monitors,SKU-0968,White,512GB,0,SKU-0968-WHI-512,99,17
+Vivo Gaming Console 10,Vivo Gaming Console 10 high-quality modern gaming console with advanced features.,595.21,Gaming Consoles,SKU-0969,Silver,128GB,25,SKU-0969-SIL-128,15,19
+Xiaomi Smartwatche 34,Xiaomi Smartwatche 34 high-quality modern smartwatche with advanced features.,1661.75,Smartwatches,SKU-0970,Gold,64GB,10,SKU-0970-GOL-64,55,9
+Apple Gaming Console 9,Apple Gaming Console 9 high-quality modern gaming console with advanced features.,204.67,Gaming Consoles,SKU-0971,Red,1TB,0,SKU-0971-RED-1TB,87,10
+Apple Tablet 25,Apple Tablet 25 high-quality modern tablet with advanced features.,1203.68,Tablets,SKU-0972,Silver,256GB,5,SKU-0972-SIL-256,67,13
+Sony Laptop 19,Sony Laptop 19 high-quality modern laptop with advanced features.,316.91,Laptops,SKU-0973,Blue,64GB,10,SKU-0973-BLU-64,45,12
+Apple Headphone 38,Apple Headphone 38 high-quality modern headphone with advanced features.,1675.99,Headphones,SKU-0974,Black,128GB,25,SKU-0974-BLA-128,95,13
+Vivo Camera 34,Vivo Camera 34 high-quality modern camera with advanced features.,652.2,Cameras,SKU-0975,Red,64GB,5,SKU-0975-RED-64,55,8
+Dell Monitor 29,Dell Monitor 29 high-quality modern monitor with advanced features.,1953.11,Monitors,SKU-0976,Silver,64GB,20,SKU-0976-SIL-64,24,10
+Canon Camera 49,Canon Camera 49 high-quality modern camera with advanced features.,116.55,Cameras,SKU-0977,Black,1TB,15,SKU-0977-BLA-1TB,94,8
+LG Tablet 1,LG Tablet 1 high-quality modern tablet with advanced features.,884.33,Tablets,SKU-0978,Black,64GB,10,SKU-0978-BLA-64,19,7
+Dell Headphone 21,Dell Headphone 21 high-quality modern headphone with advanced features.,784.66,Headphones,SKU-0979,Green,256GB,15,SKU-0979-GRE-256,9,16
+Dell Headphone 32,Dell Headphone 32 high-quality modern headphone with advanced features.,205.56,Headphones,SKU-0980,Gold,32GB,25,SKU-0980-GOL-32,60,12
+Asus Headphone 44,Asus Headphone 44 high-quality modern headphone with advanced features.,1264.96,Headphones,SKU-0981,Black,1TB,5,SKU-0981-BLA-1TB,62,19
+Nikon Laptop 29,Nikon Laptop 29 high-quality modern laptop with advanced features.,1180.83,Laptops,SKU-0982,Gold,1TB,10,SKU-0982-GOL-1TB,78,12
+Nikon Headphone 32,Nikon Headphone 32 high-quality modern headphone with advanced features.,101.33,Headphones,SKU-0983,Red,1TB,5,SKU-0983-RED-1TB,100,11
+LG Networking Device 20,LG Networking Device 20 high-quality modern networking device with advanced features.,319.9,Networking Devices,SKU-0984,Blue,1TB,10,SKU-0984-BLU-1TB,38,20
+Xiaomi Networking Device 8,Xiaomi Networking Device 8 high-quality modern networking device with advanced features.,895.95,Networking Devices,SKU-0985,Black,256GB,0,SKU-0985-BLA-256,25,19
+Dell Laptop 38,Dell Laptop 38 high-quality modern laptop with advanced features.,818.48,Laptops,SKU-0986,Blue,32GB,10,SKU-0986-BLU-32,99,5
+Samsung Smartwatche 40,Samsung Smartwatche 40 high-quality modern smartwatche with advanced features.,431.41,Smartwatches,SKU-0987,White,1TB,10,SKU-0987-WHI-1TB,87,17
+Sony Networking Device 18,Sony Networking Device 18 high-quality modern networking device with advanced features.,915.71,Networking Devices,SKU-0988,Silver,256GB,20,SKU-0988-SIL-256,84,7
+Asus Home Appliance 18,Asus Home Appliance 18 high-quality modern home appliance with advanced features.,355.56,Home Appliances,SKU-0989,Red,256GB,0,SKU-0989-RED-256,48,20
+Lenovo Monitor 50,Lenovo Monitor 50 high-quality modern monitor with advanced features.,1665.01,Monitors,SKU-0990,Green,512GB,15,SKU-0990-GRE-512,49,14
+LG Monitor 48,LG Monitor 48 high-quality modern monitor with advanced features.,305.16,Monitors,SKU-0991,Red,64GB,5,SKU-0991-RED-64,91,6
+LG Smartphone 18,LG Smartphone 18 high-quality modern smartphone with advanced features.,1591.29,Smartphones,SKU-0992,Blue,32GB,5,SKU-0992-BLU-32,21,12
+HP Laptop 6,HP Laptop 6 high-quality modern laptop with advanced features.,624.63,Laptops,SKU-0993,Blue,1TB,0,SKU-0993-BLU-1TB,71,13
+Vivo Home Appliance 1,Vivo Home Appliance 1 high-quality modern home appliance with advanced features.,1912.46,Home Appliances,SKU-0994,Black,256GB,20,SKU-0994-BLA-256,84,8
+Vivo Camera 23,Vivo Camera 23 high-quality modern camera with advanced features.,1866.36,Cameras,SKU-0995,Black,256GB,20,SKU-0995-BLA-256,91,16
+Sony Monitor 12,Sony Monitor 12 high-quality modern monitor with advanced features.,1832.32,Monitors,SKU-0996,Gold,1TB,10,SKU-0996-GOL-1TB,24,11
+Vivo Tablet 48,Vivo Tablet 48 high-quality modern tablet with advanced features.,853.1,Tablets,SKU-0997,Red,512GB,10,SKU-0997-RED-512,86,8
+Asus Smartphone 40,Asus Smartphone 40 high-quality modern smartphone with advanced features.,333.64,Smartphones,SKU-0998,Red,128GB,20,SKU-0998-RED-128,60,13
+Samsung Smartwatche 39,Samsung Smartwatche 39 high-quality modern smartwatche with advanced features.,810.46,Smartwatches,SKU-0999,Silver,1TB,20,SKU-0999-SIL-1TB,40,9
+Asus Gaming Console 30,Asus Gaming Console 30 high-quality modern gaming console with advanced features.,1159.11,Gaming Consoles,SKU-1000,Blue,64GB,15,SKU-1000-BLU-64,92,9
