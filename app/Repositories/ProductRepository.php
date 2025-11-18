@@ -77,6 +77,9 @@ class ProductRepository extends BaseRepository
                 // SHOW VARIABLES LIKE 'local_infile';
                 // mysql -u root -p -e "SET GLOBAL local_infile = 1;"
                 // mysql -u root -p -e "SHOW VARIABLES LIKE 'local_infile';"
+                // mysql -u root -p -e "SHOW VARIABLES LIKE 'local_infile';"
+                // sudo systemctl restart mysql
+
 
             }
 
