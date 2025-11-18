@@ -60,15 +60,29 @@ class ProductController extends Controller
             return jsonResponse('Product not found', false, null, 404);
         }
 
+        $currentUser = auth('api')->user();
+
+        // Vendor can only update their own products
+        if ($currentUser->role === 'vendor' && $product->vendor_id !== $currentUser->id) {
+            return jsonResponse('You cannot update this product', false, null, 403);
+        }
+
         return jsonResponse('Product updated successfully', true, new ProductResource($product->load('variants.inventory')));
     }
 
     public function destroy($id)
     {
-        $deleted = $this->productService->deleteProduct($id);
-        if (!$deleted) {
+        $product = $this->productService->deleteProduct($id);
+        if (!$product) {
             return jsonResponse('Product not found', false, null, 404);
         }
+
+         $currentUser = auth('api')->user();
+        // Vendor can only update their own products
+        if ($currentUser->role === 'vendor' && $product->vendor_id !== $currentUser->id) {
+            return jsonResponse('You cannot update this product', false, null, 403);
+        }
+
 
         return jsonResponse('Product deleted', true);
     }
