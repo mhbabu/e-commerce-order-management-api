@@ -5,7 +5,7 @@ namespace App\Providers;
 use App\Events\LowStockAlert;
 use App\Events\OrderStatusChanged;
 use App\Jobs\LowStockNotification;
-use App\Jobs\SendOrderEmail;
+use App\Listeners\SendOrderEmail;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Http\Request;
