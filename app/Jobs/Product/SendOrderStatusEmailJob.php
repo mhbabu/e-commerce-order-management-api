@@ -21,8 +21,6 @@ class SendOrderStatusEmailJob implements ShouldQueue
 
     public function __construct(Order $order, string $status)
     {
-        info($order);
-        info($status);
         $this->order  = $order;
         $this->status = $status;
     }
