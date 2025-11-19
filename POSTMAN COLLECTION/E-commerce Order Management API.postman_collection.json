@@ -19,7 +19,9 @@
 								"exec": [
 									"pm.collectionVariables.set(\"token\", pm.response.json().token);"
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
 							}
 						}
 					],
@@ -37,7 +39,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\"name\":\"John Doe\",\"email\":\"john@example.com\",\"password\":\"password123\",\"password_confirmation\":\"password123\",\"role\":\"customer\"}"
+							"raw": "{\"name\":\"John Doe\",\"email\":\"john@example.com\",\"password\":\"password123\",\"password_confirmation\":\"password123\"}\n\n// by default will create \"role\":\"customer\" only admin user can update the user role \n// we can also implement vendor or admin users login as a customer mode based on business requirements"
 						},
 						"url": {
 							"raw": "{{base_url}}/api/v1/register",
@@ -62,7 +64,9 @@
 								"exec": [
 									"pm.collectionVariables.set(\"token\", pm.response.json().token);"
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
 							}
 						}
 					],
@@ -80,7 +84,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\"email\":\"john@example.com\",\"password\":\"password123\"}"
+							"raw": "{\"email\":\"admin@example.com\",\"password\":\"12345678\"}\n\n// {\"email\":\"john@example.com\",\"password\":\"12345678\"}\n// {\"email\":\"vendor@example.com\",\"password\":\"12345678\"}\n// {\"email\":\"admin@example.com\",\"password\":\"12345678\"}\n// {\"email\":\"customer@example.com\",\"password\":\"12345678\"}\n\n\n\n// vendor - vendor1@example.com,vendor2@example.com, vendor3@example.com\n//admin - admin@example.com\n//customer - customer@example.com\n//password for all - 12345678"
 						},
 						"url": {
 							"raw": "{{base_url}}/api/v1/login",
@@ -223,7 +227,7 @@
 			"name": "Products",
 			"item": [
 				{
-					"name": "Get Products",
+					"name": "GetProducts",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -243,11 +247,11 @@
 							},
 							{
 								"key": "Authorization",
-								"value": "Bearer {{token}}"
+								"value": "Bearer YOUR_ACCESS_TOKEN"
 							}
 						],
 						"url": {
-							"raw": "{{base_url}}/api/v1/products?q=",
+							"raw": "{{base_url}}/api/v1/products?page=1&per_page=3&search=Electronics",
 							"host": [
 								"{{base_url}}"
 							],
@@ -258,9 +262,16 @@
 							],
 							"query": [
 								{
-									"key": "q",
-									"value": "",
-									"description": "Search query"
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "3"
+								},
+								{
+									"key": "search",
+									"value": "Electronics"
 								}
 							]
 						}
@@ -268,7 +279,7 @@
 					"response": []
 				},
 				{
-					"name": "Create Product",
+					"name": "CreateProduct",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -297,7 +308,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\"name\":\"iPhone 15\",\"description\":\"Latest iPhone model\",\"base_price\":999.99,\"category\":\"Electronics\",\"sku\":\"IPH15-128\",\"variants\":[{\"attributes\":{\"color\":\"Black\",\"storage\":\"128GB\"},\"price_modifier\":0,\"sku\":\"IPH15-128-BLK\",\"quantity\":50,\"low_stock_threshold\":10}]}"
+							"raw": "{\n    \"name\": \"iPhone 15\",\n    \"description\": \"Latest iPhone model\",\n    \"base_price\": 999.99,\n    \"category\": \"Electronics\",\n    \"sku\": \"IPH15-128\",\n    \"variants\": [\n        {\n            \"attributes\": {\n                \"color\": \"Black\",\n                \"storage\": \"128GB\"\n            },\n            \"price_modifier\": 0,\n            \"sku\": \"IPH15-128-BLK\",\n            \"quantity\": 50,\n            \"low_stock_threshold\": 10\n        },\n        {\n            \"attributes\": {\n                \"color\": \"Black\",\n                \"storage\": \"256GB\"\n            },\n            \"price_modifier\": 150,\n            \"sku\": \"IPH15-256-BLK\",\n            \"quantity\": 30,\n            \"low_stock_threshold\": 10\n        },\n        {\n            \"attributes\": {\n                \"color\": \"White\",\n                \"storage\": \"128GB\"\n            },\n            \"price_modifier\": 0,\n            \"sku\": \"IPH15-128-WHT\",\n            \"quantity\": 40,\n            \"low_stock_threshold\": 10\n        },\n        {\n            \"attributes\": {\n                \"color\": \"White\",\n                \"storage\": \"256GB\"\n            },\n            \"price_modifier\": 150,\n            \"sku\": \"IPH15-256-WHT\",\n            \"quantity\": 25,\n            \"low_stock_threshold\": 10\n        },\n        {\n            \"attributes\": {\n                \"color\": \"Red\",\n                \"storage\": \"128GB\"\n            },\n            \"price_modifier\": 0,\n            \"sku\": \"IPH15-128-RED\",\n            \"quantity\": 20,\n            \"low_stock_threshold\": 10\n        }\n    ]\n}\n"
 						},
 						"url": {
 							"raw": "{{base_url}}/api/v1/products",
@@ -314,7 +325,61 @@
 					"response": []
 				},
 				{
-					"name": "Get Product by ID",
+					"name": "ImportProductCSVFile",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/home/mahadi/Downloads/products_1000.csv"
+								},
+								{
+									"key": "vendor_id",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_url}}/api/v1/products/bulk-import",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"v1",
+								"products",
+								"bulk-import"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetProductByID",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -338,7 +403,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{base_url}}/api/v1/products/{{product_id}}",
+							"raw": "{{base_url}}/api/v1/products/2",
 							"host": [
 								"{{base_url}}"
 							],
@@ -346,25 +411,15 @@
 								"api",
 								"v1",
 								"products",
-								"{{product_id}}"
+								"2"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "Update Product",
+					"name": "UpdateProduct",
 					"request": {
-						"auth": {
-							"type": "bearer",
-							"bearer": [
-								{
-									"key": "token",
-									"value": "{{token}}",
-									"type": "string"
-								}
-							]
-						},
 						"method": "PUT",
 						"header": [
 							{
@@ -377,30 +432,35 @@
 							},
 							{
 								"key": "Authorization",
-								"value": "Bearer {{token}}"
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjgwMDAvYXBpL3YxL2xvZ2luIiwiaWF0IjoxNzYzNDUyMTU4LCJleHAiOjE3NjM0NTU3NTgsIm5iZiI6MTc2MzQ1MjE1OCwianRpIjoiRVA0TWg3YkNXY2FqOXYzciIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3Iiwicm9sZSI6InZlbmRvciJ9.jrnDkfXTckuDBoDkKEwAj9558WZMibcEkVK25SDsa2g"
 							}
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\"name\":\"iPhone 15 Pro\",\"description\":\"Updated description\",\"base_price\":1099.99,\"category\":\"Electronics\",\"sku\":\"IPH15PRO-128\",\"is_active\":true}"
+							"raw": "{\n    \"name\": \"iPhone 15 Pro\",\n    \"description\": \"Latest iPhone 15 Pro model\",\n    \"base_price\": 1099.99,\n    \"category\": \"Electronics\",\n    \"sku\": \"IPH15PRO-128\",\n    \"variants\": [\n        {\n            \"attributes\": {\n                \"color\": \"Black\",\n                \"storage\": \"128GB\"\n            },\n            \"price_modifier\": 0,\n            \"sku\": \"IPH15PRO-128-BLK\",\n            \"quantity\": 50,\n            \"low_stock_threshold\": 10\n        },\n        {\n            \"attributes\": {\n                \"color\": \"Black\",\n                \"storage\": \"256GB\"\n            },\n            \"price_modifier\": 150,\n            \"sku\": \"IPH15PRO-256-BLK\",\n            \"quantity\": 30,\n            \"low_stock_threshold\": 10\n        },\n        {\n            \"attributes\": {\n                \"color\": \"White\",\n                \"storage\": \"128GB\"\n            },\n            \"price_modifier\": 0,\n            \"sku\": \"IPH15PRO-128-WHT\",\n            \"quantity\": 40,\n            \"low_stock_threshold\": 10\n        },\n        {\n            \"attributes\": {\n                \"color\": \"White\",\n                \"storage\": \"256GB\"\n            },\n            \"price_modifier\": 150,\n            \"sku\": \"IPH15PRO-256-WHT\",\n            \"quantity\": 25,\n            \"low_stock_threshold\": 10\n        },\n        {\n            \"attributes\": {\n                \"color\": \"Red\",\n                \"storage\": \"128GB\"\n            },\n            \"price_modifier\": 0,\n            \"sku\": \"IPH15PRO-128-RED\",\n            \"quantity\": 20,\n            \"low_stock_threshold\": 10\n        }\n    ]\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
 						},
 						"url": {
-							"raw": "{{base_url}}/api/v1/products/{{product_id}}",
+							"raw": "{{baseURL}}/api/v1/products/1",
 							"host": [
-								"{{base_url}}"
+								"{{baseURL}}"
 							],
 							"path": [
 								"api",
 								"v1",
 								"products",
-								"{{product_id}}"
+								"1"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "Delete Product",
+					"name": "DeleteProduct",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -424,7 +484,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{base_url}}/api/v1/products/{{product_id}}",
+							"raw": "{{base_url}}/api/v1/products/1",
 							"host": [
 								"{{base_url}}"
 							],
@@ -432,7 +492,7 @@
 								"api",
 								"v1",
 								"products",
-								"{{product_id}}"
+								"1"
 							]
 						}
 					},
@@ -444,7 +504,7 @@
 			"name": "Orders",
 			"item": [
 				{
-					"name": "Get Orders",
+					"name": "GetOrders",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -464,11 +524,11 @@
 							},
 							{
 								"key": "Authorization",
-								"value": "Bearer {{token}}"
+								"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL3YxL2xvZ2luIiwiaWF0IjoxNzYzNTIwNzczLCJleHAiOjE3NjM1MjQzNzMsIm5iZiI6MTc2MzUyMDc3MywianRpIjoiMTI3Ykp3cGQ3d3F6eGp2QiIsInN1YiI6IjEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3Iiwicm9sZSI6ImFkbWluIn0.es3sHPWgJAhMgSYzwUEgv7Y_Ui0oLi04Oh2q_GUjEgM"
 							}
 						],
 						"url": {
-							"raw": "{{base_url}}/api/v1/orders?status=pending",
+							"raw": "{{base_url}}/api/v1/orders?search=ORD&page=1&per_page=10&status=pending",
 							"host": [
 								"{{base_url}}"
 							],
@@ -479,9 +539,20 @@
 							],
 							"query": [
 								{
+									"key": "search",
+									"value": "ORD"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "per_page",
+									"value": "10"
+								},
+								{
 									"key": "status",
-									"value": "pending",
-									"description": "Filter by order status"
+									"value": "pending"
 								}
 							]
 						}
@@ -489,7 +560,7 @@
 					"response": []
 				},
 				{
-					"name": "Create Order",
+					"name": "CreateOrder",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -518,7 +589,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\"shipping_address\":\"123 Main St, City, State 12345\",\"billing_address\":\"123 Main St, City, State 12345\",\"items\":[{\"product_variant_id\":1,\"quantity\":2}]}"
+							"raw": "{\n   \"customer_id\": 2,\n  \"shipping_address\": \"123 Main St, City, State 12345\",\n  \"billing_address\": \"123 Main St, City, State 12345\",\n  \"items\": [\n    {\n      \"product_variant_id\": 1,\n      \"quantity\": 2\n    },\n    {\n      \"product_variant_id\": 3,\n      \"quantity\": 1\n    },\n    {\n      \"product_variant_id\": 7,\n      \"quantity\": 4\n    },\n    {\n      \"product_variant_id\": 10,\n      \"quantity\": 2\n    }\n  ]\n}\n"
 						},
 						"url": {
 							"raw": "{{base_url}}/api/v1/orders",
@@ -535,7 +606,7 @@
 					"response": []
 				},
 				{
-					"name": "Get Order by ID",
+					"name": "GetOrderByID",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -559,7 +630,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{base_url}}/api/v1/orders/{{order_id}}",
+							"raw": "{{base_url}}/api/v1/orders/1",
 							"host": [
 								"{{base_url}}"
 							],
@@ -567,14 +638,14 @@
 								"api",
 								"v1",
 								"orders",
-								"{{order_id}}"
+								"1"
 							]
 						}
 					},
 					"response": []
 				},
 				{
-					"name": "Update Order Status",
+					"name": "UpdateOrderStatus",
 					"request": {
 						"auth": {
 							"type": "bearer",
@@ -603,7 +674,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\"status\":\"processing\"}"
+							"raw": "{\"status\":\"processing\"} //'processing', 'shipped', 'delivered', 'cancelled'"
 						},
 						"url": {
 							"raw": "{{base_url}}/api/v1/orders/{{order_id}}/status",
@@ -622,7 +693,7 @@
 					"response": []
 				},
 				{
-					"name": "Cancel Order",
+					"name": "CancelOrder",
 					"request": {
 						"auth": {
 							"type": "bearer",
