@@ -53,7 +53,18 @@ class OrderController extends Controller
 
     public function updateStatus(UpdateOrderStatusRequest $request, $id)
     {
+        $order = $this->orderService->find($id);
+        if (!$order) {
+            return jsonResponse('Order not found', false, null, 404);
+        }
+
+        // Already same status
+        if ($order->status === $request->status) {
+            return jsonResponse("Order status is already {$order->status}", true);
+        }
+
         $updated = $this->orderService->updateOrderStatus($id, $request->status);
+
         if (!$updated) {
             return jsonResponse('Order not found', false, null, 404);
         }
@@ -61,11 +72,22 @@ class OrderController extends Controller
         return jsonResponse('Order status updated', true);
     }
 
+
     public function cancel($id)
     {
+        $order = $this->orderService->find($id);
+        if (!$order) {
+            return jsonResponse('Order not found', false, null, 404);
+        }
+
+        // Check if already cancelled
+        if ($order->status === 'cancelled') {
+            return jsonResponse('Order is already cancelled', true);
+        }
+
         $cancelled = $this->orderService->cancelOrder($id);
         if (!$cancelled) {
-            return jsonResponse('Order not found or cannot be cancelled', false, null, 404);
+            return jsonResponse('Order cannot be cancelled', false, null, 400);
         }
 
         return jsonResponse('Order cancelled', true);
