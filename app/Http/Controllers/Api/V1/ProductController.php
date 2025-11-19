@@ -54,38 +54,36 @@ class ProductController extends Controller
 
     public function update(UpdateProductRequest $request, int $id)
     {
-        $product = $this->productService->updateProductWithVariants($id, $request->all());
+        $result = $this->productService->updateProductWithVariants($id, $request->all());
 
-        if (!$product) {
+        if ($result === 'unauthorized') {
+            return jsonResponse('You have no permission to edit this item', false, null, 403);
+        }
+
+        if ($result === null) {
             return jsonResponse('Product not found', false, null, 404);
         }
 
-        $currentUser = auth('api')->user();
-
-        // Vendor can only update their own products
-        if ($currentUser->role === 'vendor' && $product->vendor_id !== $currentUser->id) {
-            return jsonResponse('You cannot update this product', false, null, 403);
-        }
-
-        return jsonResponse('Product updated successfully', true, new ProductResource($product->load('variants.inventory')));
+        return jsonResponse('Product updated successfully', true, new ProductResource($result));
     }
+
+
 
     public function destroy($id)
     {
-        $product = $this->productService->deleteProduct($id);
-        if (!$product) {
+        $result = $this->productService->deleteProduct($id);
+
+        if ($result === 'unauthorized') {
+            return jsonResponse('You have no permission to delete this item', false, null, 403);
+        }
+
+        if ($result === null) {
             return jsonResponse('Product not found', false, null, 404);
         }
 
-         $currentUser = auth('api')->user();
-        // Vendor can only update their own products
-        if ($currentUser->role === 'vendor' && $product->vendor_id !== $currentUser->id) {
-            return jsonResponse('You cannot update this product', false, null, 403);
-        }
-
-
         return jsonResponse('Product deleted', true);
     }
+
 
     public function bulkImport(BulkImportProductsRequest $request)
     {

@@ -44,10 +44,17 @@ class ProductService
     /**
      * Update product with variants and inventory
      */
-    public function updateProductWithVariants(int $id, array $data): ?Product
+    public function updateProductWithVariants(int $id, array $data)
     {
         $product = $this->productRepository->find($id);
-        if (!$product) return null;
+        if (!$product) return null;  // Not found
+
+        $currentUser = auth('api')->user();
+
+        // Vendor can only update their own products
+        if ($currentUser->role === 'vendor' && $product->vendor_id !== $currentUser->id) {
+            return 'unauthorized'; // Permission denied
+        }
 
         return DB::transaction(function () use ($product, $data) {
             $variants = $data['variants'] ?? [];
@@ -74,21 +81,34 @@ class ProductService
     /**
      * Delete product
      */
-    public function deleteProduct(int $id): bool
+    public function deleteProduct(int $id)
     {
+        $product = $this->productRepository->find($id);
+        if (!$product) return null; // Not found
+
+        $currentUser = auth('api')->user();
+
+        // Vendor can only delete their own products
+        if ($currentUser->role === 'vendor' && $product->vendor_id !== $currentUser->id) {
+            return 'unauthorized';
+        }
+
         return DB::transaction(function () use ($id) {
-            $product = $this->productRepository->find($id);
-            if (!$product) return false;
 
-            // Delete variants + inventory
-            ProductVariant::where('product_id', $id)->delete();
-            Inventory::whereIn('product_variant_id', function ($q) use ($id) {
-                $q->select('id')->from('product_variants')->where('product_id', $id);
-            })->delete();
+            // Get variant IDs first
+            $variantIds = ProductVariant::where('product_id', $id)->pluck('id');
 
+            // Delete inventory first
+            Inventory::whereIn('product_variant_id', $variantIds)->delete();
+
+            // Delete variants
+            ProductVariant::whereIn('id', $variantIds)->delete();
+
+            // Delete product
             return $this->productRepository->delete($id);
         });
     }
+
 
     /**
      * Bulk create or update variants with inventory
@@ -121,6 +141,4 @@ class ProductService
     {
         return $this->productRepository->bulkImport($file, $vendorId);
     }
-
-    
 }
