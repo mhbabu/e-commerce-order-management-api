@@ -12,8 +12,7 @@ use Illuminate\Support\Facades\DB;
 class ProductService
 {
     public function __construct(
-        protected ProductRepository $productRepository,
-        protected ProductElasticsearchService $elasticsearchService
+        protected ProductRepository $productRepository
     ) {}
 
     /**
@@ -39,9 +38,6 @@ class ProductService
 
             // Create variants + inventory
             $this->createOrUpdateVariantsWithInventory($product, $variants);
-
-            // Index product in Elasticsearch
-            $this->elasticsearchService->indexProduct($product->load('variants.inventory'));
 
             return $product->load('variants.inventory');
         });
@@ -72,11 +68,7 @@ class ProductService
             // Update or create variants + inventory
             $this->createOrUpdateVariantsWithInventory($product, $variants);
 
-            $product->load('variants.inventory');
-            // Index updated product in Elasticsearch
-            $this->elasticsearchService->indexProduct($product);
-
-            return $product;
+            return $product->load('variants.inventory');
         });
     }
 
@@ -116,9 +108,6 @@ class ProductService
 
             // Delete product
             $result = $this->productRepository->delete($id);
-
-            // Remove from Elasticsearch
-            $this->elasticsearchService->removeProduct($id);
 
             return $result;
         });

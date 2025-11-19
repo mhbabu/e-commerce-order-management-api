@@ -9,8 +9,7 @@ A scalable REST API for an e-commerce order management system built with Laravel
 - Real-time inventory tracking
 - Low stock alerts (queue job)
 - Bulk product import via CSV
-- Product search with full-text search using Elasticsearch
-- Dedicated product search endpoint for advanced filtering
+- Product search with filtering
 
 ### Order Processing
 - Create orders with multiple items
@@ -100,37 +99,6 @@ tests/                # PHPUnit tests
 - Events & Listeners for decoupled logic
 - Database transactions for data integrity
 - API versioning (v1)
-
-## Elasticsearch Integration
-
-This project uses Elasticsearch for fast and efficient product search capabilities.
-
-### Setup Elasticsearch
-
-1. **Install Elasticsearch** (version 7.x or 8.x recommended):
-   ```bash
-   # Using Docker
-   docker run -d -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" elasticsearch:8.11.0
-   ```
-
-2. **Configure environment variables** in `.env`:
-   ```env
-   ELASTICSEARCH_HOSTS=localhost:9200
-   ELASTICSEARCH_PRODUCTS_INDEX=products
-   ```
-
-3. **Create and index products**:
-   ```bash
-   php artisan elasticsearch:index-products
-   ```
-
-### Elasticsearch Features
-
-- Full-text search across product name, description, category, and SKU
-- Fuzzy matching for typo tolerance
-- Category and vendor filtering
-- Real-time indexing on product creation/update
-- Dedicated search endpoint for advanced queries
 
 ## Invoice Generation
 
@@ -353,41 +321,6 @@ The API uses JWT (JSON Web Tokens) for authentication. Include the token in the 
 Authorization: Bearer {your-jwt-token}
 ```
 
-## Product Search with Elasticsearch
-
-The API provides advanced product search capabilities using Elasticsearch.
-
-### Dedicated Search Endpoint
-
-**Endpoint:** `GET /api/v1/products/search`
-
-**Parameters:**
-- `search` (string): Search term for full-text search
-- `category` (string): Filter by category
-- `vendor_id` (integer): Filter by vendor ID
-- `page` (integer): Page number (default: 1)
-- `per_page` (integer): Items per page (default: 15)
-
-**Example:**
-```bash
-curl -X GET "http://localhost:8000/api/v1/products/search?search=laptop&category=Electronics" \
-  -H "Authorization: Bearer {your-jwt-token}"
-```
-
-**Response:**
-```json
-{
-  "success": true,
-  "message": "Products searched successfully",
-  "data": {
-    "data": [...],
-    "current_page": 1,
-    "per_page": 15,
-    "total": 25
-  }
-}
-```
-
 ## Invoice Management
 
 ### Generate Invoice
@@ -435,7 +368,7 @@ curl -X GET "http://localhost:8000/api/v1/orders/123/download-invoice" \
 
 ### Products (Vendor/Admin)
 - `GET /api/v1/products` - List products (with optional search)
-- `GET /api/v1/products/search` - Dedicated product search using Elasticsearch
+- `GET /api/v1/products/search` - Dedicated product search
 - `POST /api/v1/products` - Create product
 - `GET /api/v1/products/{id}` - Get product
 - `PUT /api/v1/products/{id}` - Update product

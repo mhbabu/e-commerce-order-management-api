@@ -9,20 +9,16 @@ use App\Http\Requests\Products\BulkImportProductsRequest;
 use App\Http\Resources\Product\ProductResource;
 use App\Models\Product;
 use App\Services\Product\ProductService;
-use App\Services\Product\ProductElasticsearchService;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
     protected ProductService $productService;
-    protected ProductElasticsearchService $elasticsearchService;
 
     public function __construct(
-        ProductService $productService,
-        ProductElasticsearchService $elasticsearchService
+        ProductService $productService
     ) {
         $this->productService = $productService;
-        $this->elasticsearchService = $elasticsearchService;
     }
 
     public function index(Request $request)
@@ -36,22 +32,7 @@ class ProductController extends Controller
             'vendor_id'  => $request->input('vendor_id'),
         ];
 
-        // Use Elasticsearch for search if search term is provided
-        // if (!empty($filteringData['search'])) {
-        //     $searchResult = $this->elasticsearchService->searchProducts($filteringData);
-
-        //     if (!empty($searchResult['product_ids'])) {
-        //         $products = Product::with('variants.inventory')
-        //             ->whereIn('id', $searchResult['product_ids'])
-        //             ->orderByRaw('FIELD(id, ' . implode(',', $searchResult['product_ids']) . ')')
-        //             ->paginate($filteringData['per_page'], ['*'], 'page', $filteringData['page']);
-        //     } else {
-        //         $products = collect([]); // Empty collection for pagination
-        //     }
-        // } else {
-            // Fall back to regular database query
-            $products = $this->productService->getProductsList($filteringData);
-        // }
+        $products = $this->productService->getProductsList($filteringData);
 
         $productList = ProductResource::collection($products)->response()->getData(true);
 
@@ -127,16 +108,7 @@ class ProductController extends Controller
             'vendor_id'  => $request->input('vendor_id'),
         ];
 
-        $searchResult = $this->elasticsearchService->searchProducts($filteringData);
-
-        if (!empty($searchResult['product_ids'])) {
-            $products = Product::with('variants.inventory')
-                ->whereIn('id', $searchResult['product_ids'])
-                ->orderByRaw('FIELD(id, ' . implode(',', $searchResult['product_ids']) . ')')
-                ->paginate($filteringData['per_page'], ['*'], 'page', $filteringData['page']);
-        } else {
-            $products = collect([]); // Empty collection for pagination
-        }
+        $products = $this->productService->getProductsList($filteringData);
 
         $productList = ProductResource::collection($products)->response()->getData(true);
 
