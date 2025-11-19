@@ -24,11 +24,9 @@ Route::prefix('v1')->middleware('throttle:api')->group(function () {
         });
 
         Route::middleware('role:customer,vendor,admin')->group(function () {
-            Route::get('orders', [OrderController::class, 'index']);
-            Route::post('orders', [OrderController::class, 'store']);
-            Route::get('orders/{id}', [OrderController::class, 'show']);
-            Route::patch('orders/{id}/status', [OrderController::class, 'updateStatus']);
-            Route::post('orders/{id}/cancel', [OrderController::class, 'cancel']);
+            Route::apiResource('orders', OrderController::class)->only(['index', 'store', 'show']);
+            Route::patch('orders/{order}/status', [OrderController::class, 'updateStatus']);
+            Route::post('orders/{order}/cancel', [OrderController::class, 'cancel']);
         });
     });
 });
