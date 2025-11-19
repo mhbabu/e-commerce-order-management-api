@@ -2,6 +2,7 @@
 
 namespace App\Services\Product;
 
+use App\Events\OrderStatusChanged;
 use App\Models\Order;
 use App\Models\OrderItem;
 use App\Models\ProductVariant;
@@ -88,8 +89,20 @@ class OrderService
 
     public function updateOrderStatus(int $orderId, string $status): bool
     {
-        return $this->orderRepository->update($orderId, ['status' => $status]);
+        $order = $this->orderRepository->find($orderId);
+        if (!$order) return false;
+
+        $oldStatus = $order->status;
+
+        $updated = $this->orderRepository->update($orderId, ['status' => $status]);
+
+        if ($updated && $oldStatus !== $status) {
+            event(new OrderStatusChanged($order, $oldStatus, $status));
+        }
+
+        return $updated;
     }
+
 
     public function cancelOrder(int $orderId): bool
     {

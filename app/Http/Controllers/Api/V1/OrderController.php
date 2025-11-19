@@ -16,7 +16,7 @@ class OrderController extends Controller
 
     public function __construct(OrderService $orderService, CreateOrderAction $createOrderAction)
     {
-        $this->orderService = $orderService;
+        $this->orderService      = $orderService;
         $this->createOrderAction = $createOrderAction;
     }
 

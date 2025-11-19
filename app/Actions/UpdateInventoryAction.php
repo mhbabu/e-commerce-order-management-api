@@ -2,7 +2,7 @@
 
 namespace App\Actions;
 
-use App\Services\InventoryService;
+use App\Services\Product\InventoryService;
 
 class UpdateInventoryAction
 {

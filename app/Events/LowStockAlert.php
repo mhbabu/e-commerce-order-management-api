@@ -15,7 +15,7 @@ class LowStockAlert
 
     public function __construct(ProductVariant $variant, int $currentStock)
     {
-        $this->variant = $variant;
+        $this->variant      = $variant;
         $this->currentStock = $currentStock;
     }
 }
