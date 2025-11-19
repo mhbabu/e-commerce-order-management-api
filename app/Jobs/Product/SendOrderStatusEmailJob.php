@@ -18,26 +18,23 @@ class SendOrderStatusEmailJob implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
-    public function __construct(
-        public Order $order,
-        public string $status
-    ) {}
+    public function __construct(public Order $order, public string $status) {}
 
     public function handle(): void
     {
         // send mail to customer
-        if ($this->order->user?->email) {
+        if ($this->order->user->email) {
             Mail::to($this->order->user->email)
                 ->queue(new OrderStatusUpdateMail($this->order, $this->status));
         }
 
-        // send mail to admins
+        // // send mail to admins
         $admins = User::where('role', 'admin')->pluck('email')->filter();
         foreach ($admins as $email) {
             Mail::to($email)->queue(new OrderStatusUpdateMail($this->order, $this->status));
         }
 
-        // send mail to vendors
+        // // send mail to vendors
         $vendors = $this->order->orderItems
             ->map(fn($item) => $item->productVariant->product->vendor?->email)
             ->filter()

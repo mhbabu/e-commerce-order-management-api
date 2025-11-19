@@ -26,14 +26,14 @@ class OrderStatusUpdated implements ShouldBroadcastNow
 
     public function broadcastWith(): array
     {
-
         return ['data' => $this->data, 'title' => $this->notificationTitle];
     }
 
     public function broadcastOn(): array
     {
+        $customerId = $this->data['user_id'];
         return [
-            new PrivateChannel("order.customer.{$this->data->user_id}"),
+            new PrivateChannel("order.customer.{$customerId}"),
         ];
     }
 }
