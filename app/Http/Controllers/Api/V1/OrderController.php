@@ -59,6 +59,9 @@ class OrderController extends Controller
         }
 
         // Already same status
+        if($order->status == 'cancelled'){
+            return jsonResponse("Order status is already {$order->status} and you cannot take any action", true);
+        }
         if ($order->status === $request->status) {
             return jsonResponse("Order status is already {$order->status}", true);
         }
