@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Repositories;
+namespace App\Repositories\Product;
 
 use App\Models\Inventory;
+use App\Repositories\BaseRepository;
 use Illuminate\Database\Eloquent\Collection;
 
 class InventoryRepository extends BaseRepository

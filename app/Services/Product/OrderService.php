@@ -5,8 +5,8 @@ namespace App\Services\Product;
 use App\Models\Order;
 use App\Models\OrderItem;
 use App\Models\ProductVariant;
-use App\Repositories\OrderRepository;
-use App\Repositories\InventoryRepository;
+use App\Repositories\Product\InventoryRepository;
+use App\Repositories\Product\OrderRepository;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 

@@ -2,7 +2,7 @@
 
 namespace App\Services\Product;
 
-use App\Repositories\InventoryRepository;
+use App\Repositories\Product\InventoryRepository;
 use Illuminate\Database\Eloquent\Collection;
 
 class InventoryService
