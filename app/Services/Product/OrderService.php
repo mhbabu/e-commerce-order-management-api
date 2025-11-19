@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Services;
+namespace App\Services\Product;
 
 use App\Models\Order;
 use App\Models\OrderItem;
+use App\Models\ProductVariant;
 use App\Repositories\OrderRepository;
 use App\Repositories\InventoryRepository;
 use Illuminate\Support\Facades\DB;
@@ -16,8 +17,48 @@ class OrderService
 
     public function __construct(OrderRepository $orderRepository, InventoryRepository $inventoryRepository)
     {
-        $this->orderRepository = $orderRepository;
+        $this->orderRepository     = $orderRepository;
         $this->inventoryRepository = $inventoryRepository;
+    }
+
+    /**
+     * Get paginated orders based on filters
+     */
+    /**
+     * Get paginated orders based on filters
+     */
+    public function getOrders(array $filteringData, int $userId, string $role)
+    {
+        // Get base query depending on role
+        if ($role === 'customer') {
+            $query = $this->orderRepository->getByUserQuery($userId);
+        } elseif ($role === 'vendor') {
+            $query = $this->orderRepository->getByVendorQuery($userId);
+        } else { // admin
+            $query = $this->orderRepository->getModel()->newQuery(); // all orders
+            if (!empty($filteringData['status'])) {
+                $query->where('status', $filteringData['status']);
+            }
+        }
+
+        // Apply search on order columns
+        $query = $this->orderRepository->applySearch(
+            $query,
+            $filteringData['search'] ?? null,
+            $filteringData['search_by'] ?? []
+        );
+
+        // Apply search inside order items
+        $query = $this->orderRepository->applyOrderItemSearch($query, $filteringData['search'] ?? null);
+
+        // Apply sorting
+        $sortBy    = $filteringData['sort_by'] ?? 'id';
+        $sortOrder = $filteringData['sort_order'] ?? 'desc';
+        $query->orderBy($sortBy, $sortOrder);
+
+        // Paginate results
+        return $query->with('orderItems.productVariant.product', 'user')
+            ->paginate($filteringData['per_page'], ['*'], 'page', $filteringData['page']);
     }
 
     public function createOrder(array $orderData, array $items, int $userId): Order
@@ -39,7 +80,7 @@ class OrderService
             ]));
 
             foreach ($items as $item) {
-                $variant = \App\Models\ProductVariant::find($item['product_variant_id']);
+                $variant = ProductVariant::find($item['product_variant_id']);
                 $price = $variant->product->base_price + $variant->price_modifier;
                 OrderItem::create(array_merge($item, ['order_id' => $order->id, 'price' => $price]));
                 // Deduct inventory
@@ -69,31 +110,11 @@ class OrderService
         });
     }
 
-    public function getOrdersByUser(int $userId)
-    {
-        return $this->orderRepository->findByUser($userId);
-    }
-
-    public function getOrdersByVendor(int $vendorId)
-    {
-        return $this->orderRepository->findByVendor($vendorId);
-    }
-
-    public function find(int $id)
-    {
-        return $this->orderRepository->find($id);
-    }
-
-    public function getOrdersByStatus(string $status)
-    {
-        return $this->orderRepository->findByStatus($status);
-    }
-
     private function calculateTotal(array $items): float
     {
         $total = 0;
         foreach ($items as $item) {
-            $variant = \App\Models\ProductVariant::find($item['product_variant_id']);
+            $variant = ProductVariant::find($item['product_variant_id']);
             $price = $variant->product->base_price + $variant->price_modifier;
             $total += $price * $item['quantity'];
         }

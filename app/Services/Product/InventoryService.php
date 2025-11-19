@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services;
+namespace App\Services\Product;
 
 use App\Repositories\InventoryRepository;
 use Illuminate\Database\Eloquent\Collection;

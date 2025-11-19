@@ -2,12 +2,12 @@
 
 namespace App\Http\Controllers\Api\V1;
 
-use App\Services\ProductService;
+
 use App\Http\Requests\Products\StoreProductRequest;
 use App\Http\Requests\Products\UpdateProductRequest;
 use App\Http\Requests\Products\BulkImportProductsRequest;
 use App\Http\Resources\Product\ProductResource;
-use App\Jobs\BulkImportProducts;
+use App\Services\Product\ProductService;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller

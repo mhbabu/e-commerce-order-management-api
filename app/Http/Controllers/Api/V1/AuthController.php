@@ -17,62 +17,48 @@ class AuthController extends Controller
             'name'     => $request->name,
             'email'    => $request->email,
             'password' => Hash::make($request->password),
-            'role'     => 'customer', // default role
+            'role'     => 'customer',
         ]);
 
         $token = JWTAuth::fromUser($user);
 
-        return jsonResponse('User registered successfully', true, [
-            'user'  => new UserResource($user),
-            'token' => $token
-        ], 201);
+        return response()->json(['status' => true, 'mesage' => 'User registered successfully', 'user' => new UserResource($user), 'token' => $token], 201);
     }
 
     public function login(LoginRequest $request)
     {
         $credentials = $request->only('email', 'password');
-        $token = JWTAuth::attempt($credentials);
 
-        if (!$token) {
-            return jsonResponse('Invalid credentials', false, [], 401);
+        if (!$token = JWTAuth::attempt($credentials)) {
+            return response()->json(['status' => false, 'mesage' => 'Invalid credentials', 'user' => []], 401);
         }
 
-        return jsonResponse('Login successful', true, [
-            'user'  => new UserResource(JWTAuth::user()),
-            'token' => $token
-        ]);
+        $user = JWTAuth::user();
+        return response()->json(['status' => true, 'mesage' => 'User logged in successfully', 'user' => new UserResource($user), 'token' => $token], 200);
     }
 
     public function refresh()
     {
         try {
             $token = JWTAuth::getToken();
-
-            if (!$token) {
-                return jsonResponse('Token not provided', false, [], 401);
-            }
+            if (!$token) return response()->json(['status' => false, 'mesage' => 'Token not provided'], 401);
 
             $newToken = JWTAuth::refresh($token);
-
-            return jsonResponse('Token refreshed successfully', true, [
-                'token' => $newToken
-            ]);
+            return response()->json(['status' => true, 'mesage' => 'Token refreshed successfully', 'token' => $newToken], 200);
         } catch (\Exception $e) {
-            return jsonResponse($e->getMessage(), false, [], 401);
+            return response()->json(['status' => false, 'mesage' => $e->getMessage()], 401);
         }
     }
 
     public function logout()
     {
         JWTAuth::invalidate(JWTAuth::getToken());
-
-        return jsonResponse('Successfully logged out', true);
+        return response()->json(['status' => true, 'mesage' => 'Logged out successfully'], 200);
     }
 
     public function me()
     {
-        return jsonResponse('User data retrieved', true, [
-            'user' => new UserResource(JWTAuth::user())
-        ]);
+        $user = JWTAuth::user();
+        return response()->json(['status' => true, 'mesage' => 'User data retrieved', 'user' => new UserResource($user)], 200);
     }
 }

@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Services;
+namespace App\Services\Product;
 
 use App\Models\Product;
 use App\Models\ProductVariant;
 use App\Models\Inventory;
-use App\Repositories\ProductRepository;
+use App\Repositories\Product\ProductRepository;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\DB;
 

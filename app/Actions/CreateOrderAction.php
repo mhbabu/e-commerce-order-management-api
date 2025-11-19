@@ -4,7 +4,7 @@ namespace App\Actions;
 
 use App\Models\Order;
 use App\Models\OrderItem;
-use App\Services\OrderService;
+use App\Services\Product\OrderService;
 use Illuminate\Support\Facades\DB;
 
 class CreateOrderAction

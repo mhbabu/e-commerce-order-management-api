@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Repositories;
+namespace App\Repositories\Product;
 
 use App\Models\Product;
+use App\Repositories\BaseRepository;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\UploadedFile;
@@ -51,8 +52,8 @@ class ProductRepository extends BaseRepository
             $query->orderBy($filters['sort_by'], $filters['sort_order']);
         }
 
-        $page    = $filters['page'] ?? 1;
-        $perPage = $filters['per_page'] ?? 15;
+        $page    = $filters['page'];
+        $perPage = $filters['per_page'];
 
         return $query->paginate($perPage, ['*'], 'page', $page);
     }
