@@ -111,21 +111,16 @@ class GlobalAnnotations
      *             @OA\Property(property="role", type="string", enum={"admin","vendor","customer"}, example="customer")
      *         )
      *     ),
-     *     @OA\Response(
-     *         response=201,
-     *         description="User registered successfully",
-     *         @OA\JsonContent(
-     *             allOf={
-     *                 @OA\Schema(ref="#/components/schemas/ApiResponse"),
-     *                 @OA\Schema(
-     *                     @OA\Property(property="data", type="object",
-     *                         @OA\Property(property="user", ref="#/components/schemas/User"),
-     *                         @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...")
-     *                     )
-     *                 )
-     *             }
-     *         )
-     *     ),
+     * @OA\Response(
+      *         response=201,
+      *         description="User registered successfully",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=true),
+      *             @OA\Property(property="message", type="string", example="User registered successfully"),
+      *             @OA\Property(property="user", ref="#/components/schemas/User"),
+      *             @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...")
+      *         )
+      *     ),
      *     @OA\Response(response=422, description="Validation errors")
      * )
      */
@@ -144,22 +139,25 @@ class GlobalAnnotations
      *             @OA\Property(property="password", type="string", format="password", example="password123")
      *         )
      *     ),
+     * @OA\Response(
+      *         response=200,
+      *         description="Login successful",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=true),
+      *             @OA\Property(property="message", type="string", example="User logged in successfully"),
+      *             @OA\Property(property="user", ref="#/components/schemas/User"),
+      *             @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...")
+      *         )
+      *     ),
      *     @OA\Response(
-     *         response=200,
-     *         description="Login successful",
-     *         @OA\JsonContent(
-     *             allOf={
-     *                 @OA\Schema(ref="#/components/schemas/ApiResponse"),
-     *                 @OA\Schema(
-     *                     @OA\Property(property="data", type="object",
-     *                         @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9..."),
-     *                         @OA\Property(property="user", ref="#/components/schemas/User")
-     *                     )
-     *                 )
-     *             }
-     *         )
-     *     ),
-     *     @OA\Response(response=401, description="Unauthorized")
+      *         response=401,
+      *         description="Invalid credentials",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=false),
+      *             @OA\Property(property="message", type="string", example="Invalid credentials"),
+      *             @OA\Property(property="user", type="array", @OA\Items(type="string"))
+      *         )
+      *     )
      * )
      */
     public function login() {}
@@ -170,21 +168,23 @@ class GlobalAnnotations
      *     summary="Refresh JWT token",
      *     tags={"Authentication"},
      *     security={{"bearerAuth":{}}},
+     * @OA\Response(
+      *         response=200,
+      *         description="Token refreshed",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=true),
+      *             @OA\Property(property="message", type="string", example="Token refreshed successfully"),
+      *             @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...")
+      *         )
+      *     ),
      *     @OA\Response(
-     *         response=200,
-     *         description="Token refreshed",
-     *         @OA\JsonContent(
-     *             allOf={
-     *                 @OA\Schema(ref="#/components/schemas/ApiResponse"),
-     *                 @OA\Schema(
-     *                     @OA\Property(property="data", type="object",
-     *                         @OA\Property(property="token", type="string", example="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...")
-     *                     )
-     *                 )
-     *             }
-     *         )
-     *     ),
-     *     @OA\Response(response=401, description="Unauthorized")
+      *         response=401,
+      *         description="Unauthorized",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=false),
+      *             @OA\Property(property="message", type="string", example="Token not provided")
+      *         )
+      *     )
      * )
      */
     public function refresh() {}
@@ -195,11 +195,14 @@ class GlobalAnnotations
      *     summary="Logout user",
      *     tags={"Authentication"},
      *     security={{"bearerAuth":{}}},
-     *     @OA\Response(
-     *         response=200,
-     *         description="Successfully logged out",
-     *         @OA\JsonContent(ref="#/components/schemas/ApiResponse")
-     *     ),
+     * @OA\Response(
+      *         response=200,
+      *         description="Successfully logged out",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=true),
+      *             @OA\Property(property="message", type="string", example="Logged out successfully")
+      *         )
+      *     ),
      *     @OA\Response(response=401, description="Unauthorized")
      * )
      */
@@ -211,18 +214,15 @@ class GlobalAnnotations
      *     summary="Get current user info",
      *     tags={"Authentication"},
      *     security={{"bearerAuth":{}}},
-     *     @OA\Response(
-     *         response=200,
-     *         description="User information",
-     *         @OA\JsonContent(
-     *             allOf={
-     *                 @OA\Schema(ref="#/components/schemas/ApiResponse"),
-     *                 @OA\Schema(
-     *                     @OA\Property(property="data", ref="#/components/schemas/User")
-     *                 )
-     *             }
-     *         )
-     *     ),
+     * @OA\Response(
+      *         response=200,
+      *         description="User information",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=true),
+      *             @OA\Property(property="message", type="string", example="User data retrieved"),
+      *             @OA\Property(property="user", ref="#/components/schemas/User")
+      *         )
+      *     ),
      *     @OA\Response(response=401, description="Unauthorized")
      * )
      */
@@ -230,30 +230,45 @@ class GlobalAnnotations
 
     /**
      * @OA\Get(
-     *     path="/api/v1/products",
-     *     summary="Get products list",
-     *     tags={"Products"},
-     *     security={{"bearerAuth":{}}},
-     *     @OA\Parameter(
-     *         name="q",
-     *         in="query",
-     *         description="Search query",
-     *         required=false,
-     *         @OA\Schema(type="string")
-     *     ),
-     *     @OA\Response(
-     *         response=200,
-     *         description="Products list",
-     *         @OA\JsonContent(
-     *             type="object",
-     *             @OA\Property(property="data", type="array", @OA\Items(ref="#/components/schemas/Product")),
-     *             @OA\Property(property="current_page", type="integer"),
-     *             @OA\Property(property="per_page", type="integer"),
-     *             @OA\Property(property="total", type="integer")
-     *         )
-     *     ),
-     *     @OA\Response(response=401, description="Unauthorized")
-     * )
+      *     path="/api/v1/products",
+      *     summary="Get products list",
+      *     tags={"Products"},
+      *     security={{"bearerAuth":{}}},
+      *     @OA\Parameter(
+      *         name="page",
+      *         in="query",
+      *         description="Page number",
+      *         required=false,
+      *         @OA\Schema(type="integer", default=1)
+      *     ),
+      *     @OA\Parameter(
+      *         name="per_page",
+      *         in="query",
+      *         description="Items per page",
+      *         required=false,
+      *         @OA\Schema(type="integer", default=15)
+      *     ),
+      *     @OA\Parameter(
+      *         name="search",
+      *         in="query",
+      *         description="Search query",
+      *         required=false,
+      *         @OA\Schema(type="string")
+      *     ),
+      *     @OA\Response(
+      *         response=200,
+      *         description="Products list",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="message", type="string", example="Products retrieved successfully"),
+      *             @OA\Property(property="status", type="boolean", example=true),
+      *             @OA\Property(property="data", type="array", @OA\Items(ref="#/components/schemas/Product")),
+      *             @OA\Property(property="current_page", type="integer"),
+      *             @OA\Property(property="per_page", type="integer"),
+      *             @OA\Property(property="total", type="integer")
+      *         )
+      *     ),
+      *     @OA\Response(response=401, description="Unauthorized")
+      * )
      */
     public function productsIndex() {}
 
@@ -283,11 +298,15 @@ class GlobalAnnotations
      *             ))
      *         )
      *     ),
-     *     @OA\Response(
-     *         response=201,
-     *         description="Product created",
-     *         @OA\JsonContent(ref="#/components/schemas/Product")
-     *     ),
+     * @OA\Response(
+      *         response=201,
+      *         description="Product created",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=true),
+      *             @OA\Property(property="message", type="string", example="Product created"),
+      *             @OA\Property(property="data", ref="#/components/schemas/Product")
+      *         )
+      *     ),
      *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=422, description="Validation errors")
      * )
@@ -306,13 +325,24 @@ class GlobalAnnotations
      *         required=true,
      *         @OA\Schema(type="integer")
      *     ),
-     *     @OA\Response(
-     *         response=200,
-     *         description="Product details",
-     *         @OA\JsonContent(ref="#/components/schemas/Product")
-     *     ),
+     * @OA\Response(
+      *         response=200,
+      *         description="Product details",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=true),
+      *             @OA\Property(property="message", type="string", example="Product retrieved"),
+      *             @OA\Property(property="data", ref="#/components/schemas/Product")
+      *         )
+      *     ),
      *     @OA\Response(response=401, description="Unauthorized"),
-     *     @OA\Response(response=404, description="Product not found")
+     *     @OA\Response(
+      *         response=404,
+      *         description="Product not found",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=false),
+      *             @OA\Property(property="message", type="string", example="Product not found")
+      *         )
+      *     )
      * )
      */
     public function productsShow() {}
@@ -339,15 +369,32 @@ class GlobalAnnotations
      *             @OA\Property(property="is_active", type="boolean", example=true)
      *         )
      *     ),
-     *     @OA\Response(
-     *         response=200,
-     *         description="Product updated",
-     *         @OA\JsonContent(
-     *             @OA\Property(property="message", type="string", example="Product updated")
-     *         )
-     *     ),
+     * @OA\Response(
+      *         response=200,
+      *         description="Product updated",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=true),
+      *             @OA\Property(property="message", type="string", example="Product updated successfully"),
+      *             @OA\Property(property="data", ref="#/components/schemas/Product")
+      *         )
+      *     ),
      *     @OA\Response(response=401, description="Unauthorized"),
-     *     @OA\Response(response=404, description="Product not found"),
+     *     @OA\Response(
+      *         response=403,
+      *         description="Forbidden",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=false),
+      *             @OA\Property(property="message", type="string", example="You have no permission to edit this item")
+      *         )
+      *     ),
+     *     @OA\Response(
+      *         response=404,
+      *         description="Product not found",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=false),
+      *             @OA\Property(property="message", type="string", example="Product not found")
+      *         )
+      *     ),
      *     @OA\Response(response=422, description="Validation errors")
      * )
      */
@@ -365,15 +412,31 @@ class GlobalAnnotations
      *         required=true,
      *         @OA\Schema(type="integer")
      *     ),
-     *     @OA\Response(
-     *         response=200,
-     *         description="Product deleted",
-     *         @OA\JsonContent(
-     *             @OA\Property(property="message", type="string", example="Product deleted")
-     *         )
-     *     ),
+     * @OA\Response(
+      *         response=200,
+      *         description="Product deleted",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=true),
+      *             @OA\Property(property="message", type="string", example="Product deleted")
+      *         )
+      *     ),
      *     @OA\Response(response=401, description="Unauthorized"),
-     *     @OA\Response(response=404, description="Product not found")
+     *     @OA\Response(
+      *         response=403,
+      *         description="Forbidden",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=false),
+      *             @OA\Property(property="message", type="string", example="You have no permission to delete this item")
+      *         )
+      *     ),
+     *     @OA\Response(
+      *         response=404,
+      *         description="Product not found",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=false),
+      *             @OA\Property(property="message", type="string", example="Product not found")
+      *         )
+      *     )
      * )
      */
     public function productsDestroy() {}
@@ -384,29 +447,45 @@ class GlobalAnnotations
      *     summary="Bulk import products from CSV",
      *     tags={"Products"},
      *     security={{"bearerAuth":{}}},
-     *     @OA\RequestBody(
-     *         required=true,
-     *         @OA\MediaType(
-     *             mediaType="multipart/form-data",
-     *             @OA\Schema(
-     *                 required={"file"},
-     *                 @OA\Property(
-     *                     property="file",
-     *                     type="string",
-     *                     format="binary",
-     *                     description="CSV file containing product data"
-     *                 )
-     *             )
-     *         )
-     *     ),
-     *     @OA\Response(
-     *         response=200,
-     *         description="Bulk import queued",
-     *         @OA\JsonContent(
-     *             @OA\Property(property="message", type="string", example="Bulk import has been queued for processing")
-     *         )
-     *     ),
+     * @OA\RequestBody(
+      *         required=true,
+      *         @OA\MediaType(
+      *             mediaType="multipart/form-data",
+      *             @OA\Schema(
+      *                 required={"file","vendor_id"},
+      *                 @OA\Property(
+      *                     property="file",
+      *                     type="string",
+      *                     format="binary",
+      *                     description="CSV file containing product data"
+      *                 ),
+      *                 @OA\Property(
+      *                     property="vendor_id",
+      *                     type="integer",
+      *                     example=1,
+      *                     description="Vendor ID"
+      *                 )
+      *             )
+      *         )
+      *     ),
+     * @OA\Response(
+      *         response=200,
+      *         description="Bulk import successful",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=true),
+      *             @OA\Property(property="message", type="string", example="Product imported successfully"),
+      *             @OA\Property(property="data", type="object")
+      *         )
+      *     ),
      *     @OA\Response(response=401, description="Unauthorized"),
+     *     @OA\Response(
+      *         response=500,
+      *         description="Import failed",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=false),
+      *             @OA\Property(property="message", type="string", example="Error message")
+      *         )
+      *     ),
      *     @OA\Response(response=422, description="Validation errors")
      * )
      */
@@ -414,31 +493,52 @@ class GlobalAnnotations
 
     /**
      * @OA\Get(
-     *     path="/api/v1/orders",
-     *     summary="Get orders list",
-     *     tags={"Orders"},
-     *     security={{"bearerAuth":{}}},
-     *     @OA\Parameter(
-     *         name="status",
-     *         in="query",
-     *         description="Filter by order status",
-     *         required=false,
-     *         @OA\Schema(type="string", enum={"pending","processing","shipped","delivered","cancelled"})
-     *     ),
-     *     @OA\Response(
-     *         response=200,
-     *         description="Orders list",
-     *         @OA\JsonContent(
-     *             allOf={
-     *                 @OA\Schema(ref="#/components/schemas/ApiResponse"),
-     *                 @OA\Schema(
-     *                     @OA\Property(property="data", type="array", @OA\Items(ref="#/components/schemas/Order"))
-     *                 )
-     *             }
-     *         )
-     *     ),
-     *     @OA\Response(response=401, description="Unauthorized")
-     * )
+      *     path="/api/v1/orders",
+      *     summary="Get orders list",
+      *     tags={"Orders"},
+      *     security={{"bearerAuth":{}}},
+      *     @OA\Parameter(
+      *         name="page",
+      *         in="query",
+      *         description="Page number",
+      *         required=false,
+      *         @OA\Schema(type="integer", default=1)
+      *     ),
+      *     @OA\Parameter(
+      *         name="per_page",
+      *         in="query",
+      *         description="Items per page",
+      *         required=false,
+      *         @OA\Schema(type="integer", default=15)
+      *     ),
+      *     @OA\Parameter(
+      *         name="search",
+      *         in="query",
+      *         description="Search query",
+      *         required=false,
+      *         @OA\Schema(type="string")
+      *     ),
+      *     @OA\Parameter(
+      *         name="status",
+      *         in="query",
+      *         description="Filter by order status",
+      *         required=false,
+      *         @OA\Schema(type="string", enum={"pending","processing","shipped","delivered","cancelled"})
+      *     ),
+      *     @OA\Response(
+      *         response=200,
+      *         description="Orders list",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="message", type="string", example="Orders retrieved successfully"),
+      *             @OA\Property(property="status", type="boolean", example=true),
+      *             @OA\Property(property="data", type="array", @OA\Items(ref="#/components/schemas/Order")),
+      *             @OA\Property(property="current_page", type="integer"),
+      *             @OA\Property(property="per_page", type="integer"),
+      *             @OA\Property(property="total", type="integer")
+      *         )
+      *     ),
+      *     @OA\Response(response=401, description="Unauthorized")
+      * )
      */
     public function ordersIndex() {}
 
@@ -462,18 +562,15 @@ class GlobalAnnotations
      *             ))
      *         )
      *     ),
-     *     @OA\Response(
-     *         response=201,
-     *         description="Order created",
-     *         @OA\JsonContent(
-     *             allOf={
-     *                 @OA\Schema(ref="#/components/schemas/ApiResponse"),
-     *                 @OA\Schema(
-     *                     @OA\Property(property="data", ref="#/components/schemas/Order")
-     *                 )
-     *             }
-     *         )
-     *     ),
+     * @OA\Response(
+      *         response=201,
+      *         description="Order created",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=true),
+      *             @OA\Property(property="message", type="string", example="Order created"),
+      *             @OA\Property(property="data", ref="#/components/schemas/Order")
+      *         )
+      *     ),
      *     @OA\Response(response=401, description="Unauthorized"),
      *     @OA\Response(response=422, description="Validation errors")
      * )
@@ -492,20 +589,24 @@ class GlobalAnnotations
      *         required=true,
      *         @OA\Schema(type="integer")
      *     ),
-     *     @OA\Response(
-     *         response=200,
-     *         description="Order details",
-     *         @OA\JsonContent(
-     *             allOf={
-     *                 @OA\Schema(ref="#/components/schemas/ApiResponse"),
-     *                 @OA\Schema(
-     *                     @OA\Property(property="data", ref="#/components/schemas/Order")
-     *                 )
-     *             }
-     *         )
-     *     ),
+     * @OA\Response(
+      *         response=200,
+      *         description="Order details",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=true),
+      *             @OA\Property(property="message", type="string", example="Order retrieved"),
+      *             @OA\Property(property="data", ref="#/components/schemas/Order")
+      *         )
+      *     ),
      *     @OA\Response(response=401, description="Unauthorized"),
-     *     @OA\Response(response=404, description="Order not found")
+     *     @OA\Response(
+      *         response=404,
+      *         description="Order not found",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=false),
+      *             @OA\Property(property="message", type="string", example="Order not found")
+      *         )
+      *     )
      * )
      */
     public function ordersShow() {}
@@ -529,13 +630,23 @@ class GlobalAnnotations
      *             @OA\Property(property="status", type="string", enum={"pending","processing","shipped","delivered","cancelled"}, example="processing")
      *         )
      *     ),
-     *     @OA\Response(
-     *         response=200,
-     *         description="Order status updated",
-     *         @OA\JsonContent(ref="#/components/schemas/ApiResponse")
-     *     ),
+     * @OA\Response(
+      *         response=200,
+      *         description="Order status updated or already set",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=true),
+      *             @OA\Property(property="message", type="string", example="Order status updated")
+      *         )
+      *     ),
      *     @OA\Response(response=401, description="Unauthorized"),
-     *     @OA\Response(response=404, description="Order not found"),
+     *     @OA\Response(
+      *         response=404,
+      *         description="Order not found",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=false),
+      *             @OA\Property(property="message", type="string", example="Order not found")
+      *         )
+      *     ),
      *     @OA\Response(response=422, description="Validation errors")
      * )
      */
@@ -553,13 +664,31 @@ class GlobalAnnotations
      *         required=true,
      *         @OA\Schema(type="integer")
      *     ),
-     *     @OA\Response(
-     *         response=200,
-     *         description="Order cancelled",
-     *         @OA\JsonContent(ref="#/components/schemas/ApiResponse")
-     *     ),
+     * @OA\Response(
+      *         response=200,
+      *         description="Order cancelled or already cancelled",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=true),
+      *             @OA\Property(property="message", type="string", example="Order cancelled")
+      *         )
+      *     ),
      *     @OA\Response(response=401, description="Unauthorized"),
-     *     @OA\Response(response=404, description="Order not found or cannot be cancelled")
+     *     @OA\Response(
+      *         response=400,
+      *         description="Order cannot be cancelled",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=false),
+      *             @OA\Property(property="message", type="string", example="Order cannot be cancelled")
+      *         )
+      *     ),
+     *     @OA\Response(
+      *         response=404,
+      *         description="Order not found",
+      *         @OA\JsonContent(
+      *             @OA\Property(property="status", type="boolean", example=false),
+      *             @OA\Property(property="message", type="string", example="Order not found")
+      *         )
+      *     )
      * )
      */
     public function ordersCancel() {}

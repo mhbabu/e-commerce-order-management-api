@@ -374,9 +374,9 @@ The CSV file must contain the following columns (headers are required):
 - `quantity` (optional): Initial inventory quantity (defaults to 0)
 - `low_stock_threshold` (optional): Low stock alert threshold (defaults to 10)
 
-### Sample CSV File
+### Sample CSV File 
 
-A demo CSV file is provided: [`demo-products.csv`](demo-products.csv)
+A import product CSV file is provided: [`products_1000.csv`](products_1000.csv)
 
 This file contains sample products across different categories (Electronics, Gadgets, Accessories) with various variants.
 
@@ -395,7 +395,7 @@ This file contains sample products across different categories (Electronics, Gad
 ```bash
 curl -X POST "http://localhost:8000/api/v1/products/bulk-import" \
   -H "Authorization: Bearer {your-jwt-token}" \
-  -F "file=@demo-products.csv"
+  -F "file=@products_1000.csv"
 ```
 
 **Response:**
