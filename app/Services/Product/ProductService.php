@@ -11,7 +11,10 @@ use Illuminate\Support\Facades\DB;
 
 class ProductService
 {
-    public function __construct(protected ProductRepository $productRepository) {}
+    public function __construct(
+        protected ProductRepository $productRepository,
+        protected ProductElasticsearchService $elasticsearchService
+    ) {}
 
     /**
      * List products with filters (pagination handled in repository)
@@ -36,6 +39,9 @@ class ProductService
 
             // Create variants + inventory
             $this->createOrUpdateVariantsWithInventory($product, $variants);
+
+            // Index product in Elasticsearch
+            $this->elasticsearchService->indexProduct($product->load('variants.inventory'));
 
             return $product->load('variants.inventory');
         });
@@ -66,7 +72,11 @@ class ProductService
             // Update or create variants + inventory
             $this->createOrUpdateVariantsWithInventory($product, $variants);
 
-            return $product->load('variants.inventory');
+            $product->load('variants.inventory');
+            // Index updated product in Elasticsearch
+            $this->elasticsearchService->indexProduct($product);
+
+            return $product;
         });
     }
 
@@ -105,7 +115,12 @@ class ProductService
             ProductVariant::whereIn('id', $variantIds)->delete();
 
             // Delete product
-            return $this->productRepository->delete($id);
+            $result = $this->productRepository->delete($id);
+
+            // Remove from Elasticsearch
+            $this->elasticsearchService->removeProduct($id);
+
+            return $result;
         });
     }
 

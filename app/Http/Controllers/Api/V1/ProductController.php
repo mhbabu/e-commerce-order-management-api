@@ -7,16 +7,22 @@ use App\Http\Requests\Products\StoreProductRequest;
 use App\Http\Requests\Products\UpdateProductRequest;
 use App\Http\Requests\Products\BulkImportProductsRequest;
 use App\Http\Resources\Product\ProductResource;
+use App\Models\Product;
 use App\Services\Product\ProductService;
+use App\Services\Product\ProductElasticsearchService;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
     protected ProductService $productService;
+    protected ProductElasticsearchService $elasticsearchService;
 
-    public function __construct(ProductService $productService)
-    {
+    public function __construct(
+        ProductService $productService,
+        ProductElasticsearchService $elasticsearchService
+    ) {
         $this->productService = $productService;
+        $this->elasticsearchService = $elasticsearchService;
     }
 
     public function index(Request $request)
@@ -26,11 +32,30 @@ class ProductController extends Controller
             'page'       => $request->input('page', 1),
             'per_page'   => $request->input('per_page', 15),
             'search'     => $request->input('search'),
+            'category'   => $request->input('category'),
+            'vendor_id'  => $request->input('vendor_id'),
         ];
-        $products      = $this->productService->getProductsList($filteringData);
-        $productList   = ProductResource::collection($products)->response()->getData(true);
 
-        return jsonResponseWithPagination('Products retrieved successfully', true,  $productList);
+        // Use Elasticsearch for search if search term is provided
+        // if (!empty($filteringData['search'])) {
+        //     $searchResult = $this->elasticsearchService->searchProducts($filteringData);
+
+        //     if (!empty($searchResult['product_ids'])) {
+        //         $products = Product::with('variants.inventory')
+        //             ->whereIn('id', $searchResult['product_ids'])
+        //             ->orderByRaw('FIELD(id, ' . implode(',', $searchResult['product_ids']) . ')')
+        //             ->paginate($filteringData['per_page'], ['*'], 'page', $filteringData['page']);
+        //     } else {
+        //         $products = collect([]); // Empty collection for pagination
+        //     }
+        // } else {
+            // Fall back to regular database query
+            $products = $this->productService->getProductsList($filteringData);
+        // }
+
+        $productList = ProductResource::collection($products)->response()->getData(true);
+
+        return jsonResponseWithPagination('Products retrieved successfully', true, $productList);
     }
 
     public function store(StoreProductRequest $request)
@@ -90,5 +115,31 @@ class ProductController extends Controller
         } catch (\Exception $e) {
             return jsonResponse($e->getMessage(), false, null, 500);
         }
+    }
+
+    public function search(Request $request)
+    {
+        $filteringData = [
+            'page'       => $request->input('page', 1),
+            'per_page'   => $request->input('per_page', 15),
+            'search'     => $request->input('search'),
+            'category'   => $request->input('category'),
+            'vendor_id'  => $request->input('vendor_id'),
+        ];
+
+        $searchResult = $this->elasticsearchService->searchProducts($filteringData);
+
+        if (!empty($searchResult['product_ids'])) {
+            $products = Product::with('variants.inventory')
+                ->whereIn('id', $searchResult['product_ids'])
+                ->orderByRaw('FIELD(id, ' . implode(',', $searchResult['product_ids']) . ')')
+                ->paginate($filteringData['per_page'], ['*'], 'page', $filteringData['page']);
+        } else {
+            $products = collect([]); // Empty collection for pagination
+        }
+
+        $productList = ProductResource::collection($products)->response()->getData(true);
+
+        return jsonResponseWithPagination('Products searched successfully', true, $productList);
     }
 }

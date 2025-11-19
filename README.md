@@ -9,14 +9,16 @@ A scalable REST API for an e-commerce order management system built with Laravel
 - Real-time inventory tracking
 - Low stock alerts (queue job)
 - Bulk product import via CSV
-- Product search with full-text search
+- Product search with full-text search using Elasticsearch
+- Dedicated product search endpoint for advanced filtering
 
 ### Order Processing
 - Create orders with multiple items
 - Order status workflow: Pending → Processing → Shipped → Delivered → Cancelled
 - Inventory deduction on order confirmation
 - Order rollback on cancellation (restore inventory)
-- Invoice generation (PDF)
+- Automatic invoice generation on order delivery (PDF)
+- Manual invoice generation and download
 - Email notifications for order updates
 
 ### Authentication & Authorization
@@ -98,6 +100,49 @@ tests/                # PHPUnit tests
 - Events & Listeners for decoupled logic
 - Database transactions for data integrity
 - API versioning (v1)
+
+## Elasticsearch Integration
+
+This project uses Elasticsearch for fast and efficient product search capabilities.
+
+### Setup Elasticsearch
+
+1. **Install Elasticsearch** (version 7.x or 8.x recommended):
+   ```bash
+   # Using Docker
+   docker run -d -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" elasticsearch:8.11.0
+   ```
+
+2. **Configure environment variables** in `.env`:
+   ```env
+   ELASTICSEARCH_HOSTS=localhost:9200
+   ELASTICSEARCH_PRODUCTS_INDEX=products
+   ```
+
+3. **Create and index products**:
+   ```bash
+   php artisan elasticsearch:index-products
+   ```
+
+### Elasticsearch Features
+
+- Full-text search across product name, description, category, and SKU
+- Fuzzy matching for typo tolerance
+- Category and vendor filtering
+- Real-time indexing on product creation/update
+- Dedicated search endpoint for advanced queries
+
+## Invoice Generation
+
+Invoices are automatically generated as PDF when orders are marked as delivered. Additionally, users can manually generate and download invoices.
+
+### Invoice Features
+
+- PDF generation using DomPDF
+- Automatic generation on order delivery
+- Manual generation endpoint
+- Secure download for authorized users
+- Stored locally with path tracking in database
 
 ## Prerequisites
 
@@ -308,6 +353,77 @@ The API uses JWT (JSON Web Tokens) for authentication. Include the token in the 
 Authorization: Bearer {your-jwt-token}
 ```
 
+## Product Search with Elasticsearch
+
+The API provides advanced product search capabilities using Elasticsearch.
+
+### Dedicated Search Endpoint
+
+**Endpoint:** `GET /api/v1/products/search`
+
+**Parameters:**
+- `search` (string): Search term for full-text search
+- `category` (string): Filter by category
+- `vendor_id` (integer): Filter by vendor ID
+- `page` (integer): Page number (default: 1)
+- `per_page` (integer): Items per page (default: 15)
+
+**Example:**
+```bash
+curl -X GET "http://localhost:8000/api/v1/products/search?search=laptop&category=Electronics" \
+  -H "Authorization: Bearer {your-jwt-token}"
+```
+
+**Response:**
+```json
+{
+  "success": true,
+  "message": "Products searched successfully",
+  "data": {
+    "data": [...],
+    "current_page": 1,
+    "per_page": 15,
+    "total": 25
+  }
+}
+```
+
+## Invoice Management
+
+### Generate Invoice
+
+**Endpoint:** `POST /api/v1/orders/{order_id}/generate-invoice`
+
+**Description:** Manually generate a PDF invoice for an order. If the invoice already exists, returns the existing path.
+
+**Example:**
+```bash
+curl -X POST "http://localhost:8000/api/v1/orders/123/generate-invoice" \
+  -H "Authorization: Bearer {your-jwt-token}"
+```
+
+**Response:**
+```json
+{
+  "success": true,
+  "message": "Invoice generation queued",
+  "data": null
+}
+```
+
+### Download Invoice
+
+**Endpoint:** `GET /api/v1/orders/{order_id}/download-invoice`
+
+**Description:** Download the PDF invoice for an order. Returns 404 if invoice doesn't exist.
+
+**Example:**
+```bash
+curl -X GET "http://localhost:8000/api/v1/orders/123/download-invoice" \
+  -H "Authorization: Bearer {your-jwt-token}" \
+  --output invoice.pdf
+```
+
 ## API Documentation
 
 ### Authentication
@@ -318,7 +434,8 @@ Authorization: Bearer {your-jwt-token}
 - `GET /api/v1/me` - Get current user
 
 ### Products (Vendor/Admin)
-- `GET /api/v1/products` - List products
+- `GET /api/v1/products` - List products (with optional search)
+- `GET /api/v1/products/search` - Dedicated product search using Elasticsearch
 - `POST /api/v1/products` - Create product
 - `GET /api/v1/products/{id}` - Get product
 - `PUT /api/v1/products/{id}` - Update product
@@ -331,6 +448,8 @@ Authorization: Bearer {your-jwt-token}
 - `GET /api/v1/orders/{id}` - Get order
 - `PATCH /api/v1/orders/{id}/status` - Update order status
 - `POST /api/v1/orders/{id}/cancel` - Cancel order
+- `POST /api/v1/orders/{id}/generate-invoice` - Generate invoice PDF
+- `GET /api/v1/orders/{id}/download-invoice` - Download invoice PDF
 
 ## Postman Collection
 

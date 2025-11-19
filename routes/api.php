@@ -16,6 +16,7 @@ Route::prefix('v1')->middleware('throttle:api')->group(function () {
 
         // Index accessible by customer, vendor, admin
         Route::get('products', [ProductController::class, 'index'])->middleware('role:customer,vendor,admin');
+        Route::get('products/search', [ProductController::class, 'search'])->middleware('role:customer,vendor,admin');
 
         // Other product routes restricted to vendor and admin
         Route::middleware('role:vendor,admin')->group(function () {
@@ -27,6 +28,8 @@ Route::prefix('v1')->middleware('throttle:api')->group(function () {
             Route::apiResource('orders', OrderController::class)->only(['index', 'store', 'show']);
             Route::patch('orders/{order}/status', [OrderController::class, 'updateStatus']);
             Route::post('orders/{order}/cancel', [OrderController::class, 'cancel']);
+            Route::post('orders/{order}/generate-invoice', [OrderController::class, 'generateInvoice']);
+            Route::get('orders/{order}/download-invoice', [OrderController::class, 'downloadInvoice']);
         });
     });
 });

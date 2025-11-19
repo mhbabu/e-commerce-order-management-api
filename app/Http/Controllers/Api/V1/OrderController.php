@@ -6,8 +6,11 @@ use App\Actions\CreateOrderAction;
 use App\Http\Requests\Orders\StoreOrderRequest;
 use App\Http\Requests\Orders\UpdateOrderStatusRequest;
 use App\Http\Resources\Product\OrderResource;
+use App\Jobs\Product\GenerateInvoiceJob;
 use App\Services\Product\OrderService;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Response;
 
 class OrderController extends Controller
 {
@@ -88,11 +91,61 @@ class OrderController extends Controller
             return jsonResponse('Order is already cancelled', true);
         }
 
+        // Check if already cancelled
+        if ($order->status === 'delivered') {
+            return jsonResponse('Order already delivered and you cannot take this action', true);
+        }
+
         $cancelled = $this->orderService->cancelOrder($id);
         if (!$cancelled) {
             return jsonResponse('Order cannot be cancelled', false, null, 400);
         }
 
         return jsonResponse('Order cancelled', true);
+    }
+
+    public function generateInvoice($id)
+    {
+        $order = $this->orderService->find($id);
+        if (!$order) {
+            return jsonResponse('Order not found', false, null, 404);
+        }
+
+        $currentUser = auth('api')->user();
+        if ($currentUser->role === 'customer' && $order->user_id !== $currentUser->id) {
+            return jsonResponse('Unauthorized', false, null, 403);
+        }
+
+        if ($order->invoice) {
+            return jsonResponse('Invoice already exists', true, ['pdf_path' => $order->invoice->pdf_path]);
+        }
+
+        GenerateInvoiceJob::dispatch($order);
+
+        return jsonResponse('Invoice generation queued', true);
+    }
+
+    public function downloadInvoice($id)
+    {
+        $order = $this->orderService->find($id);
+        if (!$order) {
+            return jsonResponse('Order not found', false, null, 404);
+        }
+
+        $currentUser = auth('api')->user();
+        if ($currentUser->role === 'customer' && $order->user_id !== $currentUser->id) {
+            return jsonResponse('Unauthorized', false, null, 403);
+        }
+
+        if (!$order->invoice) {
+            return jsonResponse('Invoice not found', false, null, 404);
+        }
+
+        $path = $order->invoice->pdf_path;
+        if (!Storage::disk('local')->exists($path)) {
+            return jsonResponse('Invoice file not found', false, null, 404);
+        }
+
+        return Response::download(storage_path('app/' . $path), basename($path));
     }
 }

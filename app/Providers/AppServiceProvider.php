@@ -5,6 +5,7 @@ namespace App\Providers;
 use App\Events\LowStockAlert;
 use App\Events\OrderStatusChanged;
 use App\Jobs\LowStockNotification;
+use App\Listeners\GenerateInvoice;
 use App\Listeners\SendOrderEmail;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Support\Facades\RateLimiter;
@@ -30,6 +31,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         Event::listen(OrderStatusChanged::class, SendOrderEmail::class);
+        Event::listen(OrderStatusChanged::class, GenerateInvoice::class);
         Event::listen(LowStockAlert::class, LowStockNotification::class);
 
         RateLimiter::for('api', function (Request $request) {
