@@ -36,9 +36,6 @@ class OrderService
             $query = $this->orderRepository->getByVendorQuery($userId);
         } else { // admin
             $query = $this->orderRepository->getModel()->newQuery(); // all orders
-            if (!empty($filteringData['status'])) {
-                $query->where('status', $filteringData['status']);
-            }
         }
 
         // Apply search on order columns
