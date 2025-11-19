@@ -71,11 +71,12 @@ class OrderService
                 'user_id'      => $userId,
                 'total_amount' => $total,
                 'order_number' => 'ORD-' . strtoupper(Str::random(10)),
+                'status'       => 'pending'
             ]));
 
             foreach ($items as $item) {
                 $variant = ProductVariant::find($item['product_variant_id']);
-                $price = $variant->product->base_price + $variant->price_modifier;
+                $price   = $variant->product->base_price + $variant->price_modifier;
                 OrderItem::create(array_merge($item, ['order_id' => $order->id, 'price' => $price]));
                 // Deduct inventory
                 $this->inventoryRepository->deductQuantity($item['product_variant_id'], $item['quantity']);
@@ -113,5 +114,10 @@ class OrderService
             $total += $price * $item['quantity'];
         }
         return $total;
+    }
+
+    public function find(int $id)
+    {
+        return $this->orderRepository->find($id);
     }
 }

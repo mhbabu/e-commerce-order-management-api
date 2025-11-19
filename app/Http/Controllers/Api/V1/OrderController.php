@@ -39,7 +39,7 @@ class OrderController extends Controller
     public function store(StoreOrderRequest $request)
     {
         $order = $this->createOrderAction->execute($request->only(['shipping_address', 'billing_address']), $request->items, auth('api')->user()->id);
-        return jsonResponse('Order created', true, $order, 201);
+        return jsonResponse('Order created', true, new OrderResource($order), 201);
     }
 
     public function show($id)
