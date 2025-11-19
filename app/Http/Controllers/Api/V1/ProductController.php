@@ -67,8 +67,6 @@ class ProductController extends Controller
         return jsonResponse('Product updated successfully', true, new ProductResource($result));
     }
 
-
-
     public function destroy($id)
     {
         $result = $this->productService->deleteProduct($id);
@@ -84,11 +82,10 @@ class ProductController extends Controller
         return jsonResponse('Product deleted', true);
     }
 
-
     public function bulkImport(BulkImportProductsRequest $request)
     {
         $file     = $request->file('file');
-        $vendorId = auth('api')->id();
+        $vendorId = $request->vendor_id;
 
         try {
             $data = $this->productService->importProductsFromCsv($file, $vendorId);

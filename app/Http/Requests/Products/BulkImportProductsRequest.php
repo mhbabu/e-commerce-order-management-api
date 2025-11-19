@@ -33,16 +33,19 @@ class BulkImportProductsRequest extends FormRequest
 
     public function messages(): array
     {
+        $role = auth('api')->user()->role ?? null;
+
         return [
             'file.required'      => 'A CSV file is required.',
             'file.file'          => 'The uploaded file must be a valid file.',
             'file.mimes'         => 'The file must be a CSV file.',
             'file.max'           => 'The file size must not exceed 10MB.',
-            'vendor_id.required' => 'Vendor ID is required.',
+            'vendor_id.required' => $role === 'admin' ? 'As an admin, you must assign a vendor ID when importing products.' : 'Vendor ID is required.',
             'vendor_id.exists'   => 'The specified Vendor ID does not exist in the users table.',
-            'vendor_id.in'       => 'The Vendor ID must match the authenticated vendor.',
+            'vendor_id.in'       => 'Vendor ID must match the authenticated vendor.',
         ];
     }
+
 
     public function withValidator(Validator $validator)
     {

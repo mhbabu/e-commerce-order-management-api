@@ -118,7 +118,7 @@ class ProductRepository extends BaseRepository
             )
         ");
 
-            // 3️⃣ Clean numeric values (remove commas)
+            // Clean numeric values (remove commas)
             DB::statement("
             UPDATE product_import_staging
             SET 
@@ -126,7 +126,7 @@ class ProductRepository extends BaseRepository
                 price_modifier = REPLACE(price_modifier, ',', '')
         ");
 
-            // 4️⃣ Trim all string fields
+            // Trim all string fields
             DB::statement("
             UPDATE product_import_staging
             SET 
