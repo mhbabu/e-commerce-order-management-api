@@ -362,24 +362,23 @@ The API supports bulk importing products from CSV files. This feature allows ven
 
 The CSV file must contain the following columns (headers are required):
 
-- `name` (required): Product name
+- `product_name` (required): Product name
 - `description` (optional): Product description
-- `sku` (required): Unique product SKU
 - `base_price` (required): Base price (numeric)
 - `category` (optional): Product category (defaults to "General")
-- `color` (optional): Product color variant
-- `size` (optional): Product size variant
-- `storage` (optional): Storage capacity variant
+- `product_sku` (required): Unique product SKU
+- `variant_color` (optional): Product color variant
+- `variant_storage` (optional): Storage capacity variant
+- `price_modifier` (optional): Price adjustment for variant (defaults to 0)
 - `variant_sku` (optional): Variant-specific SKU (defaults to product SKU + "-VAR")
 - `quantity` (optional): Initial inventory quantity (defaults to 0)
 - `low_stock_threshold` (optional): Low stock alert threshold (defaults to 10)
-- `price_modifier` (optional): Price adjustment for variant (defaults to 0)
 
 ### Sample CSV File
 
 A demo CSV file is provided: [`demo-products.csv`](demo-products.csv)
 
-This file contains sample products across different categories (Electronics, Footwear) with various variants.
+This file contains sample products across different categories (Electronics, Gadgets, Accessories) with various variants.
 
 ### Bulk Import API Usage
 
@@ -410,7 +409,7 @@ curl -X POST "http://localhost:8000/api/v1/products/bulk-import" \
 ### Validation Rules
 
 - File must be a valid CSV format
-- Required headers: `name`, `sku`, `base_price`
+- Required headers: `product_name`, `product_sku`, `base_price`
 - Each row must have the same number of columns as the header
 - Product SKUs must be unique per vendor
 - Numeric fields (`base_price`, `quantity`, `low_stock_threshold`, `price_modifier`) must contain valid numbers
@@ -423,12 +422,195 @@ curl -X POST "http://localhost:8000/api/v1/products/bulk-import" \
 - Successful imports create products with variants and inventory
 - Check application logs for detailed error information
 
+### Direct Database Import using LOAD DATA
+
+For large datasets or direct database operations, you can import CSV data directly into the staging table using MySQL's `LOAD DATA INFILE` command. This bypasses the API and imports data directly into the database.
+
+#### Prerequisites
+
+- MySQL database access
+- CSV file accessible to MySQL server
+- Database tables must be created (run migrations first)
+- MySQL `local_infile` must be enabled (see below)
+
+#### Enable local_infile in MySQL
+
+For security reasons, MySQL disables `LOAD DATA LOCAL INFILE` by default. You need to enable it in your MySQL configuration:
+
+1. Open your MySQL configuration file:
+   ```bash
+   sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+   ```
+
+2. Under the `[mysqld]` section, add:
+   ```ini
+   [mysqld]
+   local-infile=1
+   ```
+
+3. Save the file and restart MySQL:
+   ```bash
+   sudo systemctl restart mysql
+   ```
+
+4. Alternatively, you can enable it per session in your MySQL client:
+   ```sql
+   SET GLOBAL local_infile = 1;
+   ```
+
+#### LOAD DATA Command
+
+```sql
+LOAD DATA INFILE 'IMPORT FILE/products_1000.csv'
+INTO TABLE product_import_staging
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(product_name, description, base_price, category, product_sku, variant_color, variant_storage, price_modifier, variant_sku, quantity, low_stock_threshold)
+SET created_at = NOW(), updated_at = NOW();
+```
+
+#### Parameters Explanation
+
+- `FIELDS TERMINATED BY ','`: Fields are separated by commas
+- `ENCLOSED BY '"'`: Fields may be enclosed in double quotes
+- `LINES TERMINATED BY '\n'`: Each line ends with a newline
+- `IGNORE 1 ROWS`: Skip the header row
+- Column list maps CSV columns to table columns
+- `SET created_at = NOW(), updated_at = NOW()`: Automatically set timestamps
+
+#### Example with MySQL Client
+
+```bash
+mysql -u username -p database_name -e "
+LOAD DATA INFILE '/var/www/html/Others/JobAssignments/e-commerce-order-management-api/IMPORT FILE/products_1000.csv'
+INTO TABLE product_import_staging
+FIELDS TERMINATED BY ','
+ENCLOSED BY '\"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(product_name, description, base_price, category, product_sku, variant_color, variant_storage, price_modifier, variant_sku, quantity, low_stock_threshold)
+SET created_at = NOW(), updated_at = NOW();
+"
+```
+
+#### Processing Imported Data
+
+After loading data into the staging table, you need to process it to create actual products, variants, and inventory. This can be done by running the import job manually:
+
+```bash
+php artisan queue:work --once
+```
+
+Or by calling the import processing method directly in tinker:
+
+```bash
+php artisan tinker
+```
+
+```php
+// In tinker
+$job = new App\Jobs\Product\BulkImportProducts();
+$job->handle();
+```
+
+#### Security Considerations
+
+- Ensure the CSV file is properly validated before import
+- Use absolute paths for file locations
+- Consider file permissions and MySQL server access
+- For production environments, use secure file locations
+- Test imports on staging environment first
+
+#### Performance Notes
+
+- LOAD DATA INFILE is much faster than API-based imports for large datasets
+- Consider chunking very large files (millions of rows)
+- Monitor database performance during import
+- Use transactions for data integrity if needed
+
 ## Caching Strategy
 
 - Cache frequently accessed products
 - Cache user permissions
 - Cache inventory counts
 - Use Redis for session and cache storage
+
+## Broadcasting & Real-time Notifications
+
+This project uses Laravel Reverb for real-time broadcasting of notifications and events.
+
+### Laravel Reverb Setup
+
+Laravel Reverb provides real-time WebSocket communication for features like:
+
+- Real-time order status updates
+- Low stock alerts
+- Live inventory notifications
+- Instant messaging between users
+
+#### Installation & Configuration
+
+1. **Install Laravel Reverb** (already included in composer.json):
+   ```bash
+   composer require laravel/reverb
+   ```
+
+2. **Publish Reverb configuration**:
+   ```bash
+   php artisan reverb:install
+   ```
+
+3. **Configure environment variables** in `.env`:
+   ```env
+   REVERB_APP_ID=my-app-id
+   REVERB_APP_KEY=my-app-key
+   REVERB_APP_SECRET=my-app-secret
+   REVERB_HOST="localhost"
+   REVERB_PORT=8080
+   REVERB_SCHEME=http
+
+   VITE_REVERB_APP_KEY="${REVERB_APP_KEY}"
+   VITE_REVERB_HOST="${REVERB_HOST}"
+   VITE_REVERB_PORT="${REVERB_PORT}"
+   VITE_REVERB_SCHEME="${REVERB_SCHEME}"
+   ```
+
+4. **Start the Reverb server**:
+   ```bash
+   php artisan reverb:start
+   ```
+
+#### Broadcasting Events
+
+The application broadcasts events for:
+
+- `OrderStatusChanged`: When order status is updated
+- `LowStockAlert`: When inventory falls below threshold
+- `ProductCreated`: When new products are added
+
+#### Frontend Integration
+
+Use Laravel Echo with Pusher JS for real-time updates:
+
+```javascript
+import Echo from 'laravel-echo';
+import Pusher from 'pusher-js';
+
+window.Pusher = Pusher;
+
+window.Echo = new Echo({
+    broadcaster: 'reverb',
+    key: import.meta.env.VITE_REVERB_APP_KEY,
+    wsHost: import.meta.env.VITE_REVERB_HOST,
+    wsPort: import.meta.env.VITE_REVERB_PORT,
+    wssPort: import.meta.env.VITE_REVERB_PORT,
+    forceTLS: false,
+    encrypted: false,
+    enabledTransports: ['ws', 'wss'],
+});
+```
 
 ## Queue Configuration
 
