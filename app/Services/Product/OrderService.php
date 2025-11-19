@@ -29,31 +29,28 @@ class OrderService
      */
     public function getOrders(array $filteringData, int $userId, string $role)
     {
-        // Get base query depending on role
+        // Base query
         if ($role === 'customer') {
             $query = $this->orderRepository->getByUserQuery($userId);
         } elseif ($role === 'vendor') {
             $query = $this->orderRepository->getByVendorQuery($userId);
         } else { // admin
-            $query = $this->orderRepository->getModel()->newQuery(); // all orders
+            $query = $this->orderRepository->getModel()->newQuery();
         }
 
-        // Apply search on order columns
-        $query = $this->orderRepository->applySearch(
-            $query,
-            $filteringData['search'] ?? null,
-            $filteringData['search_by'] ?? []
-        );
+        // Filter by status
+        if (!empty($filteringData['status'])) {
+            $query->where('status', $filteringData['status']);
+        }
 
-        // Apply search inside order items
-        $query = $this->orderRepository->applyOrderItemSearch($query, $filteringData['search'] ?? null);
+        // Search only by order_number
+        if (!empty($filteringData['search'])) {
+            $query->where('order_number', 'LIKE', '%' . $filteringData['search'] . '%');
+        }
 
-        // Apply sorting
-        $sortBy    = $filteringData['sort_by'] ?? 'id';
-        $sortOrder = $filteringData['sort_order'] ?? 'desc';
-        $query->orderBy($sortBy, $sortOrder);
+        $query->latest(); // orders by created_at DESC
 
-        // Paginate results
+        // Pagination
         return $query->with('orderItems.productVariant.product', 'user')
             ->paginate($filteringData['per_page'], ['*'], 'page', $filteringData['page']);
     }
@@ -71,7 +68,7 @@ class OrderService
 
             $total = $this->calculateTotal($items);
             $order = $this->orderRepository->create(array_merge($orderData, [
-                'user_id' => $userId,
+                'user_id'      => $userId,
                 'total_amount' => $total,
                 'order_number' => 'ORD-' . strtoupper(Str::random(10)),
             ]));
@@ -112,7 +109,7 @@ class OrderService
         $total = 0;
         foreach ($items as $item) {
             $variant = ProductVariant::find($item['product_variant_id']);
-            $price = $variant->product->base_price + $variant->price_modifier;
+            $price   = $variant->product->base_price + $variant->price_modifier;
             $total += $price * $item['quantity'];
         }
         return $total;

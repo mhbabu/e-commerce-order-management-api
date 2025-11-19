@@ -10,12 +10,7 @@ class Inventory extends Model
     protected $fillable = [
         'product_variant_id',
         'quantity',
-        'low_stock_threshold',
-        'last_updated',
-    ];
-
-    protected $casts = [
-        'last_updated' => 'datetime',
+        'low_stock_threshold'
     ];
 
     /**

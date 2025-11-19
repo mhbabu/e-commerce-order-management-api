@@ -23,7 +23,7 @@ class InventoryRepository extends BaseRepository
         $inventory = $this->model->where('product_variant_id', $variantId)->first();
         if ($inventory) {
             $inventory->quantity = $quantity;
-            $inventory->last_updated = now();
+            $inventory->updated_at = now();
             return $inventory->save();
         }
         return false;
@@ -34,7 +34,7 @@ class InventoryRepository extends BaseRepository
         $inventory = $this->model->where('product_variant_id', $variantId)->first();
         if ($inventory && $inventory->quantity >= $quantity) {
             $inventory->quantity -= $quantity;
-            $inventory->last_updated = now();
+            $inventory->updated_at = now();
             return $inventory->save();
         }
         return false;
@@ -45,7 +45,7 @@ class InventoryRepository extends BaseRepository
         $inventory = $this->model->where('product_variant_id', $variantId)->first();
         if ($inventory) {
             $inventory->quantity += $quantity;
-            $inventory->last_updated = now();
+            $inventory->updated_at = now();
             return $inventory->save();
         }
         return false;

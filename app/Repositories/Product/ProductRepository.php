@@ -11,13 +11,6 @@ use PDO;
 
 class ProductRepository extends BaseRepository
 {
-    protected array $searchableColumns = [ // for safe search
-        'name',
-        'sku',
-        'category',
-        'description'
-    ];
-
     public function __construct(Product $model)
     {
         parent::__construct($model);
@@ -34,28 +27,20 @@ class ProductRepository extends BaseRepository
             $query->where('is_active', true);
         }
 
-        if (!empty($filters['search']) && !empty($filters['search_by'])) {
+        if (!empty($filters['search'])) {
             $searchText = $filters['search'];
-            $columns = is_array($filters['search_by']) ? $filters['search_by'] : [$filters['search_by']];
 
-            $query->where(function ($q) use ($columns, $searchText) {
-                foreach ($columns as $column) {
-                    if (in_array($column, $this->searchableColumns)) {
-                        $q->orWhere($column, 'like', "%{$searchText}%");
-                    }
-                }
+            $query->where(function ($q) use ($searchText) {
+                $q->where('name', 'like', "%{$searchText}%")
+                    ->orWhere('sku', 'like', "%{$searchText}%")
+                    ->orWhere('category', 'like', "%{$searchText}%");
             });
-        }
-
-
-        if (!empty($filters['sort_by'])) { // we can do it also multiple like search
-            $query->orderBy($filters['sort_by'], $filters['sort_order']);
         }
 
         $page    = $filters['page'];
         $perPage = $filters['per_page'];
 
-        return $query->paginate($perPage, ['*'], 'page', $page);
+        return $query->latest()->paginate($perPage, ['*'], 'page', $page);
     }
 
 

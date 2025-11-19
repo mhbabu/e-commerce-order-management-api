@@ -26,10 +26,7 @@ class OrderController extends Controller
             'page'       => $request->input('page', 1),
             'per_page'   => $request->input('per_page', 15),
             'search'     => $request->input('search'),
-            'search_by'  => $request->input('search_by', ['order_number']),
-            'status'     => $request->input('status'),
-            'sort_by'    => $request->input('sort_by', 'id'),
-            'sort_order' => $request->input('sort_order', 'desc'),
+            'status'     => $request->input('status')
         ];
 
         $currentUser  = auth('api')->user();
@@ -42,8 +39,7 @@ class OrderController extends Controller
     public function store(StoreOrderRequest $request)
     {
         $order = $this->createOrderAction->execute($request->only(['shipping_address', 'billing_address']), $request->items, auth('api')->user()->id);
-
-        return jsonResponse('Order created', true, $order->load('orderItems.productVariant'), 201);
+        return jsonResponse('Order created', true, $order, 201);
     }
 
     public function show($id)

@@ -26,9 +26,6 @@ class ProductController extends Controller
             'page'       => $request->input('page', 1),
             'per_page'   => $request->input('per_page', 15),
             'search'     => $request->input('search'),
-            'search_by'  => $request->input('search_by', ['name']), // set default name
-            'sort_by'    => $request->input('sort_by', 'id'), // set default id
-            'sort_order' => $request->input('sort_order', 'desc'), // set default desc by id
         ];
         $products      = $this->productService->getProductsList($filteringData);
         $productList   = ProductResource::collection($products)->response()->getData(true);
