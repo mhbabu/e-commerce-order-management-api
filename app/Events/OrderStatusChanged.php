@@ -16,7 +16,7 @@ class OrderStatusChanged
 
     public function __construct(Order $order, string $oldStatus, string $newStatus)
     {
-        $this->order = $order;
+        $this->order     = $order;
         $this->oldStatus = $oldStatus;
         $this->newStatus = $newStatus;
     }
