@@ -22,7 +22,7 @@ class ProductObserver implements ShouldHandleEventsAfterCommit
      */
     public function created(Product $product): void
     {
-        $$this->elasticService->indexProduct($product);
+        $this->elasticService->indexProduct($product);
     }
 
     /**
@@ -38,6 +38,7 @@ class ProductObserver implements ShouldHandleEventsAfterCommit
      */
     public function deleted(Product $product): void
     {
+        info($product);
         $this->elasticService->deleteProduct($product);
     }
 
