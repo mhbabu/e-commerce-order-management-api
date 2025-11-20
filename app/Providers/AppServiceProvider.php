@@ -40,8 +40,8 @@ class AppServiceProvider extends ServiceProvider
         
         //EVETS LISTENERS
         Event::listen(OrderStatusChanged::class, SendOrderEmail::class);
-        Event::listen(OrderStatusChanged::class, GenerateInvoice::class);
-        Event::listen(LowStockAlert::class, LowStockNotification::class);
+        Event::listen(OrderStatusChanged::class, GenerateInvoice::class);  // when product delivered
+        // Event::listen(LowStockAlert::class, LowStockNotification::class); 
 
         //OBSERVERS
         Product::observe(ProductObserver::class);
