@@ -8,17 +8,22 @@ use App\Http\Requests\Products\UpdateProductRequest;
 use App\Http\Requests\Products\BulkImportProductsRequest;
 use App\Http\Resources\Product\ProductResource;
 use App\Models\Product;
+use App\Services\Product\ProductElasticSearchService;
 use App\Services\Product\ProductService;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
     protected ProductService $productService;
+    protected ProductElasticSearchService $productElasticSearchService;
 
     public function __construct(
-        ProductService $productService
+        ProductService $productService,
+        ProductElasticSearchService $productElasticSearchService
     ) {
         $this->productService = $productService;
+        $this->productElasticSearchService = $productElasticSearchService;
+
     }
 
     public function index(Request $request)
@@ -100,18 +105,23 @@ class ProductController extends Controller
 
     public function search(Request $request)
     {
-        $filteringData = [
-            'page'       => $request->input('page', 1),
-            'per_page'   => $request->input('per_page', 15),
-            'search'     => $request->input('search'),
-            'category'   => $request->input('category'),
-            'vendor_id'  => $request->input('vendor_id'),
-        ];
+        $page    = (int) $request->input('page', 1);
+        $perPage = (int) $request->input('per_page', 15);
+        $query   = $request->input('search', '');
+        $filters = [ 'category' => $request->input('category'), 'vendor_id' => $request->input('vendor_id')];
 
-        $products = $this->productService->getProductsList($filteringData);
+        // Call ElasticSearch service
+        $result = $this->productElasticSearchService->searchProducts($query, $filters, $page, $perPage);
 
-        $productList = ProductResource::collection($products)->response()->getData(true);
-
-        return jsonResponseWithPagination('Products searched successfully', true, $productList);
+        return response()->json([
+            'message' => 'Products retrieved successfully',
+            'status' => true,
+            'data' => ProductResource::collection(collect($result['data'])),
+            'pagination' => [
+                'total' => $result['total'],
+                'current_page' => $page,
+                'per_page' => $perPage,
+            ]
+        ], 200);
     }
 }

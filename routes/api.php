@@ -25,6 +25,7 @@ Route::prefix('v1')->middleware('throttle:api')->group(function () {
         });
 
         Route::middleware('role:customer,vendor,admin')->group(function () {
+            Route::get('products/search', [ProductController::class, 'search']);
             Route::apiResource('orders', OrderController::class)->only(['index', 'store', 'show']);
             Route::patch('orders/{order}/status', [OrderController::class, 'updateStatus']);
             Route::post('orders/{order}/cancel', [OrderController::class, 'cancel']);

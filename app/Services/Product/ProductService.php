@@ -2,6 +2,7 @@
 
 namespace App\Services\Product;
 
+use App\Jobs\Product\ProductReIndexingForElasticSearchingJob;
 use App\Models\Product;
 use App\Models\ProductVariant;
 use App\Models\Inventory;
@@ -141,8 +142,32 @@ class ProductService
     }
 
 
+    /**
+     * Import products from a CSV file and trigger reindexing in Elasticsearch.
+     *
+     * Steps:
+     * 1. Bulk import the products from the uploaded CSV file into the database
+     *    using the ProductRepository. This handles products, variants, and inventory.
+     * 2. Dispatch a queued job (ProductReIndexingForElasticSearchingJob) to reindex
+     *    only the products of the given vendor in Elasticsearch. This ensures that
+     *    large datasets from other vendors are not reindexed unnecessarily, which
+     *    keeps indexing fast and memory-efficient.
+     * 3. Log an info message indicating that the bulk import completed and the
+     *    reindexing job was dispatched, including the vendor ID for tracking.
+     *
+     * @param UploadedFile $file The CSV file containing product data.
+     * @param int $vendorId The ID of the vendor whose products are being imported.
+     * @return array An array containing counts of imported products, variants, and inventory.
+     */
     public function importProductsFromCsv(UploadedFile $file, int $vendorId): array
     {
-        return $this->productRepository->bulkImport($file, $vendorId);
+        $result = $this->productRepository->bulkImport($file, $vendorId);
+
+        // Dispatch the job for this vendor only
+        ProductReIndexingForElasticSearchingJob::dispatch($vendorId);
+
+        info('Bulk products imported. Reindexing job dispatched.', ['vendor_id' => $vendorId]);
+
+        return $result;
     }
 }
