@@ -31,15 +31,23 @@ class GenerateInvoiceJob implements ShouldQueue
         // Generate PDF
         $pdf = Pdf::loadView('invoices.order_invoice', ['order' => $this->order]);
 
-        // Store PDF
+        // Filename
         $filename = 'invoice_' . $this->order->order_number . '.pdf';
+
+        // Store PDF directly using Storage
         $path = 'invoices/' . $filename;
-        Storage::disk('local')->put($path, $pdf->output());
+        Storage::disk('public')->put($path, $pdf->output());
+
+        // Optional: absolute path
+        $localPath = Storage::disk('public')->path($path);
+
+        // Optional: public URL
+        $url = Storage::disk('public')->url($path);
 
         // Create invoice record
         Invoice::create([
-            'order_id' => $this->order->id,
-            'pdf_path' => $path,
+            'order_id'     => $this->order->id,
+            'pdf_path'     => $url,       // use public URL for access
             'generated_at' => now(),
         ]);
     }

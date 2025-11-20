@@ -89,7 +89,6 @@ class ProductElasticSearchService
             $body = [];
 
             foreach ($chunk as $product) {
-                info($product);
                 if ($product instanceof Product) {
                     $product->loadMissing('variants.inventory');
 
