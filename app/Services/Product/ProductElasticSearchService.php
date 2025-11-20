@@ -132,53 +132,32 @@ class ProductElasticSearchService
     }
 
     /**
-     * Search products in Elasticsearch
+     * Full-text search products in Elasticsearch (return all results)
      *
      * @param string $query
-     * @param array $filters
-     * @param int $page
-     * @param int $perPage
      * @return array
      */
-    public function search(string $query = '', array $filters = [], int $page = 1, int $perPage = 15): array
+    public function search(string $query = ''): array
     {
         $params = [
             'index' => $this->index,
             'body' => [
-                'from' => ($page - 1) * $perPage,
-                'size' => $perPage,
                 'query' => [
-                    'bool' => [
-                        'must' => [],
-                        'filter' => [],
+                    'multi_match' => [
+                        'query'  => $query,
+                        'fields' => [
+                            'name^3',
+                            'description',
+                            'category',
+                            'variants.sku',
+                            'variants.attributes.color',
+                            'variants.attributes.storage'
+                        ]
                     ]
-                ]
+                ],
+                'size' => 10000, // fetch up to 10k results
             ]
         ];
-
-        // Add full-text search
-        if ($query !== '') {
-            $params['body']['query']['bool']['must'][] = [
-                'multi_match' => [
-                    'query'  => $query,
-                    'fields' => [
-                        'name^3',
-                        'description',
-                        'category',
-                        'variants.sku',
-                        'variants.attributes.color',
-                        'variants.attributes.storage'
-                    ]
-                ]
-            ];
-        }
-
-        // Add filters
-        foreach ($filters as $field => $value) {
-            if (!empty($value)) {
-                $params['body']['query']['bool']['filter'][] = ['term' => [$field => $value]];
-            }
-        }
 
         try {
             $results = $this->elastic->getClient()->search($params);

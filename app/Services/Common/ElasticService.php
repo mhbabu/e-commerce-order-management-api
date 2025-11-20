@@ -11,7 +11,7 @@ class ElasticService
     public function __construct()
     {
         $hosts = [
-            env('ELASTIC_HOST', 'http://127.0.0.1:9200'),
+            env('ELASTIC_HOST', 'http://127.0.0.1:9200'), // load all the .env data from config is more best practice
         ];
 
         $this->client = ClientBuilder::create()

@@ -23,7 +23,6 @@ class ProductController extends Controller
     ) {
         $this->productService = $productService;
         $this->productElasticSearchService = $productElasticSearchService;
-
     }
 
     public function index(Request $request)
@@ -105,23 +104,16 @@ class ProductController extends Controller
 
     public function search(Request $request)
     {
-        $page    = (int) $request->input('page', 1);
-        $perPage = (int) $request->input('per_page', 15);
-        $query   = $request->input('search', '');
-        $filters = [ 'category' => $request->input('category'), 'vendor_id' => $request->input('vendor_id')];
+        $query = $request->input('search', '');
 
-        // Call ElasticSearch service
-        $result = $this->productElasticSearchService->searchProducts($query, $filters, $page, $perPage);
+        // Call Elasticsearch service
+        $result = $this->productElasticSearchService->search($query);
 
-        return response()->json([
+        return response()->json([ // modify the response as you want
             'message' => 'Products retrieved successfully',
-            'status' => true,
-            'data' => ProductResource::collection(collect($result['data'])),
-            'pagination' => [
-                'total' => $result['total'],
-                'current_page' => $page,
-                'per_page' => $perPage,
-            ]
+            'status'  => true,
+            'data'    => $result['data'],   // directly return ES data
+            'total'   => $result['total'],
         ], 200);
     }
 }
