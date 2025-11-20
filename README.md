@@ -19,6 +19,7 @@ A scalable REST API for an e-commerce order management system built with Laravel
 - Automatic invoice generation on order delivery (PDF)
 - Manual invoice generation and download
 - Email notifications for order updates
+- Low stock alert email sent to vendor when order is delivered
 
 ### Authentication & Authorization
 - JWT authentication with refresh tokens
