@@ -71,6 +71,16 @@
 						}
 					],
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "string"
+								}
+							]
+						},
 						"method": "POST",
 						"header": [
 							{
@@ -308,7 +318,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"name\": \"iPhone 15\",\n    \"description\": \"Latest iPhone model\",\n    \"base_price\": 999.99,\n    \"category\": \"Electronics\",\n    \"sku\": \"IPH15-128\",\n    \"variants\": [\n        {\n            \"attributes\": {\n                \"color\": \"Black\",\n                \"storage\": \"128GB\"\n            },\n            \"price_modifier\": 0,\n            \"sku\": \"IPH15-128-BLK\",\n            \"quantity\": 50,\n            \"low_stock_threshold\": 10\n        },\n        {\n            \"attributes\": {\n                \"color\": \"Black\",\n                \"storage\": \"256GB\"\n            },\n            \"price_modifier\": 150,\n            \"sku\": \"IPH15-256-BLK\",\n            \"quantity\": 30,\n            \"low_stock_threshold\": 10\n        },\n        {\n            \"attributes\": {\n                \"color\": \"White\",\n                \"storage\": \"128GB\"\n            },\n            \"price_modifier\": 0,\n            \"sku\": \"IPH15-128-WHT\",\n            \"quantity\": 40,\n            \"low_stock_threshold\": 10\n        },\n        {\n            \"attributes\": {\n                \"color\": \"White\",\n                \"storage\": \"256GB\"\n            },\n            \"price_modifier\": 150,\n            \"sku\": \"IPH15-256-WHT\",\n            \"quantity\": 25,\n            \"low_stock_threshold\": 10\n        },\n        {\n            \"attributes\": {\n                \"color\": \"Red\",\n                \"storage\": \"128GB\"\n            },\n            \"price_modifier\": 0,\n            \"sku\": \"IPH15-128-RED\",\n            \"quantity\": 20,\n            \"low_stock_threshold\": 10\n        }\n    ]\n}\n"
+							"raw": "{\n    \"name\": \"iPhone 5\",\n    \"description\": \"Latest iPhone model\",\n    \"base_price\": 999.99,\n    \"category\": \"Babuuuuuuuu\", // for better understanding set a name so and will index elastic cloud and get by search api\n    \"sku\": \"IPH15-128\",\n    \"variants\": [\n        {\n            \"attributes\": {\n                \"color\": \"Black\",\n                \"storage\": \"128GB\"\n            },\n            \"price_modifier\": 0,\n            \"sku\": \"IPH15-128-BLK\",\n            \"quantity\": 50,\n            \"low_stock_threshold\": 10\n        },\n        {\n            \"attributes\": {\n                \"color\": \"Black\",\n                \"storage\": \"256GB\"\n            },\n            \"price_modifier\": 150,\n            \"sku\": \"IPH15-256-BLK\",\n            \"quantity\": 30,\n            \"low_stock_threshold\": 10\n        },\n        {\n            \"attributes\": {\n                \"color\": \"White\",\n                \"storage\": \"128GB\"\n            },\n            \"price_modifier\": 0,\n            \"sku\": \"IPH15-128-WHT\",\n            \"quantity\": 40,\n            \"low_stock_threshold\": 10\n        },\n        {\n            \"attributes\": {\n                \"color\": \"White\",\n                \"storage\": \"256GB\"\n            },\n            \"price_modifier\": 150,\n            \"sku\": \"IPH15-256-WHT\",\n            \"quantity\": 25,\n            \"low_stock_threshold\": 10\n        },\n        {\n            \"attributes\": {\n                \"color\": \"Red\",\n                \"storage\": \"128GB\"\n            },\n            \"price_modifier\": 0,\n            \"sku\": \"IPH15-128-RED\",\n            \"quantity\": 20,\n            \"low_stock_threshold\": 10\n        }\n    ]\n}\n"
 						},
 						"url": {
 							"raw": "{{base_url}}/api/v1/products",
@@ -674,7 +684,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\"status\":\"processing\"} //'processing', 'shipped', 'delivered', 'cancelled'"
+							"raw": "{\"status\":\"delivered\"} //'processing', 'shipped', 'delivered', 'cancelled'"
 						},
 						"url": {
 							"raw": "{{base_url}}/api/v1/orders/{{order_id}}/status",
