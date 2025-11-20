@@ -143,6 +143,38 @@ Implementation approach:
 - Use read replicas for reporting queries
 - Implement cross-shard transactions carefully
 
+## Elasticsearch Integration
+
+This project leverages Elasticsearch for efficient and scalable product search functionality. It enables full-text search across product names, descriptions, categories, and variants, providing fast and relevant results.
+
+### Features
+- **Real-time Product Indexing**: Products are automatically indexed or updated in Elasticsearch when they are created or modified.
+- **Product Search**: Provides a dedicated endpoint for searching products with multi-match queries across various fields.
+- **Bulk Indexing**: Supports bulk indexing of products, crucial for initial setup or large-scale data synchronization.
+
+### Configuration
+
+To enable Elasticsearch integration, ensure the following environment variables are set in your `.env` file:
+
+```env
+ELASTIC_HOST=http://127.0.0.1:9200 # Your Elasticsearch host and port
+ELASTIC_USERNAME=
+ELASTIC_PASSWORD=
+ELASTIC_INDEX=products # The index name for your products
+```
+
+**Note**: For local development, you might run Elasticsearch via Docker or directly install it.
+
+### Product Reindexing
+
+If you need to reindex all existing products into Elasticsearch (e.g., after a fresh setup or index corruption), you can use the following Artisan command:
+
+```bash
+php artisan products:reindex-for-elastic-search
+```
+
+This command dispatches a job to reindex all products in chunks, ensuring efficient processing without overwhelming the system.
+
 ## Local Setup
 
 Follow these steps to set up the project locally:
@@ -598,7 +630,7 @@ This project uses Laravel Reverb for real-time broadcasting of notifications and
 Laravel Reverb provides real-time WebSocket communication for features like:
 
 - Real-time order status updates
-- Low stock alerts
+- Low stock alerts (Not done)
 - Live inventory notifications
 - Instant messaging between users
 
