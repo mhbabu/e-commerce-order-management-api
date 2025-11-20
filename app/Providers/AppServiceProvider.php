@@ -3,9 +3,7 @@
 namespace App\Providers;
 
 use App\Console\Commands\ProductReIndexingForElasticSearching;
-use App\Events\LowStockAlert;
 use App\Events\OrderStatusChanged;
-use App\Jobs\LowStockNotification;
 use App\Listeners\GenerateInvoice;
 use App\Listeners\SendOrderEmail;
 use App\Models\Product;
@@ -40,8 +38,7 @@ class AppServiceProvider extends ServiceProvider
         
         //EVETS LISTENERS
         Event::listen(OrderStatusChanged::class, SendOrderEmail::class);
-        Event::listen(OrderStatusChanged::class, GenerateInvoice::class);  // when product delivered
-        // Event::listen(LowStockAlert::class, LowStockNotification::class); 
+        Event::listen(OrderStatusChanged::class, GenerateInvoice::class);  // when product delivered 
 
         //OBSERVERS
         Product::observe(ProductObserver::class);

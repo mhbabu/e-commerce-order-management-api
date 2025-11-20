@@ -32,4 +32,9 @@ class Product extends Model
     {
         return $this->hasMany(ProductVariant::class);
     }
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(User::class, 'vendor_id');
+    }
 }
